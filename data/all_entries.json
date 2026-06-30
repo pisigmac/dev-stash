@@ -1,0 +1,4762 @@
+[
+  {
+    "name": "AWS Free Tier \u2014 Compute & Storage Bundle",
+    "url": "https://aws.amazon.com/free",
+    "pricingModel": "freemium",
+    "summary": "AWS bundles dozens of always-free and 12-month-free service allowances across EC2, S3, RDS, Lambda, and DynamoDB.",
+    "freeTier": "750 EC2 hrs/month (12mo), 5GB S3 (12mo), 750 RDS hrs/month (12mo), 1M Lambda requests/month (always-free), 25GB DynamoDB (always-free).",
+    "tags": [
+      "cloud",
+      "multi-service",
+      "always-free",
+      "12-month-free"
+    ],
+    "notes": "Distinguish 'always free' services from '12 months free' services \u2014 many people get billed unexpectedly after month 12.",
+    "lastVerified": "2026-06-01",
+    "category": "Major Cloud Providers (Deep Dive)",
+    "categorySlug": "major-cloud-providers"
+  },
+  {
+    "name": "Google Cloud Free Program",
+    "url": "https://cloud.google.com/free",
+    "pricingModel": "freemium",
+    "summary": "Combines an always-free tier (small but permanent) with a one-time $300 trial credit for 90 days.",
+    "freeTier": "1 e2-micro VM, 5GB Cloud Storage, 2M Cloud Functions invocations/month always-free; $300 credit for new accounts.",
+    "tags": [
+      "cloud",
+      "multi-service",
+      "always-free",
+      "trial-credit"
+    ],
+    "lastVerified": "2026-06-01",
+    "category": "Major Cloud Providers (Deep Dive)",
+    "categorySlug": "major-cloud-providers"
+  },
+  {
+    "name": "Microsoft Azure Free Account",
+    "url": "https://azure.microsoft.com/free",
+    "pricingModel": "freemium",
+    "summary": "Mix of always-free service quotas (25+ services) plus a $200 credit for the first 30 days.",
+    "freeTier": "1 B1S VM (12mo), 1M Azure Functions executions/month (always-free), 5GB Blob + 5GB File storage (12mo), $200 trial credit.",
+    "tags": [
+      "cloud",
+      "multi-service",
+      "always-free",
+      "trial-credit"
+    ],
+    "lastVerified": "2026-06-01",
+    "category": "Major Cloud Providers (Deep Dive)",
+    "categorySlug": "major-cloud-providers"
+  },
+  {
+    "name": "Oracle Cloud Always Free",
+    "url": "https://www.oracle.com/cloud/free",
+    "pricingModel": "freemium",
+    "summary": "OCI's always-free tier is unusually generous and has no 12-month expiration on its core compute offer.",
+    "freeTier": "4 Arm Ampere A1 cores + 24GB RAM (split across up to 4 VMs), 2 AMD E2.1.Micro VMs, 200GB block storage, 10TB egress/month, all permanently free.",
+    "tags": [
+      "cloud",
+      "arm",
+      "always-free",
+      "no-expiration"
+    ],
+    "notes": "Often cited as the best free always-on compute available from any major cloud provider.",
+    "lastVerified": "2026-06-01",
+    "category": "Major Cloud Providers (Deep Dive)",
+    "categorySlug": "major-cloud-providers"
+  },
+  {
+    "name": "IBM Cloud Lite",
+    "url": "https://www.ibm.com/cloud/free",
+    "pricingModel": "freemium",
+    "summary": "IBM's Lite plans apply across dozens of services (Kubernetes, Cloud Functions, Watson AI, Cloudant) with no time limit, just usage caps.",
+    "freeTier": "Lite tier limits vary per service but never expire by time, only by usage quota.",
+    "tags": [
+      "cloud",
+      "multi-service",
+      "lite-plan",
+      "watson-ai"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Major Cloud Providers (Deep Dive)",
+    "categorySlug": "major-cloud-providers"
+  },
+  {
+    "name": "Cloudflare Free Plan",
+    "url": "https://www.cloudflare.com/plans",
+    "pricingModel": "freemium",
+    "summary": "Cloudflare's free plan spans DNS, CDN, DDoS protection, SSL, Workers, Pages, and R2 storage under one umbrella.",
+    "freeTier": "Unlimited DNS-protected domains, free SSL, 100k Workers requests/day, 500 Pages builds/month, 10GB R2 storage/month.",
+    "tags": [
+      "cloud",
+      "multi-service",
+      "cdn",
+      "edge",
+      "dns"
+    ],
+    "lastVerified": "2026-06-01",
+    "category": "Major Cloud Providers (Deep Dive)",
+    "categorySlug": "major-cloud-providers"
+  },
+  {
+    "name": "Zoho Suite (Catalyst, Mail, Assist, Sprints)",
+    "url": "https://www.zoho.com",
+    "pricingModel": "freemium",
+    "summary": "Zoho's developer-relevant free tiers span PaaS (Catalyst), email, remote support (Assist), and project tracking (Sprints).",
+    "freeTier": "Catalyst PaaS generous free tier; Mail free for 5 users (5GB/user); Assist free for 1 concurrent session; Sprints free for 5 users/5 projects/500MB.",
+    "tags": [
+      "cloud",
+      "multi-service",
+      "paas",
+      "email"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Major Cloud Providers (Deep Dive)",
+    "categorySlug": "major-cloud-providers"
+  },
+  {
+    "name": "Anthropic Claude API",
+    "url": "https://www.anthropic.com/api",
+    "pricingModel": "freemium",
+    "summary": "Access to the Claude family of models for chat, coding, and agentic tasks via API, console, and SDKs.",
+    "freeTier": "New accounts get limited starter credits; no perpetual free API tier \u2014 usage billed per-token after credits.",
+    "paidFrom": "Pay-as-you-go per-token pricing varies by model tier.",
+    "tags": [
+      "llm",
+      "api",
+      "ai"
+    ],
+    "notes": "Free chat usage is available at claude.ai separately from the metered developer API.",
+    "lastVerified": "2026-06-01",
+    "category": "AI, LLMs & ML Platforms",
+    "categorySlug": "ai-llm"
+  },
+  {
+    "name": "OpenAI API",
+    "url": "https://platform.openai.com",
+    "pricingModel": "freemium",
+    "summary": "API access to GPT and other OpenAI models for text, code, image, and audio generation.",
+    "freeTier": "New accounts may receive limited trial credits; ongoing use is metered, pay-as-you-go.",
+    "paidFrom": "Pay-as-you-go per-token pricing varies by model.",
+    "tags": [
+      "llm",
+      "api",
+      "ai"
+    ],
+    "lastVerified": "2026-06-01",
+    "category": "AI, LLMs & ML Platforms",
+    "categorySlug": "ai-llm"
+  },
+  {
+    "name": "Google AI Studio / Gemini API",
+    "url": "https://ai.google.dev",
+    "pricingModel": "freemium",
+    "summary": "Free and paid access to Google's Gemini models for text, vision, and multimodal tasks via API.",
+    "freeTier": "Free tier with rate-limited requests per minute/day for several Gemini model variants.",
+    "paidFrom": "Pay-as-you-go tier removes rate limits, billed per-token.",
+    "tags": [
+      "llm",
+      "api",
+      "multimodal",
+      "google"
+    ],
+    "lastVerified": "2026-06-01",
+    "category": "AI, LLMs & ML Platforms",
+    "categorySlug": "ai-llm"
+  },
+  {
+    "name": "Groq",
+    "url": "https://groq.com",
+    "pricingModel": "freemium",
+    "summary": "Ultra-low-latency LLM inference API running open models (Llama, Mixtral, etc.) on custom LPU hardware.",
+    "freeTier": "Free developer tier with generous rate limits for popular open models.",
+    "paidFrom": "Pay-as-you-go pricing for higher throughput.",
+    "tags": [
+      "llm",
+      "api",
+      "inference",
+      "open-models"
+    ],
+    "lastVerified": "2026-06-01",
+    "category": "AI, LLMs & ML Platforms",
+    "categorySlug": "ai-llm"
+  },
+  {
+    "name": "Hugging Face",
+    "url": "https://huggingface.co",
+    "pricingModel": "freemium",
+    "summary": "Hub for open-source models, datasets, and Spaces (hosted demos), plus Inference API and AutoTrain.",
+    "freeTier": "Unlimited public model/dataset hosting, free CPU Spaces, free-tier Inference API rate limits.",
+    "paidFrom": "PRO plan from $9/month; dedicated Inference Endpoints billed hourly.",
+    "tags": [
+      "llm",
+      "open-source",
+      "model-hub",
+      "inference"
+    ],
+    "lastVerified": "2026-06-01",
+    "category": "AI, LLMs & ML Platforms",
+    "categorySlug": "ai-llm"
+  },
+  {
+    "name": "OpenRouter",
+    "url": "https://openrouter.ai",
+    "pricingModel": "freemium",
+    "summary": "Unified API gateway routing requests across dozens of LLM providers, with several free model endpoints.",
+    "freeTier": "Several models offered completely free with rate limits; pay-as-you-go for premium models.",
+    "tags": [
+      "llm",
+      "api",
+      "gateway",
+      "model-routing"
+    ],
+    "lastVerified": "2026-06-01",
+    "category": "AI, LLMs & ML Platforms",
+    "categorySlug": "ai-llm"
+  },
+  {
+    "name": "Google Colab",
+    "url": "https://colab.research.google.com",
+    "pricingModel": "freemium",
+    "summary": "Free hosted Jupyter notebooks with GPU/TPU access, popular for ML experimentation and education.",
+    "freeTier": "Free tier with rotating GPU access (subject to availability and usage limits).",
+    "paidFrom": "Colab Pro from ~$9.99/month for more compute and priority GPUs.",
+    "tags": [
+      "notebooks",
+      "gpu",
+      "jupyter",
+      "ml"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "AI, LLMs & ML Platforms",
+    "categorySlug": "ai-llm"
+  },
+  {
+    "name": "Kaggle Notebooks",
+    "url": "https://www.kaggle.com",
+    "pricingModel": "free",
+    "summary": "Free GPU/TPU-enabled notebooks plus datasets and ML competitions, run by Google.",
+    "freeTier": "30 GPU hours/week free, 20GB disk, free TPU quota.",
+    "tags": [
+      "notebooks",
+      "gpu",
+      "datasets",
+      "competitions"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "AI, LLMs & ML Platforms",
+    "categorySlug": "ai-llm"
+  },
+  {
+    "name": "Weights & Biases",
+    "url": "https://wandb.ai",
+    "pricingModel": "freemium",
+    "summary": "Experiment tracking, model registry, and collaboration platform for ML teams.",
+    "freeTier": "Free for personal/academic use with limited tracked hours and storage.",
+    "paidFrom": "Pro plan billed per seat.",
+    "tags": [
+      "mlops",
+      "experiment-tracking",
+      "model-registry"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "AI, LLMs & ML Platforms",
+    "categorySlug": "ai-llm"
+  },
+  {
+    "name": "Comet ML",
+    "url": "https://www.comet.com",
+    "pricingModel": "freemium",
+    "summary": "MLOps platform for experiment tracking, model production monitoring, and full data lineage.",
+    "freeTier": "Free tier for individuals with limited tracked experiments.",
+    "paidFrom": "Teams plan billed per seat.",
+    "tags": [
+      "mlops",
+      "experiment-tracking",
+      "monitoring"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "AI, LLMs & ML Platforms",
+    "categorySlug": "ai-llm"
+  },
+  {
+    "name": "GitHub Copilot",
+    "url": "https://github.com/features/copilot",
+    "pricingModel": "freemium",
+    "summary": "AI pair-programmer offering inline code completion and chat, integrated into popular IDEs.",
+    "freeTier": "Free tier with limited monthly completions/chat requests; free for students and verified open-source maintainers.",
+    "paidFrom": "Individual plan from $10/month.",
+    "tags": [
+      "ai-coding",
+      "code-completion",
+      "ide-integration"
+    ],
+    "lastVerified": "2026-06-01",
+    "category": "AI, LLMs & ML Platforms",
+    "categorySlug": "ai-llm"
+  },
+  {
+    "name": "Codeium / Windsurf",
+    "url": "https://windsurf.com",
+    "pricingModel": "freemium",
+    "summary": "AI coding assistant with inline completions and an agentic IDE (Windsurf), focused on low-latency suggestions.",
+    "freeTier": "Free tier with unlimited inline completions and limited premium model credits.",
+    "paidFrom": "Pro plan from $15/month.",
+    "tags": [
+      "ai-coding",
+      "ide",
+      "code-completion"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "AI, LLMs & ML Platforms",
+    "categorySlug": "ai-llm"
+  },
+  {
+    "name": "Cursor",
+    "url": "https://www.cursor.com",
+    "pricingModel": "freemium",
+    "summary": "AI-native code editor (VS Code fork) with deep multi-file context, chat, and agent modes.",
+    "freeTier": "Free tier (Hobby) includes limited number of premium AI requests/month.",
+    "paidFrom": "Pro plan from $20/month.",
+    "tags": [
+      "ai-coding",
+      "ide",
+      "agentic"
+    ],
+    "lastVerified": "2026-06-01",
+    "category": "AI, LLMs & ML Platforms",
+    "categorySlug": "ai-llm"
+  },
+  {
+    "name": "v0.dev",
+    "url": "https://v0.dev",
+    "pricingModel": "freemium",
+    "summary": "Vercel's AI tool generating copy-paste-ready React UI code using shadcn/ui and Tailwind from text prompts.",
+    "freeTier": "Starting credits plus a small monthly free credit allowance.",
+    "paidFrom": "Premium plan from $20/month for more generation credits.",
+    "tags": [
+      "ai-coding",
+      "ui-generation",
+      "react"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "AI, LLMs & ML Platforms",
+    "categorySlug": "ai-llm"
+  },
+  {
+    "name": "Replicate",
+    "url": "https://replicate.com",
+    "pricingModel": "freemium",
+    "summary": "Run open-source ML models (image, audio, video, LLM) via API without managing infrastructure.",
+    "freeTier": "Small free credit for new accounts; ongoing usage is metered per-second of compute.",
+    "tags": [
+      "ml-inference",
+      "api",
+      "open-source-models"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "AI, LLMs & ML Platforms",
+    "categorySlug": "ai-llm"
+  },
+  {
+    "name": "Kong",
+    "url": "https://konghq.com",
+    "pricingModel": "freemium",
+    "summary": "API gateway and marketplace for managing public and private APIs, with a strong open-source core.",
+    "freeTier": "Kong Gateway (OSS) is fully free; Konnect cloud has a free tier for small workloads.",
+    "paidFrom": "Konnect plans billed on usage beyond free tier.",
+    "tags": [
+      "api-gateway",
+      "open-source",
+      "api-management"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "API Gateways, Docs & Developer Experience",
+    "categorySlug": "api-gateways-docs"
+  },
+  {
+    "name": "Apidog",
+    "url": "https://apidog.com",
+    "pricingModel": "freemium",
+    "summary": "All-in-one API design, documentation, mocking, and testing tool with key authentication, rate limiting, and monetization features.",
+    "freeTier": "Free plan: up to 10 projects, 1M monthly requests, 10GB egress.",
+    "paidFrom": "Paid plans add team collaboration and higher quotas.",
+    "tags": [
+      "api-design",
+      "api-docs",
+      "mocking",
+      "monetization"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "API Gateways, Docs & Developer Experience",
+    "categorySlug": "api-gateways-docs"
+  },
+  {
+    "name": "ReadMe",
+    "url": "https://readme.com",
+    "pricingModel": "freemium",
+    "summary": "Beautiful, interactive API documentation hubs with built-in API explorer and changelogs.",
+    "freeTier": "Free plan available for open-source projects.",
+    "paidFrom": "Startup plan from $99/month.",
+    "tags": [
+      "api-docs",
+      "developer-portal"
+    ],
+    "lastVerified": "2026-03-01",
+    "category": "API Gateways, Docs & Developer Experience",
+    "categorySlug": "api-gateways-docs"
+  },
+  {
+    "name": "Swagger / SwaggerHub",
+    "url": "https://swagger.io",
+    "pricingModel": "freemium",
+    "summary": "OpenAPI tooling for designing, documenting, and testing REST APIs, including the widely used Swagger UI.",
+    "freeTier": "Swagger Editor/UI tools fully free and open source; SwaggerHub has a free tier for individuals.",
+    "paidFrom": "Team plan billed per user.",
+    "tags": [
+      "openapi",
+      "api-docs",
+      "open-source"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "API Gateways, Docs & Developer Experience",
+    "categorySlug": "api-gateways-docs"
+  },
+  {
+    "name": "Stoplight",
+    "url": "https://stoplight.io",
+    "pricingModel": "freemium",
+    "summary": "API design platform with visual OpenAPI editing, mocking, and style-guide linting.",
+    "freeTier": "Free tier for individuals with limited projects.",
+    "paidFrom": "Professional plan billed per user.",
+    "tags": [
+      "api-design",
+      "openapi",
+      "mocking"
+    ],
+    "lastVerified": "2026-03-01",
+    "category": "API Gateways, Docs & Developer Experience",
+    "categorySlug": "api-gateways-docs"
+  },
+  {
+    "name": "Mintlify",
+    "url": "https://mintlify.com",
+    "pricingModel": "freemium",
+    "summary": "Modern documentation platform with a beautiful default theme, built for developer-facing docs sites.",
+    "freeTier": "Free tier for open-source/community projects.",
+    "paidFrom": "Starter plan billed monthly.",
+    "tags": [
+      "documentation",
+      "developer-docs"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "API Gateways, Docs & Developer Experience",
+    "categorySlug": "api-gateways-docs"
+  },
+  {
+    "name": "Docusaurus",
+    "url": "https://docusaurus.io",
+    "pricingModel": "open-source",
+    "summary": "Meta's open-source static site generator purpose-built for documentation sites, with versioning and i18n support.",
+    "freeTier": "Completely free, open source; deploy anywhere (e.g., GitHub Pages, Vercel, Netlify free tiers).",
+    "tags": [
+      "documentation",
+      "static-site-generator",
+      "open-source"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "API Gateways, Docs & Developer Experience",
+    "categorySlug": "api-gateways-docs"
+  },
+  {
+    "name": "newreleases.io",
+    "url": "https://newreleases.io",
+    "pricingModel": "freemium",
+    "summary": "Tracks new releases across GitHub, GitLab, PyPI, npm, RubyGems, NuGet, Cargo, Docker Hub, and more, with webhook/chat alerts.",
+    "freeTier": "Free tier with limited tracked projects and notification channels.",
+    "paidFrom": "Premium plan billed monthly for more tracked projects.",
+    "tags": [
+      "release-tracking",
+      "notifications",
+      "webhooks"
+    ],
+    "lastVerified": "2026-03-01",
+    "category": "API Gateways, Docs & Developer Experience",
+    "categorySlug": "api-gateways-docs"
+  },
+  {
+    "name": "IPinfo",
+    "url": "https://ipinfo.io",
+    "pricingModel": "freemium",
+    "summary": "Fast, accurate IP geolocation and company/carrier data API.",
+    "freeTier": "Up to 100,000 requests/month free.",
+    "paidFrom": "Basic plan from $49/month.",
+    "tags": [
+      "ip-geolocation",
+      "api"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "APIs & Data Services",
+    "categorySlug": "apis-data-services"
+  },
+  {
+    "name": "IP Geolocation API (ipgeolocation.io)",
+    "url": "https://ipgeolocation.io",
+    "pricingModel": "freemium",
+    "summary": "IP geolocation API with timezone, currency, and astronomy data add-ons.",
+    "freeTier": "30,000 requests/month (1,000/day) forever free.",
+    "paidFrom": "Paid plans from $15/month.",
+    "tags": [
+      "ip-geolocation",
+      "api"
+    ],
+    "lastVerified": "2026-03-01",
+    "category": "APIs & Data Services",
+    "categorySlug": "apis-data-services"
+  },
+  {
+    "name": "OpenWeatherMap",
+    "url": "https://openweathermap.org/api",
+    "pricingModel": "freemium",
+    "summary": "Current weather, forecasts, and historical weather data API covering global locations.",
+    "freeTier": "1,000 calls/day free on the current weather and forecast endpoints.",
+    "paidFrom": "Startup plan from $40/month.",
+    "tags": [
+      "weather",
+      "api"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "APIs & Data Services",
+    "categorySlug": "apis-data-services"
+  },
+  {
+    "name": "REST Countries",
+    "url": "https://restcountries.com",
+    "pricingModel": "free",
+    "summary": "Free REST API for retrieving country information \u2014 names, capitals, currencies, flags, and more.",
+    "freeTier": "Free, unlimited use, no API key required.",
+    "tags": [
+      "geography",
+      "reference-data",
+      "api"
+    ],
+    "lastVerified": "2026-02-01",
+    "category": "APIs & Data Services",
+    "categorySlug": "apis-data-services"
+  },
+  {
+    "name": "Country State City API",
+    "url": "https://countrystatecity.in",
+    "pricingModel": "freemium",
+    "summary": "Hierarchical location data API: countries, states/provinces, cities, and postal codes.",
+    "freeTier": "100 requests/day free.",
+    "paidFrom": "Paid plans for higher volume.",
+    "tags": [
+      "geography",
+      "reference-data",
+      "api"
+    ],
+    "lastVerified": "2026-03-01",
+    "category": "APIs & Data Services",
+    "categorySlug": "apis-data-services"
+  },
+  {
+    "name": "CarAPI.dev",
+    "url": "https://carapi.app",
+    "pricingModel": "freemium",
+    "summary": "Automotive data API covering VIN decoding, vehicle specs, valuation, and stolen vehicle checks.",
+    "freeTier": "100 requests/month across all endpoints free.",
+    "paidFrom": "Paid plans from $19/month.",
+    "tags": [
+      "automotive",
+      "vin-decoding",
+      "api"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "APIs & Data Services",
+    "categorySlug": "apis-data-services"
+  },
+  {
+    "name": "Alpha Vantage",
+    "url": "https://www.alphavantage.co",
+    "pricingModel": "freemium",
+    "summary": "Stock, forex, and crypto market data API with technical indicators.",
+    "freeTier": "25 requests/day free.",
+    "paidFrom": "Premium plans from $49.99/month.",
+    "tags": [
+      "finance",
+      "stock-market",
+      "api"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "APIs & Data Services",
+    "categorySlug": "apis-data-services"
+  },
+  {
+    "name": "Exchange Rate API",
+    "url": "https://www.exchangerate-api.com",
+    "pricingModel": "freemium",
+    "summary": "Currency conversion and exchange rate data API.",
+    "freeTier": "1,500 requests/month free.",
+    "paidFrom": "Paid plans from $9.99/month.",
+    "tags": [
+      "finance",
+      "currency",
+      "api"
+    ],
+    "lastVerified": "2026-03-01",
+    "category": "APIs & Data Services",
+    "categorySlug": "apis-data-services"
+  },
+  {
+    "name": "NewsAPI",
+    "url": "https://newsapi.org",
+    "pricingModel": "freemium",
+    "summary": "Search and retrieve news articles from thousands of sources worldwide.",
+    "freeTier": "Developer plan free for non-commercial use, 100 requests/day.",
+    "paidFrom": "Business plan from $449/month for commercial use.",
+    "tags": [
+      "news",
+      "content-aggregation",
+      "api"
+    ],
+    "lastVerified": "2026-03-01",
+    "category": "APIs & Data Services",
+    "categorySlug": "apis-data-services"
+  },
+  {
+    "name": "FullContact",
+    "url": "https://www.fullcontact.com",
+    "pricingModel": "freemium",
+    "summary": "Identity resolution API enriching contact records with social profiles and demographic data.",
+    "freeTier": "500 free Person API matches/month.",
+    "paidFrom": "Paid plans billed per match.",
+    "tags": [
+      "identity-resolution",
+      "enrichment",
+      "api"
+    ],
+    "lastVerified": "2026-02-01",
+    "category": "APIs & Data Services",
+    "categorySlug": "apis-data-services"
+  },
+  {
+    "name": "Cloudmersive",
+    "url": "https://cloudmersive.com",
+    "pricingModel": "freemium",
+    "summary": "Utility API platform covering document conversion, virus scanning, image processing, and validation.",
+    "freeTier": "600 calls/month free, North America region only on free tier.",
+    "paidFrom": "Paid plans from $19/month.",
+    "tags": [
+      "document-conversion",
+      "virus-scanning",
+      "utility-api"
+    ],
+    "lastVerified": "2026-03-01",
+    "category": "APIs & Data Services",
+    "categorySlug": "apis-data-services"
+  },
+  {
+    "name": "Conversion Tools",
+    "url": "https://www.conversiontools.io",
+    "pricingModel": "freemium",
+    "summary": "Online file converter for documents, images, video, audio, and eBooks, with a REST API and SDKs.",
+    "freeTier": "20MB file size limit, 30/day and 300/month conversions free.",
+    "paidFrom": "Paid plans support files up to 50GB.",
+    "tags": [
+      "file-conversion",
+      "api"
+    ],
+    "lastVerified": "2026-03-01",
+    "category": "APIs & Data Services",
+    "categorySlug": "apis-data-services"
+  },
+  {
+    "name": "Auth0",
+    "url": "https://auth0.com",
+    "pricingModel": "freemium",
+    "summary": "Identity platform handling login, SSO, MFA, and social auth via SDKs and a hosted login flow.",
+    "freeTier": "Free tier for up to 25,000 monthly active users (consumer use case).",
+    "paidFrom": "Essentials plan from $35/month.",
+    "tags": [
+      "auth",
+      "sso",
+      "mfa",
+      "identity"
+    ],
+    "lastVerified": "2026-06-01",
+    "category": "Authentication & Identity",
+    "categorySlug": "auth-identity"
+  },
+  {
+    "name": "Clerk",
+    "url": "https://clerk.com",
+    "pricingModel": "freemium",
+    "summary": "Drop-in authentication and user management with pre-built UI components for React/Next.js and others.",
+    "freeTier": "10,000 monthly active users free.",
+    "paidFrom": "Pro plan from $25/month + per-MAU pricing beyond included users.",
+    "tags": [
+      "auth",
+      "user-management",
+      "react",
+      "nextjs"
+    ],
+    "lastVerified": "2026-06-01",
+    "category": "Authentication & Identity",
+    "categorySlug": "auth-identity"
+  },
+  {
+    "name": "Firebase Auth",
+    "url": "https://firebase.google.com/products/auth",
+    "pricingModel": "freemium",
+    "summary": "Google's identity platform supporting email/password, phone, and social logins (Google, GitHub, Facebook, etc.).",
+    "freeTier": "Unlimited free for most providers; phone auth free up to 10k verifications/month.",
+    "tags": [
+      "auth",
+      "google",
+      "phone-auth",
+      "social-login"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Authentication & Identity",
+    "categorySlug": "auth-identity"
+  },
+  {
+    "name": "Supabase Auth",
+    "url": "https://supabase.com/auth",
+    "pricingModel": "freemium",
+    "summary": "Open-source auth built on PostgreSQL with row-level security, included as part of the Supabase platform.",
+    "freeTier": "50,000 monthly active users free on Supabase's free project tier.",
+    "tags": [
+      "auth",
+      "postgres",
+      "open-source",
+      "rls"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Authentication & Identity",
+    "categorySlug": "auth-identity"
+  },
+  {
+    "name": "WorkOS",
+    "url": "https://workos.com",
+    "pricingModel": "freemium",
+    "summary": "Enterprise-ready auth APIs (SSO, SCIM, audit logs) designed for B2B SaaS selling into large organizations.",
+    "freeTier": "Free up to 1 million monthly active users for core user management.",
+    "paidFrom": "SSO/SCIM modules billed per connection.",
+    "tags": [
+      "sso",
+      "scim",
+      "enterprise",
+      "b2b"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Authentication & Identity",
+    "categorySlug": "auth-identity"
+  },
+  {
+    "name": "Okta / Auth0 by Okta",
+    "url": "https://www.okta.com",
+    "pricingModel": "freemium",
+    "summary": "Enterprise identity and access management platform for workforce and customer identity.",
+    "freeTier": "Developer Edition free for testing, limited MAUs.",
+    "paidFrom": "Workforce Identity plans billed per user.",
+    "tags": [
+      "sso",
+      "identity",
+      "enterprise"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Authentication & Identity",
+    "categorySlug": "auth-identity"
+  },
+  {
+    "name": "Duo Security",
+    "url": "https://duo.com",
+    "pricingModel": "freemium",
+    "summary": "Two-factor authentication (2FA/MFA) for apps, VPNs, and infrastructure logins.",
+    "freeTier": "Free for up to 10 users, all auth methods, hardware token support included.",
+    "paidFrom": "Essentials plan billed per user.",
+    "tags": [
+      "mfa",
+      "2fa",
+      "vpn"
+    ],
+    "lastVerified": "2026-03-01",
+    "category": "Authentication & Identity",
+    "categorySlug": "auth-identity"
+  },
+  {
+    "name": "Foxpass",
+    "url": "https://www.foxpass.com",
+    "pricingModel": "freemium",
+    "summary": "Hosted LDAP and RADIUS for per-user logins across servers, VPNs, and Wi-Fi networks.",
+    "freeTier": "Free tier for small teams (limited users).",
+    "paidFrom": "Paid plans billed per user.",
+    "tags": [
+      "ldap",
+      "radius",
+      "network-auth"
+    ],
+    "lastVerified": "2026-03-01",
+    "category": "Authentication & Identity",
+    "categorySlug": "auth-identity"
+  },
+  {
+    "name": "Ory",
+    "url": "https://www.ory.sh",
+    "pricingModel": "freemium",
+    "summary": "Open-source identity infrastructure (Kratos, Hydra, Keto) with a managed cloud option for auth, OAuth2, and permissions.",
+    "freeTier": "Free tier with limited monthly active users on Ory Network; self-hosted OSS is free.",
+    "paidFrom": "Production plan billed per MAU beyond free quota.",
+    "tags": [
+      "open-source",
+      "oauth2",
+      "permissions",
+      "self-hosted"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Authentication & Identity",
+    "categorySlug": "auth-identity"
+  },
+  {
+    "name": "Stytch",
+    "url": "https://stytch.com",
+    "pricingModel": "freemium",
+    "summary": "API-first authentication platform specializing in passwordless, passkeys, and fraud/risk signals.",
+    "freeTier": "Free tier covering limited monthly active users.",
+    "paidFrom": "Growth plan billed per MAU beyond free quota.",
+    "tags": [
+      "passwordless",
+      "passkeys",
+      "fraud-detection"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Authentication & Identity",
+    "categorySlug": "auth-identity"
+  },
+  {
+    "name": "GitHub Actions",
+    "url": "https://github.com/features/actions",
+    "pricingModel": "freemium",
+    "summary": "Workflow automation built into GitHub for CI/CD, testing, and release pipelines, with a huge marketplace of reusable actions.",
+    "freeTier": "2,000 minutes/month for private repos (Linux), unlimited minutes for public repos.",
+    "paidFrom": "Additional minutes billed per-minute beyond included quota.",
+    "tags": [
+      "ci-cd",
+      "automation",
+      "github"
+    ],
+    "lastVerified": "2026-06-01",
+    "category": "CI/CD & Build Automation",
+    "categorySlug": "ci-cd"
+  },
+  {
+    "name": "CircleCI",
+    "url": "https://circleci.com",
+    "pricingModel": "freemium",
+    "summary": "Cloud CI/CD platform with Docker-first pipelines, parallelism, and orbs (reusable config packages).",
+    "freeTier": "6,000 build minutes/month free, up to 30 concurrent jobs on free plan.",
+    "paidFrom": "Performance plan from $15/month.",
+    "tags": [
+      "ci-cd",
+      "docker",
+      "automation"
+    ],
+    "lastVerified": "2026-06-01",
+    "category": "CI/CD & Build Automation",
+    "categorySlug": "ci-cd"
+  },
+  {
+    "name": "Travis CI",
+    "url": "https://www.travis-ci.com",
+    "pricingModel": "freemium",
+    "summary": "One of the original hosted CI services, deeply integrated with GitHub for open-source and private builds.",
+    "freeTier": "Free tier available for open-source projects.",
+    "paidFrom": "Paid plans from $69/month for private repos.",
+    "tags": [
+      "ci-cd",
+      "open-source"
+    ],
+    "lastVerified": "2026-03-10",
+    "category": "CI/CD & Build Automation",
+    "categorySlug": "ci-cd"
+  },
+  {
+    "name": "AppVeyor",
+    "url": "https://www.appveyor.com",
+    "pricingModel": "freemium",
+    "summary": "CI/CD focused on Windows and .NET projects, also supports Linux and macOS builds.",
+    "freeTier": "Unlimited build minutes for one concurrent job on public/open-source repos.",
+    "paidFrom": "Paid plans from $39/month for private projects.",
+    "tags": [
+      "ci-cd",
+      "windows",
+      "dotnet"
+    ],
+    "lastVerified": "2026-03-10",
+    "category": "CI/CD & Build Automation",
+    "categorySlug": "ci-cd"
+  },
+  {
+    "name": "Codemagic",
+    "url": "https://codemagic.io",
+    "pricingModel": "freemium",
+    "summary": "CI/CD purpose-built for mobile apps (Flutter, React Native, iOS, Android) with code signing automation.",
+    "freeTier": "500 free build minutes/month.",
+    "paidFrom": "Pay-as-you-go from $0.038/build minute beyond free quota.",
+    "tags": [
+      "ci-cd",
+      "mobile",
+      "flutter",
+      "react-native"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "CI/CD & Build Automation",
+    "categorySlug": "ci-cd"
+  },
+  {
+    "name": "Buildkite",
+    "url": "https://buildkite.com",
+    "pricingModel": "freemium",
+    "summary": "Hybrid CI/CD platform where you run your own build agents while Buildkite manages orchestration and UI.",
+    "freeTier": "Free for unlimited users on the open-source/small-team plan with limited pipeline minutes.",
+    "paidFrom": "Paid plans scale with pipeline runs.",
+    "tags": [
+      "ci-cd",
+      "self-hosted-agents",
+      "orchestration"
+    ],
+    "lastVerified": "2026-03-10",
+    "category": "CI/CD & Build Automation",
+    "categorySlug": "ci-cd"
+  },
+  {
+    "name": "Codefresh",
+    "url": "https://codefresh.io",
+    "pricingModel": "freemium",
+    "summary": "Kubernetes-native CI/CD and GitOps platform with built-in Docker registry and pipeline visualization.",
+    "freeTier": "Free tier includes limited builds/month for individuals.",
+    "paidFrom": "Team plans from $0.75 per build credit.",
+    "tags": [
+      "ci-cd",
+      "kubernetes",
+      "gitops",
+      "docker"
+    ],
+    "lastVerified": "2026-03-10",
+    "category": "CI/CD & Build Automation",
+    "categorySlug": "ci-cd"
+  },
+  {
+    "name": "Semaphore CI",
+    "url": "https://semaphoreci.com",
+    "pricingModel": "freemium",
+    "summary": "Fast, container-based CI/CD with generous free compute credits and a focus on pipeline speed.",
+    "freeTier": "Free tier with monthly compute credits (no credit card required to start).",
+    "paidFrom": "Startup plan from $18/month.",
+    "tags": [
+      "ci-cd",
+      "containers",
+      "fast-builds"
+    ],
+    "lastVerified": "2026-03-10",
+    "category": "CI/CD & Build Automation",
+    "categorySlug": "ci-cd"
+  },
+  {
+    "name": "Drone CI",
+    "url": "https://www.drone.io",
+    "pricingModel": "open-source",
+    "summary": "Container-native, self-hostable CI/CD engine configured entirely with YAML pipelines.",
+    "freeTier": "Fully free and open source when self-hosted.",
+    "tags": [
+      "ci-cd",
+      "self-hosted",
+      "containers",
+      "open-source"
+    ],
+    "lastVerified": "2026-03-10",
+    "category": "CI/CD & Build Automation",
+    "categorySlug": "ci-cd"
+  },
+  {
+    "name": "Jenkins",
+    "url": "https://www.jenkins.io",
+    "pricingModel": "open-source",
+    "summary": "The most widely deployed self-hosted automation server, with an enormous plugin ecosystem covering nearly any CI/CD need.",
+    "freeTier": "Completely free, open source, self-hosted.",
+    "tags": [
+      "ci-cd",
+      "self-hosted",
+      "plugins",
+      "open-source"
+    ],
+    "lastVerified": "2026-03-10",
+    "category": "CI/CD & Build Automation",
+    "categorySlug": "ci-cd"
+  },
+  {
+    "name": "Render (Background Workers/CI)",
+    "url": "https://render.com",
+    "pricingModel": "freemium",
+    "summary": "Deploys directly from Git with built-in CI, primarily known as a PaaS but covers full build-test-deploy pipelines.",
+    "freeTier": "Free web services with auto-deploy from Git (services sleep after inactivity).",
+    "paidFrom": "Starter plans from $7/month per service.",
+    "tags": [
+      "ci-cd",
+      "paas",
+      "deploy"
+    ],
+    "lastVerified": "2026-06-01",
+    "category": "CI/CD & Build Automation",
+    "categorySlug": "ci-cd"
+  },
+  {
+    "name": "CodSpeed",
+    "url": "https://codspeed.io",
+    "pricingModel": "freemium",
+    "summary": "Performance regression tracking for CI pipelines, benchmarking code on every PR with consistent metrics.",
+    "freeTier": "Free forever for open-source projects.",
+    "tags": [
+      "ci-cd",
+      "performance",
+      "benchmarking"
+    ],
+    "lastVerified": "2026-04-10",
+    "category": "CI/CD & Build Automation",
+    "categorySlug": "ci-cd"
+  },
+  {
+    "name": "Amazon Web Services (AWS)",
+    "url": "https://aws.amazon.com/free",
+    "pricingModel": "freemium",
+    "summary": "The largest cloud provider, with hundreds of services spanning compute, storage, databases, ML, and networking.",
+    "freeTier": "750 hrs/month t2.micro/t3.micro EC2 (12 months), 5GB S3 standard storage, 1M Lambda requests/month always-free, 25GB DynamoDB always-free.",
+    "paidFrom": "Pay-as-you-go beyond free tier limits.",
+    "tags": [
+      "cloud",
+      "iaas",
+      "compute",
+      "serverless"
+    ],
+    "notes": "Free tier mixes 12-month time-limited offers with always-free tiers; check expiration per service.",
+    "alternativeTo": "Google Cloud, Azure",
+    "lastVerified": "2026-06-01",
+    "category": "Cloud Compute, PaaS & App Hosting",
+    "categorySlug": "cloud-paas"
+  },
+  {
+    "name": "Google Cloud Platform",
+    "url": "https://cloud.google.com/free",
+    "pricingModel": "freemium",
+    "summary": "Google's cloud platform with strong Kubernetes (GKE), BigQuery, and AI/ML offerings, plus a generous always-free tier.",
+    "freeTier": "1 non-preemptible e2-micro VM/month, 5GB Cloud Storage, 2M Cloud Functions invocations/month, $300 in trial credits for 90 days.",
+    "paidFrom": "Pay-as-you-go beyond free tier limits.",
+    "tags": [
+      "cloud",
+      "iaas",
+      "kubernetes",
+      "bigquery"
+    ],
+    "lastVerified": "2026-06-01",
+    "category": "Cloud Compute, PaaS & App Hosting",
+    "categorySlug": "cloud-paas"
+  },
+  {
+    "name": "Microsoft Azure",
+    "url": "https://azure.microsoft.com/free",
+    "pricingModel": "freemium",
+    "summary": "Microsoft's cloud platform, strong on enterprise integration, .NET tooling, and hybrid cloud.",
+    "freeTier": "1 B1S Linux/Windows VM (12 months), 1M Azure Functions requests/month always-free, 5GB Blob Storage, $200 credit for 30 days.",
+    "paidFrom": "Pay-as-you-go beyond free tier limits.",
+    "tags": [
+      "cloud",
+      "iaas",
+      "dotnet",
+      "enterprise"
+    ],
+    "lastVerified": "2026-06-01",
+    "category": "Cloud Compute, PaaS & App Hosting",
+    "categorySlug": "cloud-paas"
+  },
+  {
+    "name": "Oracle Cloud Infrastructure",
+    "url": "https://www.oracle.com/cloud/free",
+    "pricingModel": "freemium",
+    "summary": "Notable for the most generous always-free compute tier among major clouds, including ARM-based instances.",
+    "freeTier": "4 Arm-based Ampere A1 cores with 24GB RAM always-free, 2 AMD micro VMs, 200GB block storage, 10TB egress/month.",
+    "tags": [
+      "cloud",
+      "iaas",
+      "arm",
+      "always-free"
+    ],
+    "notes": "The Ampere A1 always-free allocation is the largest free compute offer of any major cloud as of 2026.",
+    "lastVerified": "2026-06-01",
+    "category": "Cloud Compute, PaaS & App Hosting",
+    "categorySlug": "cloud-paas"
+  },
+  {
+    "name": "IBM Cloud",
+    "url": "https://www.ibm.com/cloud/free",
+    "pricingModel": "freemium",
+    "summary": "IBM's cloud platform with Lite-tier services spanning Kubernetes, Cloud Functions, Watson AI, and databases.",
+    "freeTier": "Lite plans free indefinitely for many services (limited compute/storage quotas, no time limit).",
+    "tags": [
+      "cloud",
+      "iaas",
+      "watson-ai",
+      "lite-plan"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Cloud Compute, PaaS & App Hosting",
+    "categorySlug": "cloud-paas"
+  },
+  {
+    "name": "Cloudflare Workers / Pages",
+    "url": "https://workers.cloudflare.com",
+    "pricingModel": "freemium",
+    "summary": "Edge compute (Workers) and static site/full-stack hosting (Pages) running on Cloudflare's global network.",
+    "freeTier": "100,000 Workers requests/day, Pages: 500 builds/month, 100 custom domains, unlimited bandwidth.",
+    "paidFrom": "Workers Paid plan from $5/month.",
+    "tags": [
+      "edge-compute",
+      "serverless",
+      "static-hosting",
+      "cdn"
+    ],
+    "lastVerified": "2026-06-01",
+    "category": "Cloud Compute, PaaS & App Hosting",
+    "categorySlug": "cloud-paas"
+  },
+  {
+    "name": "Render",
+    "url": "https://render.com",
+    "pricingModel": "freemium",
+    "summary": "Modern Heroku-style PaaS for web services, static sites, cron jobs, and managed Postgres/Redis.",
+    "freeTier": "Free web services (spin down after 15 min idle), free static site hosting with unlimited bandwidth.",
+    "paidFrom": "Starter instances from $7/month.",
+    "tags": [
+      "paas",
+      "static-hosting",
+      "managed-db"
+    ],
+    "lastVerified": "2026-06-01",
+    "category": "Cloud Compute, PaaS & App Hosting",
+    "categorySlug": "cloud-paas"
+  },
+  {
+    "name": "Fly.io",
+    "url": "https://fly.io",
+    "pricingModel": "freemium",
+    "summary": "Deploys Docker containers close to users across a global network of regions, with a focus on low-latency apps.",
+    "freeTier": "Small allowance of free compute/storage; exact quotas vary, check current pricing page.",
+    "paidFrom": "Usage-based billing beyond free allowance.",
+    "tags": [
+      "paas",
+      "docker",
+      "edge",
+      "global-deploy"
+    ],
+    "notes": "Free tier terms have changed multiple times; always confirm on the pricing page before relying on it.",
+    "lastVerified": "2026-05-01",
+    "category": "Cloud Compute, PaaS & App Hosting",
+    "categorySlug": "cloud-paas"
+  },
+  {
+    "name": "Railway",
+    "url": "https://railway.com",
+    "pricingModel": "freemium",
+    "summary": "Developer-friendly PaaS for deploying apps, databases, and cron jobs directly from GitHub with minimal config.",
+    "freeTier": "Trial credit for new accounts; ongoing usage-based Hobby plan with small monthly included usage.",
+    "paidFrom": "Hobby plan from $5/month base + usage.",
+    "tags": [
+      "paas",
+      "deploy",
+      "databases"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Cloud Compute, PaaS & App Hosting",
+    "categorySlug": "cloud-paas"
+  },
+  {
+    "name": "Vercel",
+    "url": "https://vercel.com",
+    "pricingModel": "freemium",
+    "summary": "Frontend cloud built for Next.js and other frameworks, with instant global deploys and edge functions.",
+    "freeTier": "Hobby plan free for personal projects: 100GB bandwidth/month, serverless + edge functions included.",
+    "paidFrom": "Pro plan from $20/month/user.",
+    "tags": [
+      "frontend",
+      "jamstack",
+      "nextjs",
+      "serverless"
+    ],
+    "lastVerified": "2026-06-01",
+    "category": "Cloud Compute, PaaS & App Hosting",
+    "categorySlug": "cloud-paas"
+  },
+  {
+    "name": "Netlify",
+    "url": "https://www.netlify.com",
+    "pricingModel": "freemium",
+    "summary": "JAMstack hosting platform with CI/CD, serverless functions, and form handling built in.",
+    "freeTier": "100GB bandwidth/month, 300 build minutes/month, 125k serverless function invocations/month.",
+    "paidFrom": "Pro plan from $19/member/month.",
+    "tags": [
+      "frontend",
+      "jamstack",
+      "static-hosting",
+      "serverless"
+    ],
+    "lastVerified": "2026-06-01",
+    "category": "Cloud Compute, PaaS & App Hosting",
+    "categorySlug": "cloud-paas"
+  },
+  {
+    "name": "Heroku",
+    "url": "https://www.heroku.com",
+    "pricingModel": "paid",
+    "summary": "One of the original app PaaS platforms; removed its free tier in 2022, now entry-level paid only.",
+    "freeTier": "N/A \u2014 no perpetual free tier since November 2022.",
+    "paidFrom": "Eco dynos from $5/month.",
+    "tags": [
+      "paas",
+      "deploy",
+      "legacy"
+    ],
+    "notes": "Included for comparison/migration context; previously the most common 'free dev hosting' reference.",
+    "lastVerified": "2026-04-01",
+    "category": "Cloud Compute, PaaS & App Hosting",
+    "categorySlug": "cloud-paas"
+  },
+  {
+    "name": "Koyeb",
+    "url": "https://www.koyeb.com",
+    "pricingModel": "freemium",
+    "summary": "Serverless platform for deploying APIs, web apps, and databases across global regions with autoscaling.",
+    "freeTier": "Free tier includes limited compute (e.g., one small always-on service).",
+    "paidFrom": "Usage-based pricing beyond free allotment.",
+    "tags": [
+      "paas",
+      "serverless",
+      "autoscaling"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Cloud Compute, PaaS & App Hosting",
+    "categorySlug": "cloud-paas"
+  },
+  {
+    "name": "PythonAnywhere",
+    "url": "https://www.pythonanywhere.com",
+    "pricingModel": "freemium",
+    "summary": "Browser-based Python development and hosting environment with a built-in console, editor, and scheduler.",
+    "freeTier": "One free web app on a subdomain, limited CPU seconds/day, 512MB storage.",
+    "paidFrom": "Hacker plan from $5/month.",
+    "tags": [
+      "python",
+      "paas",
+      "beginner-friendly"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Cloud Compute, PaaS & App Hosting",
+    "categorySlug": "cloud-paas"
+  },
+  {
+    "name": "Glitch",
+    "url": "https://glitch.com",
+    "pricingModel": "freemium",
+    "summary": "In-browser collaborative coding and instant hosting, popular for prototypes, bots, and small Node/Python apps.",
+    "freeTier": "Free apps with limited always-on uptime, community remixing.",
+    "paidFrom": "Pro plan adds boosted apps and custom domains.",
+    "tags": [
+      "prototyping",
+      "browser-ide",
+      "collaborative"
+    ],
+    "lastVerified": "2026-03-01",
+    "category": "Cloud Compute, PaaS & App Hosting",
+    "categorySlug": "cloud-paas"
+  },
+  {
+    "name": "GitHub Codespaces",
+    "url": "https://github.com/features/codespaces",
+    "pricingModel": "freemium",
+    "summary": "Full VS Code-in-the-browser dev environments spun up directly from a GitHub repo, with devcontainer support.",
+    "freeTier": "120 core-hours/month free for personal accounts.",
+    "paidFrom": "Pay-as-you-go beyond free quota, billed per core-hour.",
+    "tags": [
+      "cloud-ide",
+      "github",
+      "devcontainers"
+    ],
+    "lastVerified": "2026-06-01",
+    "category": "Cloud IDEs & Dev Environments",
+    "categorySlug": "cloud-ides"
+  },
+  {
+    "name": "Gitpod",
+    "url": "https://www.gitpod.io",
+    "pricingModel": "freemium",
+    "summary": "Ephemeral, automated cloud dev environments configured via a repo-committed config file.",
+    "freeTier": "50 free hours/month on the free plan.",
+    "paidFrom": "Pro plan billed per usage beyond free hours.",
+    "tags": [
+      "cloud-ide",
+      "ephemeral-environments"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Cloud IDEs & Dev Environments",
+    "categorySlug": "cloud-ides"
+  },
+  {
+    "name": "Replit",
+    "url": "https://replit.com",
+    "pricingModel": "freemium",
+    "summary": "Browser-based IDE supporting 50+ languages with instant hosting, multiplayer editing, and an AI agent.",
+    "freeTier": "Free tier with limited compute and storage for public Repls.",
+    "paidFrom": "Core plan from $25/month.",
+    "tags": [
+      "cloud-ide",
+      "instant-hosting",
+      "multiplayer"
+    ],
+    "lastVerified": "2026-06-01",
+    "category": "Cloud IDEs & Dev Environments",
+    "categorySlug": "cloud-ides"
+  },
+  {
+    "name": "CodeSandbox",
+    "url": "https://codesandbox.io",
+    "pricingModel": "freemium",
+    "summary": "Instant web-based IDE and sandboxes for frontend prototyping, with live preview and npm support.",
+    "freeTier": "Free tier with limited private sandboxes and compute.",
+    "paidFrom": "Pro plan from $9/month.",
+    "tags": [
+      "cloud-ide",
+      "frontend-prototyping",
+      "sandboxes"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Cloud IDEs & Dev Environments",
+    "categorySlug": "cloud-ides"
+  },
+  {
+    "name": "StackBlitz",
+    "url": "https://stackblitz.com",
+    "pricingModel": "freemium",
+    "summary": "WebContainers-powered IDE that runs Node.js entirely in-browser for near-instant project boot times.",
+    "freeTier": "Free for public projects with core editing features.",
+    "paidFrom": "Pro plan from $20/month for private projects.",
+    "tags": [
+      "cloud-ide",
+      "webcontainers",
+      "instant-boot"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Cloud IDEs & Dev Environments",
+    "categorySlug": "cloud-ides"
+  },
+  {
+    "name": "Google Cloud Shell",
+    "url": "https://cloud.google.com/shell",
+    "pricingModel": "free",
+    "summary": "Free browser-based shell and code editor with pre-installed gcloud tooling, for managing GCP resources.",
+    "freeTier": "Free with weekly usage hour quota, no separate billing.",
+    "tags": [
+      "cloud-shell",
+      "google-cloud",
+      "free-compute"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Cloud IDEs & Dev Environments",
+    "categorySlug": "cloud-ides"
+  },
+  {
+    "name": "AWS Cloud9",
+    "url": "https://aws.amazon.com/cloud9",
+    "pricingModel": "freemium",
+    "summary": "Cloud IDE running on an EC2 instance or connected to existing infrastructure, integrated with AWS services.",
+    "freeTier": "No separate Cloud9 fee; billed only for underlying EC2 compute (eligible for AWS Free Tier EC2 hours).",
+    "tags": [
+      "cloud-ide",
+      "aws",
+      "ec2-backed"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Cloud IDEs & Dev Environments",
+    "categorySlug": "cloud-ides"
+  },
+  {
+    "name": "CodeRabbit",
+    "url": "https://coderabbit.ai",
+    "pricingModel": "freemium",
+    "summary": "AI-powered code review tool integrating with GitHub/GitLab to leave contextual review comments on PRs automatically.",
+    "freeTier": "200 files/hour, 3 reviews/hour, 50 conversations/hour; free forever for open source.",
+    "paidFrom": "Pro plan from $24/developer/month.",
+    "tags": [
+      "code-review",
+      "ai",
+      "github",
+      "gitlab"
+    ],
+    "lastVerified": "2026-06-01",
+    "category": "Code Quality, Review & Static Analysis",
+    "categorySlug": "code-quality"
+  },
+  {
+    "name": "Codacy",
+    "url": "https://www.codacy.com",
+    "pricingModel": "freemium",
+    "summary": "Automated code review covering style, security, duplication, and complexity across 40+ languages.",
+    "freeTier": "Free for unlimited public and private repositories on the open-source plan.",
+    "paidFrom": "Pro plan from $18/month.",
+    "tags": [
+      "code-review",
+      "static-analysis",
+      "security"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Code Quality, Review & Static Analysis",
+    "categorySlug": "code-quality"
+  },
+  {
+    "name": "CodeFactor",
+    "url": "https://www.codefactor.io",
+    "pricingModel": "freemium",
+    "summary": "Automated code review for Git repos with quality grading and trend tracking.",
+    "freeTier": "Unlimited users and public repos free, plus one private repo.",
+    "paidFrom": "Pro plan from $4.99/month.",
+    "tags": [
+      "code-review",
+      "static-analysis"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Code Quality, Review & Static Analysis",
+    "categorySlug": "code-quality"
+  },
+  {
+    "name": "Codecov",
+    "url": "https://codecov.io",
+    "pricingModel": "freemium",
+    "summary": "Code coverage reporting and visualization, integrates with CI to show coverage diffs on PRs.",
+    "freeTier": "Free for open source; one free private repo.",
+    "paidFrom": "Pro plan billed per seat.",
+    "tags": [
+      "code-coverage",
+      "testing",
+      "ci-integration"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Code Quality, Review & Static Analysis",
+    "categorySlug": "code-quality"
+  },
+  {
+    "name": "SonarCloud",
+    "url": "https://sonarcloud.io",
+    "pricingModel": "freemium",
+    "summary": "Cloud-hosted static analysis for bugs, vulnerabilities, and code smells, from the makers of SonarQube.",
+    "freeTier": "Free for public/open-source projects with unlimited lines of code.",
+    "paidFrom": "Private repo pricing based on lines of code analyzed.",
+    "tags": [
+      "static-analysis",
+      "security",
+      "code-smells"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Code Quality, Review & Static Analysis",
+    "categorySlug": "code-quality"
+  },
+  {
+    "name": "DeepSource",
+    "url": "https://deepsource.com",
+    "pricingModel": "freemium",
+    "summary": "Continuous static analysis covering bug risk, performance, security, and anti-patterns, with autofix suggestions.",
+    "freeTier": "Free for open-source repositories.",
+    "paidFrom": "Team plan from $8/contributor/month.",
+    "tags": [
+      "static-analysis",
+      "autofix",
+      "security"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Code Quality, Review & Static Analysis",
+    "categorySlug": "code-quality"
+  },
+  {
+    "name": "Snyk",
+    "url": "https://snyk.io",
+    "pricingModel": "freemium",
+    "summary": "Developer-first security platform scanning for vulnerabilities in code, open-source dependencies, containers, and IaC.",
+    "freeTier": "Free tier with limited monthly tests across code/open-source/container scanning.",
+    "paidFrom": "Team plan from $25/product/month.",
+    "tags": [
+      "security",
+      "dependency-scanning",
+      "sast",
+      "container-scanning"
+    ],
+    "lastVerified": "2026-06-01",
+    "category": "Code Quality, Review & Static Analysis",
+    "categorySlug": "code-quality"
+  },
+  {
+    "name": "Dependabot",
+    "url": "https://github.com/dependabot",
+    "pricingModel": "free",
+    "summary": "Automated dependency update PRs built into GitHub, covering most major package ecosystems.",
+    "freeTier": "Completely free for all public and private GitHub repos.",
+    "tags": [
+      "dependency-updates",
+      "security",
+      "automation"
+    ],
+    "lastVerified": "2026-06-01",
+    "category": "Code Quality, Review & Static Analysis",
+    "categorySlug": "code-quality"
+  },
+  {
+    "name": "Codeac.io",
+    "url": "https://www.codeac.io",
+    "pricingModel": "freemium",
+    "summary": "Automated Infrastructure-as-Code review integrating with GitHub, Bitbucket, and self-hosted GitLab.",
+    "freeTier": "Free tier for small/open-source projects.",
+    "paidFrom": "Paid plans scale with repo count.",
+    "tags": [
+      "iac",
+      "terraform",
+      "ansible",
+      "kubernetes"
+    ],
+    "lastVerified": "2026-03-01",
+    "category": "Code Quality, Review & Static Analysis",
+    "categorySlug": "code-quality"
+  },
+  {
+    "name": "Better Code Hub",
+    "url": "https://bettercodehub.com",
+    "pricingModel": "freemium",
+    "summary": "Automated code maintainability checks based on the Software Improvement Group's 10 guidelines.",
+    "freeTier": "Free for public GitHub repositories.",
+    "tags": [
+      "maintainability",
+      "static-analysis"
+    ],
+    "lastVerified": "2026-02-01",
+    "category": "Code Quality, Review & Static Analysis",
+    "categorySlug": "code-quality"
+  },
+  {
+    "name": "Docker Hub",
+    "url": "https://hub.docker.com",
+    "pricingModel": "freemium",
+    "summary": "The default public container registry, widely used to distribute and pull Docker images.",
+    "freeTier": "Unlimited public repos free; rate-limited anonymous/free-tier pulls.",
+    "paidFrom": "Pro plan from $5/month for higher pull rate limits and private repos.",
+    "tags": [
+      "container-registry",
+      "docker"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Containers, Kubernetes & Registries",
+    "categorySlug": "containers-kubernetes"
+  },
+  {
+    "name": "GitHub Container Registry (ghcr.io)",
+    "url": "https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry",
+    "pricingModel": "freemium",
+    "summary": "Container registry built into GitHub Packages, tightly integrated with GitHub Actions for CI/CD publishing.",
+    "freeTier": "Free storage and bandwidth for public images.",
+    "paidFrom": "Private image storage billed per GB beyond free GitHub plan quota.",
+    "tags": [
+      "container-registry",
+      "github",
+      "ci-cd"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Containers, Kubernetes & Registries",
+    "categorySlug": "containers-kubernetes"
+  },
+  {
+    "name": "Amazon ECR Public",
+    "url": "https://gallery.ecr.aws",
+    "pricingModel": "freemium",
+    "summary": "AWS's public container registry gallery for sharing and discovering open-source container images.",
+    "freeTier": "Free storage and pulls for public images.",
+    "paidFrom": "Private ECR billed per GB stored/transferred.",
+    "tags": [
+      "container-registry",
+      "aws"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Containers, Kubernetes & Registries",
+    "categorySlug": "containers-kubernetes"
+  },
+  {
+    "name": "Quay.io",
+    "url": "https://quay.io",
+    "pricingModel": "freemium",
+    "summary": "Red Hat's container registry with built-in vulnerability scanning and robot accounts for CI automation.",
+    "freeTier": "Free for public repositories with unlimited storage.",
+    "paidFrom": "Paid plans add private repos and higher build concurrency.",
+    "tags": [
+      "container-registry",
+      "vulnerability-scanning",
+      "red-hat"
+    ],
+    "lastVerified": "2026-03-01",
+    "category": "Containers, Kubernetes & Registries",
+    "categorySlug": "containers-kubernetes"
+  },
+  {
+    "name": "Civo",
+    "url": "https://www.civo.com",
+    "pricingModel": "freemium",
+    "summary": "Fast-provisioning managed Kubernetes (k3s-based) cloud, known for sub-90-second cluster creation.",
+    "freeTier": "Free credits for new accounts; no perpetual free cluster.",
+    "paidFrom": "Clusters billed from ~$5/month per node.",
+    "tags": [
+      "kubernetes",
+      "managed-k8s",
+      "fast-provisioning"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Containers, Kubernetes & Registries",
+    "categorySlug": "containers-kubernetes"
+  },
+  {
+    "name": "Oracle Container Engine for Kubernetes (OKE)",
+    "url": "https://www.oracle.com/cloud/cloud-native/container-engine-kubernetes",
+    "pricingModel": "freemium",
+    "summary": "Managed Kubernetes service that runs on top of OCI's generous always-free compute tier.",
+    "freeTier": "Control plane free; worker nodes can run on OCI's always-free Ampere A1 compute.",
+    "tags": [
+      "kubernetes",
+      "managed-k8s",
+      "always-free-compute"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Containers, Kubernetes & Registries",
+    "categorySlug": "containers-kubernetes"
+  },
+  {
+    "name": "k3s",
+    "url": "https://k3s.io",
+    "pricingModel": "open-source",
+    "summary": "Lightweight, certified Kubernetes distribution from Rancher, ideal for edge, IoT, and local dev clusters.",
+    "freeTier": "Completely free and open source, self-hosted.",
+    "tags": [
+      "kubernetes",
+      "open-source",
+      "lightweight",
+      "edge"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Containers, Kubernetes & Registries",
+    "categorySlug": "containers-kubernetes"
+  },
+  {
+    "name": "Portainer",
+    "url": "https://www.portainer.io",
+    "pricingModel": "freemium",
+    "summary": "Web UI for managing Docker, Docker Swarm, and Kubernetes environments without the raw CLI.",
+    "freeTier": "Community Edition free for up to 5 nodes (or 3 for Kubernetes).",
+    "paidFrom": "Business Edition billed per node.",
+    "tags": [
+      "container-management",
+      "kubernetes",
+      "docker",
+      "ui"
+    ],
+    "lastVerified": "2026-03-01",
+    "category": "Containers, Kubernetes & Registries",
+    "categorySlug": "containers-kubernetes"
+  },
+  {
+    "name": "Crisp",
+    "url": "https://crisp.chat",
+    "pricingModel": "freemium",
+    "summary": "Live chat, shared inbox, and basic CRM for small support teams.",
+    "freeTier": "Free plan for up to 2 seats with core chat features.",
+    "paidFrom": "Pro plan from $25/month.",
+    "tags": [
+      "live-chat",
+      "helpdesk",
+      "small-teams"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Customer Support & Helpdesk",
+    "categorySlug": "customer-support"
+  },
+  {
+    "name": "Tawk.to",
+    "url": "https://www.tawk.to",
+    "pricingModel": "free",
+    "summary": "Free live chat widget and ticketing system with unlimited agents and chat history.",
+    "freeTier": "100% free for unlimited agents and chat volume.",
+    "paidFrom": "Add-ons (e.g., remove branding, hire chat agents) are paid.",
+    "tags": [
+      "live-chat",
+      "helpdesk",
+      "free"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Customer Support & Helpdesk",
+    "categorySlug": "customer-support"
+  },
+  {
+    "name": "Chatwoot",
+    "url": "https://www.chatwoot.com",
+    "pricingModel": "open-source",
+    "summary": "Open-source customer engagement platform (live chat, omnichannel inbox), self-hostable or managed cloud.",
+    "freeTier": "Self-hosted fully free; Cloud free tier for small teams.",
+    "paidFrom": "Cloud Startup plan from $19/month.",
+    "tags": [
+      "live-chat",
+      "open-source",
+      "omnichannel"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Customer Support & Helpdesk",
+    "categorySlug": "customer-support"
+  },
+  {
+    "name": "Freshdesk",
+    "url": "https://www.freshworks.com/freshdesk",
+    "pricingModel": "freemium",
+    "summary": "Helpdesk and ticketing system with automation, SLAs, and a knowledge base builder.",
+    "freeTier": "Free plan for up to 10 agents with core ticketing.",
+    "paidFrom": "Growth plan from $15/agent/month.",
+    "tags": [
+      "helpdesk",
+      "ticketing",
+      "knowledge-base"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Customer Support & Helpdesk",
+    "categorySlug": "customer-support"
+  },
+  {
+    "name": "Zendesk",
+    "url": "https://www.zendesk.com",
+    "pricingModel": "paid",
+    "summary": "Enterprise-grade customer service platform covering ticketing, chat, and a help center.",
+    "freeTier": "N/A \u2014 no perpetual free tier, trial only.",
+    "paidFrom": "Support Team plan from $19/agent/month.",
+    "tags": [
+      "helpdesk",
+      "enterprise",
+      "ticketing"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Customer Support & Helpdesk",
+    "categorySlug": "customer-support"
+  },
+  {
+    "name": "Papercups",
+    "url": "https://github.com/papercups-io/papercups",
+    "pricingModel": "open-source",
+    "summary": "Open-source live customer chat platform, an Intercom alternative you can self-host.",
+    "freeTier": "Self-hosted fully free.",
+    "tags": [
+      "live-chat",
+      "open-source",
+      "self-hosted"
+    ],
+    "lastVerified": "2026-02-01",
+    "category": "Customer Support & Helpdesk",
+    "categorySlug": "customer-support"
+  },
+  {
+    "name": "Supabase",
+    "url": "https://supabase.com",
+    "pricingModel": "freemium",
+    "summary": "Open-source Firebase alternative providing a managed Postgres database with auth, storage, realtime, and edge functions.",
+    "freeTier": "2 free projects, 500MB database, 1GB file storage, 5GB bandwidth/month, projects pause after 1 week inactivity.",
+    "paidFrom": "Pro plan from $25/month/project.",
+    "tags": [
+      "postgres",
+      "backend-as-a-service",
+      "auth",
+      "realtime"
+    ],
+    "lastVerified": "2026-06-01",
+    "category": "Databases (SQL, NoSQL, Vector)",
+    "categorySlug": "databases"
+  },
+  {
+    "name": "Neon",
+    "url": "https://neon.com",
+    "pricingModel": "freemium",
+    "summary": "Serverless Postgres with branching (database copies for dev/test) and scale-to-zero compute.",
+    "freeTier": "0.5GB storage, generous compute hours/month, unlimited branches on free tier.",
+    "paidFrom": "Launch plan from $19/month.",
+    "tags": [
+      "postgres",
+      "serverless",
+      "branching"
+    ],
+    "lastVerified": "2026-06-01",
+    "category": "Databases (SQL, NoSQL, Vector)",
+    "categorySlug": "databases"
+  },
+  {
+    "name": "PlanetScale",
+    "url": "https://planetscale.com",
+    "pricingModel": "freemium",
+    "summary": "Serverless MySQL-compatible platform built on Vitess, with non-blocking schema migrations and branching workflows.",
+    "freeTier": "Hobby plan free with limited storage and row reads/writes per month.",
+    "paidFrom": "Scaler plan from $39/month.",
+    "tags": [
+      "mysql",
+      "vitess",
+      "serverless",
+      "branching"
+    ],
+    "lastVerified": "2026-06-01",
+    "category": "Databases (SQL, NoSQL, Vector)",
+    "categorySlug": "databases"
+  },
+  {
+    "name": "MongoDB Atlas",
+    "url": "https://www.mongodb.com/cloud/atlas",
+    "pricingModel": "freemium",
+    "summary": "Fully managed MongoDB document database with a free shared-cluster tier that never expires.",
+    "freeTier": "M0 cluster: 512MB storage, shared RAM/vCPU, no time limit.",
+    "paidFrom": "Dedicated clusters from ~$9/month (M2).",
+    "tags": [
+      "mongodb",
+      "nosql",
+      "document-db"
+    ],
+    "lastVerified": "2026-06-01",
+    "category": "Databases (SQL, NoSQL, Vector)",
+    "categorySlug": "databases"
+  },
+  {
+    "name": "Firebase (Firestore/Realtime DB)",
+    "url": "https://firebase.google.com/pricing",
+    "pricingModel": "freemium",
+    "summary": "Google's mobile/web app backend platform including Firestore NoSQL database, auth, hosting, and analytics.",
+    "freeTier": "Spark plan free: 1GB Firestore storage, 50k reads/20k writes per day.",
+    "paidFrom": "Blaze plan is pay-as-you-go beyond Spark limits.",
+    "tags": [
+      "nosql",
+      "backend-as-a-service",
+      "mobile",
+      "realtime"
+    ],
+    "lastVerified": "2026-06-01",
+    "category": "Databases (SQL, NoSQL, Vector)",
+    "categorySlug": "databases"
+  },
+  {
+    "name": "Upstash",
+    "url": "https://upstash.com",
+    "pricingModel": "freemium",
+    "summary": "Serverless Redis, Kafka, and vector database with per-request pricing ideal for spiky/serverless workloads.",
+    "freeTier": "10,000 commands/day free on Redis, 10,000 vectors free on vector DB.",
+    "paidFrom": "Pay-as-you-go beyond free request quota.",
+    "tags": [
+      "redis",
+      "serverless",
+      "kafka",
+      "vector-db"
+    ],
+    "lastVerified": "2026-06-01",
+    "category": "Databases (SQL, NoSQL, Vector)",
+    "categorySlug": "databases"
+  },
+  {
+    "name": "Redis Cloud",
+    "url": "https://redis.io/cloud",
+    "pricingModel": "freemium",
+    "summary": "Official managed Redis offering with a permanently free small database tier.",
+    "freeTier": "30MB free database, shared infrastructure, no time limit.",
+    "paidFrom": "Flexible plans from ~$5/month for fixed dedicated.",
+    "tags": [
+      "redis",
+      "caching",
+      "in-memory"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Databases (SQL, NoSQL, Vector)",
+    "categorySlug": "databases"
+  },
+  {
+    "name": "CockroachDB Cloud",
+    "url": "https://www.cockroachlabs.com/get-started-cockroachdb",
+    "pricingModel": "freemium",
+    "summary": "Distributed SQL database that's Postgres wire-compatible, designed for resilience and horizontal scale.",
+    "freeTier": "Free tier with 10GiB storage and 50M request units/month.",
+    "paidFrom": "Standard plan billed on usage above free tier.",
+    "tags": [
+      "distributed-sql",
+      "postgres-compatible",
+      "horizontal-scale"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Databases (SQL, NoSQL, Vector)",
+    "categorySlug": "databases"
+  },
+  {
+    "name": "Turso",
+    "url": "https://turso.tech",
+    "pricingModel": "freemium",
+    "summary": "Edge-replicated SQLite database (built on libSQL) for low-latency reads close to users.",
+    "freeTier": "500 databases, 9GB total storage, 1B row reads/month on free tier.",
+    "paidFrom": "Scaler plan from $29/month.",
+    "tags": [
+      "sqlite",
+      "edge-db",
+      "libsql"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Databases (SQL, NoSQL, Vector)",
+    "categorySlug": "databases"
+  },
+  {
+    "name": "Pinecone",
+    "url": "https://www.pinecone.io",
+    "pricingModel": "freemium",
+    "summary": "Managed vector database purpose-built for similarity search and RAG/AI applications.",
+    "freeTier": "Starter tier free: 1 project, ~2GB storage (serverless), limited read/write units.",
+    "paidFrom": "Standard plan billed on usage.",
+    "tags": [
+      "vector-db",
+      "ai",
+      "rag",
+      "embeddings"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Databases (SQL, NoSQL, Vector)",
+    "categorySlug": "databases"
+  },
+  {
+    "name": "Weaviate Cloud",
+    "url": "https://weaviate.io",
+    "pricingModel": "freemium",
+    "summary": "Open-source vector database with managed cloud hosting and hybrid (vector + keyword) search.",
+    "freeTier": "Sandbox cluster free for 14 days; open-source self-hosted version is free indefinitely.",
+    "paidFrom": "Serverless cloud billed on usage.",
+    "tags": [
+      "vector-db",
+      "open-source",
+      "hybrid-search"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Databases (SQL, NoSQL, Vector)",
+    "categorySlug": "databases"
+  },
+  {
+    "name": "Astra DB (DataStax)",
+    "url": "https://www.datastax.com/products/datastax-astra",
+    "pricingModel": "freemium",
+    "summary": "Managed Cassandra-based database with vector search support, built for high-scale NoSQL workloads.",
+    "freeTier": "25M reads/writes and 25GB storage free per month, no expiry.",
+    "paidFrom": "Pay-as-you-go beyond free monthly allowance.",
+    "tags": [
+      "cassandra",
+      "nosql",
+      "vector-search"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Databases (SQL, NoSQL, Vector)",
+    "categorySlug": "databases"
+  },
+  {
+    "name": "ElephantSQL (Postgres)",
+    "url": "https://www.elephantsql.com",
+    "pricingModel": "freemium",
+    "summary": "Simple managed PostgreSQL hosting with a small permanently-free tier, good for quick prototypes.",
+    "freeTier": "20MB storage, shared instance, no time limit.",
+    "paidFrom": "Paid plans from ~$9/month.",
+    "tags": [
+      "postgres",
+      "simple-hosting"
+    ],
+    "lastVerified": "2026-03-01",
+    "category": "Databases (SQL, NoSQL, Vector)",
+    "categorySlug": "databases"
+  },
+  {
+    "name": "Xata",
+    "url": "https://xata.io",
+    "pricingModel": "freemium",
+    "summary": "Serverless Postgres platform with built-in full-text search, file attachments, and branching.",
+    "freeTier": "Free tier with limited storage and request quotas for small projects.",
+    "paidFrom": "Pro plan billed on usage.",
+    "tags": [
+      "postgres",
+      "serverless",
+      "full-text-search"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Databases (SQL, NoSQL, Vector)",
+    "categorySlug": "databases"
+  },
+  {
+    "name": "Figma",
+    "url": "https://www.figma.com",
+    "pricingModel": "freemium",
+    "summary": "Collaborative interface design tool with prototyping, dev handoff, and a huge community plugin ecosystem.",
+    "freeTier": "Free for up to 3 collaborative design files, unlimited personal files.",
+    "paidFrom": "Professional plan from $12/editor/month.",
+    "tags": [
+      "ui-design",
+      "prototyping",
+      "collaboration"
+    ],
+    "lastVerified": "2026-06-01",
+    "category": "Design, Prototyping & UI Assets",
+    "categorySlug": "design-prototyping"
+  },
+  {
+    "name": "Canva",
+    "url": "https://www.canva.com",
+    "pricingModel": "freemium",
+    "summary": "Drag-and-drop design tool for social graphics, presentations, and marketing assets.",
+    "freeTier": "Free plan with thousands of templates and core editing tools.",
+    "paidFrom": "Pro plan from $12.99/month.",
+    "tags": [
+      "graphic-design",
+      "templates",
+      "marketing"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Design, Prototyping & UI Assets",
+    "categorySlug": "design-prototyping"
+  },
+  {
+    "name": "Penpot",
+    "url": "https://penpot.app",
+    "pricingModel": "open-source",
+    "summary": "Open-source design and prototyping platform, a self-hostable alternative to Figma built on open web standards (SVG).",
+    "freeTier": "Free cloud plan with generous limits; fully free self-hosted.",
+    "tags": [
+      "ui-design",
+      "open-source",
+      "self-hosted",
+      "prototyping"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Design, Prototyping & UI Assets",
+    "categorySlug": "design-prototyping"
+  },
+  {
+    "name": "Storybook",
+    "url": "https://storybook.js.org",
+    "pricingModel": "open-source",
+    "summary": "Open-source tool for building, documenting, and testing UI components in isolation.",
+    "freeTier": "Completely free and open source.",
+    "tags": [
+      "component-library",
+      "open-source",
+      "documentation"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Design, Prototyping & UI Assets",
+    "categorySlug": "design-prototyping"
+  },
+  {
+    "name": "unDraw",
+    "url": "https://undraw.co",
+    "pricingModel": "free",
+    "summary": "Open-source illustration library with a consistent style, customizable colors, free for commercial use.",
+    "freeTier": "Unlimited free downloads, no attribution required.",
+    "tags": [
+      "illustrations",
+      "open-source",
+      "design-assets"
+    ],
+    "lastVerified": "2026-03-01",
+    "category": "Design, Prototyping & UI Assets",
+    "categorySlug": "design-prototyping"
+  },
+  {
+    "name": "Heroicons",
+    "url": "https://heroicons.com",
+    "pricingModel": "free",
+    "summary": "Free, MIT-licensed SVG icon set by the makers of Tailwind CSS, with solid and outline variants.",
+    "freeTier": "Free, unlimited, open source (MIT license).",
+    "tags": [
+      "icons",
+      "open-source",
+      "tailwind"
+    ],
+    "lastVerified": "2026-03-01",
+    "category": "Design, Prototyping & UI Assets",
+    "categorySlug": "design-prototyping"
+  },
+  {
+    "name": "Lucide",
+    "url": "https://lucide.dev",
+    "pricingModel": "free",
+    "summary": "Community-maintained fork of Feather Icons with a much larger, actively growing icon set.",
+    "freeTier": "Free, open source (ISC license), 1,500+ icons.",
+    "tags": [
+      "icons",
+      "open-source"
+    ],
+    "lastVerified": "2026-03-01",
+    "category": "Design, Prototyping & UI Assets",
+    "categorySlug": "design-prototyping"
+  },
+  {
+    "name": "Coolors",
+    "url": "https://coolors.co",
+    "pricingModel": "freemium",
+    "summary": "Fast color palette generator with export to CSS, image extraction, and accessibility checks.",
+    "freeTier": "Free palette generation, export, and basic exploration tools.",
+    "paidFrom": "Pro plan from $0.83/month (annual).",
+    "tags": [
+      "color-palette",
+      "design-tools"
+    ],
+    "lastVerified": "2026-02-01",
+    "category": "Design, Prototyping & UI Assets",
+    "categorySlug": "design-prototyping"
+  },
+  {
+    "name": "Maze",
+    "url": "https://maze.co",
+    "pricingModel": "freemium",
+    "summary": "Rapid user testing and product research platform that connects to Figma prototypes.",
+    "freeTier": "Free plan with limited monthly tests/responses.",
+    "paidFrom": "Starter plan from $99/month.",
+    "tags": [
+      "user-testing",
+      "research",
+      "figma-integration"
+    ],
+    "lastVerified": "2026-03-01",
+    "category": "Design, Prototyping & UI Assets",
+    "categorySlug": "design-prototyping"
+  },
+  {
+    "name": "Excalidraw",
+    "url": "https://excalidraw.com",
+    "pricingModel": "free",
+    "summary": "Virtual whiteboard for sketching diagrams with a hand-drawn aesthetic, open source and browser-based.",
+    "freeTier": "Free to use in-browser, no account required; open-source self-hosting also free.",
+    "tags": [
+      "whiteboard",
+      "diagrams",
+      "open-source"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Design, Prototyping & UI Assets",
+    "categorySlug": "design-prototyping"
+  },
+  {
+    "name": "Cloudflare DNS",
+    "url": "https://www.cloudflare.com/dns",
+    "pricingModel": "free",
+    "summary": "Fast, free authoritative DNS hosting with built-in DDoS protection and analytics.",
+    "freeTier": "Unlimited domains on free DNS, free SSL/TLS, free DDoS protection.",
+    "tags": [
+      "dns",
+      "ddos-protection",
+      "ssl"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Domains, DNS & SSL/TLS",
+    "categorySlug": "domains-dns-ssl"
+  },
+  {
+    "name": "Let's Encrypt",
+    "url": "https://letsencrypt.org",
+    "pricingModel": "free",
+    "summary": "Free, automated, open certificate authority issuing domain-validated TLS certificates, used by most of the web.",
+    "freeTier": "Completely free, unlimited certificates, automated renewal via ACME protocol.",
+    "tags": [
+      "ssl",
+      "tls",
+      "certificate-authority",
+      "automation"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Domains, DNS & SSL/TLS",
+    "categorySlug": "domains-dns-ssl"
+  },
+  {
+    "name": "ZeroSSL",
+    "url": "https://zerossl.com",
+    "pricingModel": "freemium",
+    "summary": "Alternative free SSL certificate provider with a web dashboard and ACME support.",
+    "freeTier": "Free 90-day certificates with manual or automated renewal.",
+    "paidFrom": "Paid plans add longer validity and wildcard support.",
+    "tags": [
+      "ssl",
+      "tls",
+      "certificate-authority"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Domains, DNS & SSL/TLS",
+    "categorySlug": "domains-dns-ssl"
+  },
+  {
+    "name": "Cloudflare Registrar",
+    "url": "https://www.cloudflare.com/products/registrar",
+    "pricingModel": "free",
+    "summary": "Domain registration at wholesale cost with no markup, bundled with Cloudflare's DNS and security features.",
+    "freeTier": "No markup on domain pricing (you pay registry cost only, no add-on fees).",
+    "tags": [
+      "domain-registration",
+      "dns",
+      "wholesale-pricing"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Domains, DNS & SSL/TLS",
+    "categorySlug": "domains-dns-ssl"
+  },
+  {
+    "name": "Namecheap",
+    "url": "https://www.namecheap.com",
+    "pricingModel": "freemium",
+    "summary": "Popular domain registrar with free WHOIS privacy and DNS management included on most TLDs.",
+    "freeTier": "Free DNS management and WHOIS privacy guard with domain purchase.",
+    "paidFrom": "Domain pricing varies by TLD.",
+    "tags": [
+      "domain-registration",
+      "whois-privacy",
+      "dns"
+    ],
+    "lastVerified": "2026-03-01",
+    "category": "Domains, DNS & SSL/TLS",
+    "categorySlug": "domains-dns-ssl"
+  },
+  {
+    "name": "DuckDNS",
+    "url": "https://www.duckdns.org",
+    "pricingModel": "free",
+    "summary": "Free dynamic DNS service for giving a home server or self-hosted project a stable subdomain.",
+    "freeTier": "Free subdomains under duckdns.org with dynamic IP updates.",
+    "tags": [
+      "dynamic-dns",
+      "self-hosting",
+      "home-server"
+    ],
+    "lastVerified": "2026-03-01",
+    "category": "Domains, DNS & SSL/TLS",
+    "categorySlug": "domains-dns-ssl"
+  },
+  {
+    "name": "Freenom (historical)",
+    "url": "https://www.freenom.com",
+    "pricingModel": "free",
+    "summary": "Historically offered free domains on select TLDs (.tk, .ml, .ga, .cf, .gq); service availability has fluctuated.",
+    "freeTier": "Previously free domains on certain ccTLDs; verify current registration status before relying on this.",
+    "tags": [
+      "domain-registration",
+      "free-tld"
+    ],
+    "notes": "Service availability and trustworthiness have been inconsistent; double-check current status before use.",
+    "lastVerified": "2026-01-15",
+    "category": "Domains, DNS & SSL/TLS",
+    "categorySlug": "domains-dns-ssl"
+  },
+  {
+    "name": "DNSimple",
+    "url": "https://dnsimple.com",
+    "pricingModel": "freemium",
+    "summary": "DNS management and domain registration with a clean API, popular for automating DNS-as-code workflows.",
+    "freeTier": "30-day free trial; no perpetual free tier for paid plans.",
+    "paidFrom": "Personal plan from $5/month.",
+    "tags": [
+      "dns",
+      "domain-registration",
+      "dns-api"
+    ],
+    "lastVerified": "2026-03-01",
+    "category": "Domains, DNS & SSL/TLS",
+    "categorySlug": "domains-dns-ssl"
+  },
+  {
+    "name": "SendGrid",
+    "url": "https://sendgrid.com",
+    "pricingModel": "freemium",
+    "summary": "Transactional and marketing email delivery API with templates, analytics, and deliverability tooling.",
+    "freeTier": "100 emails/day free, forever.",
+    "paidFrom": "Essentials plan from $19.95/month.",
+    "tags": [
+      "email",
+      "transactional",
+      "marketing-email"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Email, SMS & Transactional Messaging",
+    "categorySlug": "email-messaging"
+  },
+  {
+    "name": "Mailgun",
+    "url": "https://www.mailgun.com",
+    "pricingModel": "freemium",
+    "summary": "Developer-focused email API for sending, receiving, validating, and tracking email at scale.",
+    "freeTier": "Free trial credits for new accounts; ongoing free tier limited to a small monthly send volume.",
+    "paidFrom": "Foundation plan from $15/month.",
+    "tags": [
+      "email",
+      "transactional",
+      "api"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Email, SMS & Transactional Messaging",
+    "categorySlug": "email-messaging"
+  },
+  {
+    "name": "Resend",
+    "url": "https://resend.com",
+    "pricingModel": "freemium",
+    "summary": "Modern transactional email API built with developer experience in mind, with React Email templating support.",
+    "freeTier": "3,000 emails/month free, 1 domain.",
+    "paidFrom": "Pro plan from $20/month.",
+    "tags": [
+      "email",
+      "transactional",
+      "react-email"
+    ],
+    "lastVerified": "2026-06-01",
+    "category": "Email, SMS & Transactional Messaging",
+    "categorySlug": "email-messaging"
+  },
+  {
+    "name": "Postmark",
+    "url": "https://postmarkapp.com",
+    "pricingModel": "freemium",
+    "summary": "Transactional email delivery focused on speed and deliverability, with detailed bounce/spam analytics.",
+    "freeTier": "100 emails/month free trial-style tier.",
+    "paidFrom": "Paid plans from $15/month for 10,000 emails.",
+    "tags": [
+      "email",
+      "transactional",
+      "deliverability"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Email, SMS & Transactional Messaging",
+    "categorySlug": "email-messaging"
+  },
+  {
+    "name": "Amazon SES",
+    "url": "https://aws.amazon.com/ses",
+    "pricingModel": "freemium",
+    "summary": "Highly scalable, low-cost transactional email service from AWS, often used as a backend by other ESPs.",
+    "freeTier": "62,000 emails/month free when sent from an EC2-hosted application (first 12 months).",
+    "paidFrom": "$0.10 per 1,000 emails beyond free tier.",
+    "tags": [
+      "email",
+      "transactional",
+      "aws",
+      "low-cost"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Email, SMS & Transactional Messaging",
+    "categorySlug": "email-messaging"
+  },
+  {
+    "name": "Twilio",
+    "url": "https://www.twilio.com",
+    "pricingModel": "freemium",
+    "summary": "SMS, voice, video, and WhatsApp messaging APIs, the most widely integrated communications platform.",
+    "freeTier": "Free trial credit for new accounts; no perpetual free production tier.",
+    "paidFrom": "Pay-as-you-go per message/minute, varies by country.",
+    "tags": [
+      "sms",
+      "voice",
+      "whatsapp",
+      "api"
+    ],
+    "lastVerified": "2026-06-01",
+    "category": "Email, SMS & Transactional Messaging",
+    "categorySlug": "email-messaging"
+  },
+  {
+    "name": "Vonage (Nexmo)",
+    "url": "https://www.vonage.com/communications-apis",
+    "pricingModel": "freemium",
+    "summary": "SMS, voice, and verification APIs, similar in scope to Twilio with competitive per-message pricing.",
+    "freeTier": "Trial credit for new accounts.",
+    "paidFrom": "Pay-as-you-go per message/minute.",
+    "tags": [
+      "sms",
+      "voice",
+      "verification"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Email, SMS & Transactional Messaging",
+    "categorySlug": "email-messaging"
+  },
+  {
+    "name": "OneSignal",
+    "url": "https://onesignal.com",
+    "pricingModel": "freemium",
+    "summary": "Push notifications, in-app messaging, and email for mobile and web apps.",
+    "freeTier": "Free for up to 10,000 subscribers on push notifications.",
+    "paidFrom": "Growth plan billed by subscriber count beyond free tier.",
+    "tags": [
+      "push-notifications",
+      "mobile",
+      "in-app-messaging"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Email, SMS & Transactional Messaging",
+    "categorySlug": "email-messaging"
+  },
+  {
+    "name": "Loops",
+    "url": "https://loops.so",
+    "pricingModel": "freemium",
+    "summary": "Email platform purpose-built for SaaS startups, combining transactional and marketing email in one tool.",
+    "freeTier": "Free tier up to 1,000 contacts and 2,500 emails/month.",
+    "paidFrom": "Basic plan from $35/month.",
+    "tags": [
+      "email",
+      "saas",
+      "marketing-email"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Email, SMS & Transactional Messaging",
+    "categorySlug": "email-messaging"
+  },
+  {
+    "name": "Plunk",
+    "url": "https://www.useplunk.com",
+    "pricingModel": "freemium",
+    "summary": "Open-source-friendly transactional and marketing email platform for startups and indie developers.",
+    "freeTier": "Free tier with limited monthly email sends.",
+    "paidFrom": "Pro plan billed monthly beyond free quota.",
+    "tags": [
+      "email",
+      "open-source",
+      "marketing-email"
+    ],
+    "lastVerified": "2026-03-01",
+    "category": "Email, SMS & Transactional Messaging",
+    "categorySlug": "email-messaging"
+  },
+  {
+    "name": "LaunchDarkly",
+    "url": "https://launchdarkly.com",
+    "pricingModel": "freemium",
+    "summary": "The most established feature flag management platform, with targeting rules, experimentation, and audit logs.",
+    "freeTier": "Free tier for up to 1,000 monthly context instances (small projects).",
+    "paidFrom": "Foundation plan billed per seat/usage.",
+    "tags": [
+      "feature-flags",
+      "experimentation",
+      "rollouts"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Feature Flags & Experimentation",
+    "categorySlug": "feature-flags-experimentation"
+  },
+  {
+    "name": "PostHog Feature Flags",
+    "url": "https://posthog.com/feature-flags",
+    "pricingModel": "freemium",
+    "summary": "Feature flagging built into the broader PostHog product analytics suite, with usage-based pricing.",
+    "freeTier": "1M flag requests/month free (shared with PostHog's overall free event quota).",
+    "paidFrom": "Pay-as-you-go beyond free monthly quota.",
+    "tags": [
+      "feature-flags",
+      "open-source",
+      "product-analytics"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Feature Flags & Experimentation",
+    "categorySlug": "feature-flags-experimentation"
+  },
+  {
+    "name": "Flagsmith",
+    "url": "https://www.flagsmith.com",
+    "pricingModel": "freemium",
+    "summary": "Open-source feature flag and remote config platform, self-hostable or managed cloud.",
+    "freeTier": "Self-hosted fully free; cloud free tier includes 50,000 API requests/month.",
+    "paidFrom": "Startup plan from $45/month.",
+    "tags": [
+      "feature-flags",
+      "open-source",
+      "self-hosted"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Feature Flags & Experimentation",
+    "categorySlug": "feature-flags-experimentation"
+  },
+  {
+    "name": "Unleash",
+    "url": "https://www.getunleash.io",
+    "pricingModel": "freemium",
+    "summary": "Open-source feature flag platform built for enterprise-scale rollouts, with a strong self-hosted option.",
+    "freeTier": "Self-hosted Open Source edition fully free; Unleash Cloud free tier for small teams.",
+    "paidFrom": "Pro plan billed monthly.",
+    "tags": [
+      "feature-flags",
+      "open-source",
+      "enterprise"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Feature Flags & Experimentation",
+    "categorySlug": "feature-flags-experimentation"
+  },
+  {
+    "name": "Statsig",
+    "url": "https://statsig.com",
+    "pricingModel": "freemium",
+    "summary": "Feature flags, experimentation, and product analytics in one platform, built by ex-Facebook engineers.",
+    "freeTier": "Free tier with generous monthly event allowance.",
+    "paidFrom": "Pay-as-you-go billing beyond free quota.",
+    "tags": [
+      "feature-flags",
+      "experimentation",
+      "analytics"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Feature Flags & Experimentation",
+    "categorySlug": "feature-flags-experimentation"
+  },
+  {
+    "name": "GrowthBook",
+    "url": "https://www.growthbook.io",
+    "pricingModel": "freemium",
+    "summary": "Open-source feature flagging and A/B testing platform with a focus on warehouse-native analytics.",
+    "freeTier": "Self-hosted fully free; cloud free tier for small teams.",
+    "paidFrom": "Pro plan billed monthly.",
+    "tags": [
+      "feature-flags",
+      "ab-testing",
+      "open-source"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Feature Flags & Experimentation",
+    "categorySlug": "feature-flags-experimentation"
+  },
+  {
+    "name": "Tally",
+    "url": "https://tally.so",
+    "pricingModel": "freemium",
+    "summary": "Notion-like form builder with unlimited free forms and responses, no watermark on the free tier.",
+    "freeTier": "Unlimited forms and submissions free, no branding required.",
+    "paidFrom": "Pro plan from $29/month for advanced logic/integrations.",
+    "tags": [
+      "forms",
+      "surveys",
+      "no-code"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Forms, Surveys & Customer Feedback",
+    "categorySlug": "forms-feedback"
+  },
+  {
+    "name": "Typeform",
+    "url": "https://www.typeform.com",
+    "pricingModel": "freemium",
+    "summary": "Conversational, one-question-at-a-time forms with polished design and branching logic.",
+    "freeTier": "Free plan: unlimited typeforms, 10 responses/month.",
+    "paidFrom": "Basic plan from $25/month.",
+    "tags": [
+      "forms",
+      "surveys",
+      "conversational-ui"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Forms, Surveys & Customer Feedback",
+    "categorySlug": "forms-feedback"
+  },
+  {
+    "name": "Google Forms",
+    "url": "https://www.google.com/forms/about",
+    "pricingModel": "free",
+    "summary": "Free, simple form/survey builder integrated with Google Sheets for response collection.",
+    "freeTier": "Completely free with a Google account, unlimited forms and responses.",
+    "tags": [
+      "forms",
+      "surveys",
+      "google"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Forms, Surveys & Customer Feedback",
+    "categorySlug": "forms-feedback"
+  },
+  {
+    "name": "Formspree",
+    "url": "https://formspree.io",
+    "pricingModel": "freemium",
+    "summary": "Backend-as-a-service for HTML forms \u2014 handles submissions, spam filtering, and email notifications without server code.",
+    "freeTier": "50 submissions/month free.",
+    "paidFrom": "Starter plan from $10/month.",
+    "tags": [
+      "forms",
+      "backend-as-a-service",
+      "static-sites"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Forms, Surveys & Customer Feedback",
+    "categorySlug": "forms-feedback"
+  },
+  {
+    "name": "Getform",
+    "url": "https://getform.io",
+    "pricingModel": "freemium",
+    "summary": "Form endpoint service for static sites and JAMstack apps, with spam filtering and file upload support.",
+    "freeTier": "50 submissions/month free, 1 form endpoint.",
+    "paidFrom": "Basic plan from $9/month.",
+    "tags": [
+      "forms",
+      "backend-as-a-service",
+      "jamstack"
+    ],
+    "lastVerified": "2026-03-01",
+    "category": "Forms, Surveys & Customer Feedback",
+    "categorySlug": "forms-feedback"
+  },
+  {
+    "name": "Canny",
+    "url": "https://canny.io",
+    "pricingModel": "freemium",
+    "summary": "Feature request and feedback board for product teams to collect, prioritize, and close the loop with users.",
+    "freeTier": "Starter plan free for small teams with limited tracked users.",
+    "paidFrom": "Growth plan from $79/month.",
+    "tags": [
+      "feedback",
+      "feature-requests",
+      "product-management"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Forms, Surveys & Customer Feedback",
+    "categorySlug": "forms-feedback"
+  },
+  {
+    "name": "Hotjar",
+    "url": "https://www.hotjar.com",
+    "pricingModel": "freemium",
+    "summary": "Heatmaps, session recordings, and on-site surveys for understanding user behavior.",
+    "freeTier": "Basic plan free with limited daily sessions tracked.",
+    "paidFrom": "Plus plan from $39/month.",
+    "tags": [
+      "heatmaps",
+      "session-recording",
+      "ux-research"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Forms, Surveys & Customer Feedback",
+    "categorySlug": "forms-feedback"
+  },
+  {
+    "name": "SurveyMonkey",
+    "url": "https://www.surveymonkey.com",
+    "pricingModel": "freemium",
+    "summary": "Established survey platform with templates, logic branching, and analysis tools.",
+    "freeTier": "Free plan: up to 10 questions and 25 responses per survey.",
+    "paidFrom": "Standard plan from $25/month.",
+    "tags": [
+      "surveys",
+      "market-research"
+    ],
+    "lastVerified": "2026-03-01",
+    "category": "Forms, Surveys & Customer Feedback",
+    "categorySlug": "forms-feedback"
+  },
+  {
+    "name": "Contentful",
+    "url": "https://www.contentful.com",
+    "pricingModel": "freemium",
+    "summary": "API-first headless CMS with flexible content modeling and a large app/integration marketplace.",
+    "freeTier": "Free tier for up to 5 users, 25k records, 2 locales.",
+    "paidFrom": "Basic plan from $300/month.",
+    "tags": [
+      "headless-cms",
+      "api-first",
+      "content-modeling"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Headless CMS & Content Management",
+    "categorySlug": "headless-cms"
+  },
+  {
+    "name": "Sanity",
+    "url": "https://www.sanity.io",
+    "pricingModel": "freemium",
+    "summary": "Structured content platform with a real-time collaborative editor and a highly customizable Studio UI.",
+    "freeTier": "Free tier with 3 users, 10k documents, 5GB assets.",
+    "paidFrom": "Growth plan from $15/month.",
+    "tags": [
+      "headless-cms",
+      "real-time",
+      "customizable"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Headless CMS & Content Management",
+    "categorySlug": "headless-cms"
+  },
+  {
+    "name": "Strapi",
+    "url": "https://strapi.io",
+    "pricingModel": "open-source",
+    "summary": "Open-source, self-hostable Node.js headless CMS with a fully customizable admin panel and REST/GraphQL APIs.",
+    "freeTier": "Community edition completely free, self-hosted.",
+    "paidFrom": "Strapi Cloud from $15/month for managed hosting.",
+    "tags": [
+      "headless-cms",
+      "open-source",
+      "self-hosted",
+      "nodejs"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Headless CMS & Content Management",
+    "categorySlug": "headless-cms"
+  },
+  {
+    "name": "Prismic",
+    "url": "https://prismic.io",
+    "pricingModel": "freemium",
+    "summary": "Headless CMS with a visual page builder (Slice Machine) for marketing teams and developers together.",
+    "freeTier": "Community plan: 1 user, unlimited API calls, documents, and custom types.",
+    "paidFrom": "Starter plan from $7/month/user.",
+    "tags": [
+      "headless-cms",
+      "visual-builder",
+      "marketing"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Headless CMS & Content Management",
+    "categorySlug": "headless-cms"
+  },
+  {
+    "name": "Kontent.ai",
+    "url": "https://kontent.ai",
+    "pricingModel": "freemium",
+    "summary": "Content-as-a-Service platform balancing headless CMS benefits with marketer-friendly authoring tools.",
+    "freeTier": "Developer plan: 2 users, unlimited projects, 2 environments each, 500 content items, 2 languages.",
+    "paidFrom": "Business plan billed annually, custom pricing.",
+    "tags": [
+      "headless-cms",
+      "content-as-a-service"
+    ],
+    "lastVerified": "2026-03-01",
+    "category": "Headless CMS & Content Management",
+    "categorySlug": "headless-cms"
+  },
+  {
+    "name": "Directus",
+    "url": "https://directus.io",
+    "pricingModel": "open-source",
+    "summary": "Open-source data platform that wraps any SQL database with a REST/GraphQL API and admin app instantly.",
+    "freeTier": "Fully free and open source, self-hosted.",
+    "paidFrom": "Directus Cloud from $15/month for managed hosting.",
+    "tags": [
+      "headless-cms",
+      "open-source",
+      "database-wrapper"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Headless CMS & Content Management",
+    "categorySlug": "headless-cms"
+  },
+  {
+    "name": "Forestry.io",
+    "url": "https://forestry.io",
+    "pricingModel": "freemium",
+    "summary": "Git-based headless CMS giving content editors a friendly UI over markdown content in a Git repo.",
+    "freeTier": "Free for up to 3 sites, 3 editors, with instant previews.",
+    "paidFrom": "Paid plans add more sites/editors.",
+    "tags": [
+      "headless-cms",
+      "git-based",
+      "markdown"
+    ],
+    "lastVerified": "2026-02-01",
+    "category": "Headless CMS & Content Management",
+    "categorySlug": "headless-cms"
+  },
+  {
+    "name": "Builder.io",
+    "url": "https://www.builder.io",
+    "pricingModel": "freemium",
+    "summary": "Visual headless CMS and drag-and-drop page builder that integrates with React, Vue, and other frameworks.",
+    "freeTier": "Free tier for individuals with limited monthly sessions/seats.",
+    "paidFrom": "Growth plan billed monthly.",
+    "tags": [
+      "headless-cms",
+      "visual-builder",
+      "page-builder"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Headless CMS & Content Management",
+    "categorySlug": "headless-cms"
+  },
+  {
+    "name": "GitHub Student Developer Pack",
+    "url": "https://education.github.com/pack",
+    "pricingModel": "free",
+    "summary": "Bundle of free access/credits to dozens of developer tools (domains, hosting, APIs, IDEs) for verified students.",
+    "freeTier": "Free for the duration of verified student status; bundle composition changes periodically.",
+    "tags": [
+      "student-pack",
+      "bundled-offers",
+      "education"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Learning, Education & Student Developer Packs",
+    "categorySlug": "learning-education"
+  },
+  {
+    "name": "freeCodeCamp",
+    "url": "https://www.freecodecamp.org",
+    "pricingModel": "free",
+    "summary": "Full-length, project-based curriculum covering web development, data science, and more, with free certifications.",
+    "freeTier": "100% free, nonprofit, ad-light platform.",
+    "tags": [
+      "learning",
+      "free-certifications",
+      "nonprofit"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Learning, Education & Student Developer Packs",
+    "categorySlug": "learning-education"
+  },
+  {
+    "name": "The Odin Project",
+    "url": "https://www.theodinproject.com",
+    "pricingModel": "free",
+    "summary": "Free, open-source full-stack web development curriculum built and maintained by its community.",
+    "freeTier": "Completely free, open source curriculum.",
+    "tags": [
+      "learning",
+      "open-source",
+      "full-stack"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Learning, Education & Student Developer Packs",
+    "categorySlug": "learning-education"
+  },
+  {
+    "name": "MDN Web Docs",
+    "url": "https://developer.mozilla.org",
+    "pricingModel": "free",
+    "summary": "Mozilla's comprehensive, authoritative reference documentation for HTML, CSS, JavaScript, and web APIs.",
+    "freeTier": "Completely free reference and learning content.",
+    "tags": [
+      "documentation",
+      "reference",
+      "web-standards"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Learning, Education & Student Developer Packs",
+    "categorySlug": "learning-education"
+  },
+  {
+    "name": "Roadmap.sh",
+    "url": "https://roadmap.sh",
+    "pricingModel": "freemium",
+    "summary": "Community-driven learning roadmaps for dozens of tech career paths, with interactive guides and projects.",
+    "freeTier": "Free roadmaps and guides; some premium courses/projects are paid.",
+    "paidFrom": "Pro plan from ~$9/month for premium content.",
+    "tags": [
+      "learning",
+      "roadmaps",
+      "career-paths"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Learning, Education & Student Developer Packs",
+    "categorySlug": "learning-education"
+  },
+  {
+    "name": "Exercism",
+    "url": "https://exercism.org",
+    "pricingModel": "free",
+    "summary": "Free coding exercises across 70+ languages with human mentoring feedback on submitted solutions.",
+    "freeTier": "Completely free, nonprofit-backed.",
+    "tags": [
+      "learning",
+      "coding-exercises",
+      "mentoring"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Learning, Education & Student Developer Packs",
+    "categorySlug": "learning-education"
+  },
+  {
+    "name": "Coursera (Financial Aid / Free Audits)",
+    "url": "https://www.coursera.org",
+    "pricingModel": "freemium",
+    "summary": "University-partnered courses and certificates; most courses can be audited free, with paid certificates.",
+    "freeTier": "Free audit access to course materials (no certificate) for most courses.",
+    "paidFrom": "Specializations from ~$49/month, or pay-per-course certificates.",
+    "tags": [
+      "learning",
+      "university-courses",
+      "certificates"
+    ],
+    "lastVerified": "2026-03-01",
+    "category": "Learning, Education & Student Developer Packs",
+    "categorySlug": "learning-education"
+  },
+  {
+    "name": "Khan Academy",
+    "url": "https://www.khanacademy.org",
+    "pricingModel": "free",
+    "summary": "Free courses spanning computer science fundamentals, math, and more, run by a nonprofit.",
+    "freeTier": "100% free, nonprofit.",
+    "tags": [
+      "learning",
+      "nonprofit",
+      "computer-science"
+    ],
+    "lastVerified": "2026-03-01",
+    "category": "Learning, Education & Student Developer Packs",
+    "categorySlug": "learning-education"
+  },
+  {
+    "name": "LeetCode",
+    "url": "https://leetcode.com",
+    "pricingModel": "freemium",
+    "summary": "Coding interview practice platform with thousands of algorithm/data-structure problems.",
+    "freeTier": "Free tier with access to most problems and basic discussion forums.",
+    "paidFrom": "Premium plan from $35/month for company-tagged problems and extra solutions.",
+    "tags": [
+      "interview-prep",
+      "algorithms",
+      "practice-problems"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Learning, Education & Student Developer Packs",
+    "categorySlug": "learning-education"
+  },
+  {
+    "name": "JetBrains Student License",
+    "url": "https://www.jetbrains.com/community/education",
+    "pricingModel": "free",
+    "summary": "Free access to the full JetBrains IDE suite (IntelliJ, PyCharm, WebStorm, etc.) for verified students/educators.",
+    "freeTier": "Free for the duration of verified academic status.",
+    "tags": [
+      "ide",
+      "student-license",
+      "jetbrains"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Learning, Education & Student Developer Packs",
+    "categorySlug": "learning-education"
+  },
+  {
+    "name": "Zapier",
+    "url": "https://zapier.com",
+    "pricingModel": "freemium",
+    "summary": "The original no-code automation platform connecting thousands of apps with trigger-action workflows.",
+    "freeTier": "100 tasks/month free, single-step Zaps only.",
+    "paidFrom": "Starter plan from $19.99/month.",
+    "tags": [
+      "automation",
+      "no-code",
+      "integrations"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Low-Code, No-Code & Automation",
+    "categorySlug": "automation-low-code"
+  },
+  {
+    "name": "Make (formerly Integromat)",
+    "url": "https://www.make.com",
+    "pricingModel": "freemium",
+    "summary": "Visual workflow automation builder with more granular branching/looping logic than typical no-code tools.",
+    "freeTier": "1,000 operations/month free.",
+    "paidFrom": "Core plan from $9/month.",
+    "tags": [
+      "automation",
+      "no-code",
+      "visual-workflows"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Low-Code, No-Code & Automation",
+    "categorySlug": "automation-low-code"
+  },
+  {
+    "name": "n8n",
+    "url": "https://n8n.io",
+    "pricingModel": "freemium",
+    "summary": "Open-source, self-hostable workflow automation tool with a fair-code license and code-step support.",
+    "freeTier": "Self-hosted is free and unlimited; n8n Cloud has a free trial.",
+    "paidFrom": "Cloud Starter plan from $20/month.",
+    "tags": [
+      "automation",
+      "open-source",
+      "self-hosted",
+      "fair-code"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Low-Code, No-Code & Automation",
+    "categorySlug": "automation-low-code"
+  },
+  {
+    "name": "Pipedream",
+    "url": "https://pipedream.com",
+    "pricingModel": "freemium",
+    "summary": "Developer-focused integration platform combining low-code workflows with full code-step flexibility.",
+    "freeTier": "10,000 invocations/month free.",
+    "paidFrom": "Basic plan from $19/month.",
+    "tags": [
+      "automation",
+      "developer-focused",
+      "code-steps"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Low-Code, No-Code & Automation",
+    "categorySlug": "automation-low-code"
+  },
+  {
+    "name": "Bubble",
+    "url": "https://bubble.io",
+    "pricingModel": "freemium",
+    "summary": "No-code platform for building full web applications visually, including database and workflow logic.",
+    "freeTier": "Free plan for personal/learning projects (Bubble branding, limited capacity).",
+    "paidFrom": "Starter plan from $32/month.",
+    "tags": [
+      "no-code",
+      "app-builder",
+      "database"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Low-Code, No-Code & Automation",
+    "categorySlug": "automation-low-code"
+  },
+  {
+    "name": "Retool",
+    "url": "https://retool.com",
+    "pricingModel": "freemium",
+    "summary": "Low-code platform for building internal tools and admin dashboards quickly by connecting to existing data sources.",
+    "freeTier": "Free for up to 5 users.",
+    "paidFrom": "Team plan from $10/user/month.",
+    "tags": [
+      "low-code",
+      "internal-tools",
+      "admin-dashboards"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Low-Code, No-Code & Automation",
+    "categorySlug": "automation-low-code"
+  },
+  {
+    "name": "Airtable",
+    "url": "https://www.airtable.com",
+    "pricingModel": "freemium",
+    "summary": "Spreadsheet-database hybrid with automation, forms, and views, used for lightweight app-like workflows.",
+    "freeTier": "Free plan: 1,000 records/base, 1GB attachments/base.",
+    "paidFrom": "Team plan from $20/seat/month.",
+    "tags": [
+      "no-code",
+      "database",
+      "spreadsheet"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Low-Code, No-Code & Automation",
+    "categorySlug": "automation-low-code"
+  },
+  {
+    "name": "Activepieces",
+    "url": "https://www.activepieces.com",
+    "pricingModel": "open-source",
+    "summary": "Open-source Zapier alternative for business automation, extensible with custom TypeScript pieces.",
+    "freeTier": "Self-hosted fully free; cloud has a free tier with limited tasks.",
+    "paidFrom": "Cloud plans billed monthly.",
+    "tags": [
+      "automation",
+      "open-source",
+      "self-hosted"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Low-Code, No-Code & Automation",
+    "categorySlug": "automation-low-code"
+  },
+  {
+    "name": "Coupler.io",
+    "url": "https://www.coupler.io",
+    "pricingModel": "freemium",
+    "summary": "Data integration tool that syncs data between apps, spreadsheets, and BI dashboards on a schedule.",
+    "freeTier": "Free tier with limited scheduled syncs.",
+    "paidFrom": "Personal plan from $49/month.",
+    "tags": [
+      "data-integration",
+      "etl",
+      "automation"
+    ],
+    "lastVerified": "2026-03-01",
+    "category": "Low-Code, No-Code & Automation",
+    "categorySlug": "automation-low-code"
+  },
+  {
+    "name": "Sentry",
+    "url": "https://sentry.io",
+    "pricingModel": "freemium",
+    "summary": "Error tracking and performance monitoring across web, mobile, and backend stacks with rich stack-trace context.",
+    "freeTier": "5,000 errors/month, 1 team member, 1 project on free Developer plan.",
+    "paidFrom": "Team plan from $26/month.",
+    "tags": [
+      "error-tracking",
+      "apm",
+      "observability"
+    ],
+    "lastVerified": "2026-06-01",
+    "category": "Monitoring, Logging & Observability",
+    "categorySlug": "monitoring-observability"
+  },
+  {
+    "name": "Better Stack (formerly Better Uptime / Logtail)",
+    "url": "https://betterstack.com",
+    "pricingModel": "freemium",
+    "summary": "Combined uptime monitoring, incident management, and log management platform with on-call alerting.",
+    "freeTier": "Free tier covers limited monitors, log volume, and status pages.",
+    "paidFrom": "Paid plans scale with monitors/log volume.",
+    "tags": [
+      "uptime-monitoring",
+      "logging",
+      "incident-management"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Monitoring, Logging & Observability",
+    "categorySlug": "monitoring-observability"
+  },
+  {
+    "name": "UptimeRobot",
+    "url": "https://uptimerobot.com",
+    "pricingModel": "freemium",
+    "summary": "Simple uptime monitoring with email/SMS alerts and public status pages.",
+    "freeTier": "50 monitors, 5-minute check intervals free.",
+    "paidFrom": "Pro plans from $7/month for 1-minute intervals.",
+    "tags": [
+      "uptime-monitoring",
+      "alerting",
+      "status-page"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Monitoring, Logging & Observability",
+    "categorySlug": "monitoring-observability"
+  },
+  {
+    "name": "Grafana Cloud",
+    "url": "https://grafana.com/products/cloud",
+    "pricingModel": "freemium",
+    "summary": "Managed Grafana, Prometheus (metrics), Loki (logs), and Tempo (traces) for full-stack observability.",
+    "freeTier": "Free tier includes 10k metrics series, 50GB logs, 50GB traces per month.",
+    "paidFrom": "Pro plan billed on usage beyond free quota.",
+    "tags": [
+      "metrics",
+      "logs",
+      "traces",
+      "prometheus",
+      "grafana"
+    ],
+    "lastVerified": "2026-06-01",
+    "category": "Monitoring, Logging & Observability",
+    "categorySlug": "monitoring-observability"
+  },
+  {
+    "name": "New Relic",
+    "url": "https://newrelic.com",
+    "pricingModel": "freemium",
+    "summary": "Full-stack observability platform covering APM, infrastructure, logs, and browser/mobile monitoring.",
+    "freeTier": "100GB data ingest/month free, one full-access user.",
+    "paidFrom": "Pay-as-you-go beyond included data ingest.",
+    "tags": [
+      "apm",
+      "infrastructure-monitoring",
+      "logs"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Monitoring, Logging & Observability",
+    "categorySlug": "monitoring-observability"
+  },
+  {
+    "name": "Datadog",
+    "url": "https://www.datadoghq.com",
+    "pricingModel": "freemium",
+    "summary": "Comprehensive monitoring platform for infrastructure, APM, logs, security, and synthetic testing.",
+    "freeTier": "Free tier for up to 5 hosts with 1-day metric retention.",
+    "paidFrom": "Pro plan from $15/host/month.",
+    "tags": [
+      "apm",
+      "infrastructure-monitoring",
+      "logs",
+      "security"
+    ],
+    "lastVerified": "2026-06-01",
+    "category": "Monitoring, Logging & Observability",
+    "categorySlug": "monitoring-observability"
+  },
+  {
+    "name": "LogRocket",
+    "url": "https://logrocket.com",
+    "pricingModel": "freemium",
+    "summary": "Session replay combined with frontend error/performance monitoring to see exactly what users experienced.",
+    "freeTier": "1,000 sessions/month free.",
+    "paidFrom": "Team plan from $99/month.",
+    "tags": [
+      "session-replay",
+      "frontend-monitoring",
+      "error-tracking"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Monitoring, Logging & Observability",
+    "categorySlug": "monitoring-observability"
+  },
+  {
+    "name": "Highlight.io",
+    "url": "https://www.highlight.io",
+    "pricingModel": "freemium",
+    "summary": "Open-source session replay, error monitoring, and logging platform, self-hostable or cloud-managed.",
+    "freeTier": "Free tier with limited monthly sessions and log/error events.",
+    "paidFrom": "Paid plans scale with session/event volume.",
+    "tags": [
+      "session-replay",
+      "open-source",
+      "logging"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Monitoring, Logging & Observability",
+    "categorySlug": "monitoring-observability"
+  },
+  {
+    "name": "Checkly",
+    "url": "https://www.checklyhq.com",
+    "pricingModel": "freemium",
+    "summary": "Synthetic monitoring and API/E2E testing built on Playwright, with monitoring-as-code workflows.",
+    "freeTier": "Free tier includes limited check runs/month.",
+    "paidFrom": "Team plan billed on check volume.",
+    "tags": [
+      "synthetic-monitoring",
+      "playwright",
+      "api-testing"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Monitoring, Logging & Observability",
+    "categorySlug": "monitoring-observability"
+  },
+  {
+    "name": "PagerDuty",
+    "url": "https://www.pagerduty.com",
+    "pricingModel": "freemium",
+    "summary": "Incident response and on-call alerting platform integrating with most monitoring tools.",
+    "freeTier": "Free tier for up to 5 users with basic on-call scheduling.",
+    "paidFrom": "Professional plan from $21/user/month.",
+    "tags": [
+      "incident-management",
+      "on-call",
+      "alerting"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Monitoring, Logging & Observability",
+    "categorySlug": "monitoring-observability"
+  },
+  {
+    "name": "OpenTelemetry",
+    "url": "https://opentelemetry.io",
+    "pricingModel": "open-source",
+    "summary": "Vendor-neutral open-source standard and SDKs for collecting traces, metrics, and logs across services.",
+    "freeTier": "Fully free and open source; pairs with any backend (Jaeger, Prometheus, Grafana, vendor platforms).",
+    "tags": [
+      "tracing",
+      "metrics",
+      "open-source",
+      "standard"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Monitoring, Logging & Observability",
+    "categorySlug": "monitoring-observability"
+  },
+  {
+    "name": "Jaeger",
+    "url": "https://www.jaegertracing.io",
+    "pricingModel": "open-source",
+    "summary": "Open-source, self-hosted distributed tracing system originally built by Uber, CNCF graduated project.",
+    "freeTier": "Completely free, self-hosted.",
+    "tags": [
+      "tracing",
+      "distributed-systems",
+      "self-hosted",
+      "cncf"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Monitoring, Logging & Observability",
+    "categorySlug": "monitoring-observability"
+  },
+  {
+    "name": "Amazon S3",
+    "url": "https://aws.amazon.com/s3",
+    "pricingModel": "freemium",
+    "summary": "Industry-standard object storage with virtually unlimited scalability and deep AWS ecosystem integration.",
+    "freeTier": "5GB standard storage, 20,000 GET / 2,000 PUT requests free for 12 months.",
+    "paidFrom": "Pay-as-you-go from ~$0.023/GB/month after free tier.",
+    "tags": [
+      "object-storage",
+      "aws",
+      "s3-compatible"
+    ],
+    "lastVerified": "2026-06-01",
+    "category": "Object & File Storage",
+    "categorySlug": "object-storage"
+  },
+  {
+    "name": "Cloudflare R2",
+    "url": "https://www.cloudflare.com/developer-platform/products/r2",
+    "pricingModel": "freemium",
+    "summary": "S3-compatible object storage with zero egress fees, ideal for serving large files without bandwidth surprises.",
+    "freeTier": "10GB storage free/month, 1M Class A and 10M Class B operations free/month.",
+    "paidFrom": "$0.015/GB storage beyond free tier; no egress charges ever.",
+    "tags": [
+      "object-storage",
+      "s3-compatible",
+      "no-egress-fees"
+    ],
+    "lastVerified": "2026-06-01",
+    "category": "Object & File Storage",
+    "categorySlug": "object-storage"
+  },
+  {
+    "name": "Backblaze B2",
+    "url": "https://www.backblaze.com/cloud-storage",
+    "pricingModel": "freemium",
+    "summary": "Low-cost S3-compatible object storage, popular for backups and media storage with free egress to many CDNs.",
+    "freeTier": "10GB storage free.",
+    "paidFrom": "$6/TB/month beyond free tier.",
+    "tags": [
+      "object-storage",
+      "backup",
+      "low-cost"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Object & File Storage",
+    "categorySlug": "object-storage"
+  },
+  {
+    "name": "Wasabi",
+    "url": "https://wasabi.com",
+    "pricingModel": "freemium",
+    "summary": "Flat-rate S3-compatible cloud storage with no egress or API request fees.",
+    "freeTier": "30-day free trial with 1TB; no perpetual free tier.",
+    "paidFrom": "Flat $5.99/TB/month (no egress fees).",
+    "tags": [
+      "object-storage",
+      "s3-compatible",
+      "flat-rate"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Object & File Storage",
+    "categorySlug": "object-storage"
+  },
+  {
+    "name": "Google Cloud Storage",
+    "url": "https://cloud.google.com/storage",
+    "pricingModel": "freemium",
+    "summary": "Google's object storage with multiple storage classes (Standard, Nearline, Coldline, Archive) for tiered cost.",
+    "freeTier": "5GB-months Standard storage free, 5,000 Class A and 50,000 Class B ops free/month.",
+    "paidFrom": "Pay-as-you-go from $0.020/GB/month after free tier.",
+    "tags": [
+      "object-storage",
+      "google",
+      "tiered-storage"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Object & File Storage",
+    "categorySlug": "object-storage"
+  },
+  {
+    "name": "Uploadcare",
+    "url": "https://uploadcare.com",
+    "pricingModel": "freemium",
+    "summary": "File uploading, storage, and on-the-fly image/video processing API with a CDN-backed delivery layer.",
+    "freeTier": "Free tier includes limited monthly uploads and storage.",
+    "paidFrom": "Paid plans from $59/month.",
+    "tags": [
+      "file-upload",
+      "image-processing",
+      "cdn"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Object & File Storage",
+    "categorySlug": "object-storage"
+  },
+  {
+    "name": "Cloudinary",
+    "url": "https://cloudinary.com",
+    "pricingModel": "freemium",
+    "summary": "Media management platform for image/video upload, storage, transformation, and optimized delivery.",
+    "freeTier": "25 monthly credits free, covering a generous mix of storage, transformations, and bandwidth.",
+    "paidFrom": "Plus plan from $99/month.",
+    "tags": [
+      "image-processing",
+      "video-processing",
+      "cdn",
+      "media-management"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Object & File Storage",
+    "categorySlug": "object-storage"
+  },
+  {
+    "name": "ImageKit",
+    "url": "https://imagekit.io",
+    "pricingModel": "freemium",
+    "summary": "Real-time image and video optimization/CDN service with URL-based transformations.",
+    "freeTier": "20GB bandwidth and storage combined free/month.",
+    "paidFrom": "Growth plan from $49/month.",
+    "tags": [
+      "image-processing",
+      "video-processing",
+      "cdn"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Object & File Storage",
+    "categorySlug": "object-storage"
+  },
+  {
+    "name": "Dropbox",
+    "url": "https://www.dropbox.com",
+    "pricingModel": "freemium",
+    "summary": "File sync and sharing service, also offers a developer API for app-integrated storage.",
+    "freeTier": "2GB free storage.",
+    "paidFrom": "Plus plan from $11.99/month for 2TB.",
+    "tags": [
+      "file-sync",
+      "personal-storage",
+      "api"
+    ],
+    "lastVerified": "2026-03-01",
+    "category": "Object & File Storage",
+    "categorySlug": "object-storage"
+  },
+  {
+    "name": "Filebase",
+    "url": "https://filebase.com",
+    "pricingModel": "freemium",
+    "summary": "S3-compatible storage backed by decentralized networks (IPFS, Sia, Storj) accessed through a standard API.",
+    "freeTier": "5GB free storage on decentralized backends.",
+    "paidFrom": "Paid plans from $5.99/month.",
+    "tags": [
+      "object-storage",
+      "decentralized",
+      "ipfs",
+      "s3-compatible"
+    ],
+    "lastVerified": "2026-03-01",
+    "category": "Object & File Storage",
+    "categorySlug": "object-storage"
+  },
+  {
+    "name": "Stripe",
+    "url": "https://stripe.com",
+    "pricingModel": "freemium",
+    "summary": "The most widely integrated payments platform: checkout, subscriptions, invoicing, and a powerful API.",
+    "freeTier": "No monthly fee; pay only per successful transaction (no free transaction quota).",
+    "paidFrom": "2.9% + $0.30 per successful card transaction (US rates).",
+    "tags": [
+      "payments",
+      "subscriptions",
+      "checkout",
+      "api"
+    ],
+    "lastVerified": "2026-06-01",
+    "category": "Payments & Billing",
+    "categorySlug": "payments-billing"
+  },
+  {
+    "name": "Paddle",
+    "url": "https://www.paddle.com",
+    "pricingModel": "freemium",
+    "summary": "Merchant-of-record billing platform handling global tax/VAT compliance for SaaS subscriptions.",
+    "freeTier": "No monthly fee; pay per transaction only.",
+    "paidFrom": "5% + $0.50 per transaction (varies by plan).",
+    "tags": [
+      "payments",
+      "merchant-of-record",
+      "tax-compliance",
+      "saas"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Payments & Billing",
+    "categorySlug": "payments-billing"
+  },
+  {
+    "name": "Lemon Squeezy",
+    "url": "https://www.lemonsqueezy.com",
+    "pricingModel": "freemium",
+    "summary": "Merchant-of-record platform for selling software/digital products with built-in tax handling, popular with indie devs.",
+    "freeTier": "No monthly fee; pay per transaction only.",
+    "paidFrom": "5% + $0.50 per transaction.",
+    "tags": [
+      "payments",
+      "merchant-of-record",
+      "indie-devs",
+      "digital-products"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Payments & Billing",
+    "categorySlug": "payments-billing"
+  },
+  {
+    "name": "PayPal Developer",
+    "url": "https://developer.paypal.com",
+    "pricingModel": "freemium",
+    "summary": "Widely recognized payment buttons and checkout API with strong consumer trust/brand recognition.",
+    "freeTier": "No monthly fee; pay only per transaction.",
+    "paidFrom": "Standard rate ~3.49% + fixed fee per transaction (varies by region).",
+    "tags": [
+      "payments",
+      "checkout",
+      "consumer-trust"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Payments & Billing",
+    "categorySlug": "payments-billing"
+  },
+  {
+    "name": "Razorpay",
+    "url": "https://razorpay.com",
+    "pricingModel": "freemium",
+    "summary": "Payments and business banking platform focused on the Indian market, supports UPI, cards, and netbanking.",
+    "freeTier": "No setup/monthly fee; pay only per transaction.",
+    "paidFrom": "Standard rate ~2% per domestic transaction.",
+    "tags": [
+      "payments",
+      "india",
+      "upi"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Payments & Billing",
+    "categorySlug": "payments-billing"
+  },
+  {
+    "name": "Wise Platform",
+    "url": "https://wise.com/platform",
+    "pricingModel": "freemium",
+    "summary": "Cross-border payments API for sending international transfers at near-real exchange rates.",
+    "freeTier": "No subscription fee; pay variable rates per international transfer.",
+    "tags": [
+      "payments",
+      "cross-border",
+      "fx"
+    ],
+    "lastVerified": "2026-03-01",
+    "category": "Payments & Billing",
+    "categorySlug": "payments-billing"
+  },
+  {
+    "name": "Chargebee",
+    "url": "https://www.chargebee.com",
+    "pricingModel": "freemium",
+    "summary": "Subscription billing and revenue management platform handling complex pricing models and dunning.",
+    "freeTier": "Free tier for businesses with under $250k in annual recurring billing.",
+    "paidFrom": "Performance plan billed on revenue beyond free threshold.",
+    "tags": [
+      "billing",
+      "subscriptions",
+      "revenue-management"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Payments & Billing",
+    "categorySlug": "payments-billing"
+  },
+  {
+    "name": "Commerce Layer",
+    "url": "https://commercelayer.io",
+    "pricingModel": "freemium",
+    "summary": "Composable commerce API for building, placing, and managing orders from any frontend.",
+    "freeTier": "Developer plan free: 100 orders/month, up to 1,000 SKUs.",
+    "paidFrom": "Paid plans scale with order volume.",
+    "tags": [
+      "ecommerce",
+      "composable-commerce",
+      "api"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Payments & Billing",
+    "categorySlug": "payments-billing"
+  },
+  {
+    "name": "Jira",
+    "url": "https://www.atlassian.com/software/jira",
+    "pricingModel": "freemium",
+    "summary": "Atlassian's issue tracking and agile project management tool, the de facto standard at many software companies.",
+    "freeTier": "Free for up to 10 users with core features.",
+    "paidFrom": "Standard plan from $7.75/user/month.",
+    "tags": [
+      "issue-tracking",
+      "agile",
+      "kanban",
+      "scrum"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Project Management & Team Collaboration",
+    "categorySlug": "project-management"
+  },
+  {
+    "name": "Trello",
+    "url": "https://trello.com",
+    "pricingModel": "freemium",
+    "summary": "Simple kanban-style board tool for personal and small-team task management.",
+    "freeTier": "Unlimited cards, up to 10 boards per workspace free.",
+    "paidFrom": "Standard plan from $5/user/month.",
+    "tags": [
+      "kanban",
+      "task-management"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Project Management & Team Collaboration",
+    "categorySlug": "project-management"
+  },
+  {
+    "name": "Linear",
+    "url": "https://linear.app",
+    "pricingModel": "freemium",
+    "summary": "Fast, keyboard-driven issue tracking and project management built for software teams.",
+    "freeTier": "Free for up to 250 issues with core features for small teams.",
+    "paidFrom": "Basic plan from $8/user/month.",
+    "tags": [
+      "issue-tracking",
+      "software-teams",
+      "fast-ui"
+    ],
+    "lastVerified": "2026-06-01",
+    "category": "Project Management & Team Collaboration",
+    "categorySlug": "project-management"
+  },
+  {
+    "name": "Notion",
+    "url": "https://www.notion.com",
+    "pricingModel": "freemium",
+    "summary": "All-in-one workspace combining docs, wikis, databases, and project tracking.",
+    "freeTier": "Free for individuals with unlimited blocks; limited file uploads and collaborators on team free plan.",
+    "paidFrom": "Plus plan from $10/user/month.",
+    "tags": [
+      "docs",
+      "wiki",
+      "database",
+      "all-in-one"
+    ],
+    "lastVerified": "2026-06-01",
+    "category": "Project Management & Team Collaboration",
+    "categorySlug": "project-management"
+  },
+  {
+    "name": "ClickUp",
+    "url": "https://clickup.com",
+    "pricingModel": "freemium",
+    "summary": "Highly customizable project management platform combining tasks, docs, goals, and whiteboards.",
+    "freeTier": "Free Forever plan with unlimited users and tasks, limited storage.",
+    "paidFrom": "Unlimited plan from $7/user/month.",
+    "tags": [
+      "project-management",
+      "docs",
+      "customizable"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Project Management & Team Collaboration",
+    "categorySlug": "project-management"
+  },
+  {
+    "name": "Huly",
+    "url": "https://huly.io",
+    "pricingModel": "freemium",
+    "summary": "All-in-one open-source project management platform (Linear/Jira/Slack/Notion alternative) with chat and video built in.",
+    "freeTier": "Unlimited users, 10GB storage/workspace, 10GB video/audio traffic free.",
+    "paidFrom": "Paid plans add higher storage and SSO.",
+    "tags": [
+      "project-management",
+      "open-source",
+      "chat",
+      "all-in-one"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Project Management & Team Collaboration",
+    "categorySlug": "project-management"
+  },
+  {
+    "name": "Slack",
+    "url": "https://slack.com",
+    "pricingModel": "freemium",
+    "summary": "Team chat and collaboration hub with channels, threads, and a vast app/integration ecosystem.",
+    "freeTier": "90-day searchable message history, unlimited integrations, free for small teams.",
+    "paidFrom": "Pro plan from $7.25/user/month.",
+    "tags": [
+      "team-chat",
+      "collaboration",
+      "integrations"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Project Management & Team Collaboration",
+    "categorySlug": "project-management"
+  },
+  {
+    "name": "Discord",
+    "url": "https://discord.com",
+    "pricingModel": "free",
+    "summary": "Voice, video, and text chat platform, widely adopted by dev communities and open-source projects.",
+    "freeTier": "Free for unlimited servers, messages, and voice/video, with no message history limit.",
+    "paidFrom": "Nitro subscription adds cosmetic/upload perks, not required for core use.",
+    "tags": [
+      "team-chat",
+      "voice-chat",
+      "community"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Project Management & Team Collaboration",
+    "categorySlug": "project-management"
+  },
+  {
+    "name": "Gitter",
+    "url": "https://gitter.im",
+    "pricingModel": "freemium",
+    "summary": "Chat tool built for GitHub projects and open-source communities.",
+    "freeTier": "Unlimited public/private rooms, free for teams up to 25.",
+    "tags": [
+      "team-chat",
+      "github",
+      "open-source"
+    ],
+    "lastVerified": "2026-02-01",
+    "category": "Project Management & Team Collaboration",
+    "categorySlug": "project-management"
+  },
+  {
+    "name": "HackMD",
+    "url": "https://hackmd.io",
+    "pricingModel": "freemium",
+    "summary": "Real-time collaborative markdown editing, like Google Docs but for markdown notes and docs.",
+    "freeTier": "Unlimited notes free; collaborator count limited on private notes/templates.",
+    "paidFrom": "Pro plan from $5/month for more collaborators.",
+    "tags": [
+      "markdown",
+      "collaborative-editing",
+      "docs"
+    ],
+    "lastVerified": "2026-03-01",
+    "category": "Project Management & Team Collaboration",
+    "categorySlug": "project-management"
+  },
+  {
+    "name": "GoKanban.io",
+    "url": "https://gokanban.io",
+    "pricingModel": "free",
+    "summary": "Syntax-based, no-registration kanban board for quick personal task tracking.",
+    "freeTier": "Completely free, no account required, no limitations.",
+    "tags": [
+      "kanban",
+      "no-signup",
+      "lightweight"
+    ],
+    "lastVerified": "2026-02-01",
+    "category": "Project Management & Team Collaboration",
+    "categorySlug": "project-management"
+  },
+  {
+    "name": "HeySpace",
+    "url": "https://hey.space",
+    "pricingModel": "freemium",
+    "summary": "Task management with integrated chat, calendar, timeline view, and video calls.",
+    "freeTier": "Free for up to 5 users.",
+    "paidFrom": "Basic plan from $6.7/user/month.",
+    "tags": [
+      "task-management",
+      "chat",
+      "calendar"
+    ],
+    "lastVerified": "2026-02-01",
+    "category": "Project Management & Team Collaboration",
+    "categorySlug": "project-management"
+  },
+  {
+    "name": "Algolia",
+    "url": "https://www.algolia.com",
+    "pricingModel": "freemium",
+    "summary": "Fast, hosted search-as-a-service API with typo tolerance, faceting, and instant-search UI components.",
+    "freeTier": "Free tier (Build): 10,000 search requests/month, 100k records.",
+    "paidFrom": "Grow plan billed on usage above free tier.",
+    "tags": [
+      "search",
+      "saas",
+      "instant-search"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Search & Analytics",
+    "categorySlug": "search-analytics"
+  },
+  {
+    "name": "Meilisearch",
+    "url": "https://www.meilisearch.com",
+    "pricingModel": "freemium",
+    "summary": "Open-source, fast search engine with a managed cloud option; self-hosted is fully free.",
+    "freeTier": "Free self-hosted; Cloud free trial credits for new accounts.",
+    "paidFrom": "Cloud plans billed on usage.",
+    "tags": [
+      "search",
+      "open-source",
+      "self-hosted"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Search & Analytics",
+    "categorySlug": "search-analytics"
+  },
+  {
+    "name": "Typesense",
+    "url": "https://typesense.org",
+    "pricingModel": "freemium",
+    "summary": "Open-source, typo-tolerant search engine optimized for speed, with a managed Typesense Cloud option.",
+    "freeTier": "Free self-hosted; Cloud has a free tier for small clusters.",
+    "paidFrom": "Cloud plans billed hourly per cluster size.",
+    "tags": [
+      "search",
+      "open-source",
+      "self-hosted"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Search & Analytics",
+    "categorySlug": "search-analytics"
+  },
+  {
+    "name": "Elastic Cloud",
+    "url": "https://www.elastic.co/cloud",
+    "pricingModel": "freemium",
+    "summary": "Managed Elasticsearch, Kibana, and the full Elastic Stack for search, logging, and observability.",
+    "freeTier": "14-day free trial; self-managed Elasticsearch core remains free/open under Elastic license.",
+    "paidFrom": "Standard plan billed hourly on cloud usage.",
+    "tags": [
+      "search",
+      "elasticsearch",
+      "logging",
+      "observability"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Search & Analytics",
+    "categorySlug": "search-analytics"
+  },
+  {
+    "name": "Plausible Analytics",
+    "url": "https://plausible.io",
+    "pricingModel": "freemium",
+    "summary": "Lightweight, privacy-focused, cookie-free web analytics, open source with a hosted option.",
+    "freeTier": "30-day free trial; self-hosted community edition is free.",
+    "paidFrom": "Hosted plans from $9/month for up to 10k pageviews.",
+    "tags": [
+      "web-analytics",
+      "privacy-focused",
+      "open-source"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Search & Analytics",
+    "categorySlug": "search-analytics"
+  },
+  {
+    "name": "Umami",
+    "url": "https://umami.is",
+    "pricingModel": "freemium",
+    "summary": "Simple, open-source, privacy-friendly web analytics as a self-hosted alternative to Google Analytics.",
+    "freeTier": "Free self-hosted; Umami Cloud has a free tier for up to 100k events/month.",
+    "paidFrom": "Cloud Pro plan from $20/month.",
+    "tags": [
+      "web-analytics",
+      "open-source",
+      "privacy-focused"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Search & Analytics",
+    "categorySlug": "search-analytics"
+  },
+  {
+    "name": "PostHog",
+    "url": "https://posthog.com",
+    "pricingModel": "freemium",
+    "summary": "Open-source product analytics suite: event tracking, session replay, feature flags, and A/B testing in one platform.",
+    "freeTier": "1M events/month free, 5k session replays/month free.",
+    "paidFrom": "Pay-as-you-go billing beyond free monthly quotas.",
+    "tags": [
+      "product-analytics",
+      "open-source",
+      "session-replay",
+      "feature-flags"
+    ],
+    "lastVerified": "2026-06-01",
+    "category": "Search & Analytics",
+    "categorySlug": "search-analytics"
+  },
+  {
+    "name": "Mixpanel",
+    "url": "https://mixpanel.com",
+    "pricingModel": "freemium",
+    "summary": "Product analytics platform focused on event-based funnels, retention, and cohort analysis.",
+    "freeTier": "20M events/month free on the free tier.",
+    "paidFrom": "Growth plan billed on monthly tracked users.",
+    "tags": [
+      "product-analytics",
+      "funnels",
+      "retention"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Search & Analytics",
+    "categorySlug": "search-analytics"
+  },
+  {
+    "name": "Google Analytics",
+    "url": "https://marketingplatform.google.com/about/analytics",
+    "pricingModel": "free",
+    "summary": "Google's widely used web/app analytics platform (GA4), tracking traffic, behavior, and conversions.",
+    "freeTier": "Free with generous usage limits for the vast majority of sites.",
+    "tags": [
+      "web-analytics",
+      "google",
+      "ga4"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Search & Analytics",
+    "categorySlug": "search-analytics"
+  },
+  {
+    "name": "Doppler",
+    "url": "https://www.doppler.com",
+    "pricingModel": "freemium",
+    "summary": "Universal secrets manager for application secrets and config, syncing to most cloud providers and CI tools.",
+    "freeTier": "Free for unlimited users with basic access controls and config syncing.",
+    "paidFrom": "Team plan billed per seat for advanced access controls.",
+    "tags": [
+      "secrets-management",
+      "config-management"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Secrets Management & Security",
+    "categorySlug": "secrets-security"
+  },
+  {
+    "name": "HashiCorp Vault (HCP Vault)",
+    "url": "https://www.hashicorp.com/products/vault",
+    "pricingModel": "freemium",
+    "summary": "Industry-standard secrets management and encryption-as-a-service, available self-hosted (free OSS) or as managed HCP Vault.",
+    "freeTier": "Self-hosted OSS edition fully free; HCP Vault has a limited free development tier.",
+    "paidFrom": "HCP Vault plans billed hourly on cluster size.",
+    "tags": [
+      "secrets-management",
+      "open-source",
+      "encryption"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Secrets Management & Security",
+    "categorySlug": "secrets-security"
+  },
+  {
+    "name": "Infisical",
+    "url": "https://infisical.com",
+    "pricingModel": "open-source",
+    "summary": "Open-source secrets management platform with a managed cloud option, designed as a Doppler/Vault alternative.",
+    "freeTier": "Self-hosted free; cloud free tier for small teams.",
+    "paidFrom": "Pro plan billed per seat.",
+    "tags": [
+      "secrets-management",
+      "open-source",
+      "self-hosted"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Secrets Management & Security",
+    "categorySlug": "secrets-security"
+  },
+  {
+    "name": "1Password Developer Tools (Secrets Automation)",
+    "url": "https://developer.1password.com",
+    "pricingModel": "freemium",
+    "summary": "Secrets automation tooling (CLI, SDKs, Connect server) built on top of 1Password vaults for CI/CD pipelines.",
+    "freeTier": "Free trial for teams; secrets automation included with paid Business plans.",
+    "paidFrom": "Business plan from $7.99/user/month.",
+    "tags": [
+      "secrets-management",
+      "cli",
+      "ci-cd-integration"
+    ],
+    "lastVerified": "2026-03-01",
+    "category": "Secrets Management & Security",
+    "categorySlug": "secrets-security"
+  },
+  {
+    "name": "Snyk (security scanning)",
+    "url": "https://snyk.io",
+    "pricingModel": "freemium",
+    "summary": "Scans code, open-source dependencies, containers, and infrastructure-as-code for vulnerabilities.",
+    "freeTier": "Free tier with limited monthly tests across products.",
+    "paidFrom": "Team plan from $25/product/month.",
+    "tags": [
+      "vulnerability-scanning",
+      "sast",
+      "container-security",
+      "iac-security"
+    ],
+    "lastVerified": "2026-06-01",
+    "category": "Secrets Management & Security",
+    "categorySlug": "secrets-security"
+  },
+  {
+    "name": "Trivy",
+    "url": "https://trivy.dev",
+    "pricingModel": "open-source",
+    "summary": "Open-source, all-in-one vulnerability and misconfiguration scanner for containers, IaC, and filesystems.",
+    "freeTier": "Completely free and open source.",
+    "tags": [
+      "vulnerability-scanning",
+      "open-source",
+      "container-security"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Secrets Management & Security",
+    "categorySlug": "secrets-security"
+  },
+  {
+    "name": "GitGuardian",
+    "url": "https://www.gitguardian.com",
+    "pricingModel": "freemium",
+    "summary": "Detects hardcoded secrets and credentials leaked in source code, commit history, and CI logs.",
+    "freeTier": "Free tier for individual developers and small teams.",
+    "paidFrom": "Business plan billed per developer seat.",
+    "tags": [
+      "secrets-detection",
+      "security",
+      "ci-cd-scanning"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Secrets Management & Security",
+    "categorySlug": "secrets-security"
+  },
+  {
+    "name": "Have I Been Pwned API",
+    "url": "https://haveibeenpwned.com/API/Key",
+    "pricingModel": "paid",
+    "summary": "API for checking whether an email/password has appeared in known data breaches.",
+    "freeTier": "N/A \u2014 the API requires a paid subscription key as of recent pricing changes.",
+    "paidFrom": "From ~$3.95/month for individual API key.",
+    "tags": [
+      "breach-detection",
+      "security-api"
+    ],
+    "notes": "The public website lookup remains free for individuals; the API itself requires a paid key.",
+    "lastVerified": "2026-03-01",
+    "category": "Secrets Management & Security",
+    "categorySlug": "secrets-security"
+  },
+  {
+    "name": "AWS Lambda",
+    "url": "https://aws.amazon.com/lambda",
+    "pricingModel": "freemium",
+    "summary": "Pioneer of serverless functions; runs code in response to events without managing servers.",
+    "freeTier": "1M requests/month and 400,000 GB-seconds compute free, always-free (not time-limited).",
+    "paidFrom": "$0.20 per 1M requests beyond free tier.",
+    "tags": [
+      "serverless",
+      "faas",
+      "aws",
+      "event-driven"
+    ],
+    "lastVerified": "2026-06-01",
+    "category": "Serverless Functions & Backend-as-a-Service",
+    "categorySlug": "serverless-functions"
+  },
+  {
+    "name": "Google Cloud Functions",
+    "url": "https://cloud.google.com/functions",
+    "pricingModel": "freemium",
+    "summary": "Event-driven serverless functions integrated with the Google Cloud and Firebase ecosystems.",
+    "freeTier": "2M invocations/month free, always-free.",
+    "paidFrom": "$0.40 per 1M invocations beyond free tier.",
+    "tags": [
+      "serverless",
+      "faas",
+      "google-cloud",
+      "firebase"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Serverless Functions & Backend-as-a-Service",
+    "categorySlug": "serverless-functions"
+  },
+  {
+    "name": "Azure Functions",
+    "url": "https://azure.microsoft.com/products/functions",
+    "pricingModel": "freemium",
+    "summary": "Microsoft's serverless compute service, integrates tightly with the .NET ecosystem and Azure services.",
+    "freeTier": "1M requests/month free, always-free.",
+    "paidFrom": "Consumption plan billed per execution beyond free tier.",
+    "tags": [
+      "serverless",
+      "faas",
+      "azure",
+      "dotnet"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Serverless Functions & Backend-as-a-Service",
+    "categorySlug": "serverless-functions"
+  },
+  {
+    "name": "Cloudflare Workers",
+    "url": "https://workers.cloudflare.com",
+    "pricingModel": "freemium",
+    "summary": "V8-isolate-based edge functions with extremely low cold-start latency, running in 300+ global locations.",
+    "freeTier": "100,000 requests/day free.",
+    "paidFrom": "Paid plan from $5/month for 10M requests.",
+    "tags": [
+      "serverless",
+      "edge-compute",
+      "low-latency"
+    ],
+    "lastVerified": "2026-06-01",
+    "category": "Serverless Functions & Backend-as-a-Service",
+    "categorySlug": "serverless-functions"
+  },
+  {
+    "name": "Vercel Functions",
+    "url": "https://vercel.com/docs/functions",
+    "pricingModel": "freemium",
+    "summary": "Serverless and edge functions deeply integrated with Next.js and the Vercel deployment pipeline.",
+    "freeTier": "Included in the free Hobby plan with limits on execution time/invocations.",
+    "paidFrom": "Pro plan from $20/month for higher limits.",
+    "tags": [
+      "serverless",
+      "nextjs",
+      "edge-functions"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Serverless Functions & Backend-as-a-Service",
+    "categorySlug": "serverless-functions"
+  },
+  {
+    "name": "Deno Deploy",
+    "url": "https://deno.com/deploy",
+    "pricingModel": "freemium",
+    "summary": "Globally distributed serverless JavaScript/TypeScript runtime built on Deno, with zero-config deploys.",
+    "freeTier": "Free tier with generous request and CPU-time allowances for hobby projects.",
+    "paidFrom": "Pro plan billed per usage beyond free tier.",
+    "tags": [
+      "serverless",
+      "deno",
+      "typescript",
+      "edge"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Serverless Functions & Backend-as-a-Service",
+    "categorySlug": "serverless-functions"
+  },
+  {
+    "name": "Appwrite",
+    "url": "https://appwrite.io",
+    "pricingModel": "freemium",
+    "summary": "Open-source backend-as-a-service with auth, databases, storage, and functions, self-hostable or managed cloud.",
+    "freeTier": "Self-hosted fully free; Cloud free tier includes generous bandwidth/storage/function execution.",
+    "paidFrom": "Pro plan from $15/month.",
+    "tags": [
+      "backend-as-a-service",
+      "open-source",
+      "self-hosted"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Serverless Functions & Backend-as-a-Service",
+    "categorySlug": "serverless-functions"
+  },
+  {
+    "name": "Convex",
+    "url": "https://www.convex.dev",
+    "pricingModel": "freemium",
+    "summary": "Reactive backend platform combining database, server functions, and real-time sync into one TypeScript-first system.",
+    "freeTier": "Free tier with generous function calls and database bandwidth for small projects.",
+    "paidFrom": "Professional plan from $25/month.",
+    "tags": [
+      "backend-as-a-service",
+      "real-time",
+      "typescript"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Serverless Functions & Backend-as-a-Service",
+    "categorySlug": "serverless-functions"
+  },
+  {
+    "name": "GitHub",
+    "url": "https://github.com",
+    "pricingModel": "freemium",
+    "summary": "The largest Git hosting platform with issues, project boards, Actions CI/CD, and package registry built in.",
+    "freeTier": "Unlimited public and private repositories, unlimited collaborators on free plan, 2,000 CI/CD Actions minutes/month, 500MB Packages storage.",
+    "paidFrom": "Team plan from $4/user/month; Enterprise from $21/user/month.",
+    "tags": [
+      "git",
+      "vcs",
+      "ci-cd",
+      "code-review",
+      "issues"
+    ],
+    "notes": "Private repo collaborator limits were removed in 2019; free tier is generous for small teams.",
+    "alternativeTo": "GitLab Self-Managed, Bitbucket",
+    "lastVerified": "2026-06-01",
+    "category": "Source Code Hosting",
+    "categorySlug": "source-code-hosting"
+  },
+  {
+    "name": "GitLab",
+    "url": "https://gitlab.com",
+    "pricingModel": "freemium",
+    "summary": "Git hosting with an integrated DevOps platform: CI/CD, container registry, security scanning, and Kubernetes integration.",
+    "freeTier": "Unlimited private repos, 5 users per top-level namespace free, 400 CI/CD minutes/month, 5GB storage, 10GB transfer.",
+    "paidFrom": "Premium from $29/user/month.",
+    "tags": [
+      "git",
+      "vcs",
+      "ci-cd",
+      "devops",
+      "self-hosted"
+    ],
+    "notes": "Also distributed as free open-source self-managed Community Edition.",
+    "alternativeTo": "GitHub Enterprise",
+    "lastVerified": "2026-06-01",
+    "category": "Source Code Hosting",
+    "categorySlug": "source-code-hosting"
+  },
+  {
+    "name": "Bitbucket",
+    "url": "https://bitbucket.org",
+    "pricingModel": "freemium",
+    "summary": "Atlassian's Git hosting product, tightly integrated with Jira and Trello, with built-in Pipelines CI/CD.",
+    "freeTier": "Unlimited private repos for up to 5 users, 50 build minutes/month on Pipelines.",
+    "paidFrom": "Standard from $3/user/month.",
+    "tags": [
+      "git",
+      "vcs",
+      "ci-cd",
+      "jira-integration"
+    ],
+    "lastVerified": "2026-06-01",
+    "category": "Source Code Hosting",
+    "categorySlug": "source-code-hosting"
+  },
+  {
+    "name": "SourceHut",
+    "url": "https://sourcehut.org",
+    "pricingModel": "open-source",
+    "summary": "Minimalist, hackable software forge: Git/Mercurial hosting, mailing lists, CI, and issue tracking, all email-driven and ad-free.",
+    "freeTier": "Pay-what-you-want; free tier available, fully open source and self-hostable.",
+    "tags": [
+      "git",
+      "mercurial",
+      "self-hosted",
+      "minimalist",
+      "ci-cd"
+    ],
+    "lastVerified": "2026-05-15",
+    "category": "Source Code Hosting",
+    "categorySlug": "source-code-hosting"
+  },
+  {
+    "name": "Codeberg",
+    "url": "https://codeberg.org",
+    "pricingModel": "free",
+    "summary": "Non-profit, community-run Git hosting built on Forgejo (a Gitea fork), as a privacy-respecting GitHub alternative.",
+    "freeTier": "Unlimited public and private repos, free for individuals and small projects, donation-funded.",
+    "tags": [
+      "git",
+      "non-profit",
+      "self-hosted",
+      "privacy"
+    ],
+    "lastVerified": "2026-05-15",
+    "category": "Source Code Hosting",
+    "categorySlug": "source-code-hosting"
+  },
+  {
+    "name": "Gitea (Cloud / Self-host)",
+    "url": "https://gitea.com",
+    "pricingModel": "open-source",
+    "summary": "Lightweight, self-hostable Git service; Gitea Cloud offers managed hosting on top of the open-source core.",
+    "freeTier": "Self-hosted is fully free and open source; Gitea Cloud has a free tier for small repos.",
+    "tags": [
+      "git",
+      "self-hosted",
+      "lightweight"
+    ],
+    "lastVerified": "2026-05-15",
+    "category": "Source Code Hosting",
+    "categorySlug": "source-code-hosting"
+  },
+  {
+    "name": "Launchpad",
+    "url": "https://launchpad.net",
+    "pricingModel": "free",
+    "summary": "Canonical's collaboration platform for Bazaar/Git hosting, bug tracking, and Ubuntu/PPA package building.",
+    "freeTier": "Free for open-source projects, including PPA package builds.",
+    "tags": [
+      "git",
+      "bazaar",
+      "open-source",
+      "ppa"
+    ],
+    "lastVerified": "2026-04-20",
+    "category": "Source Code Hosting",
+    "categorySlug": "source-code-hosting"
+  },
+  {
+    "name": "SourceForge",
+    "url": "https://sourceforge.net",
+    "pricingModel": "free",
+    "summary": "Long-running open-source project hosting with file release distribution, forums, and Git/SVN/Mercurial support.",
+    "freeTier": "Free hosting and unlimited bandwidth for open-source projects.",
+    "tags": [
+      "git",
+      "svn",
+      "open-source",
+      "file-hosting"
+    ],
+    "lastVerified": "2026-04-20",
+    "category": "Source Code Hosting",
+    "categorySlug": "source-code-hosting"
+  },
+  {
+    "name": "jitpack.io",
+    "url": "https://jitpack.io",
+    "pricingModel": "free",
+    "summary": "Turns any GitHub repository into a Maven dependency without needing to publish to a separate repository.",
+    "freeTier": "Free for public projects, unlimited builds.",
+    "tags": [
+      "maven",
+      "jvm",
+      "package-registry",
+      "android"
+    ],
+    "lastVerified": "2026-04-20",
+    "category": "Source Code Hosting",
+    "categorySlug": "source-code-hosting"
+  },
+  {
+    "name": "Gemfury",
+    "url": "https://gemfury.com",
+    "pricingModel": "freemium",
+    "summary": "Private and public artifact/package repository supporting Maven, PyPI, npm, Go modules, NuGet, APT, and RPM.",
+    "freeTier": "Free for public packages.",
+    "paidFrom": "Starter plans from ~$7/month for private packages.",
+    "tags": [
+      "package-registry",
+      "artifact-repo",
+      "npm",
+      "pypi"
+    ],
+    "lastVerified": "2026-04-20",
+    "category": "Source Code Hosting",
+    "categorySlug": "source-code-hosting"
+  },
+  {
+    "name": "GitHub Pages",
+    "url": "https://pages.github.com",
+    "pricingModel": "free",
+    "summary": "Free static site hosting directly from a GitHub repository, supports custom domains and Jekyll builds.",
+    "freeTier": "Unlimited public repos, 1GB site size soft limit, 100GB/month soft bandwidth limit.",
+    "tags": [
+      "static-hosting",
+      "jekyll",
+      "github"
+    ],
+    "lastVerified": "2026-06-01",
+    "category": "Static Site Hosting & CDN",
+    "categorySlug": "static-hosting-cdn"
+  },
+  {
+    "name": "Cloudflare Pages",
+    "url": "https://pages.cloudflare.com",
+    "pricingModel": "free",
+    "summary": "Static site and full-stack hosting on Cloudflare's edge network with unlimited bandwidth.",
+    "freeTier": "500 builds/month, unlimited bandwidth, unlimited sites, 100 custom domains.",
+    "tags": [
+      "static-hosting",
+      "jamstack",
+      "edge"
+    ],
+    "lastVerified": "2026-06-01",
+    "category": "Static Site Hosting & CDN",
+    "categorySlug": "static-hosting-cdn"
+  },
+  {
+    "name": "Surge.sh",
+    "url": "https://surge.sh",
+    "pricingModel": "freemium",
+    "summary": "Command-line static web publishing tool \u2014 deploy a folder to a live URL in seconds.",
+    "freeTier": "Unlimited free deployments to *.surge.sh subdomains.",
+    "paidFrom": "Pro adds custom domains and team features.",
+    "tags": [
+      "static-hosting",
+      "cli",
+      "quick-deploy"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Static Site Hosting & CDN",
+    "categorySlug": "static-hosting-cdn"
+  },
+  {
+    "name": "Firebase Hosting",
+    "url": "https://firebase.google.com/products/hosting",
+    "pricingModel": "freemium",
+    "summary": "Fast, secure static and SSR hosting backed by Google's CDN, integrates with the rest of the Firebase suite.",
+    "freeTier": "10GB storage, 360MB/day data transfer free.",
+    "paidFrom": "Pay-as-you-go on Blaze plan beyond free quota.",
+    "tags": [
+      "static-hosting",
+      "google",
+      "ssr"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Static Site Hosting & CDN",
+    "categorySlug": "static-hosting-cdn"
+  },
+  {
+    "name": "jsDelivr",
+    "url": "https://www.jsdelivr.com",
+    "pricingModel": "free",
+    "summary": "Free, fast CDN for npm, GitHub, and WordPress assets \u2014 widely used to serve JS/CSS libraries.",
+    "freeTier": "Unlimited free use for open-source/public package delivery.",
+    "tags": [
+      "cdn",
+      "npm",
+      "javascript"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Static Site Hosting & CDN",
+    "categorySlug": "static-hosting-cdn"
+  },
+  {
+    "name": "raw.githack.com",
+    "url": "https://raw.githack.com",
+    "pricingModel": "free",
+    "summary": "Serves raw files directly from GitHub/GitLab repos with correct Content-Type headers, backed by Cloudflare.",
+    "freeTier": "Free, unlimited use for public repo files.",
+    "tags": [
+      "cdn",
+      "github",
+      "raw-files"
+    ],
+    "lastVerified": "2026-03-01",
+    "category": "Static Site Hosting & CDN",
+    "categorySlug": "static-hosting-cdn"
+  },
+  {
+    "name": "Statically",
+    "url": "https://www.statically.io",
+    "pricingModel": "free",
+    "summary": "CDN for Git repos (GitHub, GitLab, Bitbucket) plus WordPress asset and image optimization delivery.",
+    "freeTier": "Free CDN delivery with image transformation features.",
+    "tags": [
+      "cdn",
+      "wordpress",
+      "image-optimization"
+    ],
+    "lastVerified": "2026-03-01",
+    "category": "Static Site Hosting & CDN",
+    "categorySlug": "static-hosting-cdn"
+  },
+  {
+    "name": "Bunny CDN",
+    "url": "https://bunny.net",
+    "pricingModel": "freemium",
+    "summary": "Affordable, low-latency CDN with edge storage and video streaming add-ons.",
+    "freeTier": "No perpetual free tier, but extremely low pay-as-you-go pricing from $0.01/GB.",
+    "paidFrom": "From $0.01/GB bandwidth.",
+    "tags": [
+      "cdn",
+      "video-streaming",
+      "low-cost"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Static Site Hosting & CDN",
+    "categorySlug": "static-hosting-cdn"
+  },
+  {
+    "name": "Fastly",
+    "url": "https://www.fastly.com",
+    "pricingModel": "freemium",
+    "summary": "Enterprise-grade edge cloud platform and CDN with programmable edge logic (Compute@Edge).",
+    "freeTier": "Free usage tier covers most small projects (free up to a monthly spend threshold).",
+    "paidFrom": "Pay-as-you-go beyond free usage allowance.",
+    "tags": [
+      "cdn",
+      "edge-compute",
+      "enterprise"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Static Site Hosting & CDN",
+    "categorySlug": "static-hosting-cdn"
+  },
+  {
+    "name": "Render Static Sites",
+    "url": "https://render.com/docs/static-sites",
+    "pricingModel": "free",
+    "summary": "Free static site hosting with global CDN, automatic HTTPS, and Git-based deploys.",
+    "freeTier": "Unlimited free static sites with unlimited bandwidth.",
+    "tags": [
+      "static-hosting",
+      "cdn",
+      "git-deploy"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Static Site Hosting & CDN",
+    "categorySlug": "static-hosting-cdn"
+  },
+  {
+    "name": "BrowserStack",
+    "url": "https://www.browserstack.com",
+    "pricingModel": "freemium",
+    "summary": "Real-device and browser cloud for manual and automated cross-browser/cross-device testing.",
+    "freeTier": "Free trial available; open-source projects can apply for free ongoing access.",
+    "paidFrom": "Automate plan from $39/month (annual).",
+    "tags": [
+      "cross-browser-testing",
+      "real-devices",
+      "automation"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Testing & QA",
+    "categorySlug": "testing-qa"
+  },
+  {
+    "name": "Sauce Labs",
+    "url": "https://saucelabs.com",
+    "pricingModel": "freemium",
+    "summary": "Cloud-based platform for automated and live testing across browsers, OSs, and real mobile devices.",
+    "freeTier": "Open Sauce program offers free access for qualifying open-source projects.",
+    "paidFrom": "Virtual Cloud plan billed by usage/minutes.",
+    "tags": [
+      "cross-browser-testing",
+      "mobile-testing",
+      "automation"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Testing & QA",
+    "categorySlug": "testing-qa"
+  },
+  {
+    "name": "Playwright",
+    "url": "https://playwright.dev",
+    "pricingModel": "open-source",
+    "summary": "Microsoft's open-source end-to-end testing framework supporting Chromium, Firefox, and WebKit.",
+    "freeTier": "Completely free and open source.",
+    "tags": [
+      "e2e-testing",
+      "open-source",
+      "browser-automation"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Testing & QA",
+    "categorySlug": "testing-qa"
+  },
+  {
+    "name": "Cypress",
+    "url": "https://www.cypress.io",
+    "pricingModel": "freemium",
+    "summary": "JavaScript end-to-end testing framework with a real-time test runner; Cypress Cloud adds dashboards and parallelization.",
+    "freeTier": "Cypress test runner is free/open source; Cypress Cloud free tier includes limited test results recording.",
+    "paidFrom": "Team plan from $75/month.",
+    "tags": [
+      "e2e-testing",
+      "open-source",
+      "test-dashboard"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Testing & QA",
+    "categorySlug": "testing-qa"
+  },
+  {
+    "name": "k6 (Grafana)",
+    "url": "https://k6.io",
+    "pricingModel": "freemium",
+    "summary": "Open-source load testing tool with a developer-friendly scripting API; Grafana Cloud k6 adds managed test execution.",
+    "freeTier": "CLI tool fully free and open source; Cloud k6 has limited free virtual user hours/month.",
+    "paidFrom": "Cloud plans billed by virtual user hours.",
+    "tags": [
+      "load-testing",
+      "open-source",
+      "performance-testing"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Testing & QA",
+    "categorySlug": "testing-qa"
+  },
+  {
+    "name": "Postman",
+    "url": "https://www.postman.com",
+    "pricingModel": "freemium",
+    "summary": "API client and testing platform for building, testing, and documenting REST/GraphQL/gRPC APIs.",
+    "freeTier": "Free for up to 3 users with core collection/testing features.",
+    "paidFrom": "Basic plan from $14/user/month.",
+    "tags": [
+      "api-testing",
+      "api-client",
+      "documentation"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Testing & QA",
+    "categorySlug": "testing-qa"
+  },
+  {
+    "name": "Percy (BrowserStack)",
+    "url": "https://www.browserstack.com/percy",
+    "pricingModel": "freemium",
+    "summary": "Visual regression testing tool that screenshots UI states and flags pixel-level diffs across builds.",
+    "freeTier": "Free tier with limited monthly screenshots.",
+    "paidFrom": "Paid plans billed per screenshot volume.",
+    "tags": [
+      "visual-regression",
+      "screenshot-testing"
+    ],
+    "lastVerified": "2026-03-01",
+    "category": "Testing & QA",
+    "categorySlug": "testing-qa"
+  },
+  {
+    "name": "Loader.io",
+    "url": "https://loader.io",
+    "pricingModel": "freemium",
+    "summary": "Cloud-based load testing service from SendGrid for stress-testing APIs and websites.",
+    "freeTier": "Free plan with limited concurrent clients and test runs.",
+    "paidFrom": "Paid plans increase concurrent client limits.",
+    "tags": [
+      "load-testing",
+      "stress-testing"
+    ],
+    "lastVerified": "2026-03-01",
+    "category": "Testing & QA",
+    "categorySlug": "testing-qa"
+  },
+  {
+    "name": "TestRail",
+    "url": "https://www.testrail.com",
+    "pricingModel": "freemium",
+    "summary": "Test case management platform for organizing, tracking, and reporting on manual and automated test runs.",
+    "freeTier": "Free tier for small teams (limited users).",
+    "paidFrom": "Professional plan billed per user/month.",
+    "tags": [
+      "test-case-management",
+      "qa"
+    ],
+    "lastVerified": "2026-03-01",
+    "category": "Testing & QA",
+    "categorySlug": "testing-qa"
+  },
+  {
+    "name": "Daily.co",
+    "url": "https://www.daily.co",
+    "pricingModel": "freemium",
+    "summary": "WebRTC video/audio API for embedding live calls into apps, with prebuilt UI or fully custom SDKs.",
+    "freeTier": "10,000 free participant-minutes/month.",
+    "paidFrom": "Pay-as-you-go pricing beyond free minutes.",
+    "tags": [
+      "webrtc",
+      "video-calling",
+      "api"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Video, Voice & Real-Time Communication",
+    "categorySlug": "video-realtime-comms"
+  },
+  {
+    "name": "Twilio Video",
+    "url": "https://www.twilio.com/video",
+    "pricingModel": "freemium",
+    "summary": "Programmable video API for building group or 1:1 video experiences, part of the broader Twilio platform.",
+    "freeTier": "Free trial credit for new accounts.",
+    "paidFrom": "Pay-as-you-go per participant-minute.",
+    "tags": [
+      "webrtc",
+      "video-calling",
+      "api"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Video, Voice & Real-Time Communication",
+    "categorySlug": "video-realtime-comms"
+  },
+  {
+    "name": "Agora",
+    "url": "https://www.agora.io",
+    "pricingModel": "freemium",
+    "summary": "Real-time engagement platform (voice, video, live streaming, chat) used widely in social and gaming apps.",
+    "freeTier": "10,000 free minutes/month across most use cases.",
+    "paidFrom": "Pay-as-you-go beyond free minutes.",
+    "tags": [
+      "webrtc",
+      "live-streaming",
+      "voice",
+      "gaming"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Video, Voice & Real-Time Communication",
+    "categorySlug": "video-realtime-comms"
+  },
+  {
+    "name": "Stream (GetStream.io)",
+    "url": "https://getstream.io",
+    "pricingModel": "freemium",
+    "summary": "Chat and activity feed APIs/SDKs for building in-app messaging and social feeds quickly.",
+    "freeTier": "Free tier for small projects (limited monthly active users).",
+    "paidFrom": "Paid plans billed per MAU beyond free tier.",
+    "tags": [
+      "chat",
+      "activity-feeds",
+      "messaging-sdk"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Video, Voice & Real-Time Communication",
+    "categorySlug": "video-realtime-comms"
+  },
+  {
+    "name": "PubNub",
+    "url": "https://www.pubnub.com",
+    "pricingModel": "freemium",
+    "summary": "Real-time messaging infrastructure (pub/sub) for chat, IoT, and live data sync use cases.",
+    "freeTier": "Free tier with 200 monthly active users included.",
+    "paidFrom": "Paid plans billed per MAU beyond free tier.",
+    "tags": [
+      "pub-sub",
+      "real-time-messaging",
+      "iot"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Video, Voice & Real-Time Communication",
+    "categorySlug": "video-realtime-comms"
+  },
+  {
+    "name": "Mux",
+    "url": "https://www.mux.com",
+    "pricingModel": "freemium",
+    "summary": "Video API for encoding, storing, and streaming on-demand and live video at scale.",
+    "freeTier": "Small free credit for new accounts; ongoing usage is metered.",
+    "paidFrom": "Pay-as-you-go per minute encoded/streamed.",
+    "tags": [
+      "video-streaming",
+      "video-encoding",
+      "api"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Video, Voice & Real-Time Communication",
+    "categorySlug": "video-realtime-comms"
+  },
+  {
+    "name": "Jitsi Meet",
+    "url": "https://jitsi.org",
+    "pricingModel": "open-source",
+    "summary": "Open-source video conferencing platform; self-host for free or use the public meet.jit.si instance.",
+    "freeTier": "Completely free self-hosted; public instance free with no account required.",
+    "tags": [
+      "video-conferencing",
+      "open-source",
+      "self-hosted"
+    ],
+    "lastVerified": "2026-04-01",
+    "category": "Video, Voice & Real-Time Communication",
+    "categorySlug": "video-realtime-comms"
+  },
+  {
+    "name": "LiveKit",
+    "url": "https://livekit.io",
+    "pricingModel": "freemium",
+    "summary": "Open-source WebRTC infrastructure (SFU) for building real-time video/audio/data apps, self-hostable or managed Cloud.",
+    "freeTier": "Self-hosted fully free; LiveKit Cloud free tier includes limited monthly participant-minutes.",
+    "paidFrom": "Cloud Scale plan billed on usage.",
+    "tags": [
+      "webrtc",
+      "open-source",
+      "self-hosted",
+      "sfu"
+    ],
+    "lastVerified": "2026-05-01",
+    "category": "Video, Voice & Real-Time Communication",
+    "categorySlug": "video-realtime-comms"
+  }
+]

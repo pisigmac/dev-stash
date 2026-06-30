@@ -1,0 +1,105 @@
+{
+  "category": "Code Quality, Review & Static Analysis",
+  "slug": "code-quality",
+  "description": "Tools for automated code review, static analysis, linting, and code coverage tracking.",
+  "entries": [
+    {
+      "name": "CodeRabbit",
+      "url": "https://coderabbit.ai",
+      "pricingModel": "freemium",
+      "summary": "AI-powered code review tool integrating with GitHub/GitLab to leave contextual review comments on PRs automatically.",
+      "freeTier": "200 files/hour, 3 reviews/hour, 50 conversations/hour; free forever for open source.",
+      "paidFrom": "Pro plan from $24/developer/month.",
+      "tags": ["code-review", "ai", "github", "gitlab"],
+      "lastVerified": "2026-06-01"
+    },
+    {
+      "name": "Codacy",
+      "url": "https://www.codacy.com",
+      "pricingModel": "freemium",
+      "summary": "Automated code review covering style, security, duplication, and complexity across 40+ languages.",
+      "freeTier": "Free for unlimited public and private repositories on the open-source plan.",
+      "paidFrom": "Pro plan from $18/month.",
+      "tags": ["code-review", "static-analysis", "security"],
+      "lastVerified": "2026-05-01"
+    },
+    {
+      "name": "CodeFactor",
+      "url": "https://www.codefactor.io",
+      "pricingModel": "freemium",
+      "summary": "Automated code review for Git repos with quality grading and trend tracking.",
+      "freeTier": "Unlimited users and public repos free, plus one private repo.",
+      "paidFrom": "Pro plan from $4.99/month.",
+      "tags": ["code-review", "static-analysis"],
+      "lastVerified": "2026-04-01"
+    },
+    {
+      "name": "Codecov",
+      "url": "https://codecov.io",
+      "pricingModel": "freemium",
+      "summary": "Code coverage reporting and visualization, integrates with CI to show coverage diffs on PRs.",
+      "freeTier": "Free for open source; one free private repo.",
+      "paidFrom": "Pro plan billed per seat.",
+      "tags": ["code-coverage", "testing", "ci-integration"],
+      "lastVerified": "2026-04-01"
+    },
+    {
+      "name": "SonarCloud",
+      "url": "https://sonarcloud.io",
+      "pricingModel": "freemium",
+      "summary": "Cloud-hosted static analysis for bugs, vulnerabilities, and code smells, from the makers of SonarQube.",
+      "freeTier": "Free for public/open-source projects with unlimited lines of code.",
+      "paidFrom": "Private repo pricing based on lines of code analyzed.",
+      "tags": ["static-analysis", "security", "code-smells"],
+      "lastVerified": "2026-05-01"
+    },
+    {
+      "name": "DeepSource",
+      "url": "https://deepsource.com",
+      "pricingModel": "freemium",
+      "summary": "Continuous static analysis covering bug risk, performance, security, and anti-patterns, with autofix suggestions.",
+      "freeTier": "Free for open-source repositories.",
+      "paidFrom": "Team plan from $8/contributor/month.",
+      "tags": ["static-analysis", "autofix", "security"],
+      "lastVerified": "2026-04-01"
+    },
+    {
+      "name": "Snyk",
+      "url": "https://snyk.io",
+      "pricingModel": "freemium",
+      "summary": "Developer-first security platform scanning for vulnerabilities in code, open-source dependencies, containers, and IaC.",
+      "freeTier": "Free tier with limited monthly tests across code/open-source/container scanning.",
+      "paidFrom": "Team plan from $25/product/month.",
+      "tags": ["security", "dependency-scanning", "sast", "container-scanning"],
+      "lastVerified": "2026-06-01"
+    },
+    {
+      "name": "Dependabot",
+      "url": "https://github.com/dependabot",
+      "pricingModel": "free",
+      "summary": "Automated dependency update PRs built into GitHub, covering most major package ecosystems.",
+      "freeTier": "Completely free for all public and private GitHub repos.",
+      "tags": ["dependency-updates", "security", "automation"],
+      "lastVerified": "2026-06-01"
+    },
+    {
+      "name": "Codeac.io",
+      "url": "https://www.codeac.io",
+      "pricingModel": "freemium",
+      "summary": "Automated Infrastructure-as-Code review integrating with GitHub, Bitbucket, and self-hosted GitLab.",
+      "freeTier": "Free tier for small/open-source projects.",
+      "paidFrom": "Paid plans scale with repo count.",
+      "tags": ["iac", "terraform", "ansible", "kubernetes"],
+      "lastVerified": "2026-03-01"
+    },
+    {
+      "name": "Better Code Hub",
+      "url": "https://bettercodehub.com",
+      "pricingModel": "freemium",
+      "summary": "Automated code maintainability checks based on the Software Improvement Group's 10 guidelines.",
+      "freeTier": "Free for public GitHub repositories.",
+      "tags": ["maintainability", "static-analysis"],
+      "lastVerified": "2026-02-01"
+    }
+  ]
+}

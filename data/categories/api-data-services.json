@@ -1,0 +1,126 @@
+{
+  "category": "APIs & Data Services",
+  "slug": "apis-data-services",
+  "description": "Third-party APIs providing geolocation, weather, financial, automotive, and other structured data.",
+  "entries": [
+    {
+      "name": "IPinfo",
+      "url": "https://ipinfo.io",
+      "pricingModel": "freemium",
+      "summary": "Fast, accurate IP geolocation and company/carrier data API.",
+      "freeTier": "Up to 100,000 requests/month free.",
+      "paidFrom": "Basic plan from $49/month.",
+      "tags": ["ip-geolocation", "api"],
+      "lastVerified": "2026-04-01"
+    },
+    {
+      "name": "IP Geolocation API (ipgeolocation.io)",
+      "url": "https://ipgeolocation.io",
+      "pricingModel": "freemium",
+      "summary": "IP geolocation API with timezone, currency, and astronomy data add-ons.",
+      "freeTier": "30,000 requests/month (1,000/day) forever free.",
+      "paidFrom": "Paid plans from $15/month.",
+      "tags": ["ip-geolocation", "api"],
+      "lastVerified": "2026-03-01"
+    },
+    {
+      "name": "OpenWeatherMap",
+      "url": "https://openweathermap.org/api",
+      "pricingModel": "freemium",
+      "summary": "Current weather, forecasts, and historical weather data API covering global locations.",
+      "freeTier": "1,000 calls/day free on the current weather and forecast endpoints.",
+      "paidFrom": "Startup plan from $40/month.",
+      "tags": ["weather", "api"],
+      "lastVerified": "2026-04-01"
+    },
+    {
+      "name": "REST Countries",
+      "url": "https://restcountries.com",
+      "pricingModel": "free",
+      "summary": "Free REST API for retrieving country information — names, capitals, currencies, flags, and more.",
+      "freeTier": "Free, unlimited use, no API key required.",
+      "tags": ["geography", "reference-data", "api"],
+      "lastVerified": "2026-02-01"
+    },
+    {
+      "name": "Country State City API",
+      "url": "https://countrystatecity.in",
+      "pricingModel": "freemium",
+      "summary": "Hierarchical location data API: countries, states/provinces, cities, and postal codes.",
+      "freeTier": "100 requests/day free.",
+      "paidFrom": "Paid plans for higher volume.",
+      "tags": ["geography", "reference-data", "api"],
+      "lastVerified": "2026-03-01"
+    },
+    {
+      "name": "CarAPI.dev",
+      "url": "https://carapi.app",
+      "pricingModel": "freemium",
+      "summary": "Automotive data API covering VIN decoding, vehicle specs, valuation, and stolen vehicle checks.",
+      "freeTier": "100 requests/month across all endpoints free.",
+      "paidFrom": "Paid plans from $19/month.",
+      "tags": ["automotive", "vin-decoding", "api"],
+      "lastVerified": "2026-04-01"
+    },
+    {
+      "name": "Alpha Vantage",
+      "url": "https://www.alphavantage.co",
+      "pricingModel": "freemium",
+      "summary": "Stock, forex, and crypto market data API with technical indicators.",
+      "freeTier": "25 requests/day free.",
+      "paidFrom": "Premium plans from $49.99/month.",
+      "tags": ["finance", "stock-market", "api"],
+      "lastVerified": "2026-04-01"
+    },
+    {
+      "name": "Exchange Rate API",
+      "url": "https://www.exchangerate-api.com",
+      "pricingModel": "freemium",
+      "summary": "Currency conversion and exchange rate data API.",
+      "freeTier": "1,500 requests/month free.",
+      "paidFrom": "Paid plans from $9.99/month.",
+      "tags": ["finance", "currency", "api"],
+      "lastVerified": "2026-03-01"
+    },
+    {
+      "name": "NewsAPI",
+      "url": "https://newsapi.org",
+      "pricingModel": "freemium",
+      "summary": "Search and retrieve news articles from thousands of sources worldwide.",
+      "freeTier": "Developer plan free for non-commercial use, 100 requests/day.",
+      "paidFrom": "Business plan from $449/month for commercial use.",
+      "tags": ["news", "content-aggregation", "api"],
+      "lastVerified": "2026-03-01"
+    },
+    {
+      "name": "FullContact",
+      "url": "https://www.fullcontact.com",
+      "pricingModel": "freemium",
+      "summary": "Identity resolution API enriching contact records with social profiles and demographic data.",
+      "freeTier": "500 free Person API matches/month.",
+      "paidFrom": "Paid plans billed per match.",
+      "tags": ["identity-resolution", "enrichment", "api"],
+      "lastVerified": "2026-02-01"
+    },
+    {
+      "name": "Cloudmersive",
+      "url": "https://cloudmersive.com",
+      "pricingModel": "freemium",
+      "summary": "Utility API platform covering document conversion, virus scanning, image processing, and validation.",
+      "freeTier": "600 calls/month free, North America region only on free tier.",
+      "paidFrom": "Paid plans from $19/month.",
+      "tags": ["document-conversion", "virus-scanning", "utility-api"],
+      "lastVerified": "2026-03-01"
+    },
+    {
+      "name": "Conversion Tools",
+      "url": "https://www.conversiontools.io",
+      "pricingModel": "freemium",
+      "summary": "Online file converter for documents, images, video, audio, and eBooks, with a REST API and SDKs.",
+      "freeTier": "20MB file size limit, 30/day and 300/month conversions free.",
+      "paidFrom": "Paid plans support files up to 50GB.",
+      "tags": ["file-conversion", "api"],
+      "lastVerified": "2026-03-01"
+    }
+  ]
+}

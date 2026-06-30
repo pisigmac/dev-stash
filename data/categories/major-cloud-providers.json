@@ -1,0 +1,72 @@
+{
+  "category": "Major Cloud Providers (Deep Dive)",
+  "slug": "major-cloud-providers",
+  "description": "Expanded detail on the 'big' multi-service clouds, since each spans compute, storage, databases, and more under one free-tier umbrella.",
+  "entries": [
+    {
+      "name": "AWS Free Tier — Compute & Storage Bundle",
+      "url": "https://aws.amazon.com/free",
+      "pricingModel": "freemium",
+      "summary": "AWS bundles dozens of always-free and 12-month-free service allowances across EC2, S3, RDS, Lambda, and DynamoDB.",
+      "freeTier": "750 EC2 hrs/month (12mo), 5GB S3 (12mo), 750 RDS hrs/month (12mo), 1M Lambda requests/month (always-free), 25GB DynamoDB (always-free).",
+      "tags": ["cloud", "multi-service", "always-free", "12-month-free"],
+      "notes": "Distinguish 'always free' services from '12 months free' services — many people get billed unexpectedly after month 12.",
+      "lastVerified": "2026-06-01"
+    },
+    {
+      "name": "Google Cloud Free Program",
+      "url": "https://cloud.google.com/free",
+      "pricingModel": "freemium",
+      "summary": "Combines an always-free tier (small but permanent) with a one-time $300 trial credit for 90 days.",
+      "freeTier": "1 e2-micro VM, 5GB Cloud Storage, 2M Cloud Functions invocations/month always-free; $300 credit for new accounts.",
+      "tags": ["cloud", "multi-service", "always-free", "trial-credit"],
+      "lastVerified": "2026-06-01"
+    },
+    {
+      "name": "Microsoft Azure Free Account",
+      "url": "https://azure.microsoft.com/free",
+      "pricingModel": "freemium",
+      "summary": "Mix of always-free service quotas (25+ services) plus a $200 credit for the first 30 days.",
+      "freeTier": "1 B1S VM (12mo), 1M Azure Functions executions/month (always-free), 5GB Blob + 5GB File storage (12mo), $200 trial credit.",
+      "tags": ["cloud", "multi-service", "always-free", "trial-credit"],
+      "lastVerified": "2026-06-01"
+    },
+    {
+      "name": "Oracle Cloud Always Free",
+      "url": "https://www.oracle.com/cloud/free",
+      "pricingModel": "freemium",
+      "summary": "OCI's always-free tier is unusually generous and has no 12-month expiration on its core compute offer.",
+      "freeTier": "4 Arm Ampere A1 cores + 24GB RAM (split across up to 4 VMs), 2 AMD E2.1.Micro VMs, 200GB block storage, 10TB egress/month, all permanently free.",
+      "tags": ["cloud", "arm", "always-free", "no-expiration"],
+      "notes": "Often cited as the best free always-on compute available from any major cloud provider.",
+      "lastVerified": "2026-06-01"
+    },
+    {
+      "name": "IBM Cloud Lite",
+      "url": "https://www.ibm.com/cloud/free",
+      "pricingModel": "freemium",
+      "summary": "IBM's Lite plans apply across dozens of services (Kubernetes, Cloud Functions, Watson AI, Cloudant) with no time limit, just usage caps.",
+      "freeTier": "Lite tier limits vary per service but never expire by time, only by usage quota.",
+      "tags": ["cloud", "multi-service", "lite-plan", "watson-ai"],
+      "lastVerified": "2026-05-01"
+    },
+    {
+      "name": "Cloudflare Free Plan",
+      "url": "https://www.cloudflare.com/plans",
+      "pricingModel": "freemium",
+      "summary": "Cloudflare's free plan spans DNS, CDN, DDoS protection, SSL, Workers, Pages, and R2 storage under one umbrella.",
+      "freeTier": "Unlimited DNS-protected domains, free SSL, 100k Workers requests/day, 500 Pages builds/month, 10GB R2 storage/month.",
+      "tags": ["cloud", "multi-service", "cdn", "edge", "dns"],
+      "lastVerified": "2026-06-01"
+    },
+    {
+      "name": "Zoho Suite (Catalyst, Mail, Assist, Sprints)",
+      "url": "https://www.zoho.com",
+      "pricingModel": "freemium",
+      "summary": "Zoho's developer-relevant free tiers span PaaS (Catalyst), email, remote support (Assist), and project tracking (Sprints).",
+      "freeTier": "Catalyst PaaS generous free tier; Mail free for 5 users (5GB/user); Assist free for 1 concurrent session; Sprints free for 5 users/5 projects/500MB.",
+      "tags": ["cloud", "multi-service", "paas", "email"],
+      "lastVerified": "2026-04-01"
+    }
+  ]
+}

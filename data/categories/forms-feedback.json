@@ -1,0 +1,86 @@
+{
+  "category": "Forms, Surveys & Customer Feedback",
+  "slug": "forms-feedback",
+  "description": "Form builders, survey tools, and feedback widgets for collecting structured input from users.",
+  "entries": [
+    {
+      "name": "Tally",
+      "url": "https://tally.so",
+      "pricingModel": "freemium",
+      "summary": "Notion-like form builder with unlimited free forms and responses, no watermark on the free tier.",
+      "freeTier": "Unlimited forms and submissions free, no branding required.",
+      "paidFrom": "Pro plan from $29/month for advanced logic/integrations.",
+      "tags": ["forms", "surveys", "no-code"],
+      "lastVerified": "2026-05-01"
+    },
+    {
+      "name": "Typeform",
+      "url": "https://www.typeform.com",
+      "pricingModel": "freemium",
+      "summary": "Conversational, one-question-at-a-time forms with polished design and branching logic.",
+      "freeTier": "Free plan: unlimited typeforms, 10 responses/month.",
+      "paidFrom": "Basic plan from $25/month.",
+      "tags": ["forms", "surveys", "conversational-ui"],
+      "lastVerified": "2026-04-01"
+    },
+    {
+      "name": "Google Forms",
+      "url": "https://www.google.com/forms/about",
+      "pricingModel": "free",
+      "summary": "Free, simple form/survey builder integrated with Google Sheets for response collection.",
+      "freeTier": "Completely free with a Google account, unlimited forms and responses.",
+      "tags": ["forms", "surveys", "google"],
+      "lastVerified": "2026-04-01"
+    },
+    {
+      "name": "Formspree",
+      "url": "https://formspree.io",
+      "pricingModel": "freemium",
+      "summary": "Backend-as-a-service for HTML forms — handles submissions, spam filtering, and email notifications without server code.",
+      "freeTier": "50 submissions/month free.",
+      "paidFrom": "Starter plan from $10/month.",
+      "tags": ["forms", "backend-as-a-service", "static-sites"],
+      "lastVerified": "2026-04-01"
+    },
+    {
+      "name": "Getform",
+      "url": "https://getform.io",
+      "pricingModel": "freemium",
+      "summary": "Form endpoint service for static sites and JAMstack apps, with spam filtering and file upload support.",
+      "freeTier": "50 submissions/month free, 1 form endpoint.",
+      "paidFrom": "Basic plan from $9/month.",
+      "tags": ["forms", "backend-as-a-service", "jamstack"],
+      "lastVerified": "2026-03-01"
+    },
+    {
+      "name": "Canny",
+      "url": "https://canny.io",
+      "pricingModel": "freemium",
+      "summary": "Feature request and feedback board for product teams to collect, prioritize, and close the loop with users.",
+      "freeTier": "Starter plan free for small teams with limited tracked users.",
+      "paidFrom": "Growth plan from $79/month.",
+      "tags": ["feedback", "feature-requests", "product-management"],
+      "lastVerified": "2026-04-01"
+    },
+    {
+      "name": "Hotjar",
+      "url": "https://www.hotjar.com",
+      "pricingModel": "freemium",
+      "summary": "Heatmaps, session recordings, and on-site surveys for understanding user behavior.",
+      "freeTier": "Basic plan free with limited daily sessions tracked.",
+      "paidFrom": "Plus plan from $39/month.",
+      "tags": ["heatmaps", "session-recording", "ux-research"],
+      "lastVerified": "2026-04-01"
+    },
+    {
+      "name": "SurveyMonkey",
+      "url": "https://www.surveymonkey.com",
+      "pricingModel": "freemium",
+      "summary": "Established survey platform with templates, logic branching, and analysis tools.",
+      "freeTier": "Free plan: up to 10 questions and 25 responses per survey.",
+      "paidFrom": "Standard plan from $25/month.",
+      "tags": ["surveys", "market-research"],
+      "lastVerified": "2026-03-01"
+    }
+  ]
+}

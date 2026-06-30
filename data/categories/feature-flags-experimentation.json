@@ -1,0 +1,67 @@
+{
+  "category": "Feature Flags & Experimentation",
+  "slug": "feature-flags-experimentation",
+  "description": "Feature flag management and A/B testing platforms for controlled, gradual feature rollouts.",
+  "entries": [
+    {
+      "name": "LaunchDarkly",
+      "url": "https://launchdarkly.com",
+      "pricingModel": "freemium",
+      "summary": "The most established feature flag management platform, with targeting rules, experimentation, and audit logs.",
+      "freeTier": "Free tier for up to 1,000 monthly context instances (small projects).",
+      "paidFrom": "Foundation plan billed per seat/usage.",
+      "tags": ["feature-flags", "experimentation", "rollouts"],
+      "lastVerified": "2026-04-01"
+    },
+    {
+      "name": "PostHog Feature Flags",
+      "url": "https://posthog.com/feature-flags",
+      "pricingModel": "freemium",
+      "summary": "Feature flagging built into the broader PostHog product analytics suite, with usage-based pricing.",
+      "freeTier": "1M flag requests/month free (shared with PostHog's overall free event quota).",
+      "paidFrom": "Pay-as-you-go beyond free monthly quota.",
+      "tags": ["feature-flags", "open-source", "product-analytics"],
+      "lastVerified": "2026-05-01"
+    },
+    {
+      "name": "Flagsmith",
+      "url": "https://www.flagsmith.com",
+      "pricingModel": "freemium",
+      "summary": "Open-source feature flag and remote config platform, self-hostable or managed cloud.",
+      "freeTier": "Self-hosted fully free; cloud free tier includes 50,000 API requests/month.",
+      "paidFrom": "Startup plan from $45/month.",
+      "tags": ["feature-flags", "open-source", "self-hosted"],
+      "lastVerified": "2026-04-01"
+    },
+    {
+      "name": "Unleash",
+      "url": "https://www.getunleash.io",
+      "pricingModel": "freemium",
+      "summary": "Open-source feature flag platform built for enterprise-scale rollouts, with a strong self-hosted option.",
+      "freeTier": "Self-hosted Open Source edition fully free; Unleash Cloud free tier for small teams.",
+      "paidFrom": "Pro plan billed monthly.",
+      "tags": ["feature-flags", "open-source", "enterprise"],
+      "lastVerified": "2026-04-01"
+    },
+    {
+      "name": "Statsig",
+      "url": "https://statsig.com",
+      "pricingModel": "freemium",
+      "summary": "Feature flags, experimentation, and product analytics in one platform, built by ex-Facebook engineers.",
+      "freeTier": "Free tier with generous monthly event allowance.",
+      "paidFrom": "Pay-as-you-go billing beyond free quota.",
+      "tags": ["feature-flags", "experimentation", "analytics"],
+      "lastVerified": "2026-04-01"
+    },
+    {
+      "name": "GrowthBook",
+      "url": "https://www.growthbook.io",
+      "pricingModel": "freemium",
+      "summary": "Open-source feature flagging and A/B testing platform with a focus on warehouse-native analytics.",
+      "freeTier": "Self-hosted fully free; cloud free tier for small teams.",
+      "paidFrom": "Pro plan billed monthly.",
+      "tags": ["feature-flags", "ab-testing", "open-source"],
+      "lastVerified": "2026-04-01"
+    }
+  ]
+}

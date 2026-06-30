@@ -1,0 +1,87 @@
+{
+  "category": "Headless CMS & Content Management",
+  "slug": "headless-cms",
+  "description": "API-first content management systems for decoupled front-end delivery (web, mobile, JAMstack).",
+  "entries": [
+    {
+      "name": "Contentful",
+      "url": "https://www.contentful.com",
+      "pricingModel": "freemium",
+      "summary": "API-first headless CMS with flexible content modeling and a large app/integration marketplace.",
+      "freeTier": "Free tier for up to 5 users, 25k records, 2 locales.",
+      "paidFrom": "Basic plan from $300/month.",
+      "tags": ["headless-cms", "api-first", "content-modeling"],
+      "lastVerified": "2026-05-01"
+    },
+    {
+      "name": "Sanity",
+      "url": "https://www.sanity.io",
+      "pricingModel": "freemium",
+      "summary": "Structured content platform with a real-time collaborative editor and a highly customizable Studio UI.",
+      "freeTier": "Free tier with 3 users, 10k documents, 5GB assets.",
+      "paidFrom": "Growth plan from $15/month.",
+      "tags": ["headless-cms", "real-time", "customizable"],
+      "lastVerified": "2026-05-01"
+    },
+    {
+      "name": "Strapi",
+      "url": "https://strapi.io",
+      "pricingModel": "open-source",
+      "summary": "Open-source, self-hostable Node.js headless CMS with a fully customizable admin panel and REST/GraphQL APIs.",
+      "freeTier": "Community edition completely free, self-hosted.",
+      "paidFrom": "Strapi Cloud from $15/month for managed hosting.",
+      "tags": ["headless-cms", "open-source", "self-hosted", "nodejs"],
+      "lastVerified": "2026-05-01"
+    },
+    {
+      "name": "Prismic",
+      "url": "https://prismic.io",
+      "pricingModel": "freemium",
+      "summary": "Headless CMS with a visual page builder (Slice Machine) for marketing teams and developers together.",
+      "freeTier": "Community plan: 1 user, unlimited API calls, documents, and custom types.",
+      "paidFrom": "Starter plan from $7/month/user.",
+      "tags": ["headless-cms", "visual-builder", "marketing"],
+      "lastVerified": "2026-04-01"
+    },
+    {
+      "name": "Kontent.ai",
+      "url": "https://kontent.ai",
+      "pricingModel": "freemium",
+      "summary": "Content-as-a-Service platform balancing headless CMS benefits with marketer-friendly authoring tools.",
+      "freeTier": "Developer plan: 2 users, unlimited projects, 2 environments each, 500 content items, 2 languages.",
+      "paidFrom": "Business plan billed annually, custom pricing.",
+      "tags": ["headless-cms", "content-as-a-service"],
+      "lastVerified": "2026-03-01"
+    },
+    {
+      "name": "Directus",
+      "url": "https://directus.io",
+      "pricingModel": "open-source",
+      "summary": "Open-source data platform that wraps any SQL database with a REST/GraphQL API and admin app instantly.",
+      "freeTier": "Fully free and open source, self-hosted.",
+      "paidFrom": "Directus Cloud from $15/month for managed hosting.",
+      "tags": ["headless-cms", "open-source", "database-wrapper"],
+      "lastVerified": "2026-04-01"
+    },
+    {
+      "name": "Forestry.io",
+      "url": "https://forestry.io",
+      "pricingModel": "freemium",
+      "summary": "Git-based headless CMS giving content editors a friendly UI over markdown content in a Git repo.",
+      "freeTier": "Free for up to 3 sites, 3 editors, with instant previews.",
+      "paidFrom": "Paid plans add more sites/editors.",
+      "tags": ["headless-cms", "git-based", "markdown"],
+      "lastVerified": "2026-02-01"
+    },
+    {
+      "name": "Builder.io",
+      "url": "https://www.builder.io",
+      "pricingModel": "freemium",
+      "summary": "Visual headless CMS and drag-and-drop page builder that integrates with React, Vue, and other frameworks.",
+      "freeTier": "Free tier for individuals with limited monthly sessions/seats.",
+      "paidFrom": "Growth plan billed monthly.",
+      "tags": ["headless-cms", "visual-builder", "page-builder"],
+      "lastVerified": "2026-04-01"
+    }
+  ]
+}

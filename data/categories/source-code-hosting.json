@@ -1,0 +1,105 @@
+{
+  "category": "Source Code Hosting",
+  "slug": "source-code-hosting",
+  "description": "Git and version control hosting platforms, including code review, issue tracking, and CI integration.",
+  "entries": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com",
+      "pricingModel": "freemium",
+      "summary": "The largest Git hosting platform with issues, project boards, Actions CI/CD, and package registry built in.",
+      "freeTier": "Unlimited public and private repositories, unlimited collaborators on free plan, 2,000 CI/CD Actions minutes/month, 500MB Packages storage.",
+      "paidFrom": "Team plan from $4/user/month; Enterprise from $21/user/month.",
+      "tags": ["git", "vcs", "ci-cd", "code-review", "issues"],
+      "notes": "Private repo collaborator limits were removed in 2019; free tier is generous for small teams.",
+      "alternativeTo": "GitLab Self-Managed, Bitbucket",
+      "lastVerified": "2026-06-01"
+    },
+    {
+      "name": "GitLab",
+      "url": "https://gitlab.com",
+      "pricingModel": "freemium",
+      "summary": "Git hosting with an integrated DevOps platform: CI/CD, container registry, security scanning, and Kubernetes integration.",
+      "freeTier": "Unlimited private repos, 5 users per top-level namespace free, 400 CI/CD minutes/month, 5GB storage, 10GB transfer.",
+      "paidFrom": "Premium from $29/user/month.",
+      "tags": ["git", "vcs", "ci-cd", "devops", "self-hosted"],
+      "notes": "Also distributed as free open-source self-managed Community Edition.",
+      "alternativeTo": "GitHub Enterprise",
+      "lastVerified": "2026-06-01"
+    },
+    {
+      "name": "Bitbucket",
+      "url": "https://bitbucket.org",
+      "pricingModel": "freemium",
+      "summary": "Atlassian's Git hosting product, tightly integrated with Jira and Trello, with built-in Pipelines CI/CD.",
+      "freeTier": "Unlimited private repos for up to 5 users, 50 build minutes/month on Pipelines.",
+      "paidFrom": "Standard from $3/user/month.",
+      "tags": ["git", "vcs", "ci-cd", "jira-integration"],
+      "lastVerified": "2026-06-01"
+    },
+    {
+      "name": "SourceHut",
+      "url": "https://sourcehut.org",
+      "pricingModel": "open-source",
+      "summary": "Minimalist, hackable software forge: Git/Mercurial hosting, mailing lists, CI, and issue tracking, all email-driven and ad-free.",
+      "freeTier": "Pay-what-you-want; free tier available, fully open source and self-hostable.",
+      "tags": ["git", "mercurial", "self-hosted", "minimalist", "ci-cd"],
+      "lastVerified": "2026-05-15"
+    },
+    {
+      "name": "Codeberg",
+      "url": "https://codeberg.org",
+      "pricingModel": "free",
+      "summary": "Non-profit, community-run Git hosting built on Forgejo (a Gitea fork), as a privacy-respecting GitHub alternative.",
+      "freeTier": "Unlimited public and private repos, free for individuals and small projects, donation-funded.",
+      "tags": ["git", "non-profit", "self-hosted", "privacy"],
+      "lastVerified": "2026-05-15"
+    },
+    {
+      "name": "Gitea (Cloud / Self-host)",
+      "url": "https://gitea.com",
+      "pricingModel": "open-source",
+      "summary": "Lightweight, self-hostable Git service; Gitea Cloud offers managed hosting on top of the open-source core.",
+      "freeTier": "Self-hosted is fully free and open source; Gitea Cloud has a free tier for small repos.",
+      "tags": ["git", "self-hosted", "lightweight"],
+      "lastVerified": "2026-05-15"
+    },
+    {
+      "name": "Launchpad",
+      "url": "https://launchpad.net",
+      "pricingModel": "free",
+      "summary": "Canonical's collaboration platform for Bazaar/Git hosting, bug tracking, and Ubuntu/PPA package building.",
+      "freeTier": "Free for open-source projects, including PPA package builds.",
+      "tags": ["git", "bazaar", "open-source", "ppa"],
+      "lastVerified": "2026-04-20"
+    },
+    {
+      "name": "SourceForge",
+      "url": "https://sourceforge.net",
+      "pricingModel": "free",
+      "summary": "Long-running open-source project hosting with file release distribution, forums, and Git/SVN/Mercurial support.",
+      "freeTier": "Free hosting and unlimited bandwidth for open-source projects.",
+      "tags": ["git", "svn", "open-source", "file-hosting"],
+      "lastVerified": "2026-04-20"
+    },
+    {
+      "name": "jitpack.io",
+      "url": "https://jitpack.io",
+      "pricingModel": "free",
+      "summary": "Turns any GitHub repository into a Maven dependency without needing to publish to a separate repository.",
+      "freeTier": "Free for public projects, unlimited builds.",
+      "tags": ["maven", "jvm", "package-registry", "android"],
+      "lastVerified": "2026-04-20"
+    },
+    {
+      "name": "Gemfury",
+      "url": "https://gemfury.com",
+      "pricingModel": "freemium",
+      "summary": "Private and public artifact/package repository supporting Maven, PyPI, npm, Go modules, NuGet, APT, and RPM.",
+      "freeTier": "Free for public packages.",
+      "paidFrom": "Starter plans from ~$7/month for private packages.",
+      "tags": ["package-registry", "artifact-repo", "npm", "pypi"],
+      "lastVerified": "2026-04-20"
+    }
+  ]
+}

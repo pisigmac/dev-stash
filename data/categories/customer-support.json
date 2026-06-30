@@ -1,0 +1,66 @@
+{
+  "category": "Customer Support & Helpdesk",
+  "slug": "customer-support",
+  "description": "Helpdesk, live chat, and customer support ticketing tools for product and engineering teams.",
+  "entries": [
+    {
+      "name": "Crisp",
+      "url": "https://crisp.chat",
+      "pricingModel": "freemium",
+      "summary": "Live chat, shared inbox, and basic CRM for small support teams.",
+      "freeTier": "Free plan for up to 2 seats with core chat features.",
+      "paidFrom": "Pro plan from $25/month.",
+      "tags": ["live-chat", "helpdesk", "small-teams"],
+      "lastVerified": "2026-04-01"
+    },
+    {
+      "name": "Tawk.to",
+      "url": "https://www.tawk.to",
+      "pricingModel": "free",
+      "summary": "Free live chat widget and ticketing system with unlimited agents and chat history.",
+      "freeTier": "100% free for unlimited agents and chat volume.",
+      "paidFrom": "Add-ons (e.g., remove branding, hire chat agents) are paid.",
+      "tags": ["live-chat", "helpdesk", "free"],
+      "lastVerified": "2026-04-01"
+    },
+    {
+      "name": "Chatwoot",
+      "url": "https://www.chatwoot.com",
+      "pricingModel": "open-source",
+      "summary": "Open-source customer engagement platform (live chat, omnichannel inbox), self-hostable or managed cloud.",
+      "freeTier": "Self-hosted fully free; Cloud free tier for small teams.",
+      "paidFrom": "Cloud Startup plan from $19/month.",
+      "tags": ["live-chat", "open-source", "omnichannel"],
+      "lastVerified": "2026-04-01"
+    },
+    {
+      "name": "Freshdesk",
+      "url": "https://www.freshworks.com/freshdesk",
+      "pricingModel": "freemium",
+      "summary": "Helpdesk and ticketing system with automation, SLAs, and a knowledge base builder.",
+      "freeTier": "Free plan for up to 10 agents with core ticketing.",
+      "paidFrom": "Growth plan from $15/agent/month.",
+      "tags": ["helpdesk", "ticketing", "knowledge-base"],
+      "lastVerified": "2026-04-01"
+    },
+    {
+      "name": "Zendesk",
+      "url": "https://www.zendesk.com",
+      "pricingModel": "paid",
+      "summary": "Enterprise-grade customer service platform covering ticketing, chat, and a help center.",
+      "freeTier": "N/A — no perpetual free tier, trial only.",
+      "paidFrom": "Support Team plan from $19/agent/month.",
+      "tags": ["helpdesk", "enterprise", "ticketing"],
+      "lastVerified": "2026-04-01"
+    },
+    {
+      "name": "Papercups",
+      "url": "https://github.com/papercups-io/papercups",
+      "pricingModel": "open-source",
+      "summary": "Open-source live customer chat platform, an Intercom alternative you can self-host.",
+      "freeTier": "Self-hosted fully free.",
+      "tags": ["live-chat", "open-source", "self-hosted"],
+      "lastVerified": "2026-02-01"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "category": "Databases (SQL, NoSQL, Vector)",
+  "slug": "databases",
+  "description": "Managed database-as-a-service offerings across relational, document, key-value, graph, and vector databases.",
+  "entries": [
+    {
+      "name": "Supabase",
+      "url": "https://supabase.com",
+      "pricingModel": "freemium",
+      "summary": "Open-source Firebase alternative providing a managed Postgres database with auth, storage, realtime, and edge functions.",
+      "freeTier": "2 free projects, 500MB database, 1GB file storage, 5GB bandwidth/month, projects pause after 1 week inactivity.",
+      "paidFrom": "Pro plan from $25/month/project.",
+      "tags": ["postgres", "backend-as-a-service", "auth", "realtime"],
+      "lastVerified": "2026-06-01"
+    },
+    {
+      "name": "Neon",
+      "url": "https://neon.com",
+      "pricingModel": "freemium",
+      "summary": "Serverless Postgres with branching (database copies for dev/test) and scale-to-zero compute.",
+      "freeTier": "0.5GB storage, generous compute hours/month, unlimited branches on free tier.",
+      "paidFrom": "Launch plan from $19/month.",
+      "tags": ["postgres", "serverless", "branching"],
+      "lastVerified": "2026-06-01"
+    },
+    {
+      "name": "PlanetScale",
+      "url": "https://planetscale.com",
+      "pricingModel": "freemium",
+      "summary": "Serverless MySQL-compatible platform built on Vitess, with non-blocking schema migrations and branching workflows.",
+      "freeTier": "Hobby plan free with limited storage and row reads/writes per month.",
+      "paidFrom": "Scaler plan from $39/month.",
+      "tags": ["mysql", "vitess", "serverless", "branching"],
+      "lastVerified": "2026-06-01"
+    },
+    {
+      "name": "MongoDB Atlas",
+      "url": "https://www.mongodb.com/cloud/atlas",
+      "pricingModel": "freemium",
+      "summary": "Fully managed MongoDB document database with a free shared-cluster tier that never expires.",
+      "freeTier": "M0 cluster: 512MB storage, shared RAM/vCPU, no time limit.",
+      "paidFrom": "Dedicated clusters from ~$9/month (M2).",
+      "tags": ["mongodb", "nosql", "document-db"],
+      "lastVerified": "2026-06-01"
+    },
+    {
+      "name": "Firebase (Firestore/Realtime DB)",
+      "url": "https://firebase.google.com/pricing",
+      "pricingModel": "freemium",
+      "summary": "Google's mobile/web app backend platform including Firestore NoSQL database, auth, hosting, and analytics.",
+      "freeTier": "Spark plan free: 1GB Firestore storage, 50k reads/20k writes per day.",
+      "paidFrom": "Blaze plan is pay-as-you-go beyond Spark limits.",
+      "tags": ["nosql", "backend-as-a-service", "mobile", "realtime"],
+      "lastVerified": "2026-06-01"
+    },
+    {
+      "name": "Upstash",
+      "url": "https://upstash.com",
+      "pricingModel": "freemium",
+      "summary": "Serverless Redis, Kafka, and vector database with per-request pricing ideal for spiky/serverless workloads.",
+      "freeTier": "10,000 commands/day free on Redis, 10,000 vectors free on vector DB.",
+      "paidFrom": "Pay-as-you-go beyond free request quota.",
+      "tags": ["redis", "serverless", "kafka", "vector-db"],
+      "lastVerified": "2026-06-01"
+    },
+    {
+      "name": "Redis Cloud",
+      "url": "https://redis.io/cloud",
+      "pricingModel": "freemium",
+      "summary": "Official managed Redis offering with a permanently free small database tier.",
+      "freeTier": "30MB free database, shared infrastructure, no time limit.",
+      "paidFrom": "Flexible plans from ~$5/month for fixed dedicated.",
+      "tags": ["redis", "caching", "in-memory"],
+      "lastVerified": "2026-05-01"
+    },
+    {
+      "name": "CockroachDB Cloud",
+      "url": "https://www.cockroachlabs.com/get-started-cockroachdb",
+      "pricingModel": "freemium",
+      "summary": "Distributed SQL database that's Postgres wire-compatible, designed for resilience and horizontal scale.",
+      "freeTier": "Free tier with 10GiB storage and 50M request units/month.",
+      "paidFrom": "Standard plan billed on usage above free tier.",
+      "tags": ["distributed-sql", "postgres-compatible", "horizontal-scale"],
+      "lastVerified": "2026-05-01"
+    },
+    {
+      "name": "Turso",
+      "url": "https://turso.tech",
+      "pricingModel": "freemium",
+      "summary": "Edge-replicated SQLite database (built on libSQL) for low-latency reads close to users.",
+      "freeTier": "500 databases, 9GB total storage, 1B row reads/month on free tier.",
+      "paidFrom": "Scaler plan from $29/month.",
+      "tags": ["sqlite", "edge-db", "libsql"],
+      "lastVerified": "2026-05-01"
+    },
+    {
+      "name": "Pinecone",
+      "url": "https://www.pinecone.io",
+      "pricingModel": "freemium",
+      "summary": "Managed vector database purpose-built for similarity search and RAG/AI applications.",
+      "freeTier": "Starter tier free: 1 project, ~2GB storage (serverless), limited read/write units.",
+      "paidFrom": "Standard plan billed on usage.",
+      "tags": ["vector-db", "ai", "rag", "embeddings"],
+      "lastVerified": "2026-05-01"
+    },
+    {
+      "name": "Weaviate Cloud",
+      "url": "https://weaviate.io",
+      "pricingModel": "freemium",
+      "summary": "Open-source vector database with managed cloud hosting and hybrid (vector + keyword) search.",
+      "freeTier": "Sandbox cluster free for 14 days; open-source self-hosted version is free indefinitely.",
+      "paidFrom": "Serverless cloud billed on usage.",
+      "tags": ["vector-db", "open-source", "hybrid-search"],
+      "lastVerified": "2026-05-01"
+    },
+    {
+      "name": "Astra DB (DataStax)",
+      "url": "https://www.datastax.com/products/datastax-astra",
+      "pricingModel": "freemium",
+      "summary": "Managed Cassandra-based database with vector search support, built for high-scale NoSQL workloads.",
+      "freeTier": "25M reads/writes and 25GB storage free per month, no expiry.",
+      "paidFrom": "Pay-as-you-go beyond free monthly allowance.",
+      "tags": ["cassandra", "nosql", "vector-search"],
+      "lastVerified": "2026-04-01"
+    },
+    {
+      "name": "ElephantSQL (Postgres)",
+      "url": "https://www.elephantsql.com",
+      "pricingModel": "freemium",
+      "summary": "Simple managed PostgreSQL hosting with a small permanently-free tier, good for quick prototypes.",
+      "freeTier": "20MB storage, shared instance, no time limit.",
+      "paidFrom": "Paid plans from ~$9/month.",
+      "tags": ["postgres", "simple-hosting"],
+      "lastVerified": "2026-03-01"
+    },
+    {
+      "name": "Xata",
+      "url": "https://xata.io",
+      "pricingModel": "freemium",
+      "summary": "Serverless Postgres platform with built-in full-text search, file attachments, and branching.",
+      "freeTier": "Free tier with limited storage and request quotas for small projects.",
+      "paidFrom": "Pro plan billed on usage.",
+      "tags": ["postgres", "serverless", "full-text-search"],
+      "lastVerified": "2026-04-01"
+    }
+  ]
+}

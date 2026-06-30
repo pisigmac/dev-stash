@@ -1,0 +1,86 @@
+{
+  "category": "Payments & Billing",
+  "slug": "payments-billing",
+  "description": "Payment processing, subscription billing, and invoicing APIs for monetizing applications.",
+  "entries": [
+    {
+      "name": "Stripe",
+      "url": "https://stripe.com",
+      "pricingModel": "freemium",
+      "summary": "The most widely integrated payments platform: checkout, subscriptions, invoicing, and a powerful API.",
+      "freeTier": "No monthly fee; pay only per successful transaction (no free transaction quota).",
+      "paidFrom": "2.9% + $0.30 per successful card transaction (US rates).",
+      "tags": ["payments", "subscriptions", "checkout", "api"],
+      "lastVerified": "2026-06-01"
+    },
+    {
+      "name": "Paddle",
+      "url": "https://www.paddle.com",
+      "pricingModel": "freemium",
+      "summary": "Merchant-of-record billing platform handling global tax/VAT compliance for SaaS subscriptions.",
+      "freeTier": "No monthly fee; pay per transaction only.",
+      "paidFrom": "5% + $0.50 per transaction (varies by plan).",
+      "tags": ["payments", "merchant-of-record", "tax-compliance", "saas"],
+      "lastVerified": "2026-05-01"
+    },
+    {
+      "name": "Lemon Squeezy",
+      "url": "https://www.lemonsqueezy.com",
+      "pricingModel": "freemium",
+      "summary": "Merchant-of-record platform for selling software/digital products with built-in tax handling, popular with indie devs.",
+      "freeTier": "No monthly fee; pay per transaction only.",
+      "paidFrom": "5% + $0.50 per transaction.",
+      "tags": ["payments", "merchant-of-record", "indie-devs", "digital-products"],
+      "lastVerified": "2026-05-01"
+    },
+    {
+      "name": "PayPal Developer",
+      "url": "https://developer.paypal.com",
+      "pricingModel": "freemium",
+      "summary": "Widely recognized payment buttons and checkout API with strong consumer trust/brand recognition.",
+      "freeTier": "No monthly fee; pay only per transaction.",
+      "paidFrom": "Standard rate ~3.49% + fixed fee per transaction (varies by region).",
+      "tags": ["payments", "checkout", "consumer-trust"],
+      "lastVerified": "2026-04-01"
+    },
+    {
+      "name": "Razorpay",
+      "url": "https://razorpay.com",
+      "pricingModel": "freemium",
+      "summary": "Payments and business banking platform focused on the Indian market, supports UPI, cards, and netbanking.",
+      "freeTier": "No setup/monthly fee; pay only per transaction.",
+      "paidFrom": "Standard rate ~2% per domestic transaction.",
+      "tags": ["payments", "india", "upi"],
+      "lastVerified": "2026-04-01"
+    },
+    {
+      "name": "Wise Platform",
+      "url": "https://wise.com/platform",
+      "pricingModel": "freemium",
+      "summary": "Cross-border payments API for sending international transfers at near-real exchange rates.",
+      "freeTier": "No subscription fee; pay variable rates per international transfer.",
+      "tags": ["payments", "cross-border", "fx"],
+      "lastVerified": "2026-03-01"
+    },
+    {
+      "name": "Chargebee",
+      "url": "https://www.chargebee.com",
+      "pricingModel": "freemium",
+      "summary": "Subscription billing and revenue management platform handling complex pricing models and dunning.",
+      "freeTier": "Free tier for businesses with under $250k in annual recurring billing.",
+      "paidFrom": "Performance plan billed on revenue beyond free threshold.",
+      "tags": ["billing", "subscriptions", "revenue-management"],
+      "lastVerified": "2026-04-01"
+    },
+    {
+      "name": "Commerce Layer",
+      "url": "https://commercelayer.io",
+      "pricingModel": "freemium",
+      "summary": "Composable commerce API for building, placing, and managing orders from any frontend.",
+      "freeTier": "Developer plan free: 100 orders/month, up to 1,000 SKUs.",
+      "paidFrom": "Paid plans scale with order volume.",
+      "tags": ["ecommerce", "composable-commerce", "api"],
+      "lastVerified": "2026-04-01"
+    }
+  ]
+}

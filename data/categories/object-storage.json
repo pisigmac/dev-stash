@@ -1,0 +1,107 @@
+{
+  "category": "Object & File Storage",
+  "slug": "object-storage",
+  "description": "Cloud object storage, file sync/sharing, and backup services for application and personal data.",
+  "entries": [
+    {
+      "name": "Amazon S3",
+      "url": "https://aws.amazon.com/s3",
+      "pricingModel": "freemium",
+      "summary": "Industry-standard object storage with virtually unlimited scalability and deep AWS ecosystem integration.",
+      "freeTier": "5GB standard storage, 20,000 GET / 2,000 PUT requests free for 12 months.",
+      "paidFrom": "Pay-as-you-go from ~$0.023/GB/month after free tier.",
+      "tags": ["object-storage", "aws", "s3-compatible"],
+      "lastVerified": "2026-06-01"
+    },
+    {
+      "name": "Cloudflare R2",
+      "url": "https://www.cloudflare.com/developer-platform/products/r2",
+      "pricingModel": "freemium",
+      "summary": "S3-compatible object storage with zero egress fees, ideal for serving large files without bandwidth surprises.",
+      "freeTier": "10GB storage free/month, 1M Class A and 10M Class B operations free/month.",
+      "paidFrom": "$0.015/GB storage beyond free tier; no egress charges ever.",
+      "tags": ["object-storage", "s3-compatible", "no-egress-fees"],
+      "lastVerified": "2026-06-01"
+    },
+    {
+      "name": "Backblaze B2",
+      "url": "https://www.backblaze.com/cloud-storage",
+      "pricingModel": "freemium",
+      "summary": "Low-cost S3-compatible object storage, popular for backups and media storage with free egress to many CDNs.",
+      "freeTier": "10GB storage free.",
+      "paidFrom": "$6/TB/month beyond free tier.",
+      "tags": ["object-storage", "backup", "low-cost"],
+      "lastVerified": "2026-05-01"
+    },
+    {
+      "name": "Wasabi",
+      "url": "https://wasabi.com",
+      "pricingModel": "freemium",
+      "summary": "Flat-rate S3-compatible cloud storage with no egress or API request fees.",
+      "freeTier": "30-day free trial with 1TB; no perpetual free tier.",
+      "paidFrom": "Flat $5.99/TB/month (no egress fees).",
+      "tags": ["object-storage", "s3-compatible", "flat-rate"],
+      "lastVerified": "2026-04-01"
+    },
+    {
+      "name": "Google Cloud Storage",
+      "url": "https://cloud.google.com/storage",
+      "pricingModel": "freemium",
+      "summary": "Google's object storage with multiple storage classes (Standard, Nearline, Coldline, Archive) for tiered cost.",
+      "freeTier": "5GB-months Standard storage free, 5,000 Class A and 50,000 Class B ops free/month.",
+      "paidFrom": "Pay-as-you-go from $0.020/GB/month after free tier.",
+      "tags": ["object-storage", "google", "tiered-storage"],
+      "lastVerified": "2026-05-01"
+    },
+    {
+      "name": "Uploadcare",
+      "url": "https://uploadcare.com",
+      "pricingModel": "freemium",
+      "summary": "File uploading, storage, and on-the-fly image/video processing API with a CDN-backed delivery layer.",
+      "freeTier": "Free tier includes limited monthly uploads and storage.",
+      "paidFrom": "Paid plans from $59/month.",
+      "tags": ["file-upload", "image-processing", "cdn"],
+      "lastVerified": "2026-04-01"
+    },
+    {
+      "name": "Cloudinary",
+      "url": "https://cloudinary.com",
+      "pricingModel": "freemium",
+      "summary": "Media management platform for image/video upload, storage, transformation, and optimized delivery.",
+      "freeTier": "25 monthly credits free, covering a generous mix of storage, transformations, and bandwidth.",
+      "paidFrom": "Plus plan from $99/month.",
+      "tags": ["image-processing", "video-processing", "cdn", "media-management"],
+      "lastVerified": "2026-05-01"
+    },
+    {
+      "name": "ImageKit",
+      "url": "https://imagekit.io",
+      "pricingModel": "freemium",
+      "summary": "Real-time image and video optimization/CDN service with URL-based transformations.",
+      "freeTier": "20GB bandwidth and storage combined free/month.",
+      "paidFrom": "Growth plan from $49/month.",
+      "tags": ["image-processing", "video-processing", "cdn"],
+      "lastVerified": "2026-04-01"
+    },
+    {
+      "name": "Dropbox",
+      "url": "https://www.dropbox.com",
+      "pricingModel": "freemium",
+      "summary": "File sync and sharing service, also offers a developer API for app-integrated storage.",
+      "freeTier": "2GB free storage.",
+      "paidFrom": "Plus plan from $11.99/month for 2TB.",
+      "tags": ["file-sync", "personal-storage", "api"],
+      "lastVerified": "2026-03-01"
+    },
+    {
+      "name": "Filebase",
+      "url": "https://filebase.com",
+      "pricingModel": "freemium",
+      "summary": "S3-compatible storage backed by decentralized networks (IPFS, Sia, Storj) accessed through a standard API.",
+      "freeTier": "5GB free storage on decentralized backends.",
+      "paidFrom": "Paid plans from $5.99/month.",
+      "tags": ["object-storage", "decentralized", "ipfs", "s3-compatible"],
+      "lastVerified": "2026-03-01"
+    }
+  ]
+}

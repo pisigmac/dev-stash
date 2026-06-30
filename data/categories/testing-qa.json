@@ -1,0 +1,96 @@
+{
+  "category": "Testing & QA",
+  "slug": "testing-qa",
+  "description": "Automated browser testing, load testing, visual regression, and cross-browser/device testing platforms.",
+  "entries": [
+    {
+      "name": "BrowserStack",
+      "url": "https://www.browserstack.com",
+      "pricingModel": "freemium",
+      "summary": "Real-device and browser cloud for manual and automated cross-browser/cross-device testing.",
+      "freeTier": "Free trial available; open-source projects can apply for free ongoing access.",
+      "paidFrom": "Automate plan from $39/month (annual).",
+      "tags": ["cross-browser-testing", "real-devices", "automation"],
+      "lastVerified": "2026-05-01"
+    },
+    {
+      "name": "Sauce Labs",
+      "url": "https://saucelabs.com",
+      "pricingModel": "freemium",
+      "summary": "Cloud-based platform for automated and live testing across browsers, OSs, and real mobile devices.",
+      "freeTier": "Open Sauce program offers free access for qualifying open-source projects.",
+      "paidFrom": "Virtual Cloud plan billed by usage/minutes.",
+      "tags": ["cross-browser-testing", "mobile-testing", "automation"],
+      "lastVerified": "2026-04-01"
+    },
+    {
+      "name": "Playwright",
+      "url": "https://playwright.dev",
+      "pricingModel": "open-source",
+      "summary": "Microsoft's open-source end-to-end testing framework supporting Chromium, Firefox, and WebKit.",
+      "freeTier": "Completely free and open source.",
+      "tags": ["e2e-testing", "open-source", "browser-automation"],
+      "lastVerified": "2026-05-01"
+    },
+    {
+      "name": "Cypress",
+      "url": "https://www.cypress.io",
+      "pricingModel": "freemium",
+      "summary": "JavaScript end-to-end testing framework with a real-time test runner; Cypress Cloud adds dashboards and parallelization.",
+      "freeTier": "Cypress test runner is free/open source; Cypress Cloud free tier includes limited test results recording.",
+      "paidFrom": "Team plan from $75/month.",
+      "tags": ["e2e-testing", "open-source", "test-dashboard"],
+      "lastVerified": "2026-05-01"
+    },
+    {
+      "name": "k6 (Grafana)",
+      "url": "https://k6.io",
+      "pricingModel": "freemium",
+      "summary": "Open-source load testing tool with a developer-friendly scripting API; Grafana Cloud k6 adds managed test execution.",
+      "freeTier": "CLI tool fully free and open source; Cloud k6 has limited free virtual user hours/month.",
+      "paidFrom": "Cloud plans billed by virtual user hours.",
+      "tags": ["load-testing", "open-source", "performance-testing"],
+      "lastVerified": "2026-04-01"
+    },
+    {
+      "name": "Postman",
+      "url": "https://www.postman.com",
+      "pricingModel": "freemium",
+      "summary": "API client and testing platform for building, testing, and documenting REST/GraphQL/gRPC APIs.",
+      "freeTier": "Free for up to 3 users with core collection/testing features.",
+      "paidFrom": "Basic plan from $14/user/month.",
+      "tags": ["api-testing", "api-client", "documentation"],
+      "lastVerified": "2026-05-01"
+    },
+    {
+      "name": "Percy (BrowserStack)",
+      "url": "https://www.browserstack.com/percy",
+      "pricingModel": "freemium",
+      "summary": "Visual regression testing tool that screenshots UI states and flags pixel-level diffs across builds.",
+      "freeTier": "Free tier with limited monthly screenshots.",
+      "paidFrom": "Paid plans billed per screenshot volume.",
+      "tags": ["visual-regression", "screenshot-testing"],
+      "lastVerified": "2026-03-01"
+    },
+    {
+      "name": "Loader.io",
+      "url": "https://loader.io",
+      "pricingModel": "freemium",
+      "summary": "Cloud-based load testing service from SendGrid for stress-testing APIs and websites.",
+      "freeTier": "Free plan with limited concurrent clients and test runs.",
+      "paidFrom": "Paid plans increase concurrent client limits.",
+      "tags": ["load-testing", "stress-testing"],
+      "lastVerified": "2026-03-01"
+    },
+    {
+      "name": "TestRail",
+      "url": "https://www.testrail.com",
+      "pricingModel": "freemium",
+      "summary": "Test case management platform for organizing, tracking, and reporting on manual and automated test runs.",
+      "freeTier": "Free tier for small teams (limited users).",
+      "paidFrom": "Professional plan billed per user/month.",
+      "tags": ["test-case-management", "qa"],
+      "lastVerified": "2026-03-01"
+    }
+  ]
+}

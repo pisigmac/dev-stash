@@ -1,0 +1,61 @@
+name: Validate Data & README Sync
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Validate category data against schema
+        run: python3 scripts/validate.py
+
+      - name: Regenerate README.md and data/all_entries.json
+        run: python3 scripts/generate_readme.py
+
+      - name: Fail if generated files are out of sync with committed files
+        run: |
+          if ! git diff --quiet -- README.md data/all_entries.json; then
+            echo "::error::README.md or data/all_entries.json is out of sync with data/categories/*.json."
+            echo "Run 'python3 scripts/generate_readme.py' locally and commit the result."
+            git diff -- README.md data/all_entries.json
+            exit 1
+          fi
+          echo "README.md and data/all_entries.json are in sync with category data."
+
+  deploy-pages:
+    needs: validate
+    if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "site"
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

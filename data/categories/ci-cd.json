@@ -1,0 +1,124 @@
+{
+  "category": "CI/CD & Build Automation",
+  "slug": "ci-cd",
+  "description": "Continuous integration and continuous delivery platforms for building, testing, and deploying code automatically.",
+  "entries": [
+    {
+      "name": "GitHub Actions",
+      "url": "https://github.com/features/actions",
+      "pricingModel": "freemium",
+      "summary": "Workflow automation built into GitHub for CI/CD, testing, and release pipelines, with a huge marketplace of reusable actions.",
+      "freeTier": "2,000 minutes/month for private repos (Linux), unlimited minutes for public repos.",
+      "paidFrom": "Additional minutes billed per-minute beyond included quota.",
+      "tags": ["ci-cd", "automation", "github"],
+      "lastVerified": "2026-06-01"
+    },
+    {
+      "name": "CircleCI",
+      "url": "https://circleci.com",
+      "pricingModel": "freemium",
+      "summary": "Cloud CI/CD platform with Docker-first pipelines, parallelism, and orbs (reusable config packages).",
+      "freeTier": "6,000 build minutes/month free, up to 30 concurrent jobs on free plan.",
+      "paidFrom": "Performance plan from $15/month.",
+      "tags": ["ci-cd", "docker", "automation"],
+      "lastVerified": "2026-06-01"
+    },
+    {
+      "name": "Travis CI",
+      "url": "https://www.travis-ci.com",
+      "pricingModel": "freemium",
+      "summary": "One of the original hosted CI services, deeply integrated with GitHub for open-source and private builds.",
+      "freeTier": "Free tier available for open-source projects.",
+      "paidFrom": "Paid plans from $69/month for private repos.",
+      "tags": ["ci-cd", "open-source"],
+      "lastVerified": "2026-03-10"
+    },
+    {
+      "name": "AppVeyor",
+      "url": "https://www.appveyor.com",
+      "pricingModel": "freemium",
+      "summary": "CI/CD focused on Windows and .NET projects, also supports Linux and macOS builds.",
+      "freeTier": "Unlimited build minutes for one concurrent job on public/open-source repos.",
+      "paidFrom": "Paid plans from $39/month for private projects.",
+      "tags": ["ci-cd", "windows", "dotnet"],
+      "lastVerified": "2026-03-10"
+    },
+    {
+      "name": "Codemagic",
+      "url": "https://codemagic.io",
+      "pricingModel": "freemium",
+      "summary": "CI/CD purpose-built for mobile apps (Flutter, React Native, iOS, Android) with code signing automation.",
+      "freeTier": "500 free build minutes/month.",
+      "paidFrom": "Pay-as-you-go from $0.038/build minute beyond free quota.",
+      "tags": ["ci-cd", "mobile", "flutter", "react-native"],
+      "lastVerified": "2026-05-01"
+    },
+    {
+      "name": "Buildkite",
+      "url": "https://buildkite.com",
+      "pricingModel": "freemium",
+      "summary": "Hybrid CI/CD platform where you run your own build agents while Buildkite manages orchestration and UI.",
+      "freeTier": "Free for unlimited users on the open-source/small-team plan with limited pipeline minutes.",
+      "paidFrom": "Paid plans scale with pipeline runs.",
+      "tags": ["ci-cd", "self-hosted-agents", "orchestration"],
+      "lastVerified": "2026-03-10"
+    },
+    {
+      "name": "Codefresh",
+      "url": "https://codefresh.io",
+      "pricingModel": "freemium",
+      "summary": "Kubernetes-native CI/CD and GitOps platform with built-in Docker registry and pipeline visualization.",
+      "freeTier": "Free tier includes limited builds/month for individuals.",
+      "paidFrom": "Team plans from $0.75 per build credit.",
+      "tags": ["ci-cd", "kubernetes", "gitops", "docker"],
+      "lastVerified": "2026-03-10"
+    },
+    {
+      "name": "Semaphore CI",
+      "url": "https://semaphoreci.com",
+      "pricingModel": "freemium",
+      "summary": "Fast, container-based CI/CD with generous free compute credits and a focus on pipeline speed.",
+      "freeTier": "Free tier with monthly compute credits (no credit card required to start).",
+      "paidFrom": "Startup plan from $18/month.",
+      "tags": ["ci-cd", "containers", "fast-builds"],
+      "lastVerified": "2026-03-10"
+    },
+    {
+      "name": "Drone CI",
+      "url": "https://www.drone.io",
+      "pricingModel": "open-source",
+      "summary": "Container-native, self-hostable CI/CD engine configured entirely with YAML pipelines.",
+      "freeTier": "Fully free and open source when self-hosted.",
+      "tags": ["ci-cd", "self-hosted", "containers", "open-source"],
+      "lastVerified": "2026-03-10"
+    },
+    {
+      "name": "Jenkins",
+      "url": "https://www.jenkins.io",
+      "pricingModel": "open-source",
+      "summary": "The most widely deployed self-hosted automation server, with an enormous plugin ecosystem covering nearly any CI/CD need.",
+      "freeTier": "Completely free, open source, self-hosted.",
+      "tags": ["ci-cd", "self-hosted", "plugins", "open-source"],
+      "lastVerified": "2026-03-10"
+    },
+    {
+      "name": "Render (Background Workers/CI)",
+      "url": "https://render.com",
+      "pricingModel": "freemium",
+      "summary": "Deploys directly from Git with built-in CI, primarily known as a PaaS but covers full build-test-deploy pipelines.",
+      "freeTier": "Free web services with auto-deploy from Git (services sleep after inactivity).",
+      "paidFrom": "Starter plans from $7/month per service.",
+      "tags": ["ci-cd", "paas", "deploy"],
+      "lastVerified": "2026-06-01"
+    },
+    {
+      "name": "CodSpeed",
+      "url": "https://codspeed.io",
+      "pricingModel": "freemium",
+      "summary": "Performance regression tracking for CI pipelines, benchmarking code on every PR with consistent metrics.",
+      "freeTier": "Free forever for open-source projects.",
+      "tags": ["ci-cd", "performance", "benchmarking"],
+      "lastVerified": "2026-04-10"
+    }
+  ]
+}
