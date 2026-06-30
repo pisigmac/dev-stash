@@ -1,5 +1,5 @@
 {
-  "category": "Domains, DNS & SSL/TLS",
+  "category": "Domains DNS and SSL/TLS",
   "slug": "domains-dns-ssl",
   "description": "Domain registration, DNS hosting, and SSL/TLS certificate issuance services.",
   "entries": [
@@ -9,7 +9,11 @@
       "pricingModel": "free",
       "summary": "Fast, free authoritative DNS hosting with built-in DDoS protection and analytics.",
       "freeTier": "Unlimited domains on free DNS, free SSL/TLS, free DDoS protection.",
-      "tags": ["dns", "ddos-protection", "ssl"],
+      "tags": [
+        "dns",
+        "ddos-protection",
+        "ssl"
+      ],
       "lastVerified": "2026-05-01"
     },
     {
@@ -18,7 +22,12 @@
       "pricingModel": "free",
       "summary": "Free, automated, open certificate authority issuing domain-validated TLS certificates, used by most of the web.",
       "freeTier": "Completely free, unlimited certificates, automated renewal via ACME protocol.",
-      "tags": ["ssl", "tls", "certificate-authority", "automation"],
+      "tags": [
+        "ssl",
+        "tls",
+        "certificate-authority",
+        "automation"
+      ],
       "lastVerified": "2026-05-01"
     },
     {
@@ -28,7 +37,11 @@
       "summary": "Alternative free SSL certificate provider with a web dashboard and ACME support.",
       "freeTier": "Free 90-day certificates with manual or automated renewal.",
       "paidFrom": "Paid plans add longer validity and wildcard support.",
-      "tags": ["ssl", "tls", "certificate-authority"],
+      "tags": [
+        "ssl",
+        "tls",
+        "certificate-authority"
+      ],
       "lastVerified": "2026-04-01"
     },
     {
@@ -37,7 +50,11 @@
       "pricingModel": "free",
       "summary": "Domain registration at wholesale cost with no markup, bundled with Cloudflare's DNS and security features.",
       "freeTier": "No markup on domain pricing (you pay registry cost only, no add-on fees).",
-      "tags": ["domain-registration", "dns", "wholesale-pricing"],
+      "tags": [
+        "domain-registration",
+        "dns",
+        "wholesale-pricing"
+      ],
       "lastVerified": "2026-04-01"
     },
     {
@@ -47,7 +64,11 @@
       "summary": "Popular domain registrar with free WHOIS privacy and DNS management included on most TLDs.",
       "freeTier": "Free DNS management and WHOIS privacy guard with domain purchase.",
       "paidFrom": "Domain pricing varies by TLD.",
-      "tags": ["domain-registration", "whois-privacy", "dns"],
+      "tags": [
+        "domain-registration",
+        "whois-privacy",
+        "dns"
+      ],
       "lastVerified": "2026-03-01"
     },
     {
@@ -56,7 +77,11 @@
       "pricingModel": "free",
       "summary": "Free dynamic DNS service for giving a home server or self-hosted project a stable subdomain.",
       "freeTier": "Free subdomains under duckdns.org with dynamic IP updates.",
-      "tags": ["dynamic-dns", "self-hosting", "home-server"],
+      "tags": [
+        "dynamic-dns",
+        "self-hosting",
+        "home-server"
+      ],
       "lastVerified": "2026-03-01"
     },
     {
@@ -65,7 +90,10 @@
       "pricingModel": "free",
       "summary": "Historically offered free domains on select TLDs (.tk, .ml, .ga, .cf, .gq); service availability has fluctuated.",
       "freeTier": "Previously free domains on certain ccTLDs; verify current registration status before relying on this.",
-      "tags": ["domain-registration", "free-tld"],
+      "tags": [
+        "domain-registration",
+        "free-tld"
+      ],
       "notes": "Service availability and trustworthiness have been inconsistent; double-check current status before use.",
       "lastVerified": "2026-01-15"
     },
@@ -76,7 +104,11 @@
       "summary": "DNS management and domain registration with a clean API, popular for automating DNS-as-code workflows.",
       "freeTier": "30-day free trial; no perpetual free tier for paid plans.",
       "paidFrom": "Personal plan from $5/month.",
-      "tags": ["dns", "domain-registration", "dns-api"],
+      "tags": [
+        "dns",
+        "domain-registration",
+        "dns-api"
+      ],
       "lastVerified": "2026-03-01"
     }
   ]

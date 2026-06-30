@@ -1,5 +1,5 @@
 {
-  "category": "Cloud IDEs & Dev Environments",
+  "category": "Cloud IDEs and Dev Environments",
   "slug": "cloud-ides",
   "description": "Browser-based and cloud-hosted development environments for coding without local setup.",
   "entries": [
@@ -10,7 +10,11 @@
       "summary": "Full VS Code-in-the-browser dev environments spun up directly from a GitHub repo, with devcontainer support.",
       "freeTier": "120 core-hours/month free for personal accounts.",
       "paidFrom": "Pay-as-you-go beyond free quota, billed per core-hour.",
-      "tags": ["cloud-ide", "github", "devcontainers"],
+      "tags": [
+        "cloud-ide",
+        "github",
+        "devcontainers"
+      ],
       "lastVerified": "2026-06-01"
     },
     {
@@ -20,7 +24,10 @@
       "summary": "Ephemeral, automated cloud dev environments configured via a repo-committed config file.",
       "freeTier": "50 free hours/month on the free plan.",
       "paidFrom": "Pro plan billed per usage beyond free hours.",
-      "tags": ["cloud-ide", "ephemeral-environments"],
+      "tags": [
+        "cloud-ide",
+        "ephemeral-environments"
+      ],
       "lastVerified": "2026-05-01"
     },
     {
@@ -30,7 +37,11 @@
       "summary": "Browser-based IDE supporting 50+ languages with instant hosting, multiplayer editing, and an AI agent.",
       "freeTier": "Free tier with limited compute and storage for public Repls.",
       "paidFrom": "Core plan from $25/month.",
-      "tags": ["cloud-ide", "instant-hosting", "multiplayer"],
+      "tags": [
+        "cloud-ide",
+        "instant-hosting",
+        "multiplayer"
+      ],
       "lastVerified": "2026-06-01"
     },
     {
@@ -40,7 +51,11 @@
       "summary": "Instant web-based IDE and sandboxes for frontend prototyping, with live preview and npm support.",
       "freeTier": "Free tier with limited private sandboxes and compute.",
       "paidFrom": "Pro plan from $9/month.",
-      "tags": ["cloud-ide", "frontend-prototyping", "sandboxes"],
+      "tags": [
+        "cloud-ide",
+        "frontend-prototyping",
+        "sandboxes"
+      ],
       "lastVerified": "2026-05-01"
     },
     {
@@ -50,7 +65,11 @@
       "summary": "WebContainers-powered IDE that runs Node.js entirely in-browser for near-instant project boot times.",
       "freeTier": "Free for public projects with core editing features.",
       "paidFrom": "Pro plan from $20/month for private projects.",
-      "tags": ["cloud-ide", "webcontainers", "instant-boot"],
+      "tags": [
+        "cloud-ide",
+        "webcontainers",
+        "instant-boot"
+      ],
       "lastVerified": "2026-05-01"
     },
     {
@@ -59,7 +78,11 @@
       "pricingModel": "free",
       "summary": "Free browser-based shell and code editor with pre-installed gcloud tooling, for managing GCP resources.",
       "freeTier": "Free with weekly usage hour quota, no separate billing.",
-      "tags": ["cloud-shell", "google-cloud", "free-compute"],
+      "tags": [
+        "cloud-shell",
+        "google-cloud",
+        "free-compute"
+      ],
       "lastVerified": "2026-04-01"
     },
     {
@@ -68,7 +91,11 @@
       "pricingModel": "freemium",
       "summary": "Cloud IDE running on an EC2 instance or connected to existing infrastructure, integrated with AWS services.",
       "freeTier": "No separate Cloud9 fee; billed only for underlying EC2 compute (eligible for AWS Free Tier EC2 hours).",
-      "tags": ["cloud-ide", "aws", "ec2-backed"],
+      "tags": [
+        "cloud-ide",
+        "aws",
+        "ec2-backed"
+      ],
       "lastVerified": "2026-04-01"
     }
   ]

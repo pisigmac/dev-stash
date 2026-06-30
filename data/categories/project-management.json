@@ -1,5 +1,5 @@
 {
-  "category": "Project Management & Team Collaboration",
+  "category": "Project Management and Team Collaboration",
   "slug": "project-management",
   "description": "Issue tracking, kanban boards, wikis, and team chat/collaboration tools.",
   "entries": [
@@ -10,7 +10,12 @@
       "summary": "Atlassian's issue tracking and agile project management tool, the de facto standard at many software companies.",
       "freeTier": "Free for up to 10 users with core features.",
       "paidFrom": "Standard plan from $7.75/user/month.",
-      "tags": ["issue-tracking", "agile", "kanban", "scrum"],
+      "tags": [
+        "issue-tracking",
+        "agile",
+        "kanban",
+        "scrum"
+      ],
       "lastVerified": "2026-05-01"
     },
     {
@@ -20,7 +25,10 @@
       "summary": "Simple kanban-style board tool for personal and small-team task management.",
       "freeTier": "Unlimited cards, up to 10 boards per workspace free.",
       "paidFrom": "Standard plan from $5/user/month.",
-      "tags": ["kanban", "task-management"],
+      "tags": [
+        "kanban",
+        "task-management"
+      ],
       "lastVerified": "2026-05-01"
     },
     {
@@ -30,7 +38,11 @@
       "summary": "Fast, keyboard-driven issue tracking and project management built for software teams.",
       "freeTier": "Free for up to 250 issues with core features for small teams.",
       "paidFrom": "Basic plan from $8/user/month.",
-      "tags": ["issue-tracking", "software-teams", "fast-ui"],
+      "tags": [
+        "issue-tracking",
+        "software-teams",
+        "fast-ui"
+      ],
       "lastVerified": "2026-06-01"
     },
     {
@@ -40,7 +52,12 @@
       "summary": "All-in-one workspace combining docs, wikis, databases, and project tracking.",
       "freeTier": "Free for individuals with unlimited blocks; limited file uploads and collaborators on team free plan.",
       "paidFrom": "Plus plan from $10/user/month.",
-      "tags": ["docs", "wiki", "database", "all-in-one"],
+      "tags": [
+        "docs",
+        "wiki",
+        "database",
+        "all-in-one"
+      ],
       "lastVerified": "2026-06-01"
     },
     {
@@ -50,7 +67,11 @@
       "summary": "Highly customizable project management platform combining tasks, docs, goals, and whiteboards.",
       "freeTier": "Free Forever plan with unlimited users and tasks, limited storage.",
       "paidFrom": "Unlimited plan from $7/user/month.",
-      "tags": ["project-management", "docs", "customizable"],
+      "tags": [
+        "project-management",
+        "docs",
+        "customizable"
+      ],
       "lastVerified": "2026-05-01"
     },
     {
@@ -60,7 +81,12 @@
       "summary": "All-in-one open-source project management platform (Linear/Jira/Slack/Notion alternative) with chat and video built in.",
       "freeTier": "Unlimited users, 10GB storage/workspace, 10GB video/audio traffic free.",
       "paidFrom": "Paid plans add higher storage and SSO.",
-      "tags": ["project-management", "open-source", "chat", "all-in-one"],
+      "tags": [
+        "project-management",
+        "open-source",
+        "chat",
+        "all-in-one"
+      ],
       "lastVerified": "2026-05-01"
     },
     {
@@ -70,7 +96,11 @@
       "summary": "Team chat and collaboration hub with channels, threads, and a vast app/integration ecosystem.",
       "freeTier": "90-day searchable message history, unlimited integrations, free for small teams.",
       "paidFrom": "Pro plan from $7.25/user/month.",
-      "tags": ["team-chat", "collaboration", "integrations"],
+      "tags": [
+        "team-chat",
+        "collaboration",
+        "integrations"
+      ],
       "lastVerified": "2026-05-01"
     },
     {
@@ -80,7 +110,11 @@
       "summary": "Voice, video, and text chat platform, widely adopted by dev communities and open-source projects.",
       "freeTier": "Free for unlimited servers, messages, and voice/video, with no message history limit.",
       "paidFrom": "Nitro subscription adds cosmetic/upload perks, not required for core use.",
-      "tags": ["team-chat", "voice-chat", "community"],
+      "tags": [
+        "team-chat",
+        "voice-chat",
+        "community"
+      ],
       "lastVerified": "2026-05-01"
     },
     {
@@ -89,7 +123,11 @@
       "pricingModel": "freemium",
       "summary": "Chat tool built for GitHub projects and open-source communities.",
       "freeTier": "Unlimited public/private rooms, free for teams up to 25.",
-      "tags": ["team-chat", "github", "open-source"],
+      "tags": [
+        "team-chat",
+        "github",
+        "open-source"
+      ],
       "lastVerified": "2026-02-01"
     },
     {
@@ -99,7 +137,11 @@
       "summary": "Real-time collaborative markdown editing, like Google Docs but for markdown notes and docs.",
       "freeTier": "Unlimited notes free; collaborator count limited on private notes/templates.",
       "paidFrom": "Pro plan from $5/month for more collaborators.",
-      "tags": ["markdown", "collaborative-editing", "docs"],
+      "tags": [
+        "markdown",
+        "collaborative-editing",
+        "docs"
+      ],
       "lastVerified": "2026-03-01"
     },
     {
@@ -108,7 +150,11 @@
       "pricingModel": "free",
       "summary": "Syntax-based, no-registration kanban board for quick personal task tracking.",
       "freeTier": "Completely free, no account required, no limitations.",
-      "tags": ["kanban", "no-signup", "lightweight"],
+      "tags": [
+        "kanban",
+        "no-signup",
+        "lightweight"
+      ],
       "lastVerified": "2026-02-01"
     },
     {
@@ -118,7 +164,11 @@
       "summary": "Task management with integrated chat, calendar, timeline view, and video calls.",
       "freeTier": "Free for up to 5 users.",
       "paidFrom": "Basic plan from $6.7/user/month.",
-      "tags": ["task-management", "chat", "calendar"],
+      "tags": [
+        "task-management",
+        "chat",
+        "calendar"
+      ],
       "lastVerified": "2026-02-01"
     }
   ]

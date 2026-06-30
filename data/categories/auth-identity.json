@@ -1,5 +1,5 @@
 {
-  "category": "Authentication & Identity",
+  "category": "Authentication and Identity",
   "slug": "auth-identity",
   "description": "User authentication, identity management, and authorization services (login, SSO, MFA, OAuth).",
   "entries": [
@@ -10,7 +10,12 @@
       "summary": "Identity platform handling login, SSO, MFA, and social auth via SDKs and a hosted login flow.",
       "freeTier": "Free tier for up to 25,000 monthly active users (consumer use case).",
       "paidFrom": "Essentials plan from $35/month.",
-      "tags": ["auth", "sso", "mfa", "identity"],
+      "tags": [
+        "auth",
+        "sso",
+        "mfa",
+        "identity"
+      ],
       "lastVerified": "2026-06-01"
     },
     {
@@ -20,7 +25,12 @@
       "summary": "Drop-in authentication and user management with pre-built UI components for React/Next.js and others.",
       "freeTier": "10,000 monthly active users free.",
       "paidFrom": "Pro plan from $25/month + per-MAU pricing beyond included users.",
-      "tags": ["auth", "user-management", "react", "nextjs"],
+      "tags": [
+        "auth",
+        "user-management",
+        "react",
+        "nextjs"
+      ],
       "lastVerified": "2026-06-01"
     },
     {
@@ -29,7 +39,12 @@
       "pricingModel": "freemium",
       "summary": "Google's identity platform supporting email/password, phone, and social logins (Google, GitHub, Facebook, etc.).",
       "freeTier": "Unlimited free for most providers; phone auth free up to 10k verifications/month.",
-      "tags": ["auth", "google", "phone-auth", "social-login"],
+      "tags": [
+        "auth",
+        "google",
+        "phone-auth",
+        "social-login"
+      ],
       "lastVerified": "2026-05-01"
     },
     {
@@ -38,7 +53,12 @@
       "pricingModel": "freemium",
       "summary": "Open-source auth built on PostgreSQL with row-level security, included as part of the Supabase platform.",
       "freeTier": "50,000 monthly active users free on Supabase's free project tier.",
-      "tags": ["auth", "postgres", "open-source", "rls"],
+      "tags": [
+        "auth",
+        "postgres",
+        "open-source",
+        "rls"
+      ],
       "lastVerified": "2026-05-01"
     },
     {
@@ -48,7 +68,12 @@
       "summary": "Enterprise-ready auth APIs (SSO, SCIM, audit logs) designed for B2B SaaS selling into large organizations.",
       "freeTier": "Free up to 1 million monthly active users for core user management.",
       "paidFrom": "SSO/SCIM modules billed per connection.",
-      "tags": ["sso", "scim", "enterprise", "b2b"],
+      "tags": [
+        "sso",
+        "scim",
+        "enterprise",
+        "b2b"
+      ],
       "lastVerified": "2026-05-01"
     },
     {
@@ -58,7 +83,11 @@
       "summary": "Enterprise identity and access management platform for workforce and customer identity.",
       "freeTier": "Developer Edition free for testing, limited MAUs.",
       "paidFrom": "Workforce Identity plans billed per user.",
-      "tags": ["sso", "identity", "enterprise"],
+      "tags": [
+        "sso",
+        "identity",
+        "enterprise"
+      ],
       "lastVerified": "2026-04-01"
     },
     {
@@ -68,7 +97,11 @@
       "summary": "Two-factor authentication (2FA/MFA) for apps, VPNs, and infrastructure logins.",
       "freeTier": "Free for up to 10 users, all auth methods, hardware token support included.",
       "paidFrom": "Essentials plan billed per user.",
-      "tags": ["mfa", "2fa", "vpn"],
+      "tags": [
+        "mfa",
+        "2fa",
+        "vpn"
+      ],
       "lastVerified": "2026-03-01"
     },
     {
@@ -78,7 +111,11 @@
       "summary": "Hosted LDAP and RADIUS for per-user logins across servers, VPNs, and Wi-Fi networks.",
       "freeTier": "Free tier for small teams (limited users).",
       "paidFrom": "Paid plans billed per user.",
-      "tags": ["ldap", "radius", "network-auth"],
+      "tags": [
+        "ldap",
+        "radius",
+        "network-auth"
+      ],
       "lastVerified": "2026-03-01"
     },
     {
@@ -88,7 +125,12 @@
       "summary": "Open-source identity infrastructure (Kratos, Hydra, Keto) with a managed cloud option for auth, OAuth2, and permissions.",
       "freeTier": "Free tier with limited monthly active users on Ory Network; self-hosted OSS is free.",
       "paidFrom": "Production plan billed per MAU beyond free quota.",
-      "tags": ["open-source", "oauth2", "permissions", "self-hosted"],
+      "tags": [
+        "open-source",
+        "oauth2",
+        "permissions",
+        "self-hosted"
+      ],
       "lastVerified": "2026-04-01"
     },
     {
@@ -98,7 +140,11 @@
       "summary": "API-first authentication platform specializing in passwordless, passkeys, and fraud/risk signals.",
       "freeTier": "Free tier covering limited monthly active users.",
       "paidFrom": "Growth plan billed per MAU beyond free quota.",
-      "tags": ["passwordless", "passkeys", "fraud-detection"],
+      "tags": [
+        "passwordless",
+        "passkeys",
+        "fraud-detection"
+      ],
       "lastVerified": "2026-04-01"
     }
   ]

@@ -28,17 +28,22 @@ PRICING_BADGES = {
     "paid": "🔴 Paid",
 }
 
+TABLE_CATEGORIES = {
+    "major-cloud-providers",
+    "serverless-functions",
+    "databases",
+    "static-hosting-cdn"
+}
+
 HEADER = """\
 # Free (and Paid) Developer Resources
 
-A curated, structured catalog of SaaS, PaaS, IaaS, APIs, and developer utilities —
-covering both free tiers and notable paid alternatives — for software engineers,
-DevOps practitioners, and indie builders.
+🚀 The ultimate curated directory of developer tools, APIs, and cloud services. 
+Discover the best free tiers and compare paid alternatives for your next project.
 
-Inspired by and modeled after [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev),
-this repo extends the format with structured machine-readable data
-(`data/categories/*.json`), per-entry pricing model tags, paid-plan starting
-prices, "last verified" dates, and a searchable static site.
+This repo features structured machine-readable data (`data/categories/*.json`),
+per-entry pricing model tags, paid-plan starting prices, "last verified" dates,
+and a searchable static site.
 
 **Browse interactively:** open `site/index.html` in a browser, or see
 [Quick Start](#quick-start) below to run it locally.
@@ -78,6 +83,8 @@ python3 scripts/generate_readme.py
 
 FOOTER_TEMPLATE = """
 ---
+
+*Inspired by and modeled after [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev).*
 
 ## Contributing
 
@@ -147,8 +154,21 @@ def render_entry(entry):
 
 def render_category(cat):
     lines = [f"## {cat['category']}", "", cat["description"], ""]
-    for entry in cat["entries"]:
-        lines.append(render_entry(entry))
+    
+    if cat["slug"] in TABLE_CATEGORIES:
+        lines.append("| Provider / Tool | Badge | Free Tier | Summary |")
+        lines.append("|---|---|---|---|")
+        for entry in cat["entries"]:
+            badge = PRICING_BADGES.get(entry["pricingModel"], entry["pricingModel"])
+            # Remove newlines so table rows don't break
+            free_tier = entry["freeTier"].replace("\n", " ").replace("|", "\\|")
+            summary = entry["summary"].replace("\n", " ").replace("|", "\\|")
+            lines.append(f"| [{entry['name']}]({entry['url']}) | {badge} | {free_tier} | {summary} |")
+        lines.append("")
+    else:
+        for entry in cat["entries"]:
+            lines.append(render_entry(entry))
+            
     lines.append("[⬆️ Back to Top](#table-of-contents)")
     lines.append("")
     return "\n".join(lines)
@@ -159,7 +179,8 @@ def github_anchor(text):
     lowercase, strip punctuation (keep word chars/spaces/hyphens), spaces -> hyphens."""
     s = text.lower()
     s = re.sub(r"[^\w\s-]", "", s)
-    s = re.sub(r"\s+", "-", s.strip())
+    s = s.replace(" ", "-")
+    s = re.sub(r"-+", "-", s)
     return s
 
 

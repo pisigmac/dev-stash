@@ -1,5 +1,5 @@
 {
-  "category": "Forms, Surveys & Customer Feedback",
+  "category": "Forms Surveys and Customer Feedback",
   "slug": "forms-feedback",
   "description": "Form builders, survey tools, and feedback widgets for collecting structured input from users.",
   "entries": [
@@ -10,7 +10,11 @@
       "summary": "Notion-like form builder with unlimited free forms and responses, no watermark on the free tier.",
       "freeTier": "Unlimited forms and submissions free, no branding required.",
       "paidFrom": "Pro plan from $29/month for advanced logic/integrations.",
-      "tags": ["forms", "surveys", "no-code"],
+      "tags": [
+        "forms",
+        "surveys",
+        "no-code"
+      ],
       "lastVerified": "2026-05-01"
     },
     {
@@ -20,7 +24,11 @@
       "summary": "Conversational, one-question-at-a-time forms with polished design and branching logic.",
       "freeTier": "Free plan: unlimited typeforms, 10 responses/month.",
       "paidFrom": "Basic plan from $25/month.",
-      "tags": ["forms", "surveys", "conversational-ui"],
+      "tags": [
+        "forms",
+        "surveys",
+        "conversational-ui"
+      ],
       "lastVerified": "2026-04-01"
     },
     {
@@ -29,17 +37,25 @@
       "pricingModel": "free",
       "summary": "Free, simple form/survey builder integrated with Google Sheets for response collection.",
       "freeTier": "Completely free with a Google account, unlimited forms and responses.",
-      "tags": ["forms", "surveys", "google"],
+      "tags": [
+        "forms",
+        "surveys",
+        "google"
+      ],
       "lastVerified": "2026-04-01"
     },
     {
       "name": "Formspree",
       "url": "https://formspree.io",
       "pricingModel": "freemium",
-      "summary": "Backend-as-a-service for HTML forms — handles submissions, spam filtering, and email notifications without server code.",
+      "summary": "Backend-as-a-service for HTML forms \u2014 handles submissions, spam filtering, and email notifications without server code.",
       "freeTier": "50 submissions/month free.",
       "paidFrom": "Starter plan from $10/month.",
-      "tags": ["forms", "backend-as-a-service", "static-sites"],
+      "tags": [
+        "forms",
+        "backend-as-a-service",
+        "static-sites"
+      ],
       "lastVerified": "2026-04-01"
     },
     {
@@ -49,7 +65,11 @@
       "summary": "Form endpoint service for static sites and JAMstack apps, with spam filtering and file upload support.",
       "freeTier": "50 submissions/month free, 1 form endpoint.",
       "paidFrom": "Basic plan from $9/month.",
-      "tags": ["forms", "backend-as-a-service", "jamstack"],
+      "tags": [
+        "forms",
+        "backend-as-a-service",
+        "jamstack"
+      ],
       "lastVerified": "2026-03-01"
     },
     {
@@ -59,7 +79,11 @@
       "summary": "Feature request and feedback board for product teams to collect, prioritize, and close the loop with users.",
       "freeTier": "Starter plan free for small teams with limited tracked users.",
       "paidFrom": "Growth plan from $79/month.",
-      "tags": ["feedback", "feature-requests", "product-management"],
+      "tags": [
+        "feedback",
+        "feature-requests",
+        "product-management"
+      ],
       "lastVerified": "2026-04-01"
     },
     {
@@ -69,7 +93,11 @@
       "summary": "Heatmaps, session recordings, and on-site surveys for understanding user behavior.",
       "freeTier": "Basic plan free with limited daily sessions tracked.",
       "paidFrom": "Plus plan from $39/month.",
-      "tags": ["heatmaps", "session-recording", "ux-research"],
+      "tags": [
+        "heatmaps",
+        "session-recording",
+        "ux-research"
+      ],
       "lastVerified": "2026-04-01"
     },
     {
@@ -79,7 +107,10 @@
       "summary": "Established survey platform with templates, logic branching, and analysis tools.",
       "freeTier": "Free plan: up to 10 questions and 25 responses per survey.",
       "paidFrom": "Standard plan from $25/month.",
-      "tags": ["surveys", "market-research"],
+      "tags": [
+        "surveys",
+        "market-research"
+      ],
       "lastVerified": "2026-03-01"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "category": "Monitoring, Logging & Observability",
+  "category": "Monitoring Logging and Observability",
   "slug": "monitoring-observability",
   "description": "Application performance monitoring, error tracking, log aggregation, and uptime monitoring services.",
   "entries": [
@@ -10,7 +10,11 @@
       "summary": "Error tracking and performance monitoring across web, mobile, and backend stacks with rich stack-trace context.",
       "freeTier": "5,000 errors/month, 1 team member, 1 project on free Developer plan.",
       "paidFrom": "Team plan from $26/month.",
-      "tags": ["error-tracking", "apm", "observability"],
+      "tags": [
+        "error-tracking",
+        "apm",
+        "observability"
+      ],
       "lastVerified": "2026-06-01"
     },
     {
@@ -20,7 +24,11 @@
       "summary": "Combined uptime monitoring, incident management, and log management platform with on-call alerting.",
       "freeTier": "Free tier covers limited monitors, log volume, and status pages.",
       "paidFrom": "Paid plans scale with monitors/log volume.",
-      "tags": ["uptime-monitoring", "logging", "incident-management"],
+      "tags": [
+        "uptime-monitoring",
+        "logging",
+        "incident-management"
+      ],
       "lastVerified": "2026-05-01"
     },
     {
@@ -30,7 +38,11 @@
       "summary": "Simple uptime monitoring with email/SMS alerts and public status pages.",
       "freeTier": "50 monitors, 5-minute check intervals free.",
       "paidFrom": "Pro plans from $7/month for 1-minute intervals.",
-      "tags": ["uptime-monitoring", "alerting", "status-page"],
+      "tags": [
+        "uptime-monitoring",
+        "alerting",
+        "status-page"
+      ],
       "lastVerified": "2026-05-01"
     },
     {
@@ -40,7 +52,13 @@
       "summary": "Managed Grafana, Prometheus (metrics), Loki (logs), and Tempo (traces) for full-stack observability.",
       "freeTier": "Free tier includes 10k metrics series, 50GB logs, 50GB traces per month.",
       "paidFrom": "Pro plan billed on usage beyond free quota.",
-      "tags": ["metrics", "logs", "traces", "prometheus", "grafana"],
+      "tags": [
+        "metrics",
+        "logs",
+        "traces",
+        "prometheus",
+        "grafana"
+      ],
       "lastVerified": "2026-06-01"
     },
     {
@@ -50,7 +68,11 @@
       "summary": "Full-stack observability platform covering APM, infrastructure, logs, and browser/mobile monitoring.",
       "freeTier": "100GB data ingest/month free, one full-access user.",
       "paidFrom": "Pay-as-you-go beyond included data ingest.",
-      "tags": ["apm", "infrastructure-monitoring", "logs"],
+      "tags": [
+        "apm",
+        "infrastructure-monitoring",
+        "logs"
+      ],
       "lastVerified": "2026-05-01"
     },
     {
@@ -60,7 +82,12 @@
       "summary": "Comprehensive monitoring platform for infrastructure, APM, logs, security, and synthetic testing.",
       "freeTier": "Free tier for up to 5 hosts with 1-day metric retention.",
       "paidFrom": "Pro plan from $15/host/month.",
-      "tags": ["apm", "infrastructure-monitoring", "logs", "security"],
+      "tags": [
+        "apm",
+        "infrastructure-monitoring",
+        "logs",
+        "security"
+      ],
       "lastVerified": "2026-06-01"
     },
     {
@@ -70,7 +97,11 @@
       "summary": "Session replay combined with frontend error/performance monitoring to see exactly what users experienced.",
       "freeTier": "1,000 sessions/month free.",
       "paidFrom": "Team plan from $99/month.",
-      "tags": ["session-replay", "frontend-monitoring", "error-tracking"],
+      "tags": [
+        "session-replay",
+        "frontend-monitoring",
+        "error-tracking"
+      ],
       "lastVerified": "2026-04-01"
     },
     {
@@ -80,7 +111,11 @@
       "summary": "Open-source session replay, error monitoring, and logging platform, self-hostable or cloud-managed.",
       "freeTier": "Free tier with limited monthly sessions and log/error events.",
       "paidFrom": "Paid plans scale with session/event volume.",
-      "tags": ["session-replay", "open-source", "logging"],
+      "tags": [
+        "session-replay",
+        "open-source",
+        "logging"
+      ],
       "lastVerified": "2026-04-01"
     },
     {
@@ -90,7 +125,11 @@
       "summary": "Synthetic monitoring and API/E2E testing built on Playwright, with monitoring-as-code workflows.",
       "freeTier": "Free tier includes limited check runs/month.",
       "paidFrom": "Team plan billed on check volume.",
-      "tags": ["synthetic-monitoring", "playwright", "api-testing"],
+      "tags": [
+        "synthetic-monitoring",
+        "playwright",
+        "api-testing"
+      ],
       "lastVerified": "2026-04-01"
     },
     {
@@ -100,7 +139,11 @@
       "summary": "Incident response and on-call alerting platform integrating with most monitoring tools.",
       "freeTier": "Free tier for up to 5 users with basic on-call scheduling.",
       "paidFrom": "Professional plan from $21/user/month.",
-      "tags": ["incident-management", "on-call", "alerting"],
+      "tags": [
+        "incident-management",
+        "on-call",
+        "alerting"
+      ],
       "lastVerified": "2026-04-01"
     },
     {
@@ -109,7 +152,12 @@
       "pricingModel": "open-source",
       "summary": "Vendor-neutral open-source standard and SDKs for collecting traces, metrics, and logs across services.",
       "freeTier": "Fully free and open source; pairs with any backend (Jaeger, Prometheus, Grafana, vendor platforms).",
-      "tags": ["tracing", "metrics", "open-source", "standard"],
+      "tags": [
+        "tracing",
+        "metrics",
+        "open-source",
+        "standard"
+      ],
       "lastVerified": "2026-05-01"
     },
     {
@@ -118,7 +166,12 @@
       "pricingModel": "open-source",
       "summary": "Open-source, self-hosted distributed tracing system originally built by Uber, CNCF graduated project.",
       "freeTier": "Completely free, self-hosted.",
-      "tags": ["tracing", "distributed-systems", "self-hosted", "cncf"],
+      "tags": [
+        "tracing",
+        "distributed-systems",
+        "self-hosted",
+        "cncf"
+      ],
       "lastVerified": "2026-05-01"
     }
   ]

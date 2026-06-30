@@ -1,5 +1,5 @@
 {
-  "category": "API Gateways, Docs & Developer Experience",
+  "category": "API Gateways Docs and Developer Experience",
   "slug": "api-gateways-docs",
   "description": "API gateway/management platforms, API documentation tools, and SDK/client generation utilities.",
   "entries": [
@@ -10,7 +10,11 @@
       "summary": "API gateway and marketplace for managing public and private APIs, with a strong open-source core.",
       "freeTier": "Kong Gateway (OSS) is fully free; Konnect cloud has a free tier for small workloads.",
       "paidFrom": "Konnect plans billed on usage beyond free tier.",
-      "tags": ["api-gateway", "open-source", "api-management"],
+      "tags": [
+        "api-gateway",
+        "open-source",
+        "api-management"
+      ],
       "lastVerified": "2026-04-01"
     },
     {
@@ -20,7 +24,12 @@
       "summary": "All-in-one API design, documentation, mocking, and testing tool with key authentication, rate limiting, and monetization features.",
       "freeTier": "Free plan: up to 10 projects, 1M monthly requests, 10GB egress.",
       "paidFrom": "Paid plans add team collaboration and higher quotas.",
-      "tags": ["api-design", "api-docs", "mocking", "monetization"],
+      "tags": [
+        "api-design",
+        "api-docs",
+        "mocking",
+        "monetization"
+      ],
       "lastVerified": "2026-05-01"
     },
     {
@@ -30,7 +39,10 @@
       "summary": "Beautiful, interactive API documentation hubs with built-in API explorer and changelogs.",
       "freeTier": "Free plan available for open-source projects.",
       "paidFrom": "Startup plan from $99/month.",
-      "tags": ["api-docs", "developer-portal"],
+      "tags": [
+        "api-docs",
+        "developer-portal"
+      ],
       "lastVerified": "2026-03-01"
     },
     {
@@ -40,7 +52,11 @@
       "summary": "OpenAPI tooling for designing, documenting, and testing REST APIs, including the widely used Swagger UI.",
       "freeTier": "Swagger Editor/UI tools fully free and open source; SwaggerHub has a free tier for individuals.",
       "paidFrom": "Team plan billed per user.",
-      "tags": ["openapi", "api-docs", "open-source"],
+      "tags": [
+        "openapi",
+        "api-docs",
+        "open-source"
+      ],
       "lastVerified": "2026-04-01"
     },
     {
@@ -50,7 +66,11 @@
       "summary": "API design platform with visual OpenAPI editing, mocking, and style-guide linting.",
       "freeTier": "Free tier for individuals with limited projects.",
       "paidFrom": "Professional plan billed per user.",
-      "tags": ["api-design", "openapi", "mocking"],
+      "tags": [
+        "api-design",
+        "openapi",
+        "mocking"
+      ],
       "lastVerified": "2026-03-01"
     },
     {
@@ -60,7 +80,10 @@
       "summary": "Modern documentation platform with a beautiful default theme, built for developer-facing docs sites.",
       "freeTier": "Free tier for open-source/community projects.",
       "paidFrom": "Starter plan billed monthly.",
-      "tags": ["documentation", "developer-docs"],
+      "tags": [
+        "documentation",
+        "developer-docs"
+      ],
       "lastVerified": "2026-04-01"
     },
     {
@@ -69,7 +92,11 @@
       "pricingModel": "open-source",
       "summary": "Meta's open-source static site generator purpose-built for documentation sites, with versioning and i18n support.",
       "freeTier": "Completely free, open source; deploy anywhere (e.g., GitHub Pages, Vercel, Netlify free tiers).",
-      "tags": ["documentation", "static-site-generator", "open-source"],
+      "tags": [
+        "documentation",
+        "static-site-generator",
+        "open-source"
+      ],
       "lastVerified": "2026-05-01"
     },
     {
@@ -79,7 +106,11 @@
       "summary": "Tracks new releases across GitHub, GitLab, PyPI, npm, RubyGems, NuGet, Cargo, Docker Hub, and more, with webhook/chat alerts.",
       "freeTier": "Free tier with limited tracked projects and notification channels.",
       "paidFrom": "Premium plan billed monthly for more tracked projects.",
-      "tags": ["release-tracking", "notifications", "webhooks"],
+      "tags": [
+        "release-tracking",
+        "notifications",
+        "webhooks"
+      ],
       "lastVerified": "2026-03-01"
     }
   ]

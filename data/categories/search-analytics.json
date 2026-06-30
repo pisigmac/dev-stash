@@ -1,5 +1,5 @@
 {
-  "category": "Search & Analytics",
+  "category": "Search and Analytics",
   "slug": "search-analytics",
   "description": "Hosted search engines and product/web analytics platforms.",
   "entries": [
@@ -10,7 +10,11 @@
       "summary": "Fast, hosted search-as-a-service API with typo tolerance, faceting, and instant-search UI components.",
       "freeTier": "Free tier (Build): 10,000 search requests/month, 100k records.",
       "paidFrom": "Grow plan billed on usage above free tier.",
-      "tags": ["search", "saas", "instant-search"],
+      "tags": [
+        "search",
+        "saas",
+        "instant-search"
+      ],
       "lastVerified": "2026-05-01"
     },
     {
@@ -20,7 +24,11 @@
       "summary": "Open-source, fast search engine with a managed cloud option; self-hosted is fully free.",
       "freeTier": "Free self-hosted; Cloud free trial credits for new accounts.",
       "paidFrom": "Cloud plans billed on usage.",
-      "tags": ["search", "open-source", "self-hosted"],
+      "tags": [
+        "search",
+        "open-source",
+        "self-hosted"
+      ],
       "lastVerified": "2026-04-01"
     },
     {
@@ -30,7 +38,11 @@
       "summary": "Open-source, typo-tolerant search engine optimized for speed, with a managed Typesense Cloud option.",
       "freeTier": "Free self-hosted; Cloud has a free tier for small clusters.",
       "paidFrom": "Cloud plans billed hourly per cluster size.",
-      "tags": ["search", "open-source", "self-hosted"],
+      "tags": [
+        "search",
+        "open-source",
+        "self-hosted"
+      ],
       "lastVerified": "2026-04-01"
     },
     {
@@ -40,7 +52,12 @@
       "summary": "Managed Elasticsearch, Kibana, and the full Elastic Stack for search, logging, and observability.",
       "freeTier": "14-day free trial; self-managed Elasticsearch core remains free/open under Elastic license.",
       "paidFrom": "Standard plan billed hourly on cloud usage.",
-      "tags": ["search", "elasticsearch", "logging", "observability"],
+      "tags": [
+        "search",
+        "elasticsearch",
+        "logging",
+        "observability"
+      ],
       "lastVerified": "2026-04-01"
     },
     {
@@ -50,7 +67,11 @@
       "summary": "Lightweight, privacy-focused, cookie-free web analytics, open source with a hosted option.",
       "freeTier": "30-day free trial; self-hosted community edition is free.",
       "paidFrom": "Hosted plans from $9/month for up to 10k pageviews.",
-      "tags": ["web-analytics", "privacy-focused", "open-source"],
+      "tags": [
+        "web-analytics",
+        "privacy-focused",
+        "open-source"
+      ],
       "lastVerified": "2026-05-01"
     },
     {
@@ -60,7 +81,11 @@
       "summary": "Simple, open-source, privacy-friendly web analytics as a self-hosted alternative to Google Analytics.",
       "freeTier": "Free self-hosted; Umami Cloud has a free tier for up to 100k events/month.",
       "paidFrom": "Cloud Pro plan from $20/month.",
-      "tags": ["web-analytics", "open-source", "privacy-focused"],
+      "tags": [
+        "web-analytics",
+        "open-source",
+        "privacy-focused"
+      ],
       "lastVerified": "2026-04-01"
     },
     {
@@ -70,7 +95,12 @@
       "summary": "Open-source product analytics suite: event tracking, session replay, feature flags, and A/B testing in one platform.",
       "freeTier": "1M events/month free, 5k session replays/month free.",
       "paidFrom": "Pay-as-you-go billing beyond free monthly quotas.",
-      "tags": ["product-analytics", "open-source", "session-replay", "feature-flags"],
+      "tags": [
+        "product-analytics",
+        "open-source",
+        "session-replay",
+        "feature-flags"
+      ],
       "lastVerified": "2026-06-01"
     },
     {
@@ -80,7 +110,11 @@
       "summary": "Product analytics platform focused on event-based funnels, retention, and cohort analysis.",
       "freeTier": "20M events/month free on the free tier.",
       "paidFrom": "Growth plan billed on monthly tracked users.",
-      "tags": ["product-analytics", "funnels", "retention"],
+      "tags": [
+        "product-analytics",
+        "funnels",
+        "retention"
+      ],
       "lastVerified": "2026-04-01"
     },
     {
@@ -89,7 +123,11 @@
       "pricingModel": "free",
       "summary": "Google's widely used web/app analytics platform (GA4), tracking traffic, behavior, and conversions.",
       "freeTier": "Free with generous usage limits for the vast majority of sites.",
-      "tags": ["web-analytics", "google", "ga4"],
+      "tags": [
+        "web-analytics",
+        "google",
+        "ga4"
+      ],
       "lastVerified": "2026-05-01"
     }
   ]

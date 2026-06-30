@@ -1,5 +1,5 @@
 {
-  "category": "Containers, Kubernetes & Registries",
+  "category": "Containers Kubernetes and Registries",
   "slug": "containers-kubernetes",
   "description": "Container image registries, managed Kubernetes, and container orchestration tooling.",
   "entries": [
@@ -10,7 +10,10 @@
       "summary": "The default public container registry, widely used to distribute and pull Docker images.",
       "freeTier": "Unlimited public repos free; rate-limited anonymous/free-tier pulls.",
       "paidFrom": "Pro plan from $5/month for higher pull rate limits and private repos.",
-      "tags": ["container-registry", "docker"],
+      "tags": [
+        "container-registry",
+        "docker"
+      ],
       "lastVerified": "2026-05-01"
     },
     {
@@ -20,7 +23,11 @@
       "summary": "Container registry built into GitHub Packages, tightly integrated with GitHub Actions for CI/CD publishing.",
       "freeTier": "Free storage and bandwidth for public images.",
       "paidFrom": "Private image storage billed per GB beyond free GitHub plan quota.",
-      "tags": ["container-registry", "github", "ci-cd"],
+      "tags": [
+        "container-registry",
+        "github",
+        "ci-cd"
+      ],
       "lastVerified": "2026-05-01"
     },
     {
@@ -30,7 +37,10 @@
       "summary": "AWS's public container registry gallery for sharing and discovering open-source container images.",
       "freeTier": "Free storage and pulls for public images.",
       "paidFrom": "Private ECR billed per GB stored/transferred.",
-      "tags": ["container-registry", "aws"],
+      "tags": [
+        "container-registry",
+        "aws"
+      ],
       "lastVerified": "2026-04-01"
     },
     {
@@ -40,7 +50,11 @@
       "summary": "Red Hat's container registry with built-in vulnerability scanning and robot accounts for CI automation.",
       "freeTier": "Free for public repositories with unlimited storage.",
       "paidFrom": "Paid plans add private repos and higher build concurrency.",
-      "tags": ["container-registry", "vulnerability-scanning", "red-hat"],
+      "tags": [
+        "container-registry",
+        "vulnerability-scanning",
+        "red-hat"
+      ],
       "lastVerified": "2026-03-01"
     },
     {
@@ -50,7 +64,11 @@
       "summary": "Fast-provisioning managed Kubernetes (k3s-based) cloud, known for sub-90-second cluster creation.",
       "freeTier": "Free credits for new accounts; no perpetual free cluster.",
       "paidFrom": "Clusters billed from ~$5/month per node.",
-      "tags": ["kubernetes", "managed-k8s", "fast-provisioning"],
+      "tags": [
+        "kubernetes",
+        "managed-k8s",
+        "fast-provisioning"
+      ],
       "lastVerified": "2026-04-01"
     },
     {
@@ -59,7 +77,11 @@
       "pricingModel": "freemium",
       "summary": "Managed Kubernetes service that runs on top of OCI's generous always-free compute tier.",
       "freeTier": "Control plane free; worker nodes can run on OCI's always-free Ampere A1 compute.",
-      "tags": ["kubernetes", "managed-k8s", "always-free-compute"],
+      "tags": [
+        "kubernetes",
+        "managed-k8s",
+        "always-free-compute"
+      ],
       "lastVerified": "2026-04-01"
     },
     {
@@ -68,7 +90,12 @@
       "pricingModel": "open-source",
       "summary": "Lightweight, certified Kubernetes distribution from Rancher, ideal for edge, IoT, and local dev clusters.",
       "freeTier": "Completely free and open source, self-hosted.",
-      "tags": ["kubernetes", "open-source", "lightweight", "edge"],
+      "tags": [
+        "kubernetes",
+        "open-source",
+        "lightweight",
+        "edge"
+      ],
       "lastVerified": "2026-04-01"
     },
     {
@@ -78,7 +105,12 @@
       "summary": "Web UI for managing Docker, Docker Swarm, and Kubernetes environments without the raw CLI.",
       "freeTier": "Community Edition free for up to 5 nodes (or 3 for Kubernetes).",
       "paidFrom": "Business Edition billed per node.",
-      "tags": ["container-management", "kubernetes", "docker", "ui"],
+      "tags": [
+        "container-management",
+        "kubernetes",
+        "docker",
+        "ui"
+      ],
       "lastVerified": "2026-03-01"
     }
   ]

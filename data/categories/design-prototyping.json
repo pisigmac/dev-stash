@@ -1,5 +1,5 @@
 {
-  "category": "Design, Prototyping & UI Assets",
+  "category": "Design Prototyping and UI Assets",
   "slug": "design-prototyping",
   "description": "UI/UX design tools, prototyping software, icon/illustration libraries, and design-to-code utilities.",
   "entries": [
@@ -10,7 +10,11 @@
       "summary": "Collaborative interface design tool with prototyping, dev handoff, and a huge community plugin ecosystem.",
       "freeTier": "Free for up to 3 collaborative design files, unlimited personal files.",
       "paidFrom": "Professional plan from $12/editor/month.",
-      "tags": ["ui-design", "prototyping", "collaboration"],
+      "tags": [
+        "ui-design",
+        "prototyping",
+        "collaboration"
+      ],
       "lastVerified": "2026-06-01"
     },
     {
@@ -20,7 +24,11 @@
       "summary": "Drag-and-drop design tool for social graphics, presentations, and marketing assets.",
       "freeTier": "Free plan with thousands of templates and core editing tools.",
       "paidFrom": "Pro plan from $12.99/month.",
-      "tags": ["graphic-design", "templates", "marketing"],
+      "tags": [
+        "graphic-design",
+        "templates",
+        "marketing"
+      ],
       "lastVerified": "2026-05-01"
     },
     {
@@ -29,7 +37,12 @@
       "pricingModel": "open-source",
       "summary": "Open-source design and prototyping platform, a self-hostable alternative to Figma built on open web standards (SVG).",
       "freeTier": "Free cloud plan with generous limits; fully free self-hosted.",
-      "tags": ["ui-design", "open-source", "self-hosted", "prototyping"],
+      "tags": [
+        "ui-design",
+        "open-source",
+        "self-hosted",
+        "prototyping"
+      ],
       "lastVerified": "2026-05-01"
     },
     {
@@ -38,7 +51,11 @@
       "pricingModel": "open-source",
       "summary": "Open-source tool for building, documenting, and testing UI components in isolation.",
       "freeTier": "Completely free and open source.",
-      "tags": ["component-library", "open-source", "documentation"],
+      "tags": [
+        "component-library",
+        "open-source",
+        "documentation"
+      ],
       "lastVerified": "2026-05-01"
     },
     {
@@ -47,7 +64,11 @@
       "pricingModel": "free",
       "summary": "Open-source illustration library with a consistent style, customizable colors, free for commercial use.",
       "freeTier": "Unlimited free downloads, no attribution required.",
-      "tags": ["illustrations", "open-source", "design-assets"],
+      "tags": [
+        "illustrations",
+        "open-source",
+        "design-assets"
+      ],
       "lastVerified": "2026-03-01"
     },
     {
@@ -56,7 +77,11 @@
       "pricingModel": "free",
       "summary": "Free, MIT-licensed SVG icon set by the makers of Tailwind CSS, with solid and outline variants.",
       "freeTier": "Free, unlimited, open source (MIT license).",
-      "tags": ["icons", "open-source", "tailwind"],
+      "tags": [
+        "icons",
+        "open-source",
+        "tailwind"
+      ],
       "lastVerified": "2026-03-01"
     },
     {
@@ -65,7 +90,10 @@
       "pricingModel": "free",
       "summary": "Community-maintained fork of Feather Icons with a much larger, actively growing icon set.",
       "freeTier": "Free, open source (ISC license), 1,500+ icons.",
-      "tags": ["icons", "open-source"],
+      "tags": [
+        "icons",
+        "open-source"
+      ],
       "lastVerified": "2026-03-01"
     },
     {
@@ -75,7 +103,10 @@
       "summary": "Fast color palette generator with export to CSS, image extraction, and accessibility checks.",
       "freeTier": "Free palette generation, export, and basic exploration tools.",
       "paidFrom": "Pro plan from $0.83/month (annual).",
-      "tags": ["color-palette", "design-tools"],
+      "tags": [
+        "color-palette",
+        "design-tools"
+      ],
       "lastVerified": "2026-02-01"
     },
     {
@@ -85,7 +116,11 @@
       "summary": "Rapid user testing and product research platform that connects to Figma prototypes.",
       "freeTier": "Free plan with limited monthly tests/responses.",
       "paidFrom": "Starter plan from $99/month.",
-      "tags": ["user-testing", "research", "figma-integration"],
+      "tags": [
+        "user-testing",
+        "research",
+        "figma-integration"
+      ],
       "lastVerified": "2026-03-01"
     },
     {
@@ -94,7 +129,11 @@
       "pricingModel": "free",
       "summary": "Virtual whiteboard for sketching diagrams with a hand-drawn aesthetic, open source and browser-based.",
       "freeTier": "Free to use in-browser, no account required; open-source self-hosting also free.",
-      "tags": ["whiteboard", "diagrams", "open-source"],
+      "tags": [
+        "whiteboard",
+        "diagrams",
+        "open-source"
+      ],
       "lastVerified": "2026-04-01"
     }
   ]

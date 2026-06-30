@@ -1,5 +1,5 @@
 {
-  "category": "Learning, Education & Student Developer Packs",
+  "category": "Learning Education and Student Developer Packs",
   "slug": "learning-education",
   "description": "Free learning platforms, certification prep, and bundled developer tool packs for students and educators.",
   "entries": [
@@ -9,7 +9,11 @@
       "pricingModel": "free",
       "summary": "Bundle of free access/credits to dozens of developer tools (domains, hosting, APIs, IDEs) for verified students.",
       "freeTier": "Free for the duration of verified student status; bundle composition changes periodically.",
-      "tags": ["student-pack", "bundled-offers", "education"],
+      "tags": [
+        "student-pack",
+        "bundled-offers",
+        "education"
+      ],
       "lastVerified": "2026-05-01"
     },
     {
@@ -18,7 +22,11 @@
       "pricingModel": "free",
       "summary": "Full-length, project-based curriculum covering web development, data science, and more, with free certifications.",
       "freeTier": "100% free, nonprofit, ad-light platform.",
-      "tags": ["learning", "free-certifications", "nonprofit"],
+      "tags": [
+        "learning",
+        "free-certifications",
+        "nonprofit"
+      ],
       "lastVerified": "2026-05-01"
     },
     {
@@ -27,7 +35,11 @@
       "pricingModel": "free",
       "summary": "Free, open-source full-stack web development curriculum built and maintained by its community.",
       "freeTier": "Completely free, open source curriculum.",
-      "tags": ["learning", "open-source", "full-stack"],
+      "tags": [
+        "learning",
+        "open-source",
+        "full-stack"
+      ],
       "lastVerified": "2026-04-01"
     },
     {
@@ -36,7 +48,11 @@
       "pricingModel": "free",
       "summary": "Mozilla's comprehensive, authoritative reference documentation for HTML, CSS, JavaScript, and web APIs.",
       "freeTier": "Completely free reference and learning content.",
-      "tags": ["documentation", "reference", "web-standards"],
+      "tags": [
+        "documentation",
+        "reference",
+        "web-standards"
+      ],
       "lastVerified": "2026-05-01"
     },
     {
@@ -46,7 +62,11 @@
       "summary": "Community-driven learning roadmaps for dozens of tech career paths, with interactive guides and projects.",
       "freeTier": "Free roadmaps and guides; some premium courses/projects are paid.",
       "paidFrom": "Pro plan from ~$9/month for premium content.",
-      "tags": ["learning", "roadmaps", "career-paths"],
+      "tags": [
+        "learning",
+        "roadmaps",
+        "career-paths"
+      ],
       "lastVerified": "2026-04-01"
     },
     {
@@ -55,7 +75,11 @@
       "pricingModel": "free",
       "summary": "Free coding exercises across 70+ languages with human mentoring feedback on submitted solutions.",
       "freeTier": "Completely free, nonprofit-backed.",
-      "tags": ["learning", "coding-exercises", "mentoring"],
+      "tags": [
+        "learning",
+        "coding-exercises",
+        "mentoring"
+      ],
       "lastVerified": "2026-04-01"
     },
     {
@@ -65,7 +89,11 @@
       "summary": "University-partnered courses and certificates; most courses can be audited free, with paid certificates.",
       "freeTier": "Free audit access to course materials (no certificate) for most courses.",
       "paidFrom": "Specializations from ~$49/month, or pay-per-course certificates.",
-      "tags": ["learning", "university-courses", "certificates"],
+      "tags": [
+        "learning",
+        "university-courses",
+        "certificates"
+      ],
       "lastVerified": "2026-03-01"
     },
     {
@@ -74,7 +102,11 @@
       "pricingModel": "free",
       "summary": "Free courses spanning computer science fundamentals, math, and more, run by a nonprofit.",
       "freeTier": "100% free, nonprofit.",
-      "tags": ["learning", "nonprofit", "computer-science"],
+      "tags": [
+        "learning",
+        "nonprofit",
+        "computer-science"
+      ],
       "lastVerified": "2026-03-01"
     },
     {
@@ -84,7 +116,11 @@
       "summary": "Coding interview practice platform with thousands of algorithm/data-structure problems.",
       "freeTier": "Free tier with access to most problems and basic discussion forums.",
       "paidFrom": "Premium plan from $35/month for company-tagged problems and extra solutions.",
-      "tags": ["interview-prep", "algorithms", "practice-problems"],
+      "tags": [
+        "interview-prep",
+        "algorithms",
+        "practice-problems"
+      ],
       "lastVerified": "2026-04-01"
     },
     {
@@ -93,7 +129,11 @@
       "pricingModel": "free",
       "summary": "Free access to the full JetBrains IDE suite (IntelliJ, PyCharm, WebStorm, etc.) for verified students/educators.",
       "freeTier": "Free for the duration of verified academic status.",
-      "tags": ["ide", "student-license", "jetbrains"],
+      "tags": [
+        "ide",
+        "student-license",
+        "jetbrains"
+      ],
       "lastVerified": "2026-04-01"
     }
   ]

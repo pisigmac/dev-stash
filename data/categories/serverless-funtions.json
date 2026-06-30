@@ -1,5 +1,5 @@
 {
-  "category": "Serverless Functions & Backend-as-a-Service",
+  "category": "Serverless Functions and Backend-as-a-Service",
   "slug": "serverless-functions",
   "description": "Function-as-a-service compute and backend-as-a-service platforms for event-driven application logic.",
   "entries": [
@@ -10,7 +10,12 @@
       "summary": "Pioneer of serverless functions; runs code in response to events without managing servers.",
       "freeTier": "1M requests/month and 400,000 GB-seconds compute free, always-free (not time-limited).",
       "paidFrom": "$0.20 per 1M requests beyond free tier.",
-      "tags": ["serverless", "faas", "aws", "event-driven"],
+      "tags": [
+        "serverless",
+        "faas",
+        "aws",
+        "event-driven"
+      ],
       "lastVerified": "2026-06-01"
     },
     {
@@ -20,7 +25,12 @@
       "summary": "Event-driven serverless functions integrated with the Google Cloud and Firebase ecosystems.",
       "freeTier": "2M invocations/month free, always-free.",
       "paidFrom": "$0.40 per 1M invocations beyond free tier.",
-      "tags": ["serverless", "faas", "google-cloud", "firebase"],
+      "tags": [
+        "serverless",
+        "faas",
+        "google-cloud",
+        "firebase"
+      ],
       "lastVerified": "2026-05-01"
     },
     {
@@ -30,7 +40,12 @@
       "summary": "Microsoft's serverless compute service, integrates tightly with the .NET ecosystem and Azure services.",
       "freeTier": "1M requests/month free, always-free.",
       "paidFrom": "Consumption plan billed per execution beyond free tier.",
-      "tags": ["serverless", "faas", "azure", "dotnet"],
+      "tags": [
+        "serverless",
+        "faas",
+        "azure",
+        "dotnet"
+      ],
       "lastVerified": "2026-05-01"
     },
     {
@@ -40,7 +55,11 @@
       "summary": "V8-isolate-based edge functions with extremely low cold-start latency, running in 300+ global locations.",
       "freeTier": "100,000 requests/day free.",
       "paidFrom": "Paid plan from $5/month for 10M requests.",
-      "tags": ["serverless", "edge-compute", "low-latency"],
+      "tags": [
+        "serverless",
+        "edge-compute",
+        "low-latency"
+      ],
       "lastVerified": "2026-06-01"
     },
     {
@@ -50,7 +69,11 @@
       "summary": "Serverless and edge functions deeply integrated with Next.js and the Vercel deployment pipeline.",
       "freeTier": "Included in the free Hobby plan with limits on execution time/invocations.",
       "paidFrom": "Pro plan from $20/month for higher limits.",
-      "tags": ["serverless", "nextjs", "edge-functions"],
+      "tags": [
+        "serverless",
+        "nextjs",
+        "edge-functions"
+      ],
       "lastVerified": "2026-05-01"
     },
     {
@@ -60,7 +83,12 @@
       "summary": "Globally distributed serverless JavaScript/TypeScript runtime built on Deno, with zero-config deploys.",
       "freeTier": "Free tier with generous request and CPU-time allowances for hobby projects.",
       "paidFrom": "Pro plan billed per usage beyond free tier.",
-      "tags": ["serverless", "deno", "typescript", "edge"],
+      "tags": [
+        "serverless",
+        "deno",
+        "typescript",
+        "edge"
+      ],
       "lastVerified": "2026-04-01"
     },
     {
@@ -70,7 +98,11 @@
       "summary": "Open-source backend-as-a-service with auth, databases, storage, and functions, self-hostable or managed cloud.",
       "freeTier": "Self-hosted fully free; Cloud free tier includes generous bandwidth/storage/function execution.",
       "paidFrom": "Pro plan from $15/month.",
-      "tags": ["backend-as-a-service", "open-source", "self-hosted"],
+      "tags": [
+        "backend-as-a-service",
+        "open-source",
+        "self-hosted"
+      ],
       "lastVerified": "2026-05-01"
     },
     {
@@ -80,7 +112,11 @@
       "summary": "Reactive backend platform combining database, server functions, and real-time sync into one TypeScript-first system.",
       "freeTier": "Free tier with generous function calls and database bandwidth for small projects.",
       "paidFrom": "Professional plan from $25/month.",
-      "tags": ["backend-as-a-service", "real-time", "typescript"],
+      "tags": [
+        "backend-as-a-service",
+        "real-time",
+        "typescript"
+      ],
       "lastVerified": "2026-05-01"
     }
   ]

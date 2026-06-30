@@ -1,5 +1,5 @@
 {
-  "category": "AI, LLMs & ML Platforms",
+  "category": "AI LLMs and ML Platforms",
   "slug": "ai-llm",
   "description": "LLM API providers, AI coding assistants, ML experiment tracking, and notebook/GPU compute for machine learning.",
   "entries": [
@@ -8,9 +8,13 @@
       "url": "https://www.anthropic.com/api",
       "pricingModel": "freemium",
       "summary": "Access to the Claude family of models for chat, coding, and agentic tasks via API, console, and SDKs.",
-      "freeTier": "New accounts get limited starter credits; no perpetual free API tier — usage billed per-token after credits.",
+      "freeTier": "New accounts get limited starter credits; no perpetual free API tier \u2014 usage billed per-token after credits.",
       "paidFrom": "Pay-as-you-go per-token pricing varies by model tier.",
-      "tags": ["llm", "api", "ai"],
+      "tags": [
+        "llm",
+        "api",
+        "ai"
+      ],
       "notes": "Free chat usage is available at claude.ai separately from the metered developer API.",
       "lastVerified": "2026-06-01"
     },
@@ -21,7 +25,11 @@
       "summary": "API access to GPT and other OpenAI models for text, code, image, and audio generation.",
       "freeTier": "New accounts may receive limited trial credits; ongoing use is metered, pay-as-you-go.",
       "paidFrom": "Pay-as-you-go per-token pricing varies by model.",
-      "tags": ["llm", "api", "ai"],
+      "tags": [
+        "llm",
+        "api",
+        "ai"
+      ],
       "lastVerified": "2026-06-01"
     },
     {
@@ -31,7 +39,12 @@
       "summary": "Free and paid access to Google's Gemini models for text, vision, and multimodal tasks via API.",
       "freeTier": "Free tier with rate-limited requests per minute/day for several Gemini model variants.",
       "paidFrom": "Pay-as-you-go tier removes rate limits, billed per-token.",
-      "tags": ["llm", "api", "multimodal", "google"],
+      "tags": [
+        "llm",
+        "api",
+        "multimodal",
+        "google"
+      ],
       "lastVerified": "2026-06-01"
     },
     {
@@ -41,7 +54,12 @@
       "summary": "Ultra-low-latency LLM inference API running open models (Llama, Mixtral, etc.) on custom LPU hardware.",
       "freeTier": "Free developer tier with generous rate limits for popular open models.",
       "paidFrom": "Pay-as-you-go pricing for higher throughput.",
-      "tags": ["llm", "api", "inference", "open-models"],
+      "tags": [
+        "llm",
+        "api",
+        "inference",
+        "open-models"
+      ],
       "lastVerified": "2026-06-01"
     },
     {
@@ -51,7 +69,12 @@
       "summary": "Hub for open-source models, datasets, and Spaces (hosted demos), plus Inference API and AutoTrain.",
       "freeTier": "Unlimited public model/dataset hosting, free CPU Spaces, free-tier Inference API rate limits.",
       "paidFrom": "PRO plan from $9/month; dedicated Inference Endpoints billed hourly.",
-      "tags": ["llm", "open-source", "model-hub", "inference"],
+      "tags": [
+        "llm",
+        "open-source",
+        "model-hub",
+        "inference"
+      ],
       "lastVerified": "2026-06-01"
     },
     {
@@ -60,7 +83,12 @@
       "pricingModel": "freemium",
       "summary": "Unified API gateway routing requests across dozens of LLM providers, with several free model endpoints.",
       "freeTier": "Several models offered completely free with rate limits; pay-as-you-go for premium models.",
-      "tags": ["llm", "api", "gateway", "model-routing"],
+      "tags": [
+        "llm",
+        "api",
+        "gateway",
+        "model-routing"
+      ],
       "lastVerified": "2026-06-01"
     },
     {
@@ -70,7 +98,12 @@
       "summary": "Free hosted Jupyter notebooks with GPU/TPU access, popular for ML experimentation and education.",
       "freeTier": "Free tier with rotating GPU access (subject to availability and usage limits).",
       "paidFrom": "Colab Pro from ~$9.99/month for more compute and priority GPUs.",
-      "tags": ["notebooks", "gpu", "jupyter", "ml"],
+      "tags": [
+        "notebooks",
+        "gpu",
+        "jupyter",
+        "ml"
+      ],
       "lastVerified": "2026-05-01"
     },
     {
@@ -79,7 +112,12 @@
       "pricingModel": "free",
       "summary": "Free GPU/TPU-enabled notebooks plus datasets and ML competitions, run by Google.",
       "freeTier": "30 GPU hours/week free, 20GB disk, free TPU quota.",
-      "tags": ["notebooks", "gpu", "datasets", "competitions"],
+      "tags": [
+        "notebooks",
+        "gpu",
+        "datasets",
+        "competitions"
+      ],
       "lastVerified": "2026-05-01"
     },
     {
@@ -89,7 +127,11 @@
       "summary": "Experiment tracking, model registry, and collaboration platform for ML teams.",
       "freeTier": "Free for personal/academic use with limited tracked hours and storage.",
       "paidFrom": "Pro plan billed per seat.",
-      "tags": ["mlops", "experiment-tracking", "model-registry"],
+      "tags": [
+        "mlops",
+        "experiment-tracking",
+        "model-registry"
+      ],
       "lastVerified": "2026-04-01"
     },
     {
@@ -99,7 +141,11 @@
       "summary": "MLOps platform for experiment tracking, model production monitoring, and full data lineage.",
       "freeTier": "Free tier for individuals with limited tracked experiments.",
       "paidFrom": "Teams plan billed per seat.",
-      "tags": ["mlops", "experiment-tracking", "monitoring"],
+      "tags": [
+        "mlops",
+        "experiment-tracking",
+        "monitoring"
+      ],
       "lastVerified": "2026-04-01"
     },
     {
@@ -109,7 +155,11 @@
       "summary": "AI pair-programmer offering inline code completion and chat, integrated into popular IDEs.",
       "freeTier": "Free tier with limited monthly completions/chat requests; free for students and verified open-source maintainers.",
       "paidFrom": "Individual plan from $10/month.",
-      "tags": ["ai-coding", "code-completion", "ide-integration"],
+      "tags": [
+        "ai-coding",
+        "code-completion",
+        "ide-integration"
+      ],
       "lastVerified": "2026-06-01"
     },
     {
@@ -119,7 +169,11 @@
       "summary": "AI coding assistant with inline completions and an agentic IDE (Windsurf), focused on low-latency suggestions.",
       "freeTier": "Free tier with unlimited inline completions and limited premium model credits.",
       "paidFrom": "Pro plan from $15/month.",
-      "tags": ["ai-coding", "ide", "code-completion"],
+      "tags": [
+        "ai-coding",
+        "ide",
+        "code-completion"
+      ],
       "lastVerified": "2026-05-01"
     },
     {
@@ -129,7 +183,11 @@
       "summary": "AI-native code editor (VS Code fork) with deep multi-file context, chat, and agent modes.",
       "freeTier": "Free tier (Hobby) includes limited number of premium AI requests/month.",
       "paidFrom": "Pro plan from $20/month.",
-      "tags": ["ai-coding", "ide", "agentic"],
+      "tags": [
+        "ai-coding",
+        "ide",
+        "agentic"
+      ],
       "lastVerified": "2026-06-01"
     },
     {
@@ -139,7 +197,11 @@
       "summary": "Vercel's AI tool generating copy-paste-ready React UI code using shadcn/ui and Tailwind from text prompts.",
       "freeTier": "Starting credits plus a small monthly free credit allowance.",
       "paidFrom": "Premium plan from $20/month for more generation credits.",
-      "tags": ["ai-coding", "ui-generation", "react"],
+      "tags": [
+        "ai-coding",
+        "ui-generation",
+        "react"
+      ],
       "lastVerified": "2026-05-01"
     },
     {
@@ -148,7 +210,11 @@
       "pricingModel": "freemium",
       "summary": "Run open-source ML models (image, audio, video, LLM) via API without managing infrastructure.",
       "freeTier": "Small free credit for new accounts; ongoing usage is metered per-second of compute.",
-      "tags": ["ml-inference", "api", "open-source-models"],
+      "tags": [
+        "ml-inference",
+        "api",
+        "open-source-models"
+      ],
       "lastVerified": "2026-04-01"
     }
   ]

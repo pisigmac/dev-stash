@@ -1,5 +1,5 @@
 {
-  "category": "Static Site Hosting & CDN",
+  "category": "Static Site Hosting and CDN",
   "slug": "static-hosting-cdn",
   "description": "Hosting for static websites, JAMstack apps, and content delivery networks for fast global asset distribution.",
   "entries": [
@@ -9,7 +9,11 @@
       "pricingModel": "free",
       "summary": "Free static site hosting directly from a GitHub repository, supports custom domains and Jekyll builds.",
       "freeTier": "Unlimited public repos, 1GB site size soft limit, 100GB/month soft bandwidth limit.",
-      "tags": ["static-hosting", "jekyll", "github"],
+      "tags": [
+        "static-hosting",
+        "jekyll",
+        "github"
+      ],
       "lastVerified": "2026-06-01"
     },
     {
@@ -18,17 +22,25 @@
       "pricingModel": "free",
       "summary": "Static site and full-stack hosting on Cloudflare's edge network with unlimited bandwidth.",
       "freeTier": "500 builds/month, unlimited bandwidth, unlimited sites, 100 custom domains.",
-      "tags": ["static-hosting", "jamstack", "edge"],
+      "tags": [
+        "static-hosting",
+        "jamstack",
+        "edge"
+      ],
       "lastVerified": "2026-06-01"
     },
     {
       "name": "Surge.sh",
       "url": "https://surge.sh",
       "pricingModel": "freemium",
-      "summary": "Command-line static web publishing tool — deploy a folder to a live URL in seconds.",
+      "summary": "Command-line static web publishing tool \u2014 deploy a folder to a live URL in seconds.",
       "freeTier": "Unlimited free deployments to *.surge.sh subdomains.",
       "paidFrom": "Pro adds custom domains and team features.",
-      "tags": ["static-hosting", "cli", "quick-deploy"],
+      "tags": [
+        "static-hosting",
+        "cli",
+        "quick-deploy"
+      ],
       "lastVerified": "2026-04-01"
     },
     {
@@ -38,16 +50,24 @@
       "summary": "Fast, secure static and SSR hosting backed by Google's CDN, integrates with the rest of the Firebase suite.",
       "freeTier": "10GB storage, 360MB/day data transfer free.",
       "paidFrom": "Pay-as-you-go on Blaze plan beyond free quota.",
-      "tags": ["static-hosting", "google", "ssr"],
+      "tags": [
+        "static-hosting",
+        "google",
+        "ssr"
+      ],
       "lastVerified": "2026-05-01"
     },
     {
       "name": "jsDelivr",
       "url": "https://www.jsdelivr.com",
       "pricingModel": "free",
-      "summary": "Free, fast CDN for npm, GitHub, and WordPress assets — widely used to serve JS/CSS libraries.",
+      "summary": "Free, fast CDN for npm, GitHub, and WordPress assets \u2014 widely used to serve JS/CSS libraries.",
       "freeTier": "Unlimited free use for open-source/public package delivery.",
-      "tags": ["cdn", "npm", "javascript"],
+      "tags": [
+        "cdn",
+        "npm",
+        "javascript"
+      ],
       "lastVerified": "2026-04-01"
     },
     {
@@ -56,7 +76,11 @@
       "pricingModel": "free",
       "summary": "Serves raw files directly from GitHub/GitLab repos with correct Content-Type headers, backed by Cloudflare.",
       "freeTier": "Free, unlimited use for public repo files.",
-      "tags": ["cdn", "github", "raw-files"],
+      "tags": [
+        "cdn",
+        "github",
+        "raw-files"
+      ],
       "lastVerified": "2026-03-01"
     },
     {
@@ -65,7 +89,11 @@
       "pricingModel": "free",
       "summary": "CDN for Git repos (GitHub, GitLab, Bitbucket) plus WordPress asset and image optimization delivery.",
       "freeTier": "Free CDN delivery with image transformation features.",
-      "tags": ["cdn", "wordpress", "image-optimization"],
+      "tags": [
+        "cdn",
+        "wordpress",
+        "image-optimization"
+      ],
       "lastVerified": "2026-03-01"
     },
     {
@@ -75,7 +103,11 @@
       "summary": "Affordable, low-latency CDN with edge storage and video streaming add-ons.",
       "freeTier": "No perpetual free tier, but extremely low pay-as-you-go pricing from $0.01/GB.",
       "paidFrom": "From $0.01/GB bandwidth.",
-      "tags": ["cdn", "video-streaming", "low-cost"],
+      "tags": [
+        "cdn",
+        "video-streaming",
+        "low-cost"
+      ],
       "lastVerified": "2026-04-01"
     },
     {
@@ -85,7 +117,11 @@
       "summary": "Enterprise-grade edge cloud platform and CDN with programmable edge logic (Compute@Edge).",
       "freeTier": "Free usage tier covers most small projects (free up to a monthly spend threshold).",
       "paidFrom": "Pay-as-you-go beyond free usage allowance.",
-      "tags": ["cdn", "edge-compute", "enterprise"],
+      "tags": [
+        "cdn",
+        "edge-compute",
+        "enterprise"
+      ],
       "lastVerified": "2026-04-01"
     },
     {
@@ -94,7 +130,11 @@
       "pricingModel": "free",
       "summary": "Free static site hosting with global CDN, automatic HTTPS, and Git-based deploys.",
       "freeTier": "Unlimited free static sites with unlimited bandwidth.",
-      "tags": ["static-hosting", "cdn", "git-deploy"],
+      "tags": [
+        "static-hosting",
+        "cdn",
+        "git-deploy"
+      ],
       "lastVerified": "2026-05-01"
     }
   ]

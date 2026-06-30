@@ -1,5 +1,5 @@
 {
-  "category": "Email, SMS & Transactional Messaging",
+  "category": "Email SMS and Transactional Messaging",
   "slug": "email-messaging",
   "description": "Transactional email delivery, SMS/voice APIs, and push notification services for application messaging.",
   "entries": [
@@ -10,7 +10,11 @@
       "summary": "Transactional and marketing email delivery API with templates, analytics, and deliverability tooling.",
       "freeTier": "100 emails/day free, forever.",
       "paidFrom": "Essentials plan from $19.95/month.",
-      "tags": ["email", "transactional", "marketing-email"],
+      "tags": [
+        "email",
+        "transactional",
+        "marketing-email"
+      ],
       "lastVerified": "2026-05-01"
     },
     {
@@ -20,7 +24,11 @@
       "summary": "Developer-focused email API for sending, receiving, validating, and tracking email at scale.",
       "freeTier": "Free trial credits for new accounts; ongoing free tier limited to a small monthly send volume.",
       "paidFrom": "Foundation plan from $15/month.",
-      "tags": ["email", "transactional", "api"],
+      "tags": [
+        "email",
+        "transactional",
+        "api"
+      ],
       "lastVerified": "2026-05-01"
     },
     {
@@ -30,7 +38,11 @@
       "summary": "Modern transactional email API built with developer experience in mind, with React Email templating support.",
       "freeTier": "3,000 emails/month free, 1 domain.",
       "paidFrom": "Pro plan from $20/month.",
-      "tags": ["email", "transactional", "react-email"],
+      "tags": [
+        "email",
+        "transactional",
+        "react-email"
+      ],
       "lastVerified": "2026-06-01"
     },
     {
@@ -40,7 +52,11 @@
       "summary": "Transactional email delivery focused on speed and deliverability, with detailed bounce/spam analytics.",
       "freeTier": "100 emails/month free trial-style tier.",
       "paidFrom": "Paid plans from $15/month for 10,000 emails.",
-      "tags": ["email", "transactional", "deliverability"],
+      "tags": [
+        "email",
+        "transactional",
+        "deliverability"
+      ],
       "lastVerified": "2026-04-01"
     },
     {
@@ -50,7 +66,12 @@
       "summary": "Highly scalable, low-cost transactional email service from AWS, often used as a backend by other ESPs.",
       "freeTier": "62,000 emails/month free when sent from an EC2-hosted application (first 12 months).",
       "paidFrom": "$0.10 per 1,000 emails beyond free tier.",
-      "tags": ["email", "transactional", "aws", "low-cost"],
+      "tags": [
+        "email",
+        "transactional",
+        "aws",
+        "low-cost"
+      ],
       "lastVerified": "2026-05-01"
     },
     {
@@ -60,7 +81,12 @@
       "summary": "SMS, voice, video, and WhatsApp messaging APIs, the most widely integrated communications platform.",
       "freeTier": "Free trial credit for new accounts; no perpetual free production tier.",
       "paidFrom": "Pay-as-you-go per message/minute, varies by country.",
-      "tags": ["sms", "voice", "whatsapp", "api"],
+      "tags": [
+        "sms",
+        "voice",
+        "whatsapp",
+        "api"
+      ],
       "lastVerified": "2026-06-01"
     },
     {
@@ -70,7 +96,11 @@
       "summary": "SMS, voice, and verification APIs, similar in scope to Twilio with competitive per-message pricing.",
       "freeTier": "Trial credit for new accounts.",
       "paidFrom": "Pay-as-you-go per message/minute.",
-      "tags": ["sms", "voice", "verification"],
+      "tags": [
+        "sms",
+        "voice",
+        "verification"
+      ],
       "lastVerified": "2026-04-01"
     },
     {
@@ -80,7 +110,11 @@
       "summary": "Push notifications, in-app messaging, and email for mobile and web apps.",
       "freeTier": "Free for up to 10,000 subscribers on push notifications.",
       "paidFrom": "Growth plan billed by subscriber count beyond free tier.",
-      "tags": ["push-notifications", "mobile", "in-app-messaging"],
+      "tags": [
+        "push-notifications",
+        "mobile",
+        "in-app-messaging"
+      ],
       "lastVerified": "2026-04-01"
     },
     {
@@ -90,7 +124,11 @@
       "summary": "Email platform purpose-built for SaaS startups, combining transactional and marketing email in one tool.",
       "freeTier": "Free tier up to 1,000 contacts and 2,500 emails/month.",
       "paidFrom": "Basic plan from $35/month.",
-      "tags": ["email", "saas", "marketing-email"],
+      "tags": [
+        "email",
+        "saas",
+        "marketing-email"
+      ],
       "lastVerified": "2026-04-01"
     },
     {
@@ -100,7 +138,11 @@
       "summary": "Open-source-friendly transactional and marketing email platform for startups and indie developers.",
       "freeTier": "Free tier with limited monthly email sends.",
       "paidFrom": "Pro plan billed monthly beyond free quota.",
-      "tags": ["email", "open-source", "marketing-email"],
+      "tags": [
+        "email",
+        "open-source",
+        "marketing-email"
+      ],
       "lastVerified": "2026-03-01"
     }
   ]

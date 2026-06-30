@@ -1,5 +1,5 @@
 {
-  "category": "Video, Voice & Real-Time Communication",
+  "category": "Video Voice and Real-Time Communication",
   "slug": "video-realtime-comms",
   "description": "Video conferencing SDKs, WebRTC infrastructure, live streaming, and real-time chat infrastructure for building communication features into apps.",
   "entries": [
@@ -10,7 +10,11 @@
       "summary": "WebRTC video/audio API for embedding live calls into apps, with prebuilt UI or fully custom SDKs.",
       "freeTier": "10,000 free participant-minutes/month.",
       "paidFrom": "Pay-as-you-go pricing beyond free minutes.",
-      "tags": ["webrtc", "video-calling", "api"],
+      "tags": [
+        "webrtc",
+        "video-calling",
+        "api"
+      ],
       "lastVerified": "2026-05-01"
     },
     {
@@ -20,7 +24,11 @@
       "summary": "Programmable video API for building group or 1:1 video experiences, part of the broader Twilio platform.",
       "freeTier": "Free trial credit for new accounts.",
       "paidFrom": "Pay-as-you-go per participant-minute.",
-      "tags": ["webrtc", "video-calling", "api"],
+      "tags": [
+        "webrtc",
+        "video-calling",
+        "api"
+      ],
       "lastVerified": "2026-04-01"
     },
     {
@@ -30,7 +38,12 @@
       "summary": "Real-time engagement platform (voice, video, live streaming, chat) used widely in social and gaming apps.",
       "freeTier": "10,000 free minutes/month across most use cases.",
       "paidFrom": "Pay-as-you-go beyond free minutes.",
-      "tags": ["webrtc", "live-streaming", "voice", "gaming"],
+      "tags": [
+        "webrtc",
+        "live-streaming",
+        "voice",
+        "gaming"
+      ],
       "lastVerified": "2026-05-01"
     },
     {
@@ -40,7 +53,11 @@
       "summary": "Chat and activity feed APIs/SDKs for building in-app messaging and social feeds quickly.",
       "freeTier": "Free tier for small projects (limited monthly active users).",
       "paidFrom": "Paid plans billed per MAU beyond free tier.",
-      "tags": ["chat", "activity-feeds", "messaging-sdk"],
+      "tags": [
+        "chat",
+        "activity-feeds",
+        "messaging-sdk"
+      ],
       "lastVerified": "2026-04-01"
     },
     {
@@ -50,7 +67,11 @@
       "summary": "Real-time messaging infrastructure (pub/sub) for chat, IoT, and live data sync use cases.",
       "freeTier": "Free tier with 200 monthly active users included.",
       "paidFrom": "Paid plans billed per MAU beyond free tier.",
-      "tags": ["pub-sub", "real-time-messaging", "iot"],
+      "tags": [
+        "pub-sub",
+        "real-time-messaging",
+        "iot"
+      ],
       "lastVerified": "2026-04-01"
     },
     {
@@ -60,7 +81,11 @@
       "summary": "Video API for encoding, storing, and streaming on-demand and live video at scale.",
       "freeTier": "Small free credit for new accounts; ongoing usage is metered.",
       "paidFrom": "Pay-as-you-go per minute encoded/streamed.",
-      "tags": ["video-streaming", "video-encoding", "api"],
+      "tags": [
+        "video-streaming",
+        "video-encoding",
+        "api"
+      ],
       "lastVerified": "2026-04-01"
     },
     {
@@ -69,7 +94,11 @@
       "pricingModel": "open-source",
       "summary": "Open-source video conferencing platform; self-host for free or use the public meet.jit.si instance.",
       "freeTier": "Completely free self-hosted; public instance free with no account required.",
-      "tags": ["video-conferencing", "open-source", "self-hosted"],
+      "tags": [
+        "video-conferencing",
+        "open-source",
+        "self-hosted"
+      ],
       "lastVerified": "2026-04-01"
     },
     {
@@ -79,7 +108,12 @@
       "summary": "Open-source WebRTC infrastructure (SFU) for building real-time video/audio/data apps, self-hostable or managed Cloud.",
       "freeTier": "Self-hosted fully free; LiveKit Cloud free tier includes limited monthly participant-minutes.",
       "paidFrom": "Cloud Scale plan billed on usage.",
-      "tags": ["webrtc", "open-source", "self-hosted", "sfu"],
+      "tags": [
+        "webrtc",
+        "open-source",
+        "self-hosted",
+        "sfu"
+      ],
       "lastVerified": "2026-05-01"
     }
   ]

@@ -1,13 +1,11 @@
 # Free (and Paid) Developer Resources
 
-A curated, structured catalog of SaaS, PaaS, IaaS, APIs, and developer utilities —
-covering both free tiers and notable paid alternatives — for software engineers,
-DevOps practitioners, and indie builders.
+🚀 The ultimate curated directory of developer tools, APIs, and cloud services. 
+Discover the best free tiers and compare paid alternatives for your next project.
 
-Inspired by and modeled after [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev),
-this repo extends the format with structured machine-readable data
-(`data/categories/*.json`), per-entry pricing model tags, paid-plan starting
-prices, "last verified" dates, and a searchable static site.
+This repo features structured machine-readable data (`data/categories/*.json`),
+per-entry pricing model tags, paid-plan starting prices, "last verified" dates,
+and a searchable static site.
 
 **Browse interactively:** open `site/index.html` in a browser, or see
 [Quick Start](#quick-start) below to run it locally.
@@ -44,104 +42,56 @@ python3 scripts/generate_readme.py
 ## Table of Contents
 
 
-- [Major Cloud Providers (Deep Dive)](#major-cloud-providers-deep-dive)
-- [AI, LLMs & ML Platforms](#ai-llms-ml-platforms)
-- [API Gateways, Docs & Developer Experience](#api-gateways-docs-developer-experience)
-- [APIs & Data Services](#apis-data-services)
-- [Authentication & Identity](#authentication-identity)
-- [CI/CD & Build Automation](#cicd-build-automation)
-- [Cloud Compute, PaaS & App Hosting](#cloud-compute-paas-app-hosting)
-- [Cloud IDEs & Dev Environments](#cloud-ides-dev-environments)
-- [Code Quality, Review & Static Analysis](#code-quality-review-static-analysis)
-- [Containers, Kubernetes & Registries](#containers-kubernetes-registries)
-- [Customer Support & Helpdesk](#customer-support-helpdesk)
-- [Databases (SQL, NoSQL, Vector)](#databases-sql-nosql-vector)
-- [Design, Prototyping & UI Assets](#design-prototyping-ui-assets)
-- [Domains, DNS & SSL/TLS](#domains-dns-ssltls)
-- [Email, SMS & Transactional Messaging](#email-sms-transactional-messaging)
-- [Feature Flags & Experimentation](#feature-flags-experimentation)
-- [Forms, Surveys & Customer Feedback](#forms-surveys-customer-feedback)
-- [Headless CMS & Content Management](#headless-cms-content-management)
-- [Learning, Education & Student Developer Packs](#learning-education-student-developer-packs)
-- [Low-Code, No-Code & Automation](#low-code-no-code-automation)
-- [Monitoring, Logging & Observability](#monitoring-logging-observability)
-- [Object & File Storage](#object-file-storage)
-- [Payments & Billing](#payments-billing)
-- [Project Management & Team Collaboration](#project-management-team-collaboration)
-- [Search & Analytics](#search-analytics)
-- [Secrets Management & Security](#secrets-management-security)
-- [Serverless Functions & Backend-as-a-Service](#serverless-functions-backend-as-a-service)
+- [Major Cloud Providers Deep Dive](#major-cloud-providers-deep-dive)
+- [AI LLMs and ML Platforms](#ai-llms-and-ml-platforms)
+- [API Gateways Docs and Developer Experience](#api-gateways-docs-and-developer-experience)
+- [APIs and Data Services](#apis-and-data-services)
+- [Authentication and Identity](#authentication-and-identity)
+- [CI/CD and Build Automation](#cicd-and-build-automation)
+- [Cloud Compute PaaS and App Hosting](#cloud-compute-paas-and-app-hosting)
+- [Cloud IDEs and Dev Environments](#cloud-ides-and-dev-environments)
+- [Code Quality Review and Static Analysis](#code-quality-review-and-static-analysis)
+- [Containers Kubernetes and Registries](#containers-kubernetes-and-registries)
+- [Customer Support and Helpdesk](#customer-support-and-helpdesk)
+- [Databases SQL NoSQL Vector](#databases-sql-nosql-vector)
+- [Design Prototyping and UI Assets](#design-prototyping-and-ui-assets)
+- [Domains DNS and SSL/TLS](#domains-dns-and-ssltls)
+- [Email SMS and Transactional Messaging](#email-sms-and-transactional-messaging)
+- [Feature Flags and Experimentation](#feature-flags-and-experimentation)
+- [Forms Surveys and Customer Feedback](#forms-surveys-and-customer-feedback)
+- [Headless CMS and Content Management](#headless-cms-and-content-management)
+- [Learning Education and Student Developer Packs](#learning-education-and-student-developer-packs)
+- [Low-Code No-Code and Automation](#low-code-no-code-and-automation)
+- [Monitoring Logging and Observability](#monitoring-logging-and-observability)
+- [Object and File Storage](#object-and-file-storage)
+- [Payments and Billing](#payments-and-billing)
+- [Project Management and Team Collaboration](#project-management-and-team-collaboration)
+- [Search and Analytics](#search-and-analytics)
+- [Secrets Management and Security](#secrets-management-and-security)
+- [Serverless Functions and Backend-as-a-Service](#serverless-functions-and-backend-as-a-service)
 - [Source Code Hosting](#source-code-hosting)
-- [Static Site Hosting & CDN](#static-site-hosting-cdn)
-- [Testing & QA](#testing-qa)
-- [Video, Voice & Real-Time Communication](#video-voice-real-time-communication)
+- [Static Site Hosting and CDN](#static-site-hosting-and-cdn)
+- [Testing and QA](#testing-and-qa)
+- [Video Voice and Real-Time Communication](#video-voice-and-real-time-communication)
 
 
-## Major Cloud Providers (Deep Dive)
+## Major Cloud Providers Deep Dive
 
 Expanded detail on the 'big' multi-service clouds, since each spans compute, storage, databases, and more under one free-tier umbrella.
 
-### [AWS Free Tier — Compute & Storage Bundle](https://aws.amazon.com/free) — 🔵 Freemium
-
-AWS bundles dozens of always-free and 12-month-free service allowances across EC2, S3, RDS, Lambda, and DynamoDB.
-
-- **Free tier:** 750 EC2 hrs/month (12mo), 5GB S3 (12mo), 750 RDS hrs/month (12mo), 1M Lambda requests/month (always-free), 25GB DynamoDB (always-free).
-- **Note:** Distinguish 'always free' services from '12 months free' services — many people get billed unexpectedly after month 12.
-- **Tags:** `cloud` `multi-service` `always-free` `12-month-free`
-- *Last verified: 2026-06-01*
-
-### [Google Cloud Free Program](https://cloud.google.com/free) — 🔵 Freemium
-
-Combines an always-free tier (small but permanent) with a one-time $300 trial credit for 90 days.
-
-- **Free tier:** 1 e2-micro VM, 5GB Cloud Storage, 2M Cloud Functions invocations/month always-free; $300 credit for new accounts.
-- **Tags:** `cloud` `multi-service` `always-free` `trial-credit`
-- *Last verified: 2026-06-01*
-
-### [Microsoft Azure Free Account](https://azure.microsoft.com/free) — 🔵 Freemium
-
-Mix of always-free service quotas (25+ services) plus a $200 credit for the first 30 days.
-
-- **Free tier:** 1 B1S VM (12mo), 1M Azure Functions executions/month (always-free), 5GB Blob + 5GB File storage (12mo), $200 trial credit.
-- **Tags:** `cloud` `multi-service` `always-free` `trial-credit`
-- *Last verified: 2026-06-01*
-
-### [Oracle Cloud Always Free](https://www.oracle.com/cloud/free) — 🔵 Freemium
-
-OCI's always-free tier is unusually generous and has no 12-month expiration on its core compute offer.
-
-- **Free tier:** 4 Arm Ampere A1 cores + 24GB RAM (split across up to 4 VMs), 2 AMD E2.1.Micro VMs, 200GB block storage, 10TB egress/month, all permanently free.
-- **Note:** Often cited as the best free always-on compute available from any major cloud provider.
-- **Tags:** `cloud` `arm` `always-free` `no-expiration`
-- *Last verified: 2026-06-01*
-
-### [IBM Cloud Lite](https://www.ibm.com/cloud/free) — 🔵 Freemium
-
-IBM's Lite plans apply across dozens of services (Kubernetes, Cloud Functions, Watson AI, Cloudant) with no time limit, just usage caps.
-
-- **Free tier:** Lite tier limits vary per service but never expire by time, only by usage quota.
-- **Tags:** `cloud` `multi-service` `lite-plan` `watson-ai`
-- *Last verified: 2026-05-01*
-
-### [Cloudflare Free Plan](https://www.cloudflare.com/plans) — 🔵 Freemium
-
-Cloudflare's free plan spans DNS, CDN, DDoS protection, SSL, Workers, Pages, and R2 storage under one umbrella.
-
-- **Free tier:** Unlimited DNS-protected domains, free SSL, 100k Workers requests/day, 500 Pages builds/month, 10GB R2 storage/month.
-- **Tags:** `cloud` `multi-service` `cdn` `edge` `dns`
-- *Last verified: 2026-06-01*
-
-### [Zoho Suite (Catalyst, Mail, Assist, Sprints)](https://www.zoho.com) — 🔵 Freemium
-
-Zoho's developer-relevant free tiers span PaaS (Catalyst), email, remote support (Assist), and project tracking (Sprints).
-
-- **Free tier:** Catalyst PaaS generous free tier; Mail free for 5 users (5GB/user); Assist free for 1 concurrent session; Sprints free for 5 users/5 projects/500MB.
-- **Tags:** `cloud` `multi-service` `paas` `email`
-- *Last verified: 2026-04-01*
+| Provider / Tool | Badge | Free Tier | Summary |
+|---|---|---|---|
+| [AWS Free Tier — Compute & Storage Bundle](https://aws.amazon.com/free) | 🔵 Freemium | 750 EC2 hrs/month (12mo), 5GB S3 (12mo), 750 RDS hrs/month (12mo), 1M Lambda requests/month (always-free), 25GB DynamoDB (always-free). | AWS bundles dozens of always-free and 12-month-free service allowances across EC2, S3, RDS, Lambda, and DynamoDB. |
+| [Google Cloud Free Program](https://cloud.google.com/free) | 🔵 Freemium | 1 e2-micro VM, 5GB Cloud Storage, 2M Cloud Functions invocations/month always-free; $300 credit for new accounts. | Combines an always-free tier (small but permanent) with a one-time $300 trial credit for 90 days. |
+| [Microsoft Azure Free Account](https://azure.microsoft.com/free) | 🔵 Freemium | 1 B1S VM (12mo), 1M Azure Functions executions/month (always-free), 5GB Blob + 5GB File storage (12mo), $200 trial credit. | Mix of always-free service quotas (25+ services) plus a $200 credit for the first 30 days. |
+| [Oracle Cloud Always Free](https://www.oracle.com/cloud/free) | 🔵 Freemium | 4 Arm Ampere A1 cores + 24GB RAM (split across up to 4 VMs), 2 AMD E2.1.Micro VMs, 200GB block storage, 10TB egress/month, all permanently free. | OCI's always-free tier is unusually generous and has no 12-month expiration on its core compute offer. |
+| [IBM Cloud Lite](https://www.ibm.com/cloud/free) | 🔵 Freemium | Lite tier limits vary per service but never expire by time, only by usage quota. | IBM's Lite plans apply across dozens of services (Kubernetes, Cloud Functions, Watson AI, Cloudant) with no time limit, just usage caps. |
+| [Cloudflare Free Plan](https://www.cloudflare.com/plans) | 🔵 Freemium | Unlimited DNS-protected domains, free SSL, 100k Workers requests/day, 500 Pages builds/month, 10GB R2 storage/month. | Cloudflare's free plan spans DNS, CDN, DDoS protection, SSL, Workers, Pages, and R2 storage under one umbrella. |
+| [Zoho Suite (Catalyst, Mail, Assist, Sprints)](https://www.zoho.com) | 🔵 Freemium | Catalyst PaaS generous free tier; Mail free for 5 users (5GB/user); Assist free for 1 concurrent session; Sprints free for 5 users/5 projects/500MB. | Zoho's developer-relevant free tiers span PaaS (Catalyst), email, remote support (Assist), and project tracking (Sprints). |
 
 [⬆️ Back to Top](#table-of-contents)
 
-## AI, LLMs & ML Platforms
+## AI LLMs and ML Platforms
 
 LLM API providers, AI coding assistants, ML experiment tracking, and notebook/GPU compute for machine learning.
 
@@ -280,7 +230,7 @@ Run open-source ML models (image, audio, video, LLM) via API without managing in
 
 [⬆️ Back to Top](#table-of-contents)
 
-## API Gateways, Docs & Developer Experience
+## API Gateways Docs and Developer Experience
 
 API gateway/management platforms, API documentation tools, and SDK/client generation utilities.
 
@@ -357,7 +307,7 @@ Tracks new releases across GitHub, GitLab, PyPI, npm, RubyGems, NuGet, Cargo, Do
 
 [⬆️ Back to Top](#table-of-contents)
 
-## APIs & Data Services
+## APIs and Data Services
 
 Third-party APIs providing geolocation, weather, financial, automotive, and other structured data.
 
@@ -470,7 +420,7 @@ Online file converter for documents, images, video, audio, and eBooks, with a RE
 
 [⬆️ Back to Top](#table-of-contents)
 
-## Authentication & Identity
+## Authentication and Identity
 
 User authentication, identity management, and authorization services (login, SSO, MFA, OAuth).
 
@@ -564,7 +514,7 @@ API-first authentication platform specializing in passwordless, passkeys, and fr
 
 [⬆️ Back to Top](#table-of-contents)
 
-## CI/CD & Build Automation
+## CI/CD and Build Automation
 
 Continuous integration and continuous delivery platforms for building, testing, and deploying code automatically.
 
@@ -675,7 +625,7 @@ Performance regression tracking for CI pipelines, benchmarking code on every PR 
 
 [⬆️ Back to Top](#table-of-contents)
 
-## Cloud Compute, PaaS & App Hosting
+## Cloud Compute PaaS and App Hosting
 
 Virtual machines, container platforms, and platform-as-a-service offerings for running applications in the cloud.
 
@@ -819,7 +769,7 @@ In-browser collaborative coding and instant hosting, popular for prototypes, bot
 
 [⬆️ Back to Top](#table-of-contents)
 
-## Cloud IDEs & Dev Environments
+## Cloud IDEs and Dev Environments
 
 Browser-based and cloud-hosted development environments for coding without local setup.
 
@@ -886,7 +836,7 @@ Cloud IDE running on an EC2 instance or connected to existing infrastructure, in
 
 [⬆️ Back to Top](#table-of-contents)
 
-## Code Quality, Review & Static Analysis
+## Code Quality Review and Static Analysis
 
 Tools for automated code review, static analysis, linting, and code coverage tracking.
 
@@ -980,7 +930,7 @@ Automated code maintainability checks based on the Software Improvement Group's 
 
 [⬆️ Back to Top](#table-of-contents)
 
-## Containers, Kubernetes & Registries
+## Containers Kubernetes and Registries
 
 Container image registries, managed Kubernetes, and container orchestration tooling.
 
@@ -1056,7 +1006,7 @@ Web UI for managing Docker, Docker Swarm, and Kubernetes environments without th
 
 [⬆️ Back to Top](#table-of-contents)
 
-## Customer Support & Helpdesk
+## Customer Support and Helpdesk
 
 Helpdesk, live chat, and customer support ticketing tools for product and engineering teams.
 
@@ -1115,139 +1065,30 @@ Open-source live customer chat platform, an Intercom alternative you can self-ho
 
 [⬆️ Back to Top](#table-of-contents)
 
-## Databases (SQL, NoSQL, Vector)
+## Databases SQL NoSQL Vector
 
 Managed database-as-a-service offerings across relational, document, key-value, graph, and vector databases.
 
-### [Supabase](https://supabase.com) — 🔵 Freemium
-
-Open-source Firebase alternative providing a managed Postgres database with auth, storage, realtime, and edge functions.
-
-- **Free tier:** 2 free projects, 500MB database, 1GB file storage, 5GB bandwidth/month, projects pause after 1 week inactivity.
-- **Paid from:** Pro plan from $25/month/project.
-- **Tags:** `postgres` `backend-as-a-service` `auth` `realtime`
-- *Last verified: 2026-06-01*
-
-### [Neon](https://neon.com) — 🔵 Freemium
-
-Serverless Postgres with branching (database copies for dev/test) and scale-to-zero compute.
-
-- **Free tier:** 0.5GB storage, generous compute hours/month, unlimited branches on free tier.
-- **Paid from:** Launch plan from $19/month.
-- **Tags:** `postgres` `serverless` `branching`
-- *Last verified: 2026-06-01*
-
-### [PlanetScale](https://planetscale.com) — 🔵 Freemium
-
-Serverless MySQL-compatible platform built on Vitess, with non-blocking schema migrations and branching workflows.
-
-- **Free tier:** Hobby plan free with limited storage and row reads/writes per month.
-- **Paid from:** Scaler plan from $39/month.
-- **Tags:** `mysql` `vitess` `serverless` `branching`
-- *Last verified: 2026-06-01*
-
-### [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) — 🔵 Freemium
-
-Fully managed MongoDB document database with a free shared-cluster tier that never expires.
-
-- **Free tier:** M0 cluster: 512MB storage, shared RAM/vCPU, no time limit.
-- **Paid from:** Dedicated clusters from ~$9/month (M2).
-- **Tags:** `mongodb` `nosql` `document-db`
-- *Last verified: 2026-06-01*
-
-### [Firebase (Firestore/Realtime DB)](https://firebase.google.com/pricing) — 🔵 Freemium
-
-Google's mobile/web app backend platform including Firestore NoSQL database, auth, hosting, and analytics.
-
-- **Free tier:** Spark plan free: 1GB Firestore storage, 50k reads/20k writes per day.
-- **Paid from:** Blaze plan is pay-as-you-go beyond Spark limits.
-- **Tags:** `nosql` `backend-as-a-service` `mobile` `realtime`
-- *Last verified: 2026-06-01*
-
-### [Upstash](https://upstash.com) — 🔵 Freemium
-
-Serverless Redis, Kafka, and vector database with per-request pricing ideal for spiky/serverless workloads.
-
-- **Free tier:** 10,000 commands/day free on Redis, 10,000 vectors free on vector DB.
-- **Paid from:** Pay-as-you-go beyond free request quota.
-- **Tags:** `redis` `serverless` `kafka` `vector-db`
-- *Last verified: 2026-06-01*
-
-### [Redis Cloud](https://redis.io/cloud) — 🔵 Freemium
-
-Official managed Redis offering with a permanently free small database tier.
-
-- **Free tier:** 30MB free database, shared infrastructure, no time limit.
-- **Paid from:** Flexible plans from ~$5/month for fixed dedicated.
-- **Tags:** `redis` `caching` `in-memory`
-- *Last verified: 2026-05-01*
-
-### [CockroachDB Cloud](https://www.cockroachlabs.com/get-started-cockroachdb) — 🔵 Freemium
-
-Distributed SQL database that's Postgres wire-compatible, designed for resilience and horizontal scale.
-
-- **Free tier:** Free tier with 10GiB storage and 50M request units/month.
-- **Paid from:** Standard plan billed on usage above free tier.
-- **Tags:** `distributed-sql` `postgres-compatible` `horizontal-scale`
-- *Last verified: 2026-05-01*
-
-### [Turso](https://turso.tech) — 🔵 Freemium
-
-Edge-replicated SQLite database (built on libSQL) for low-latency reads close to users.
-
-- **Free tier:** 500 databases, 9GB total storage, 1B row reads/month on free tier.
-- **Paid from:** Scaler plan from $29/month.
-- **Tags:** `sqlite` `edge-db` `libsql`
-- *Last verified: 2026-05-01*
-
-### [Pinecone](https://www.pinecone.io) — 🔵 Freemium
-
-Managed vector database purpose-built for similarity search and RAG/AI applications.
-
-- **Free tier:** Starter tier free: 1 project, ~2GB storage (serverless), limited read/write units.
-- **Paid from:** Standard plan billed on usage.
-- **Tags:** `vector-db` `ai` `rag` `embeddings`
-- *Last verified: 2026-05-01*
-
-### [Weaviate Cloud](https://weaviate.io) — 🔵 Freemium
-
-Open-source vector database with managed cloud hosting and hybrid (vector + keyword) search.
-
-- **Free tier:** Sandbox cluster free for 14 days; open-source self-hosted version is free indefinitely.
-- **Paid from:** Serverless cloud billed on usage.
-- **Tags:** `vector-db` `open-source` `hybrid-search`
-- *Last verified: 2026-05-01*
-
-### [Astra DB (DataStax)](https://www.datastax.com/products/datastax-astra) — 🔵 Freemium
-
-Managed Cassandra-based database with vector search support, built for high-scale NoSQL workloads.
-
-- **Free tier:** 25M reads/writes and 25GB storage free per month, no expiry.
-- **Paid from:** Pay-as-you-go beyond free monthly allowance.
-- **Tags:** `cassandra` `nosql` `vector-search`
-- *Last verified: 2026-04-01*
-
-### [ElephantSQL (Postgres)](https://www.elephantsql.com) — 🔵 Freemium
-
-Simple managed PostgreSQL hosting with a small permanently-free tier, good for quick prototypes.
-
-- **Free tier:** 20MB storage, shared instance, no time limit.
-- **Paid from:** Paid plans from ~$9/month.
-- **Tags:** `postgres` `simple-hosting`
-- *Last verified: 2026-03-01*
-
-### [Xata](https://xata.io) — 🔵 Freemium
-
-Serverless Postgres platform with built-in full-text search, file attachments, and branching.
-
-- **Free tier:** Free tier with limited storage and request quotas for small projects.
-- **Paid from:** Pro plan billed on usage.
-- **Tags:** `postgres` `serverless` `full-text-search`
-- *Last verified: 2026-04-01*
+| Provider / Tool | Badge | Free Tier | Summary |
+|---|---|---|---|
+| [Supabase](https://supabase.com) | 🔵 Freemium | 2 free projects, 500MB database, 1GB file storage, 5GB bandwidth/month, projects pause after 1 week inactivity. | Open-source Firebase alternative providing a managed Postgres database with auth, storage, realtime, and edge functions. |
+| [Neon](https://neon.com) | 🔵 Freemium | 0.5GB storage, generous compute hours/month, unlimited branches on free tier. | Serverless Postgres with branching (database copies for dev/test) and scale-to-zero compute. |
+| [PlanetScale](https://planetscale.com) | 🔵 Freemium | Hobby plan free with limited storage and row reads/writes per month. | Serverless MySQL-compatible platform built on Vitess, with non-blocking schema migrations and branching workflows. |
+| [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) | 🔵 Freemium | M0 cluster: 512MB storage, shared RAM/vCPU, no time limit. | Fully managed MongoDB document database with a free shared-cluster tier that never expires. |
+| [Firebase (Firestore/Realtime DB)](https://firebase.google.com/pricing) | 🔵 Freemium | Spark plan free: 1GB Firestore storage, 50k reads/20k writes per day. | Google's mobile/web app backend platform including Firestore NoSQL database, auth, hosting, and analytics. |
+| [Upstash](https://upstash.com) | 🔵 Freemium | 10,000 commands/day free on Redis, 10,000 vectors free on vector DB. | Serverless Redis, Kafka, and vector database with per-request pricing ideal for spiky/serverless workloads. |
+| [Redis Cloud](https://redis.io/cloud) | 🔵 Freemium | 30MB free database, shared infrastructure, no time limit. | Official managed Redis offering with a permanently free small database tier. |
+| [CockroachDB Cloud](https://www.cockroachlabs.com/get-started-cockroachdb) | 🔵 Freemium | Free tier with 10GiB storage and 50M request units/month. | Distributed SQL database that's Postgres wire-compatible, designed for resilience and horizontal scale. |
+| [Turso](https://turso.tech) | 🔵 Freemium | 500 databases, 9GB total storage, 1B row reads/month on free tier. | Edge-replicated SQLite database (built on libSQL) for low-latency reads close to users. |
+| [Pinecone](https://www.pinecone.io) | 🔵 Freemium | Starter tier free: 1 project, ~2GB storage (serverless), limited read/write units. | Managed vector database purpose-built for similarity search and RAG/AI applications. |
+| [Weaviate Cloud](https://weaviate.io) | 🔵 Freemium | Sandbox cluster free for 14 days; open-source self-hosted version is free indefinitely. | Open-source vector database with managed cloud hosting and hybrid (vector + keyword) search. |
+| [Astra DB (DataStax)](https://www.datastax.com/products/datastax-astra) | 🔵 Freemium | 25M reads/writes and 25GB storage free per month, no expiry. | Managed Cassandra-based database with vector search support, built for high-scale NoSQL workloads. |
+| [ElephantSQL (Postgres)](https://www.elephantsql.com) | 🔵 Freemium | 20MB storage, shared instance, no time limit. | Simple managed PostgreSQL hosting with a small permanently-free tier, good for quick prototypes. |
+| [Xata](https://xata.io) | 🔵 Freemium | Free tier with limited storage and request quotas for small projects. | Serverless Postgres platform with built-in full-text search, file attachments, and branching. |
 
 [⬆️ Back to Top](#table-of-contents)
 
-## Design, Prototyping & UI Assets
+## Design Prototyping and UI Assets
 
 UI/UX design tools, prototyping software, icon/illustration libraries, and design-to-code utilities.
 
@@ -1337,7 +1178,7 @@ Virtual whiteboard for sketching diagrams with a hand-drawn aesthetic, open sour
 
 [⬆️ Back to Top](#table-of-contents)
 
-## Domains, DNS & SSL/TLS
+## Domains DNS and SSL/TLS
 
 Domain registration, DNS hosting, and SSL/TLS certificate issuance services.
 
@@ -1411,7 +1252,7 @@ DNS management and domain registration with a clean API, popular for automating 
 
 [⬆️ Back to Top](#table-of-contents)
 
-## Email, SMS & Transactional Messaging
+## Email SMS and Transactional Messaging
 
 Transactional email delivery, SMS/voice APIs, and push notification services for application messaging.
 
@@ -1507,7 +1348,7 @@ Open-source-friendly transactional and marketing email platform for startups and
 
 [⬆️ Back to Top](#table-of-contents)
 
-## Feature Flags & Experimentation
+## Feature Flags and Experimentation
 
 Feature flag management and A/B testing platforms for controlled, gradual feature rollouts.
 
@@ -1567,7 +1408,7 @@ Open-source feature flagging and A/B testing platform with a focus on warehouse-
 
 [⬆️ Back to Top](#table-of-contents)
 
-## Forms, Surveys & Customer Feedback
+## Forms Surveys and Customer Feedback
 
 Form builders, survey tools, and feedback widgets for collecting structured input from users.
 
@@ -1644,7 +1485,7 @@ Established survey platform with templates, logic branching, and analysis tools.
 
 [⬆️ Back to Top](#table-of-contents)
 
-## Headless CMS & Content Management
+## Headless CMS and Content Management
 
 API-first content management systems for decoupled front-end delivery (web, mobile, JAMstack).
 
@@ -1722,7 +1563,7 @@ Visual headless CMS and drag-and-drop page builder that integrates with React, V
 
 [⬆️ Back to Top](#table-of-contents)
 
-## Learning, Education & Student Developer Packs
+## Learning Education and Student Developer Packs
 
 Free learning platforms, certification prep, and bundled developer tool packs for students and educators.
 
@@ -1811,7 +1652,7 @@ Free access to the full JetBrains IDE suite (IntelliJ, PyCharm, WebStorm, etc.) 
 
 [⬆️ Back to Top](#table-of-contents)
 
-## Low-Code, No-Code & Automation
+## Low-Code No-Code and Automation
 
 Workflow automation, integration platforms, and no-code/low-code app builders.
 
@@ -1898,7 +1739,7 @@ Data integration tool that syncs data between apps, spreadsheets, and BI dashboa
 
 [⬆️ Back to Top](#table-of-contents)
 
-## Monitoring, Logging & Observability
+## Monitoring Logging and Observability
 
 Application performance monitoring, error tracking, log aggregation, and uptime monitoring services.
 
@@ -2010,7 +1851,7 @@ Open-source, self-hosted distributed tracing system originally built by Uber, CN
 
 [⬆️ Back to Top](#table-of-contents)
 
-## Object & File Storage
+## Object and File Storage
 
 Cloud object storage, file sync/sharing, and backup services for application and personal data.
 
@@ -2106,7 +1947,7 @@ S3-compatible storage backed by decentralized networks (IPFS, Sia, Storj) access
 
 [⬆️ Back to Top](#table-of-contents)
 
-## Payments & Billing
+## Payments and Billing
 
 Payment processing, subscription billing, and invoicing APIs for monetizing applications.
 
@@ -2183,7 +2024,7 @@ Composable commerce API for building, placing, and managing orders from any fron
 
 [⬆️ Back to Top](#table-of-contents)
 
-## Project Management & Team Collaboration
+## Project Management and Team Collaboration
 
 Issue tracking, kanban boards, wikis, and team chat/collaboration tools.
 
@@ -2295,7 +2136,7 @@ Task management with integrated chat, calendar, timeline view, and video calls.
 
 [⬆️ Back to Top](#table-of-contents)
 
-## Search & Analytics
+## Search and Analytics
 
 Hosted search engines and product/web analytics platforms.
 
@@ -2381,7 +2222,7 @@ Google's widely used web/app analytics platform (GA4), tracking traffic, behavio
 
 [⬆️ Back to Top](#table-of-contents)
 
-## Secrets Management & Security
+## Secrets Management and Security
 
 Secrets/config management, vulnerability scanning, and application security testing services.
 
@@ -2459,81 +2300,20 @@ API for checking whether an email/password has appeared in known data breaches.
 
 [⬆️ Back to Top](#table-of-contents)
 
-## Serverless Functions & Backend-as-a-Service
+## Serverless Functions and Backend-as-a-Service
 
 Function-as-a-service compute and backend-as-a-service platforms for event-driven application logic.
 
-### [AWS Lambda](https://aws.amazon.com/lambda) — 🔵 Freemium
-
-Pioneer of serverless functions; runs code in response to events without managing servers.
-
-- **Free tier:** 1M requests/month and 400,000 GB-seconds compute free, always-free (not time-limited).
-- **Paid from:** $0.20 per 1M requests beyond free tier.
-- **Tags:** `serverless` `faas` `aws` `event-driven`
-- *Last verified: 2026-06-01*
-
-### [Google Cloud Functions](https://cloud.google.com/functions) — 🔵 Freemium
-
-Event-driven serverless functions integrated with the Google Cloud and Firebase ecosystems.
-
-- **Free tier:** 2M invocations/month free, always-free.
-- **Paid from:** $0.40 per 1M invocations beyond free tier.
-- **Tags:** `serverless` `faas` `google-cloud` `firebase`
-- *Last verified: 2026-05-01*
-
-### [Azure Functions](https://azure.microsoft.com/products/functions) — 🔵 Freemium
-
-Microsoft's serverless compute service, integrates tightly with the .NET ecosystem and Azure services.
-
-- **Free tier:** 1M requests/month free, always-free.
-- **Paid from:** Consumption plan billed per execution beyond free tier.
-- **Tags:** `serverless` `faas` `azure` `dotnet`
-- *Last verified: 2026-05-01*
-
-### [Cloudflare Workers](https://workers.cloudflare.com) — 🔵 Freemium
-
-V8-isolate-based edge functions with extremely low cold-start latency, running in 300+ global locations.
-
-- **Free tier:** 100,000 requests/day free.
-- **Paid from:** Paid plan from $5/month for 10M requests.
-- **Tags:** `serverless` `edge-compute` `low-latency`
-- *Last verified: 2026-06-01*
-
-### [Vercel Functions](https://vercel.com/docs/functions) — 🔵 Freemium
-
-Serverless and edge functions deeply integrated with Next.js and the Vercel deployment pipeline.
-
-- **Free tier:** Included in the free Hobby plan with limits on execution time/invocations.
-- **Paid from:** Pro plan from $20/month for higher limits.
-- **Tags:** `serverless` `nextjs` `edge-functions`
-- *Last verified: 2026-05-01*
-
-### [Deno Deploy](https://deno.com/deploy) — 🔵 Freemium
-
-Globally distributed serverless JavaScript/TypeScript runtime built on Deno, with zero-config deploys.
-
-- **Free tier:** Free tier with generous request and CPU-time allowances for hobby projects.
-- **Paid from:** Pro plan billed per usage beyond free tier.
-- **Tags:** `serverless` `deno` `typescript` `edge`
-- *Last verified: 2026-04-01*
-
-### [Appwrite](https://appwrite.io) — 🔵 Freemium
-
-Open-source backend-as-a-service with auth, databases, storage, and functions, self-hostable or managed cloud.
-
-- **Free tier:** Self-hosted fully free; Cloud free tier includes generous bandwidth/storage/function execution.
-- **Paid from:** Pro plan from $15/month.
-- **Tags:** `backend-as-a-service` `open-source` `self-hosted`
-- *Last verified: 2026-05-01*
-
-### [Convex](https://www.convex.dev) — 🔵 Freemium
-
-Reactive backend platform combining database, server functions, and real-time sync into one TypeScript-first system.
-
-- **Free tier:** Free tier with generous function calls and database bandwidth for small projects.
-- **Paid from:** Professional plan from $25/month.
-- **Tags:** `backend-as-a-service` `real-time` `typescript`
-- *Last verified: 2026-05-01*
+| Provider / Tool | Badge | Free Tier | Summary |
+|---|---|---|---|
+| [AWS Lambda](https://aws.amazon.com/lambda) | 🔵 Freemium | 1M requests/month and 400,000 GB-seconds compute free, always-free (not time-limited). | Pioneer of serverless functions; runs code in response to events without managing servers. |
+| [Google Cloud Functions](https://cloud.google.com/functions) | 🔵 Freemium | 2M invocations/month free, always-free. | Event-driven serverless functions integrated with the Google Cloud and Firebase ecosystems. |
+| [Azure Functions](https://azure.microsoft.com/products/functions) | 🔵 Freemium | 1M requests/month free, always-free. | Microsoft's serverless compute service, integrates tightly with the .NET ecosystem and Azure services. |
+| [Cloudflare Workers](https://workers.cloudflare.com) | 🔵 Freemium | 100,000 requests/day free. | V8-isolate-based edge functions with extremely low cold-start latency, running in 300+ global locations. |
+| [Vercel Functions](https://vercel.com/docs/functions) | 🔵 Freemium | Included in the free Hobby plan with limits on execution time/invocations. | Serverless and edge functions deeply integrated with Next.js and the Vercel deployment pipeline. |
+| [Deno Deploy](https://deno.com/deploy) | 🔵 Freemium | Free tier with generous request and CPU-time allowances for hobby projects. | Globally distributed serverless JavaScript/TypeScript runtime built on Deno, with zero-config deploys. |
+| [Appwrite](https://appwrite.io) | 🔵 Freemium | Self-hosted fully free; Cloud free tier includes generous bandwidth/storage/function execution. | Open-source backend-as-a-service with auth, databases, storage, and functions, self-hostable or managed cloud. |
+| [Convex](https://www.convex.dev) | 🔵 Freemium | Free tier with generous function calls and database bandwidth for small projects. | Reactive backend platform combining database, server functions, and real-time sync into one TypeScript-first system. |
 
 [⬆️ Back to Top](#table-of-contents)
 
@@ -2631,97 +2411,26 @@ Private and public artifact/package repository supporting Maven, PyPI, npm, Go m
 
 [⬆️ Back to Top](#table-of-contents)
 
-## Static Site Hosting & CDN
+## Static Site Hosting and CDN
 
 Hosting for static websites, JAMstack apps, and content delivery networks for fast global asset distribution.
 
-### [GitHub Pages](https://pages.github.com) — 🟢 Free
-
-Free static site hosting directly from a GitHub repository, supports custom domains and Jekyll builds.
-
-- **Free tier:** Unlimited public repos, 1GB site size soft limit, 100GB/month soft bandwidth limit.
-- **Tags:** `static-hosting` `jekyll` `github`
-- *Last verified: 2026-06-01*
-
-### [Cloudflare Pages](https://pages.cloudflare.com) — 🟢 Free
-
-Static site and full-stack hosting on Cloudflare's edge network with unlimited bandwidth.
-
-- **Free tier:** 500 builds/month, unlimited bandwidth, unlimited sites, 100 custom domains.
-- **Tags:** `static-hosting` `jamstack` `edge`
-- *Last verified: 2026-06-01*
-
-### [Surge.sh](https://surge.sh) — 🔵 Freemium
-
-Command-line static web publishing tool — deploy a folder to a live URL in seconds.
-
-- **Free tier:** Unlimited free deployments to *.surge.sh subdomains.
-- **Paid from:** Pro adds custom domains and team features.
-- **Tags:** `static-hosting` `cli` `quick-deploy`
-- *Last verified: 2026-04-01*
-
-### [Firebase Hosting](https://firebase.google.com/products/hosting) — 🔵 Freemium
-
-Fast, secure static and SSR hosting backed by Google's CDN, integrates with the rest of the Firebase suite.
-
-- **Free tier:** 10GB storage, 360MB/day data transfer free.
-- **Paid from:** Pay-as-you-go on Blaze plan beyond free quota.
-- **Tags:** `static-hosting` `google` `ssr`
-- *Last verified: 2026-05-01*
-
-### [jsDelivr](https://www.jsdelivr.com) — 🟢 Free
-
-Free, fast CDN for npm, GitHub, and WordPress assets — widely used to serve JS/CSS libraries.
-
-- **Free tier:** Unlimited free use for open-source/public package delivery.
-- **Tags:** `cdn` `npm` `javascript`
-- *Last verified: 2026-04-01*
-
-### [raw.githack.com](https://raw.githack.com) — 🟢 Free
-
-Serves raw files directly from GitHub/GitLab repos with correct Content-Type headers, backed by Cloudflare.
-
-- **Free tier:** Free, unlimited use for public repo files.
-- **Tags:** `cdn` `github` `raw-files`
-- *Last verified: 2026-03-01*
-
-### [Statically](https://www.statically.io) — 🟢 Free
-
-CDN for Git repos (GitHub, GitLab, Bitbucket) plus WordPress asset and image optimization delivery.
-
-- **Free tier:** Free CDN delivery with image transformation features.
-- **Tags:** `cdn` `wordpress` `image-optimization`
-- *Last verified: 2026-03-01*
-
-### [Bunny CDN](https://bunny.net) — 🔵 Freemium
-
-Affordable, low-latency CDN with edge storage and video streaming add-ons.
-
-- **Free tier:** No perpetual free tier, but extremely low pay-as-you-go pricing from $0.01/GB.
-- **Paid from:** From $0.01/GB bandwidth.
-- **Tags:** `cdn` `video-streaming` `low-cost`
-- *Last verified: 2026-04-01*
-
-### [Fastly](https://www.fastly.com) — 🔵 Freemium
-
-Enterprise-grade edge cloud platform and CDN with programmable edge logic (Compute@Edge).
-
-- **Free tier:** Free usage tier covers most small projects (free up to a monthly spend threshold).
-- **Paid from:** Pay-as-you-go beyond free usage allowance.
-- **Tags:** `cdn` `edge-compute` `enterprise`
-- *Last verified: 2026-04-01*
-
-### [Render Static Sites](https://render.com/docs/static-sites) — 🟢 Free
-
-Free static site hosting with global CDN, automatic HTTPS, and Git-based deploys.
-
-- **Free tier:** Unlimited free static sites with unlimited bandwidth.
-- **Tags:** `static-hosting` `cdn` `git-deploy`
-- *Last verified: 2026-05-01*
+| Provider / Tool | Badge | Free Tier | Summary |
+|---|---|---|---|
+| [GitHub Pages](https://pages.github.com) | 🟢 Free | Unlimited public repos, 1GB site size soft limit, 100GB/month soft bandwidth limit. | Free static site hosting directly from a GitHub repository, supports custom domains and Jekyll builds. |
+| [Cloudflare Pages](https://pages.cloudflare.com) | 🟢 Free | 500 builds/month, unlimited bandwidth, unlimited sites, 100 custom domains. | Static site and full-stack hosting on Cloudflare's edge network with unlimited bandwidth. |
+| [Surge.sh](https://surge.sh) | 🔵 Freemium | Unlimited free deployments to *.surge.sh subdomains. | Command-line static web publishing tool — deploy a folder to a live URL in seconds. |
+| [Firebase Hosting](https://firebase.google.com/products/hosting) | 🔵 Freemium | 10GB storage, 360MB/day data transfer free. | Fast, secure static and SSR hosting backed by Google's CDN, integrates with the rest of the Firebase suite. |
+| [jsDelivr](https://www.jsdelivr.com) | 🟢 Free | Unlimited free use for open-source/public package delivery. | Free, fast CDN for npm, GitHub, and WordPress assets — widely used to serve JS/CSS libraries. |
+| [raw.githack.com](https://raw.githack.com) | 🟢 Free | Free, unlimited use for public repo files. | Serves raw files directly from GitHub/GitLab repos with correct Content-Type headers, backed by Cloudflare. |
+| [Statically](https://www.statically.io) | 🟢 Free | Free CDN delivery with image transformation features. | CDN for Git repos (GitHub, GitLab, Bitbucket) plus WordPress asset and image optimization delivery. |
+| [Bunny CDN](https://bunny.net) | 🔵 Freemium | No perpetual free tier, but extremely low pay-as-you-go pricing from $0.01/GB. | Affordable, low-latency CDN with edge storage and video streaming add-ons. |
+| [Fastly](https://www.fastly.com) | 🔵 Freemium | Free usage tier covers most small projects (free up to a monthly spend threshold). | Enterprise-grade edge cloud platform and CDN with programmable edge logic (Compute@Edge). |
+| [Render Static Sites](https://render.com/docs/static-sites) | 🟢 Free | Unlimited free static sites with unlimited bandwidth. | Free static site hosting with global CDN, automatic HTTPS, and Git-based deploys. |
 
 [⬆️ Back to Top](#table-of-contents)
 
-## Testing & QA
+## Testing and QA
 
 Automated browser testing, load testing, visual regression, and cross-browser/device testing platforms.
 
@@ -2807,7 +2516,7 @@ Test case management platform for organizing, tracking, and reporting on manual 
 
 [⬆️ Back to Top](#table-of-contents)
 
-## Video, Voice & Real-Time Communication
+## Video Voice and Real-Time Communication
 
 Video conferencing SDKs, WebRTC infrastructure, live streaming, and real-time chat infrastructure for building communication features into apps.
 
@@ -2887,6 +2596,8 @@ Open-source WebRTC infrastructure (SFU) for building real-time video/audio/data 
 
 ---
 
+*Inspired by and modeled after [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev).*
+
 ## Contributing
 
 This repo follows a **JSON-first** workflow:
@@ -2911,5 +2622,5 @@ See [`.github/pull_request_template.md`](.github/pull_request_template.md) for t
 
 ---
 
-*Generated on 2026-06-28 from 31 category files, 297 entries.
+*Generated on 2026-06-30 from 31 category files, 297 entries.
 Do not hand-edit this file — edit `data/categories/*.json` and run `scripts/generate_readme.py`.*

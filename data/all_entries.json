@@ -13,7 +13,7 @@
     ],
     "notes": "Distinguish 'always free' services from '12 months free' services \u2014 many people get billed unexpectedly after month 12.",
     "lastVerified": "2026-06-01",
-    "category": "Major Cloud Providers (Deep Dive)",
+    "category": "Major Cloud Providers Deep Dive",
     "categorySlug": "major-cloud-providers"
   },
   {
@@ -29,7 +29,7 @@
       "trial-credit"
     ],
     "lastVerified": "2026-06-01",
-    "category": "Major Cloud Providers (Deep Dive)",
+    "category": "Major Cloud Providers Deep Dive",
     "categorySlug": "major-cloud-providers"
   },
   {
@@ -45,7 +45,7 @@
       "trial-credit"
     ],
     "lastVerified": "2026-06-01",
-    "category": "Major Cloud Providers (Deep Dive)",
+    "category": "Major Cloud Providers Deep Dive",
     "categorySlug": "major-cloud-providers"
   },
   {
@@ -62,7 +62,7 @@
     ],
     "notes": "Often cited as the best free always-on compute available from any major cloud provider.",
     "lastVerified": "2026-06-01",
-    "category": "Major Cloud Providers (Deep Dive)",
+    "category": "Major Cloud Providers Deep Dive",
     "categorySlug": "major-cloud-providers"
   },
   {
@@ -78,7 +78,7 @@
       "watson-ai"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Major Cloud Providers (Deep Dive)",
+    "category": "Major Cloud Providers Deep Dive",
     "categorySlug": "major-cloud-providers"
   },
   {
@@ -95,7 +95,7 @@
       "dns"
     ],
     "lastVerified": "2026-06-01",
-    "category": "Major Cloud Providers (Deep Dive)",
+    "category": "Major Cloud Providers Deep Dive",
     "categorySlug": "major-cloud-providers"
   },
   {
@@ -111,7 +111,7 @@
       "email"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Major Cloud Providers (Deep Dive)",
+    "category": "Major Cloud Providers Deep Dive",
     "categorySlug": "major-cloud-providers"
   },
   {
@@ -128,7 +128,7 @@
     ],
     "notes": "Free chat usage is available at claude.ai separately from the metered developer API.",
     "lastVerified": "2026-06-01",
-    "category": "AI, LLMs & ML Platforms",
+    "category": "AI LLMs and ML Platforms",
     "categorySlug": "ai-llm"
   },
   {
@@ -144,7 +144,7 @@
       "ai"
     ],
     "lastVerified": "2026-06-01",
-    "category": "AI, LLMs & ML Platforms",
+    "category": "AI LLMs and ML Platforms",
     "categorySlug": "ai-llm"
   },
   {
@@ -161,7 +161,7 @@
       "google"
     ],
     "lastVerified": "2026-06-01",
-    "category": "AI, LLMs & ML Platforms",
+    "category": "AI LLMs and ML Platforms",
     "categorySlug": "ai-llm"
   },
   {
@@ -178,7 +178,7 @@
       "open-models"
     ],
     "lastVerified": "2026-06-01",
-    "category": "AI, LLMs & ML Platforms",
+    "category": "AI LLMs and ML Platforms",
     "categorySlug": "ai-llm"
   },
   {
@@ -195,7 +195,7 @@
       "inference"
     ],
     "lastVerified": "2026-06-01",
-    "category": "AI, LLMs & ML Platforms",
+    "category": "AI LLMs and ML Platforms",
     "categorySlug": "ai-llm"
   },
   {
@@ -211,7 +211,7 @@
       "model-routing"
     ],
     "lastVerified": "2026-06-01",
-    "category": "AI, LLMs & ML Platforms",
+    "category": "AI LLMs and ML Platforms",
     "categorySlug": "ai-llm"
   },
   {
@@ -228,7 +228,7 @@
       "ml"
     ],
     "lastVerified": "2026-05-01",
-    "category": "AI, LLMs & ML Platforms",
+    "category": "AI LLMs and ML Platforms",
     "categorySlug": "ai-llm"
   },
   {
@@ -244,7 +244,7 @@
       "competitions"
     ],
     "lastVerified": "2026-05-01",
-    "category": "AI, LLMs & ML Platforms",
+    "category": "AI LLMs and ML Platforms",
     "categorySlug": "ai-llm"
   },
   {
@@ -260,7 +260,7 @@
       "model-registry"
     ],
     "lastVerified": "2026-04-01",
-    "category": "AI, LLMs & ML Platforms",
+    "category": "AI LLMs and ML Platforms",
     "categorySlug": "ai-llm"
   },
   {
@@ -276,7 +276,7 @@
       "monitoring"
     ],
     "lastVerified": "2026-04-01",
-    "category": "AI, LLMs & ML Platforms",
+    "category": "AI LLMs and ML Platforms",
     "categorySlug": "ai-llm"
   },
   {
@@ -292,7 +292,7 @@
       "ide-integration"
     ],
     "lastVerified": "2026-06-01",
-    "category": "AI, LLMs & ML Platforms",
+    "category": "AI LLMs and ML Platforms",
     "categorySlug": "ai-llm"
   },
   {
@@ -308,7 +308,7 @@
       "code-completion"
     ],
     "lastVerified": "2026-05-01",
-    "category": "AI, LLMs & ML Platforms",
+    "category": "AI LLMs and ML Platforms",
     "categorySlug": "ai-llm"
   },
   {
@@ -324,7 +324,7 @@
       "agentic"
     ],
     "lastVerified": "2026-06-01",
-    "category": "AI, LLMs & ML Platforms",
+    "category": "AI LLMs and ML Platforms",
     "categorySlug": "ai-llm"
   },
   {
@@ -340,7 +340,7 @@
       "react"
     ],
     "lastVerified": "2026-05-01",
-    "category": "AI, LLMs & ML Platforms",
+    "category": "AI LLMs and ML Platforms",
     "categorySlug": "ai-llm"
   },
   {
@@ -355,7 +355,7 @@
       "open-source-models"
     ],
     "lastVerified": "2026-04-01",
-    "category": "AI, LLMs & ML Platforms",
+    "category": "AI LLMs and ML Platforms",
     "categorySlug": "ai-llm"
   },
   {
@@ -371,7 +371,7 @@
       "api-management"
     ],
     "lastVerified": "2026-04-01",
-    "category": "API Gateways, Docs & Developer Experience",
+    "category": "API Gateways Docs and Developer Experience",
     "categorySlug": "api-gateways-docs"
   },
   {
@@ -388,7 +388,7 @@
       "monetization"
     ],
     "lastVerified": "2026-05-01",
-    "category": "API Gateways, Docs & Developer Experience",
+    "category": "API Gateways Docs and Developer Experience",
     "categorySlug": "api-gateways-docs"
   },
   {
@@ -403,7 +403,7 @@
       "developer-portal"
     ],
     "lastVerified": "2026-03-01",
-    "category": "API Gateways, Docs & Developer Experience",
+    "category": "API Gateways Docs and Developer Experience",
     "categorySlug": "api-gateways-docs"
   },
   {
@@ -419,7 +419,7 @@
       "open-source"
     ],
     "lastVerified": "2026-04-01",
-    "category": "API Gateways, Docs & Developer Experience",
+    "category": "API Gateways Docs and Developer Experience",
     "categorySlug": "api-gateways-docs"
   },
   {
@@ -435,7 +435,7 @@
       "mocking"
     ],
     "lastVerified": "2026-03-01",
-    "category": "API Gateways, Docs & Developer Experience",
+    "category": "API Gateways Docs and Developer Experience",
     "categorySlug": "api-gateways-docs"
   },
   {
@@ -450,7 +450,7 @@
       "developer-docs"
     ],
     "lastVerified": "2026-04-01",
-    "category": "API Gateways, Docs & Developer Experience",
+    "category": "API Gateways Docs and Developer Experience",
     "categorySlug": "api-gateways-docs"
   },
   {
@@ -465,7 +465,7 @@
       "open-source"
     ],
     "lastVerified": "2026-05-01",
-    "category": "API Gateways, Docs & Developer Experience",
+    "category": "API Gateways Docs and Developer Experience",
     "categorySlug": "api-gateways-docs"
   },
   {
@@ -481,7 +481,7 @@
       "webhooks"
     ],
     "lastVerified": "2026-03-01",
-    "category": "API Gateways, Docs & Developer Experience",
+    "category": "API Gateways Docs and Developer Experience",
     "categorySlug": "api-gateways-docs"
   },
   {
@@ -496,7 +496,7 @@
       "api"
     ],
     "lastVerified": "2026-04-01",
-    "category": "APIs & Data Services",
+    "category": "APIs and Data Services",
     "categorySlug": "apis-data-services"
   },
   {
@@ -511,7 +511,7 @@
       "api"
     ],
     "lastVerified": "2026-03-01",
-    "category": "APIs & Data Services",
+    "category": "APIs and Data Services",
     "categorySlug": "apis-data-services"
   },
   {
@@ -526,7 +526,7 @@
       "api"
     ],
     "lastVerified": "2026-04-01",
-    "category": "APIs & Data Services",
+    "category": "APIs and Data Services",
     "categorySlug": "apis-data-services"
   },
   {
@@ -541,7 +541,7 @@
       "api"
     ],
     "lastVerified": "2026-02-01",
-    "category": "APIs & Data Services",
+    "category": "APIs and Data Services",
     "categorySlug": "apis-data-services"
   },
   {
@@ -557,7 +557,7 @@
       "api"
     ],
     "lastVerified": "2026-03-01",
-    "category": "APIs & Data Services",
+    "category": "APIs and Data Services",
     "categorySlug": "apis-data-services"
   },
   {
@@ -573,7 +573,7 @@
       "api"
     ],
     "lastVerified": "2026-04-01",
-    "category": "APIs & Data Services",
+    "category": "APIs and Data Services",
     "categorySlug": "apis-data-services"
   },
   {
@@ -589,7 +589,7 @@
       "api"
     ],
     "lastVerified": "2026-04-01",
-    "category": "APIs & Data Services",
+    "category": "APIs and Data Services",
     "categorySlug": "apis-data-services"
   },
   {
@@ -605,7 +605,7 @@
       "api"
     ],
     "lastVerified": "2026-03-01",
-    "category": "APIs & Data Services",
+    "category": "APIs and Data Services",
     "categorySlug": "apis-data-services"
   },
   {
@@ -621,7 +621,7 @@
       "api"
     ],
     "lastVerified": "2026-03-01",
-    "category": "APIs & Data Services",
+    "category": "APIs and Data Services",
     "categorySlug": "apis-data-services"
   },
   {
@@ -637,7 +637,7 @@
       "api"
     ],
     "lastVerified": "2026-02-01",
-    "category": "APIs & Data Services",
+    "category": "APIs and Data Services",
     "categorySlug": "apis-data-services"
   },
   {
@@ -653,7 +653,7 @@
       "utility-api"
     ],
     "lastVerified": "2026-03-01",
-    "category": "APIs & Data Services",
+    "category": "APIs and Data Services",
     "categorySlug": "apis-data-services"
   },
   {
@@ -668,7 +668,7 @@
       "api"
     ],
     "lastVerified": "2026-03-01",
-    "category": "APIs & Data Services",
+    "category": "APIs and Data Services",
     "categorySlug": "apis-data-services"
   },
   {
@@ -685,7 +685,7 @@
       "identity"
     ],
     "lastVerified": "2026-06-01",
-    "category": "Authentication & Identity",
+    "category": "Authentication and Identity",
     "categorySlug": "auth-identity"
   },
   {
@@ -702,7 +702,7 @@
       "nextjs"
     ],
     "lastVerified": "2026-06-01",
-    "category": "Authentication & Identity",
+    "category": "Authentication and Identity",
     "categorySlug": "auth-identity"
   },
   {
@@ -718,7 +718,7 @@
       "social-login"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Authentication & Identity",
+    "category": "Authentication and Identity",
     "categorySlug": "auth-identity"
   },
   {
@@ -734,7 +734,7 @@
       "rls"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Authentication & Identity",
+    "category": "Authentication and Identity",
     "categorySlug": "auth-identity"
   },
   {
@@ -751,7 +751,7 @@
       "b2b"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Authentication & Identity",
+    "category": "Authentication and Identity",
     "categorySlug": "auth-identity"
   },
   {
@@ -767,7 +767,7 @@
       "enterprise"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Authentication & Identity",
+    "category": "Authentication and Identity",
     "categorySlug": "auth-identity"
   },
   {
@@ -783,7 +783,7 @@
       "vpn"
     ],
     "lastVerified": "2026-03-01",
-    "category": "Authentication & Identity",
+    "category": "Authentication and Identity",
     "categorySlug": "auth-identity"
   },
   {
@@ -799,7 +799,7 @@
       "network-auth"
     ],
     "lastVerified": "2026-03-01",
-    "category": "Authentication & Identity",
+    "category": "Authentication and Identity",
     "categorySlug": "auth-identity"
   },
   {
@@ -816,7 +816,7 @@
       "self-hosted"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Authentication & Identity",
+    "category": "Authentication and Identity",
     "categorySlug": "auth-identity"
   },
   {
@@ -832,7 +832,7 @@
       "fraud-detection"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Authentication & Identity",
+    "category": "Authentication and Identity",
     "categorySlug": "auth-identity"
   },
   {
@@ -848,7 +848,7 @@
       "github"
     ],
     "lastVerified": "2026-06-01",
-    "category": "CI/CD & Build Automation",
+    "category": "CI/CD and Build Automation",
     "categorySlug": "ci-cd"
   },
   {
@@ -864,7 +864,7 @@
       "automation"
     ],
     "lastVerified": "2026-06-01",
-    "category": "CI/CD & Build Automation",
+    "category": "CI/CD and Build Automation",
     "categorySlug": "ci-cd"
   },
   {
@@ -879,7 +879,7 @@
       "open-source"
     ],
     "lastVerified": "2026-03-10",
-    "category": "CI/CD & Build Automation",
+    "category": "CI/CD and Build Automation",
     "categorySlug": "ci-cd"
   },
   {
@@ -895,7 +895,7 @@
       "dotnet"
     ],
     "lastVerified": "2026-03-10",
-    "category": "CI/CD & Build Automation",
+    "category": "CI/CD and Build Automation",
     "categorySlug": "ci-cd"
   },
   {
@@ -912,7 +912,7 @@
       "react-native"
     ],
     "lastVerified": "2026-05-01",
-    "category": "CI/CD & Build Automation",
+    "category": "CI/CD and Build Automation",
     "categorySlug": "ci-cd"
   },
   {
@@ -928,7 +928,7 @@
       "orchestration"
     ],
     "lastVerified": "2026-03-10",
-    "category": "CI/CD & Build Automation",
+    "category": "CI/CD and Build Automation",
     "categorySlug": "ci-cd"
   },
   {
@@ -945,7 +945,7 @@
       "docker"
     ],
     "lastVerified": "2026-03-10",
-    "category": "CI/CD & Build Automation",
+    "category": "CI/CD and Build Automation",
     "categorySlug": "ci-cd"
   },
   {
@@ -961,7 +961,7 @@
       "fast-builds"
     ],
     "lastVerified": "2026-03-10",
-    "category": "CI/CD & Build Automation",
+    "category": "CI/CD and Build Automation",
     "categorySlug": "ci-cd"
   },
   {
@@ -977,7 +977,7 @@
       "open-source"
     ],
     "lastVerified": "2026-03-10",
-    "category": "CI/CD & Build Automation",
+    "category": "CI/CD and Build Automation",
     "categorySlug": "ci-cd"
   },
   {
@@ -993,7 +993,7 @@
       "open-source"
     ],
     "lastVerified": "2026-03-10",
-    "category": "CI/CD & Build Automation",
+    "category": "CI/CD and Build Automation",
     "categorySlug": "ci-cd"
   },
   {
@@ -1009,7 +1009,7 @@
       "deploy"
     ],
     "lastVerified": "2026-06-01",
-    "category": "CI/CD & Build Automation",
+    "category": "CI/CD and Build Automation",
     "categorySlug": "ci-cd"
   },
   {
@@ -1024,7 +1024,7 @@
       "benchmarking"
     ],
     "lastVerified": "2026-04-10",
-    "category": "CI/CD & Build Automation",
+    "category": "CI/CD and Build Automation",
     "categorySlug": "ci-cd"
   },
   {
@@ -1043,7 +1043,7 @@
     "notes": "Free tier mixes 12-month time-limited offers with always-free tiers; check expiration per service.",
     "alternativeTo": "Google Cloud, Azure",
     "lastVerified": "2026-06-01",
-    "category": "Cloud Compute, PaaS & App Hosting",
+    "category": "Cloud Compute PaaS and App Hosting",
     "categorySlug": "cloud-paas"
   },
   {
@@ -1060,7 +1060,7 @@
       "bigquery"
     ],
     "lastVerified": "2026-06-01",
-    "category": "Cloud Compute, PaaS & App Hosting",
+    "category": "Cloud Compute PaaS and App Hosting",
     "categorySlug": "cloud-paas"
   },
   {
@@ -1077,7 +1077,7 @@
       "enterprise"
     ],
     "lastVerified": "2026-06-01",
-    "category": "Cloud Compute, PaaS & App Hosting",
+    "category": "Cloud Compute PaaS and App Hosting",
     "categorySlug": "cloud-paas"
   },
   {
@@ -1094,7 +1094,7 @@
     ],
     "notes": "The Ampere A1 always-free allocation is the largest free compute offer of any major cloud as of 2026.",
     "lastVerified": "2026-06-01",
-    "category": "Cloud Compute, PaaS & App Hosting",
+    "category": "Cloud Compute PaaS and App Hosting",
     "categorySlug": "cloud-paas"
   },
   {
@@ -1110,7 +1110,7 @@
       "lite-plan"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Cloud Compute, PaaS & App Hosting",
+    "category": "Cloud Compute PaaS and App Hosting",
     "categorySlug": "cloud-paas"
   },
   {
@@ -1127,7 +1127,7 @@
       "cdn"
     ],
     "lastVerified": "2026-06-01",
-    "category": "Cloud Compute, PaaS & App Hosting",
+    "category": "Cloud Compute PaaS and App Hosting",
     "categorySlug": "cloud-paas"
   },
   {
@@ -1143,7 +1143,7 @@
       "managed-db"
     ],
     "lastVerified": "2026-06-01",
-    "category": "Cloud Compute, PaaS & App Hosting",
+    "category": "Cloud Compute PaaS and App Hosting",
     "categorySlug": "cloud-paas"
   },
   {
@@ -1161,7 +1161,7 @@
     ],
     "notes": "Free tier terms have changed multiple times; always confirm on the pricing page before relying on it.",
     "lastVerified": "2026-05-01",
-    "category": "Cloud Compute, PaaS & App Hosting",
+    "category": "Cloud Compute PaaS and App Hosting",
     "categorySlug": "cloud-paas"
   },
   {
@@ -1177,7 +1177,7 @@
       "databases"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Cloud Compute, PaaS & App Hosting",
+    "category": "Cloud Compute PaaS and App Hosting",
     "categorySlug": "cloud-paas"
   },
   {
@@ -1194,7 +1194,7 @@
       "serverless"
     ],
     "lastVerified": "2026-06-01",
-    "category": "Cloud Compute, PaaS & App Hosting",
+    "category": "Cloud Compute PaaS and App Hosting",
     "categorySlug": "cloud-paas"
   },
   {
@@ -1211,7 +1211,7 @@
       "serverless"
     ],
     "lastVerified": "2026-06-01",
-    "category": "Cloud Compute, PaaS & App Hosting",
+    "category": "Cloud Compute PaaS and App Hosting",
     "categorySlug": "cloud-paas"
   },
   {
@@ -1228,7 +1228,7 @@
     ],
     "notes": "Included for comparison/migration context; previously the most common 'free dev hosting' reference.",
     "lastVerified": "2026-04-01",
-    "category": "Cloud Compute, PaaS & App Hosting",
+    "category": "Cloud Compute PaaS and App Hosting",
     "categorySlug": "cloud-paas"
   },
   {
@@ -1244,7 +1244,7 @@
       "autoscaling"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Cloud Compute, PaaS & App Hosting",
+    "category": "Cloud Compute PaaS and App Hosting",
     "categorySlug": "cloud-paas"
   },
   {
@@ -1260,7 +1260,7 @@
       "beginner-friendly"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Cloud Compute, PaaS & App Hosting",
+    "category": "Cloud Compute PaaS and App Hosting",
     "categorySlug": "cloud-paas"
   },
   {
@@ -1276,7 +1276,7 @@
       "collaborative"
     ],
     "lastVerified": "2026-03-01",
-    "category": "Cloud Compute, PaaS & App Hosting",
+    "category": "Cloud Compute PaaS and App Hosting",
     "categorySlug": "cloud-paas"
   },
   {
@@ -1292,7 +1292,7 @@
       "devcontainers"
     ],
     "lastVerified": "2026-06-01",
-    "category": "Cloud IDEs & Dev Environments",
+    "category": "Cloud IDEs and Dev Environments",
     "categorySlug": "cloud-ides"
   },
   {
@@ -1307,7 +1307,7 @@
       "ephemeral-environments"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Cloud IDEs & Dev Environments",
+    "category": "Cloud IDEs and Dev Environments",
     "categorySlug": "cloud-ides"
   },
   {
@@ -1323,7 +1323,7 @@
       "multiplayer"
     ],
     "lastVerified": "2026-06-01",
-    "category": "Cloud IDEs & Dev Environments",
+    "category": "Cloud IDEs and Dev Environments",
     "categorySlug": "cloud-ides"
   },
   {
@@ -1339,7 +1339,7 @@
       "sandboxes"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Cloud IDEs & Dev Environments",
+    "category": "Cloud IDEs and Dev Environments",
     "categorySlug": "cloud-ides"
   },
   {
@@ -1355,7 +1355,7 @@
       "instant-boot"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Cloud IDEs & Dev Environments",
+    "category": "Cloud IDEs and Dev Environments",
     "categorySlug": "cloud-ides"
   },
   {
@@ -1370,7 +1370,7 @@
       "free-compute"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Cloud IDEs & Dev Environments",
+    "category": "Cloud IDEs and Dev Environments",
     "categorySlug": "cloud-ides"
   },
   {
@@ -1385,7 +1385,7 @@
       "ec2-backed"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Cloud IDEs & Dev Environments",
+    "category": "Cloud IDEs and Dev Environments",
     "categorySlug": "cloud-ides"
   },
   {
@@ -1402,7 +1402,7 @@
       "gitlab"
     ],
     "lastVerified": "2026-06-01",
-    "category": "Code Quality, Review & Static Analysis",
+    "category": "Code Quality Review and Static Analysis",
     "categorySlug": "code-quality"
   },
   {
@@ -1418,7 +1418,7 @@
       "security"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Code Quality, Review & Static Analysis",
+    "category": "Code Quality Review and Static Analysis",
     "categorySlug": "code-quality"
   },
   {
@@ -1433,7 +1433,7 @@
       "static-analysis"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Code Quality, Review & Static Analysis",
+    "category": "Code Quality Review and Static Analysis",
     "categorySlug": "code-quality"
   },
   {
@@ -1449,7 +1449,7 @@
       "ci-integration"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Code Quality, Review & Static Analysis",
+    "category": "Code Quality Review and Static Analysis",
     "categorySlug": "code-quality"
   },
   {
@@ -1465,7 +1465,7 @@
       "code-smells"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Code Quality, Review & Static Analysis",
+    "category": "Code Quality Review and Static Analysis",
     "categorySlug": "code-quality"
   },
   {
@@ -1481,7 +1481,7 @@
       "security"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Code Quality, Review & Static Analysis",
+    "category": "Code Quality Review and Static Analysis",
     "categorySlug": "code-quality"
   },
   {
@@ -1498,7 +1498,7 @@
       "container-scanning"
     ],
     "lastVerified": "2026-06-01",
-    "category": "Code Quality, Review & Static Analysis",
+    "category": "Code Quality Review and Static Analysis",
     "categorySlug": "code-quality"
   },
   {
@@ -1513,7 +1513,7 @@
       "automation"
     ],
     "lastVerified": "2026-06-01",
-    "category": "Code Quality, Review & Static Analysis",
+    "category": "Code Quality Review and Static Analysis",
     "categorySlug": "code-quality"
   },
   {
@@ -1530,7 +1530,7 @@
       "kubernetes"
     ],
     "lastVerified": "2026-03-01",
-    "category": "Code Quality, Review & Static Analysis",
+    "category": "Code Quality Review and Static Analysis",
     "categorySlug": "code-quality"
   },
   {
@@ -1544,7 +1544,7 @@
       "static-analysis"
     ],
     "lastVerified": "2026-02-01",
-    "category": "Code Quality, Review & Static Analysis",
+    "category": "Code Quality Review and Static Analysis",
     "categorySlug": "code-quality"
   },
   {
@@ -1559,7 +1559,7 @@
       "docker"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Containers, Kubernetes & Registries",
+    "category": "Containers Kubernetes and Registries",
     "categorySlug": "containers-kubernetes"
   },
   {
@@ -1575,7 +1575,7 @@
       "ci-cd"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Containers, Kubernetes & Registries",
+    "category": "Containers Kubernetes and Registries",
     "categorySlug": "containers-kubernetes"
   },
   {
@@ -1590,7 +1590,7 @@
       "aws"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Containers, Kubernetes & Registries",
+    "category": "Containers Kubernetes and Registries",
     "categorySlug": "containers-kubernetes"
   },
   {
@@ -1606,7 +1606,7 @@
       "red-hat"
     ],
     "lastVerified": "2026-03-01",
-    "category": "Containers, Kubernetes & Registries",
+    "category": "Containers Kubernetes and Registries",
     "categorySlug": "containers-kubernetes"
   },
   {
@@ -1622,7 +1622,7 @@
       "fast-provisioning"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Containers, Kubernetes & Registries",
+    "category": "Containers Kubernetes and Registries",
     "categorySlug": "containers-kubernetes"
   },
   {
@@ -1637,7 +1637,7 @@
       "always-free-compute"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Containers, Kubernetes & Registries",
+    "category": "Containers Kubernetes and Registries",
     "categorySlug": "containers-kubernetes"
   },
   {
@@ -1653,7 +1653,7 @@
       "edge"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Containers, Kubernetes & Registries",
+    "category": "Containers Kubernetes and Registries",
     "categorySlug": "containers-kubernetes"
   },
   {
@@ -1670,7 +1670,7 @@
       "ui"
     ],
     "lastVerified": "2026-03-01",
-    "category": "Containers, Kubernetes & Registries",
+    "category": "Containers Kubernetes and Registries",
     "categorySlug": "containers-kubernetes"
   },
   {
@@ -1686,7 +1686,7 @@
       "small-teams"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Customer Support & Helpdesk",
+    "category": "Customer Support and Helpdesk",
     "categorySlug": "customer-support"
   },
   {
@@ -1702,7 +1702,7 @@
       "free"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Customer Support & Helpdesk",
+    "category": "Customer Support and Helpdesk",
     "categorySlug": "customer-support"
   },
   {
@@ -1718,7 +1718,7 @@
       "omnichannel"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Customer Support & Helpdesk",
+    "category": "Customer Support and Helpdesk",
     "categorySlug": "customer-support"
   },
   {
@@ -1734,7 +1734,7 @@
       "knowledge-base"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Customer Support & Helpdesk",
+    "category": "Customer Support and Helpdesk",
     "categorySlug": "customer-support"
   },
   {
@@ -1750,7 +1750,7 @@
       "ticketing"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Customer Support & Helpdesk",
+    "category": "Customer Support and Helpdesk",
     "categorySlug": "customer-support"
   },
   {
@@ -1765,7 +1765,7 @@
       "self-hosted"
     ],
     "lastVerified": "2026-02-01",
-    "category": "Customer Support & Helpdesk",
+    "category": "Customer Support and Helpdesk",
     "categorySlug": "customer-support"
   },
   {
@@ -1782,7 +1782,7 @@
       "realtime"
     ],
     "lastVerified": "2026-06-01",
-    "category": "Databases (SQL, NoSQL, Vector)",
+    "category": "Databases SQL NoSQL Vector",
     "categorySlug": "databases"
   },
   {
@@ -1798,7 +1798,7 @@
       "branching"
     ],
     "lastVerified": "2026-06-01",
-    "category": "Databases (SQL, NoSQL, Vector)",
+    "category": "Databases SQL NoSQL Vector",
     "categorySlug": "databases"
   },
   {
@@ -1815,7 +1815,7 @@
       "branching"
     ],
     "lastVerified": "2026-06-01",
-    "category": "Databases (SQL, NoSQL, Vector)",
+    "category": "Databases SQL NoSQL Vector",
     "categorySlug": "databases"
   },
   {
@@ -1831,7 +1831,7 @@
       "document-db"
     ],
     "lastVerified": "2026-06-01",
-    "category": "Databases (SQL, NoSQL, Vector)",
+    "category": "Databases SQL NoSQL Vector",
     "categorySlug": "databases"
   },
   {
@@ -1848,7 +1848,7 @@
       "realtime"
     ],
     "lastVerified": "2026-06-01",
-    "category": "Databases (SQL, NoSQL, Vector)",
+    "category": "Databases SQL NoSQL Vector",
     "categorySlug": "databases"
   },
   {
@@ -1865,7 +1865,7 @@
       "vector-db"
     ],
     "lastVerified": "2026-06-01",
-    "category": "Databases (SQL, NoSQL, Vector)",
+    "category": "Databases SQL NoSQL Vector",
     "categorySlug": "databases"
   },
   {
@@ -1881,7 +1881,7 @@
       "in-memory"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Databases (SQL, NoSQL, Vector)",
+    "category": "Databases SQL NoSQL Vector",
     "categorySlug": "databases"
   },
   {
@@ -1897,7 +1897,7 @@
       "horizontal-scale"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Databases (SQL, NoSQL, Vector)",
+    "category": "Databases SQL NoSQL Vector",
     "categorySlug": "databases"
   },
   {
@@ -1913,7 +1913,7 @@
       "libsql"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Databases (SQL, NoSQL, Vector)",
+    "category": "Databases SQL NoSQL Vector",
     "categorySlug": "databases"
   },
   {
@@ -1930,7 +1930,7 @@
       "embeddings"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Databases (SQL, NoSQL, Vector)",
+    "category": "Databases SQL NoSQL Vector",
     "categorySlug": "databases"
   },
   {
@@ -1946,7 +1946,7 @@
       "hybrid-search"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Databases (SQL, NoSQL, Vector)",
+    "category": "Databases SQL NoSQL Vector",
     "categorySlug": "databases"
   },
   {
@@ -1962,7 +1962,7 @@
       "vector-search"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Databases (SQL, NoSQL, Vector)",
+    "category": "Databases SQL NoSQL Vector",
     "categorySlug": "databases"
   },
   {
@@ -1977,7 +1977,7 @@
       "simple-hosting"
     ],
     "lastVerified": "2026-03-01",
-    "category": "Databases (SQL, NoSQL, Vector)",
+    "category": "Databases SQL NoSQL Vector",
     "categorySlug": "databases"
   },
   {
@@ -1993,7 +1993,7 @@
       "full-text-search"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Databases (SQL, NoSQL, Vector)",
+    "category": "Databases SQL NoSQL Vector",
     "categorySlug": "databases"
   },
   {
@@ -2009,7 +2009,7 @@
       "collaboration"
     ],
     "lastVerified": "2026-06-01",
-    "category": "Design, Prototyping & UI Assets",
+    "category": "Design Prototyping and UI Assets",
     "categorySlug": "design-prototyping"
   },
   {
@@ -2025,7 +2025,7 @@
       "marketing"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Design, Prototyping & UI Assets",
+    "category": "Design Prototyping and UI Assets",
     "categorySlug": "design-prototyping"
   },
   {
@@ -2041,7 +2041,7 @@
       "prototyping"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Design, Prototyping & UI Assets",
+    "category": "Design Prototyping and UI Assets",
     "categorySlug": "design-prototyping"
   },
   {
@@ -2056,7 +2056,7 @@
       "documentation"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Design, Prototyping & UI Assets",
+    "category": "Design Prototyping and UI Assets",
     "categorySlug": "design-prototyping"
   },
   {
@@ -2071,7 +2071,7 @@
       "design-assets"
     ],
     "lastVerified": "2026-03-01",
-    "category": "Design, Prototyping & UI Assets",
+    "category": "Design Prototyping and UI Assets",
     "categorySlug": "design-prototyping"
   },
   {
@@ -2086,7 +2086,7 @@
       "tailwind"
     ],
     "lastVerified": "2026-03-01",
-    "category": "Design, Prototyping & UI Assets",
+    "category": "Design Prototyping and UI Assets",
     "categorySlug": "design-prototyping"
   },
   {
@@ -2100,7 +2100,7 @@
       "open-source"
     ],
     "lastVerified": "2026-03-01",
-    "category": "Design, Prototyping & UI Assets",
+    "category": "Design Prototyping and UI Assets",
     "categorySlug": "design-prototyping"
   },
   {
@@ -2115,7 +2115,7 @@
       "design-tools"
     ],
     "lastVerified": "2026-02-01",
-    "category": "Design, Prototyping & UI Assets",
+    "category": "Design Prototyping and UI Assets",
     "categorySlug": "design-prototyping"
   },
   {
@@ -2131,7 +2131,7 @@
       "figma-integration"
     ],
     "lastVerified": "2026-03-01",
-    "category": "Design, Prototyping & UI Assets",
+    "category": "Design Prototyping and UI Assets",
     "categorySlug": "design-prototyping"
   },
   {
@@ -2146,7 +2146,7 @@
       "open-source"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Design, Prototyping & UI Assets",
+    "category": "Design Prototyping and UI Assets",
     "categorySlug": "design-prototyping"
   },
   {
@@ -2161,7 +2161,7 @@
       "ssl"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Domains, DNS & SSL/TLS",
+    "category": "Domains DNS and SSL/TLS",
     "categorySlug": "domains-dns-ssl"
   },
   {
@@ -2177,7 +2177,7 @@
       "automation"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Domains, DNS & SSL/TLS",
+    "category": "Domains DNS and SSL/TLS",
     "categorySlug": "domains-dns-ssl"
   },
   {
@@ -2193,7 +2193,7 @@
       "certificate-authority"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Domains, DNS & SSL/TLS",
+    "category": "Domains DNS and SSL/TLS",
     "categorySlug": "domains-dns-ssl"
   },
   {
@@ -2208,7 +2208,7 @@
       "wholesale-pricing"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Domains, DNS & SSL/TLS",
+    "category": "Domains DNS and SSL/TLS",
     "categorySlug": "domains-dns-ssl"
   },
   {
@@ -2224,7 +2224,7 @@
       "dns"
     ],
     "lastVerified": "2026-03-01",
-    "category": "Domains, DNS & SSL/TLS",
+    "category": "Domains DNS and SSL/TLS",
     "categorySlug": "domains-dns-ssl"
   },
   {
@@ -2239,7 +2239,7 @@
       "home-server"
     ],
     "lastVerified": "2026-03-01",
-    "category": "Domains, DNS & SSL/TLS",
+    "category": "Domains DNS and SSL/TLS",
     "categorySlug": "domains-dns-ssl"
   },
   {
@@ -2254,7 +2254,7 @@
     ],
     "notes": "Service availability and trustworthiness have been inconsistent; double-check current status before use.",
     "lastVerified": "2026-01-15",
-    "category": "Domains, DNS & SSL/TLS",
+    "category": "Domains DNS and SSL/TLS",
     "categorySlug": "domains-dns-ssl"
   },
   {
@@ -2270,7 +2270,7 @@
       "dns-api"
     ],
     "lastVerified": "2026-03-01",
-    "category": "Domains, DNS & SSL/TLS",
+    "category": "Domains DNS and SSL/TLS",
     "categorySlug": "domains-dns-ssl"
   },
   {
@@ -2286,7 +2286,7 @@
       "marketing-email"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Email, SMS & Transactional Messaging",
+    "category": "Email SMS and Transactional Messaging",
     "categorySlug": "email-messaging"
   },
   {
@@ -2302,7 +2302,7 @@
       "api"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Email, SMS & Transactional Messaging",
+    "category": "Email SMS and Transactional Messaging",
     "categorySlug": "email-messaging"
   },
   {
@@ -2318,7 +2318,7 @@
       "react-email"
     ],
     "lastVerified": "2026-06-01",
-    "category": "Email, SMS & Transactional Messaging",
+    "category": "Email SMS and Transactional Messaging",
     "categorySlug": "email-messaging"
   },
   {
@@ -2334,7 +2334,7 @@
       "deliverability"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Email, SMS & Transactional Messaging",
+    "category": "Email SMS and Transactional Messaging",
     "categorySlug": "email-messaging"
   },
   {
@@ -2351,7 +2351,7 @@
       "low-cost"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Email, SMS & Transactional Messaging",
+    "category": "Email SMS and Transactional Messaging",
     "categorySlug": "email-messaging"
   },
   {
@@ -2368,7 +2368,7 @@
       "api"
     ],
     "lastVerified": "2026-06-01",
-    "category": "Email, SMS & Transactional Messaging",
+    "category": "Email SMS and Transactional Messaging",
     "categorySlug": "email-messaging"
   },
   {
@@ -2384,7 +2384,7 @@
       "verification"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Email, SMS & Transactional Messaging",
+    "category": "Email SMS and Transactional Messaging",
     "categorySlug": "email-messaging"
   },
   {
@@ -2400,7 +2400,7 @@
       "in-app-messaging"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Email, SMS & Transactional Messaging",
+    "category": "Email SMS and Transactional Messaging",
     "categorySlug": "email-messaging"
   },
   {
@@ -2416,7 +2416,7 @@
       "marketing-email"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Email, SMS & Transactional Messaging",
+    "category": "Email SMS and Transactional Messaging",
     "categorySlug": "email-messaging"
   },
   {
@@ -2432,7 +2432,7 @@
       "marketing-email"
     ],
     "lastVerified": "2026-03-01",
-    "category": "Email, SMS & Transactional Messaging",
+    "category": "Email SMS and Transactional Messaging",
     "categorySlug": "email-messaging"
   },
   {
@@ -2448,7 +2448,7 @@
       "rollouts"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Feature Flags & Experimentation",
+    "category": "Feature Flags and Experimentation",
     "categorySlug": "feature-flags-experimentation"
   },
   {
@@ -2464,7 +2464,7 @@
       "product-analytics"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Feature Flags & Experimentation",
+    "category": "Feature Flags and Experimentation",
     "categorySlug": "feature-flags-experimentation"
   },
   {
@@ -2480,7 +2480,7 @@
       "self-hosted"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Feature Flags & Experimentation",
+    "category": "Feature Flags and Experimentation",
     "categorySlug": "feature-flags-experimentation"
   },
   {
@@ -2496,7 +2496,7 @@
       "enterprise"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Feature Flags & Experimentation",
+    "category": "Feature Flags and Experimentation",
     "categorySlug": "feature-flags-experimentation"
   },
   {
@@ -2512,7 +2512,7 @@
       "analytics"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Feature Flags & Experimentation",
+    "category": "Feature Flags and Experimentation",
     "categorySlug": "feature-flags-experimentation"
   },
   {
@@ -2528,7 +2528,7 @@
       "open-source"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Feature Flags & Experimentation",
+    "category": "Feature Flags and Experimentation",
     "categorySlug": "feature-flags-experimentation"
   },
   {
@@ -2544,7 +2544,7 @@
       "no-code"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Forms, Surveys & Customer Feedback",
+    "category": "Forms Surveys and Customer Feedback",
     "categorySlug": "forms-feedback"
   },
   {
@@ -2560,7 +2560,7 @@
       "conversational-ui"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Forms, Surveys & Customer Feedback",
+    "category": "Forms Surveys and Customer Feedback",
     "categorySlug": "forms-feedback"
   },
   {
@@ -2575,7 +2575,7 @@
       "google"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Forms, Surveys & Customer Feedback",
+    "category": "Forms Surveys and Customer Feedback",
     "categorySlug": "forms-feedback"
   },
   {
@@ -2591,7 +2591,7 @@
       "static-sites"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Forms, Surveys & Customer Feedback",
+    "category": "Forms Surveys and Customer Feedback",
     "categorySlug": "forms-feedback"
   },
   {
@@ -2607,7 +2607,7 @@
       "jamstack"
     ],
     "lastVerified": "2026-03-01",
-    "category": "Forms, Surveys & Customer Feedback",
+    "category": "Forms Surveys and Customer Feedback",
     "categorySlug": "forms-feedback"
   },
   {
@@ -2623,7 +2623,7 @@
       "product-management"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Forms, Surveys & Customer Feedback",
+    "category": "Forms Surveys and Customer Feedback",
     "categorySlug": "forms-feedback"
   },
   {
@@ -2639,7 +2639,7 @@
       "ux-research"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Forms, Surveys & Customer Feedback",
+    "category": "Forms Surveys and Customer Feedback",
     "categorySlug": "forms-feedback"
   },
   {
@@ -2654,7 +2654,7 @@
       "market-research"
     ],
     "lastVerified": "2026-03-01",
-    "category": "Forms, Surveys & Customer Feedback",
+    "category": "Forms Surveys and Customer Feedback",
     "categorySlug": "forms-feedback"
   },
   {
@@ -2670,7 +2670,7 @@
       "content-modeling"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Headless CMS & Content Management",
+    "category": "Headless CMS and Content Management",
     "categorySlug": "headless-cms"
   },
   {
@@ -2686,7 +2686,7 @@
       "customizable"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Headless CMS & Content Management",
+    "category": "Headless CMS and Content Management",
     "categorySlug": "headless-cms"
   },
   {
@@ -2703,7 +2703,7 @@
       "nodejs"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Headless CMS & Content Management",
+    "category": "Headless CMS and Content Management",
     "categorySlug": "headless-cms"
   },
   {
@@ -2719,7 +2719,7 @@
       "marketing"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Headless CMS & Content Management",
+    "category": "Headless CMS and Content Management",
     "categorySlug": "headless-cms"
   },
   {
@@ -2734,7 +2734,7 @@
       "content-as-a-service"
     ],
     "lastVerified": "2026-03-01",
-    "category": "Headless CMS & Content Management",
+    "category": "Headless CMS and Content Management",
     "categorySlug": "headless-cms"
   },
   {
@@ -2750,7 +2750,7 @@
       "database-wrapper"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Headless CMS & Content Management",
+    "category": "Headless CMS and Content Management",
     "categorySlug": "headless-cms"
   },
   {
@@ -2766,7 +2766,7 @@
       "markdown"
     ],
     "lastVerified": "2026-02-01",
-    "category": "Headless CMS & Content Management",
+    "category": "Headless CMS and Content Management",
     "categorySlug": "headless-cms"
   },
   {
@@ -2782,7 +2782,7 @@
       "page-builder"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Headless CMS & Content Management",
+    "category": "Headless CMS and Content Management",
     "categorySlug": "headless-cms"
   },
   {
@@ -2797,7 +2797,7 @@
       "education"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Learning, Education & Student Developer Packs",
+    "category": "Learning Education and Student Developer Packs",
     "categorySlug": "learning-education"
   },
   {
@@ -2812,7 +2812,7 @@
       "nonprofit"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Learning, Education & Student Developer Packs",
+    "category": "Learning Education and Student Developer Packs",
     "categorySlug": "learning-education"
   },
   {
@@ -2827,7 +2827,7 @@
       "full-stack"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Learning, Education & Student Developer Packs",
+    "category": "Learning Education and Student Developer Packs",
     "categorySlug": "learning-education"
   },
   {
@@ -2842,7 +2842,7 @@
       "web-standards"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Learning, Education & Student Developer Packs",
+    "category": "Learning Education and Student Developer Packs",
     "categorySlug": "learning-education"
   },
   {
@@ -2858,7 +2858,7 @@
       "career-paths"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Learning, Education & Student Developer Packs",
+    "category": "Learning Education and Student Developer Packs",
     "categorySlug": "learning-education"
   },
   {
@@ -2873,7 +2873,7 @@
       "mentoring"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Learning, Education & Student Developer Packs",
+    "category": "Learning Education and Student Developer Packs",
     "categorySlug": "learning-education"
   },
   {
@@ -2889,7 +2889,7 @@
       "certificates"
     ],
     "lastVerified": "2026-03-01",
-    "category": "Learning, Education & Student Developer Packs",
+    "category": "Learning Education and Student Developer Packs",
     "categorySlug": "learning-education"
   },
   {
@@ -2904,7 +2904,7 @@
       "computer-science"
     ],
     "lastVerified": "2026-03-01",
-    "category": "Learning, Education & Student Developer Packs",
+    "category": "Learning Education and Student Developer Packs",
     "categorySlug": "learning-education"
   },
   {
@@ -2920,7 +2920,7 @@
       "practice-problems"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Learning, Education & Student Developer Packs",
+    "category": "Learning Education and Student Developer Packs",
     "categorySlug": "learning-education"
   },
   {
@@ -2935,7 +2935,7 @@
       "jetbrains"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Learning, Education & Student Developer Packs",
+    "category": "Learning Education and Student Developer Packs",
     "categorySlug": "learning-education"
   },
   {
@@ -2951,7 +2951,7 @@
       "integrations"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Low-Code, No-Code & Automation",
+    "category": "Low-Code No-Code and Automation",
     "categorySlug": "automation-low-code"
   },
   {
@@ -2967,7 +2967,7 @@
       "visual-workflows"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Low-Code, No-Code & Automation",
+    "category": "Low-Code No-Code and Automation",
     "categorySlug": "automation-low-code"
   },
   {
@@ -2984,7 +2984,7 @@
       "fair-code"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Low-Code, No-Code & Automation",
+    "category": "Low-Code No-Code and Automation",
     "categorySlug": "automation-low-code"
   },
   {
@@ -3000,7 +3000,7 @@
       "code-steps"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Low-Code, No-Code & Automation",
+    "category": "Low-Code No-Code and Automation",
     "categorySlug": "automation-low-code"
   },
   {
@@ -3016,7 +3016,7 @@
       "database"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Low-Code, No-Code & Automation",
+    "category": "Low-Code No-Code and Automation",
     "categorySlug": "automation-low-code"
   },
   {
@@ -3032,7 +3032,7 @@
       "admin-dashboards"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Low-Code, No-Code & Automation",
+    "category": "Low-Code No-Code and Automation",
     "categorySlug": "automation-low-code"
   },
   {
@@ -3048,7 +3048,7 @@
       "spreadsheet"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Low-Code, No-Code & Automation",
+    "category": "Low-Code No-Code and Automation",
     "categorySlug": "automation-low-code"
   },
   {
@@ -3064,7 +3064,7 @@
       "self-hosted"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Low-Code, No-Code & Automation",
+    "category": "Low-Code No-Code and Automation",
     "categorySlug": "automation-low-code"
   },
   {
@@ -3080,7 +3080,7 @@
       "automation"
     ],
     "lastVerified": "2026-03-01",
-    "category": "Low-Code, No-Code & Automation",
+    "category": "Low-Code No-Code and Automation",
     "categorySlug": "automation-low-code"
   },
   {
@@ -3096,7 +3096,7 @@
       "observability"
     ],
     "lastVerified": "2026-06-01",
-    "category": "Monitoring, Logging & Observability",
+    "category": "Monitoring Logging and Observability",
     "categorySlug": "monitoring-observability"
   },
   {
@@ -3112,7 +3112,7 @@
       "incident-management"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Monitoring, Logging & Observability",
+    "category": "Monitoring Logging and Observability",
     "categorySlug": "monitoring-observability"
   },
   {
@@ -3128,7 +3128,7 @@
       "status-page"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Monitoring, Logging & Observability",
+    "category": "Monitoring Logging and Observability",
     "categorySlug": "monitoring-observability"
   },
   {
@@ -3146,7 +3146,7 @@
       "grafana"
     ],
     "lastVerified": "2026-06-01",
-    "category": "Monitoring, Logging & Observability",
+    "category": "Monitoring Logging and Observability",
     "categorySlug": "monitoring-observability"
   },
   {
@@ -3162,7 +3162,7 @@
       "logs"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Monitoring, Logging & Observability",
+    "category": "Monitoring Logging and Observability",
     "categorySlug": "monitoring-observability"
   },
   {
@@ -3179,7 +3179,7 @@
       "security"
     ],
     "lastVerified": "2026-06-01",
-    "category": "Monitoring, Logging & Observability",
+    "category": "Monitoring Logging and Observability",
     "categorySlug": "monitoring-observability"
   },
   {
@@ -3195,7 +3195,7 @@
       "error-tracking"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Monitoring, Logging & Observability",
+    "category": "Monitoring Logging and Observability",
     "categorySlug": "monitoring-observability"
   },
   {
@@ -3211,7 +3211,7 @@
       "logging"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Monitoring, Logging & Observability",
+    "category": "Monitoring Logging and Observability",
     "categorySlug": "monitoring-observability"
   },
   {
@@ -3227,7 +3227,7 @@
       "api-testing"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Monitoring, Logging & Observability",
+    "category": "Monitoring Logging and Observability",
     "categorySlug": "monitoring-observability"
   },
   {
@@ -3243,7 +3243,7 @@
       "alerting"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Monitoring, Logging & Observability",
+    "category": "Monitoring Logging and Observability",
     "categorySlug": "monitoring-observability"
   },
   {
@@ -3259,7 +3259,7 @@
       "standard"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Monitoring, Logging & Observability",
+    "category": "Monitoring Logging and Observability",
     "categorySlug": "monitoring-observability"
   },
   {
@@ -3275,7 +3275,7 @@
       "cncf"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Monitoring, Logging & Observability",
+    "category": "Monitoring Logging and Observability",
     "categorySlug": "monitoring-observability"
   },
   {
@@ -3291,7 +3291,7 @@
       "s3-compatible"
     ],
     "lastVerified": "2026-06-01",
-    "category": "Object & File Storage",
+    "category": "Object and File Storage",
     "categorySlug": "object-storage"
   },
   {
@@ -3307,7 +3307,7 @@
       "no-egress-fees"
     ],
     "lastVerified": "2026-06-01",
-    "category": "Object & File Storage",
+    "category": "Object and File Storage",
     "categorySlug": "object-storage"
   },
   {
@@ -3323,7 +3323,7 @@
       "low-cost"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Object & File Storage",
+    "category": "Object and File Storage",
     "categorySlug": "object-storage"
   },
   {
@@ -3339,7 +3339,7 @@
       "flat-rate"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Object & File Storage",
+    "category": "Object and File Storage",
     "categorySlug": "object-storage"
   },
   {
@@ -3355,7 +3355,7 @@
       "tiered-storage"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Object & File Storage",
+    "category": "Object and File Storage",
     "categorySlug": "object-storage"
   },
   {
@@ -3371,7 +3371,7 @@
       "cdn"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Object & File Storage",
+    "category": "Object and File Storage",
     "categorySlug": "object-storage"
   },
   {
@@ -3388,7 +3388,7 @@
       "media-management"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Object & File Storage",
+    "category": "Object and File Storage",
     "categorySlug": "object-storage"
   },
   {
@@ -3404,7 +3404,7 @@
       "cdn"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Object & File Storage",
+    "category": "Object and File Storage",
     "categorySlug": "object-storage"
   },
   {
@@ -3420,7 +3420,7 @@
       "api"
     ],
     "lastVerified": "2026-03-01",
-    "category": "Object & File Storage",
+    "category": "Object and File Storage",
     "categorySlug": "object-storage"
   },
   {
@@ -3437,7 +3437,7 @@
       "s3-compatible"
     ],
     "lastVerified": "2026-03-01",
-    "category": "Object & File Storage",
+    "category": "Object and File Storage",
     "categorySlug": "object-storage"
   },
   {
@@ -3454,7 +3454,7 @@
       "api"
     ],
     "lastVerified": "2026-06-01",
-    "category": "Payments & Billing",
+    "category": "Payments and Billing",
     "categorySlug": "payments-billing"
   },
   {
@@ -3471,7 +3471,7 @@
       "saas"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Payments & Billing",
+    "category": "Payments and Billing",
     "categorySlug": "payments-billing"
   },
   {
@@ -3488,7 +3488,7 @@
       "digital-products"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Payments & Billing",
+    "category": "Payments and Billing",
     "categorySlug": "payments-billing"
   },
   {
@@ -3504,7 +3504,7 @@
       "consumer-trust"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Payments & Billing",
+    "category": "Payments and Billing",
     "categorySlug": "payments-billing"
   },
   {
@@ -3520,7 +3520,7 @@
       "upi"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Payments & Billing",
+    "category": "Payments and Billing",
     "categorySlug": "payments-billing"
   },
   {
@@ -3535,7 +3535,7 @@
       "fx"
     ],
     "lastVerified": "2026-03-01",
-    "category": "Payments & Billing",
+    "category": "Payments and Billing",
     "categorySlug": "payments-billing"
   },
   {
@@ -3551,7 +3551,7 @@
       "revenue-management"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Payments & Billing",
+    "category": "Payments and Billing",
     "categorySlug": "payments-billing"
   },
   {
@@ -3567,7 +3567,7 @@
       "api"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Payments & Billing",
+    "category": "Payments and Billing",
     "categorySlug": "payments-billing"
   },
   {
@@ -3584,7 +3584,7 @@
       "scrum"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Project Management & Team Collaboration",
+    "category": "Project Management and Team Collaboration",
     "categorySlug": "project-management"
   },
   {
@@ -3599,7 +3599,7 @@
       "task-management"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Project Management & Team Collaboration",
+    "category": "Project Management and Team Collaboration",
     "categorySlug": "project-management"
   },
   {
@@ -3615,7 +3615,7 @@
       "fast-ui"
     ],
     "lastVerified": "2026-06-01",
-    "category": "Project Management & Team Collaboration",
+    "category": "Project Management and Team Collaboration",
     "categorySlug": "project-management"
   },
   {
@@ -3632,7 +3632,7 @@
       "all-in-one"
     ],
     "lastVerified": "2026-06-01",
-    "category": "Project Management & Team Collaboration",
+    "category": "Project Management and Team Collaboration",
     "categorySlug": "project-management"
   },
   {
@@ -3648,7 +3648,7 @@
       "customizable"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Project Management & Team Collaboration",
+    "category": "Project Management and Team Collaboration",
     "categorySlug": "project-management"
   },
   {
@@ -3665,7 +3665,7 @@
       "all-in-one"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Project Management & Team Collaboration",
+    "category": "Project Management and Team Collaboration",
     "categorySlug": "project-management"
   },
   {
@@ -3681,7 +3681,7 @@
       "integrations"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Project Management & Team Collaboration",
+    "category": "Project Management and Team Collaboration",
     "categorySlug": "project-management"
   },
   {
@@ -3697,7 +3697,7 @@
       "community"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Project Management & Team Collaboration",
+    "category": "Project Management and Team Collaboration",
     "categorySlug": "project-management"
   },
   {
@@ -3712,7 +3712,7 @@
       "open-source"
     ],
     "lastVerified": "2026-02-01",
-    "category": "Project Management & Team Collaboration",
+    "category": "Project Management and Team Collaboration",
     "categorySlug": "project-management"
   },
   {
@@ -3728,7 +3728,7 @@
       "docs"
     ],
     "lastVerified": "2026-03-01",
-    "category": "Project Management & Team Collaboration",
+    "category": "Project Management and Team Collaboration",
     "categorySlug": "project-management"
   },
   {
@@ -3743,7 +3743,7 @@
       "lightweight"
     ],
     "lastVerified": "2026-02-01",
-    "category": "Project Management & Team Collaboration",
+    "category": "Project Management and Team Collaboration",
     "categorySlug": "project-management"
   },
   {
@@ -3759,7 +3759,7 @@
       "calendar"
     ],
     "lastVerified": "2026-02-01",
-    "category": "Project Management & Team Collaboration",
+    "category": "Project Management and Team Collaboration",
     "categorySlug": "project-management"
   },
   {
@@ -3775,7 +3775,7 @@
       "instant-search"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Search & Analytics",
+    "category": "Search and Analytics",
     "categorySlug": "search-analytics"
   },
   {
@@ -3791,7 +3791,7 @@
       "self-hosted"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Search & Analytics",
+    "category": "Search and Analytics",
     "categorySlug": "search-analytics"
   },
   {
@@ -3807,7 +3807,7 @@
       "self-hosted"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Search & Analytics",
+    "category": "Search and Analytics",
     "categorySlug": "search-analytics"
   },
   {
@@ -3824,7 +3824,7 @@
       "observability"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Search & Analytics",
+    "category": "Search and Analytics",
     "categorySlug": "search-analytics"
   },
   {
@@ -3840,7 +3840,7 @@
       "open-source"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Search & Analytics",
+    "category": "Search and Analytics",
     "categorySlug": "search-analytics"
   },
   {
@@ -3856,7 +3856,7 @@
       "privacy-focused"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Search & Analytics",
+    "category": "Search and Analytics",
     "categorySlug": "search-analytics"
   },
   {
@@ -3873,7 +3873,7 @@
       "feature-flags"
     ],
     "lastVerified": "2026-06-01",
-    "category": "Search & Analytics",
+    "category": "Search and Analytics",
     "categorySlug": "search-analytics"
   },
   {
@@ -3889,7 +3889,7 @@
       "retention"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Search & Analytics",
+    "category": "Search and Analytics",
     "categorySlug": "search-analytics"
   },
   {
@@ -3904,7 +3904,7 @@
       "ga4"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Search & Analytics",
+    "category": "Search and Analytics",
     "categorySlug": "search-analytics"
   },
   {
@@ -3919,7 +3919,7 @@
       "config-management"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Secrets Management & Security",
+    "category": "Secrets Management and Security",
     "categorySlug": "secrets-security"
   },
   {
@@ -3935,7 +3935,7 @@
       "encryption"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Secrets Management & Security",
+    "category": "Secrets Management and Security",
     "categorySlug": "secrets-security"
   },
   {
@@ -3951,7 +3951,7 @@
       "self-hosted"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Secrets Management & Security",
+    "category": "Secrets Management and Security",
     "categorySlug": "secrets-security"
   },
   {
@@ -3967,7 +3967,7 @@
       "ci-cd-integration"
     ],
     "lastVerified": "2026-03-01",
-    "category": "Secrets Management & Security",
+    "category": "Secrets Management and Security",
     "categorySlug": "secrets-security"
   },
   {
@@ -3984,7 +3984,7 @@
       "iac-security"
     ],
     "lastVerified": "2026-06-01",
-    "category": "Secrets Management & Security",
+    "category": "Secrets Management and Security",
     "categorySlug": "secrets-security"
   },
   {
@@ -3999,7 +3999,7 @@
       "container-security"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Secrets Management & Security",
+    "category": "Secrets Management and Security",
     "categorySlug": "secrets-security"
   },
   {
@@ -4015,7 +4015,7 @@
       "ci-cd-scanning"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Secrets Management & Security",
+    "category": "Secrets Management and Security",
     "categorySlug": "secrets-security"
   },
   {
@@ -4031,7 +4031,7 @@
     ],
     "notes": "The public website lookup remains free for individuals; the API itself requires a paid key.",
     "lastVerified": "2026-03-01",
-    "category": "Secrets Management & Security",
+    "category": "Secrets Management and Security",
     "categorySlug": "secrets-security"
   },
   {
@@ -4048,7 +4048,7 @@
       "event-driven"
     ],
     "lastVerified": "2026-06-01",
-    "category": "Serverless Functions & Backend-as-a-Service",
+    "category": "Serverless Functions and Backend-as-a-Service",
     "categorySlug": "serverless-functions"
   },
   {
@@ -4065,7 +4065,7 @@
       "firebase"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Serverless Functions & Backend-as-a-Service",
+    "category": "Serverless Functions and Backend-as-a-Service",
     "categorySlug": "serverless-functions"
   },
   {
@@ -4082,7 +4082,7 @@
       "dotnet"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Serverless Functions & Backend-as-a-Service",
+    "category": "Serverless Functions and Backend-as-a-Service",
     "categorySlug": "serverless-functions"
   },
   {
@@ -4098,7 +4098,7 @@
       "low-latency"
     ],
     "lastVerified": "2026-06-01",
-    "category": "Serverless Functions & Backend-as-a-Service",
+    "category": "Serverless Functions and Backend-as-a-Service",
     "categorySlug": "serverless-functions"
   },
   {
@@ -4114,7 +4114,7 @@
       "edge-functions"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Serverless Functions & Backend-as-a-Service",
+    "category": "Serverless Functions and Backend-as-a-Service",
     "categorySlug": "serverless-functions"
   },
   {
@@ -4131,7 +4131,7 @@
       "edge"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Serverless Functions & Backend-as-a-Service",
+    "category": "Serverless Functions and Backend-as-a-Service",
     "categorySlug": "serverless-functions"
   },
   {
@@ -4147,7 +4147,7 @@
       "self-hosted"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Serverless Functions & Backend-as-a-Service",
+    "category": "Serverless Functions and Backend-as-a-Service",
     "categorySlug": "serverless-functions"
   },
   {
@@ -4163,7 +4163,7 @@
       "typescript"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Serverless Functions & Backend-as-a-Service",
+    "category": "Serverless Functions and Backend-as-a-Service",
     "categorySlug": "serverless-functions"
   },
   {
@@ -4348,7 +4348,7 @@
       "github"
     ],
     "lastVerified": "2026-06-01",
-    "category": "Static Site Hosting & CDN",
+    "category": "Static Site Hosting and CDN",
     "categorySlug": "static-hosting-cdn"
   },
   {
@@ -4363,7 +4363,7 @@
       "edge"
     ],
     "lastVerified": "2026-06-01",
-    "category": "Static Site Hosting & CDN",
+    "category": "Static Site Hosting and CDN",
     "categorySlug": "static-hosting-cdn"
   },
   {
@@ -4379,7 +4379,7 @@
       "quick-deploy"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Static Site Hosting & CDN",
+    "category": "Static Site Hosting and CDN",
     "categorySlug": "static-hosting-cdn"
   },
   {
@@ -4395,7 +4395,7 @@
       "ssr"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Static Site Hosting & CDN",
+    "category": "Static Site Hosting and CDN",
     "categorySlug": "static-hosting-cdn"
   },
   {
@@ -4410,7 +4410,7 @@
       "javascript"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Static Site Hosting & CDN",
+    "category": "Static Site Hosting and CDN",
     "categorySlug": "static-hosting-cdn"
   },
   {
@@ -4425,7 +4425,7 @@
       "raw-files"
     ],
     "lastVerified": "2026-03-01",
-    "category": "Static Site Hosting & CDN",
+    "category": "Static Site Hosting and CDN",
     "categorySlug": "static-hosting-cdn"
   },
   {
@@ -4440,7 +4440,7 @@
       "image-optimization"
     ],
     "lastVerified": "2026-03-01",
-    "category": "Static Site Hosting & CDN",
+    "category": "Static Site Hosting and CDN",
     "categorySlug": "static-hosting-cdn"
   },
   {
@@ -4456,7 +4456,7 @@
       "low-cost"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Static Site Hosting & CDN",
+    "category": "Static Site Hosting and CDN",
     "categorySlug": "static-hosting-cdn"
   },
   {
@@ -4472,7 +4472,7 @@
       "enterprise"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Static Site Hosting & CDN",
+    "category": "Static Site Hosting and CDN",
     "categorySlug": "static-hosting-cdn"
   },
   {
@@ -4487,7 +4487,7 @@
       "git-deploy"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Static Site Hosting & CDN",
+    "category": "Static Site Hosting and CDN",
     "categorySlug": "static-hosting-cdn"
   },
   {
@@ -4503,7 +4503,7 @@
       "automation"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Testing & QA",
+    "category": "Testing and QA",
     "categorySlug": "testing-qa"
   },
   {
@@ -4519,7 +4519,7 @@
       "automation"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Testing & QA",
+    "category": "Testing and QA",
     "categorySlug": "testing-qa"
   },
   {
@@ -4534,7 +4534,7 @@
       "browser-automation"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Testing & QA",
+    "category": "Testing and QA",
     "categorySlug": "testing-qa"
   },
   {
@@ -4550,7 +4550,7 @@
       "test-dashboard"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Testing & QA",
+    "category": "Testing and QA",
     "categorySlug": "testing-qa"
   },
   {
@@ -4566,7 +4566,7 @@
       "performance-testing"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Testing & QA",
+    "category": "Testing and QA",
     "categorySlug": "testing-qa"
   },
   {
@@ -4582,7 +4582,7 @@
       "documentation"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Testing & QA",
+    "category": "Testing and QA",
     "categorySlug": "testing-qa"
   },
   {
@@ -4597,7 +4597,7 @@
       "screenshot-testing"
     ],
     "lastVerified": "2026-03-01",
-    "category": "Testing & QA",
+    "category": "Testing and QA",
     "categorySlug": "testing-qa"
   },
   {
@@ -4612,7 +4612,7 @@
       "stress-testing"
     ],
     "lastVerified": "2026-03-01",
-    "category": "Testing & QA",
+    "category": "Testing and QA",
     "categorySlug": "testing-qa"
   },
   {
@@ -4627,7 +4627,7 @@
       "qa"
     ],
     "lastVerified": "2026-03-01",
-    "category": "Testing & QA",
+    "category": "Testing and QA",
     "categorySlug": "testing-qa"
   },
   {
@@ -4643,7 +4643,7 @@
       "api"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Video, Voice & Real-Time Communication",
+    "category": "Video Voice and Real-Time Communication",
     "categorySlug": "video-realtime-comms"
   },
   {
@@ -4659,7 +4659,7 @@
       "api"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Video, Voice & Real-Time Communication",
+    "category": "Video Voice and Real-Time Communication",
     "categorySlug": "video-realtime-comms"
   },
   {
@@ -4676,7 +4676,7 @@
       "gaming"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Video, Voice & Real-Time Communication",
+    "category": "Video Voice and Real-Time Communication",
     "categorySlug": "video-realtime-comms"
   },
   {
@@ -4692,7 +4692,7 @@
       "messaging-sdk"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Video, Voice & Real-Time Communication",
+    "category": "Video Voice and Real-Time Communication",
     "categorySlug": "video-realtime-comms"
   },
   {
@@ -4708,7 +4708,7 @@
       "iot"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Video, Voice & Real-Time Communication",
+    "category": "Video Voice and Real-Time Communication",
     "categorySlug": "video-realtime-comms"
   },
   {
@@ -4724,7 +4724,7 @@
       "api"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Video, Voice & Real-Time Communication",
+    "category": "Video Voice and Real-Time Communication",
     "categorySlug": "video-realtime-comms"
   },
   {
@@ -4739,7 +4739,7 @@
       "self-hosted"
     ],
     "lastVerified": "2026-04-01",
-    "category": "Video, Voice & Real-Time Communication",
+    "category": "Video Voice and Real-Time Communication",
     "categorySlug": "video-realtime-comms"
   },
   {
@@ -4756,7 +4756,7 @@
       "sfu"
     ],
     "lastVerified": "2026-05-01",
-    "category": "Video, Voice & Real-Time Communication",
+    "category": "Video Voice and Real-Time Communication",
     "categorySlug": "video-realtime-comms"
   }
 ]

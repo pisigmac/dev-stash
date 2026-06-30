@@ -1,5 +1,5 @@
 {
-  "category": "Cloud Compute, PaaS & App Hosting",
+  "category": "Cloud Compute PaaS and App Hosting",
   "slug": "cloud-paas",
   "description": "Virtual machines, container platforms, and platform-as-a-service offerings for running applications in the cloud.",
   "entries": [
@@ -10,7 +10,12 @@
       "summary": "The largest cloud provider, with hundreds of services spanning compute, storage, databases, ML, and networking.",
       "freeTier": "750 hrs/month t2.micro/t3.micro EC2 (12 months), 5GB S3 standard storage, 1M Lambda requests/month always-free, 25GB DynamoDB always-free.",
       "paidFrom": "Pay-as-you-go beyond free tier limits.",
-      "tags": ["cloud", "iaas", "compute", "serverless"],
+      "tags": [
+        "cloud",
+        "iaas",
+        "compute",
+        "serverless"
+      ],
       "notes": "Free tier mixes 12-month time-limited offers with always-free tiers; check expiration per service.",
       "alternativeTo": "Google Cloud, Azure",
       "lastVerified": "2026-06-01"
@@ -22,7 +27,12 @@
       "summary": "Google's cloud platform with strong Kubernetes (GKE), BigQuery, and AI/ML offerings, plus a generous always-free tier.",
       "freeTier": "1 non-preemptible e2-micro VM/month, 5GB Cloud Storage, 2M Cloud Functions invocations/month, $300 in trial credits for 90 days.",
       "paidFrom": "Pay-as-you-go beyond free tier limits.",
-      "tags": ["cloud", "iaas", "kubernetes", "bigquery"],
+      "tags": [
+        "cloud",
+        "iaas",
+        "kubernetes",
+        "bigquery"
+      ],
       "lastVerified": "2026-06-01"
     },
     {
@@ -32,7 +42,12 @@
       "summary": "Microsoft's cloud platform, strong on enterprise integration, .NET tooling, and hybrid cloud.",
       "freeTier": "1 B1S Linux/Windows VM (12 months), 1M Azure Functions requests/month always-free, 5GB Blob Storage, $200 credit for 30 days.",
       "paidFrom": "Pay-as-you-go beyond free tier limits.",
-      "tags": ["cloud", "iaas", "dotnet", "enterprise"],
+      "tags": [
+        "cloud",
+        "iaas",
+        "dotnet",
+        "enterprise"
+      ],
       "lastVerified": "2026-06-01"
     },
     {
@@ -41,7 +56,12 @@
       "pricingModel": "freemium",
       "summary": "Notable for the most generous always-free compute tier among major clouds, including ARM-based instances.",
       "freeTier": "4 Arm-based Ampere A1 cores with 24GB RAM always-free, 2 AMD micro VMs, 200GB block storage, 10TB egress/month.",
-      "tags": ["cloud", "iaas", "arm", "always-free"],
+      "tags": [
+        "cloud",
+        "iaas",
+        "arm",
+        "always-free"
+      ],
       "notes": "The Ampere A1 always-free allocation is the largest free compute offer of any major cloud as of 2026.",
       "lastVerified": "2026-06-01"
     },
@@ -51,7 +71,12 @@
       "pricingModel": "freemium",
       "summary": "IBM's cloud platform with Lite-tier services spanning Kubernetes, Cloud Functions, Watson AI, and databases.",
       "freeTier": "Lite plans free indefinitely for many services (limited compute/storage quotas, no time limit).",
-      "tags": ["cloud", "iaas", "watson-ai", "lite-plan"],
+      "tags": [
+        "cloud",
+        "iaas",
+        "watson-ai",
+        "lite-plan"
+      ],
       "lastVerified": "2026-05-01"
     },
     {
@@ -61,7 +86,12 @@
       "summary": "Edge compute (Workers) and static site/full-stack hosting (Pages) running on Cloudflare's global network.",
       "freeTier": "100,000 Workers requests/day, Pages: 500 builds/month, 100 custom domains, unlimited bandwidth.",
       "paidFrom": "Workers Paid plan from $5/month.",
-      "tags": ["edge-compute", "serverless", "static-hosting", "cdn"],
+      "tags": [
+        "edge-compute",
+        "serverless",
+        "static-hosting",
+        "cdn"
+      ],
       "lastVerified": "2026-06-01"
     },
     {
@@ -71,7 +101,11 @@
       "summary": "Modern Heroku-style PaaS for web services, static sites, cron jobs, and managed Postgres/Redis.",
       "freeTier": "Free web services (spin down after 15 min idle), free static site hosting with unlimited bandwidth.",
       "paidFrom": "Starter instances from $7/month.",
-      "tags": ["paas", "static-hosting", "managed-db"],
+      "tags": [
+        "paas",
+        "static-hosting",
+        "managed-db"
+      ],
       "lastVerified": "2026-06-01"
     },
     {
@@ -81,7 +115,12 @@
       "summary": "Deploys Docker containers close to users across a global network of regions, with a focus on low-latency apps.",
       "freeTier": "Small allowance of free compute/storage; exact quotas vary, check current pricing page.",
       "paidFrom": "Usage-based billing beyond free allowance.",
-      "tags": ["paas", "docker", "edge", "global-deploy"],
+      "tags": [
+        "paas",
+        "docker",
+        "edge",
+        "global-deploy"
+      ],
       "notes": "Free tier terms have changed multiple times; always confirm on the pricing page before relying on it.",
       "lastVerified": "2026-05-01"
     },
@@ -92,7 +131,11 @@
       "summary": "Developer-friendly PaaS for deploying apps, databases, and cron jobs directly from GitHub with minimal config.",
       "freeTier": "Trial credit for new accounts; ongoing usage-based Hobby plan with small monthly included usage.",
       "paidFrom": "Hobby plan from $5/month base + usage.",
-      "tags": ["paas", "deploy", "databases"],
+      "tags": [
+        "paas",
+        "deploy",
+        "databases"
+      ],
       "lastVerified": "2026-05-01"
     },
     {
@@ -102,7 +145,12 @@
       "summary": "Frontend cloud built for Next.js and other frameworks, with instant global deploys and edge functions.",
       "freeTier": "Hobby plan free for personal projects: 100GB bandwidth/month, serverless + edge functions included.",
       "paidFrom": "Pro plan from $20/month/user.",
-      "tags": ["frontend", "jamstack", "nextjs", "serverless"],
+      "tags": [
+        "frontend",
+        "jamstack",
+        "nextjs",
+        "serverless"
+      ],
       "lastVerified": "2026-06-01"
     },
     {
@@ -112,7 +160,12 @@
       "summary": "JAMstack hosting platform with CI/CD, serverless functions, and form handling built in.",
       "freeTier": "100GB bandwidth/month, 300 build minutes/month, 125k serverless function invocations/month.",
       "paidFrom": "Pro plan from $19/member/month.",
-      "tags": ["frontend", "jamstack", "static-hosting", "serverless"],
+      "tags": [
+        "frontend",
+        "jamstack",
+        "static-hosting",
+        "serverless"
+      ],
       "lastVerified": "2026-06-01"
     },
     {
@@ -120,9 +173,13 @@
       "url": "https://www.heroku.com",
       "pricingModel": "paid",
       "summary": "One of the original app PaaS platforms; removed its free tier in 2022, now entry-level paid only.",
-      "freeTier": "N/A — no perpetual free tier since November 2022.",
+      "freeTier": "N/A \u2014 no perpetual free tier since November 2022.",
       "paidFrom": "Eco dynos from $5/month.",
-      "tags": ["paas", "deploy", "legacy"],
+      "tags": [
+        "paas",
+        "deploy",
+        "legacy"
+      ],
       "notes": "Included for comparison/migration context; previously the most common 'free dev hosting' reference.",
       "lastVerified": "2026-04-01"
     },
@@ -133,7 +190,11 @@
       "summary": "Serverless platform for deploying APIs, web apps, and databases across global regions with autoscaling.",
       "freeTier": "Free tier includes limited compute (e.g., one small always-on service).",
       "paidFrom": "Usage-based pricing beyond free allotment.",
-      "tags": ["paas", "serverless", "autoscaling"],
+      "tags": [
+        "paas",
+        "serverless",
+        "autoscaling"
+      ],
       "lastVerified": "2026-05-01"
     },
     {
@@ -143,7 +204,11 @@
       "summary": "Browser-based Python development and hosting environment with a built-in console, editor, and scheduler.",
       "freeTier": "One free web app on a subdomain, limited CPU seconds/day, 512MB storage.",
       "paidFrom": "Hacker plan from $5/month.",
-      "tags": ["python", "paas", "beginner-friendly"],
+      "tags": [
+        "python",
+        "paas",
+        "beginner-friendly"
+      ],
       "lastVerified": "2026-04-01"
     },
     {
@@ -153,7 +218,11 @@
       "summary": "In-browser collaborative coding and instant hosting, popular for prototypes, bots, and small Node/Python apps.",
       "freeTier": "Free apps with limited always-on uptime, community remixing.",
       "paidFrom": "Pro plan adds boosted apps and custom domains.",
-      "tags": ["prototyping", "browser-ide", "collaborative"],
+      "tags": [
+        "prototyping",
+        "browser-ide",
+        "collaborative"
+      ],
       "lastVerified": "2026-03-01"
     }
   ]
