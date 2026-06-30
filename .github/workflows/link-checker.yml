@@ -1,0 +1,29 @@
+name: Weekly Link Checker
+
+on:
+  schedule:
+    - cron: '0 0 * * 0' # Runs every Sunday at midnight
+  workflow_dispatch: # Allows manual triggering
+
+permissions:
+  contents: read
+  issues: write # Required to open issues for broken links
+
+jobs:
+  link-checker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check links with Lychee
+        uses: lycheeverse/lychee-action@v1.10.0
+        with:
+          # Check all JSON files and the README
+          # Ignore 429 (Too Many Requests) and 403 (Forbidden, common for bot-blockers)
+          args: >-
+            --accept 200,204,429,403 
+            --timeout 10 
+            README.md data/categories/*.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

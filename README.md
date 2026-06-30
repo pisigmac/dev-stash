@@ -2598,6 +2598,8 @@ Open-source WebRTC infrastructure (SFU) for building real-time video/audio/data 
 
 *Inspired by and modeled after [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev).*
 
+> 🤖 **Automated Maintenance:** This repository is actively maintained. A GitHub Action automatically checks all links every 7 days and opens an issue if any tool's website goes offline.
+
 ## Contributing
 
 This repo follows a **JSON-first** workflow:
